@@ -1,4 +1,14 @@
 schema_version: 1
 derived: true
-scanned_at: 2026-11-21T11:47:46.261Z
-items: []
+scanned_at: 2026-11-21T12:33:21.423Z
+items:
+  - id: con-name-divergence
+    rule: name-divergence
+    severity: medium
+    message: 'Trade name "Pilito" and public name "Pilito: Language Flashcards (Apple App Store listing
+      name; the brand name itself stays Pilito)." differ. Keep both only if that split is
+      intentional. Neither value was invented by the template.'
+    fields:
+      - business.identity.trade_name
+      - brand.identity.public_name_override
+    status: open

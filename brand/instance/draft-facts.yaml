@@ -305,30 +305,28 @@ facts:
     answer_id: ans-0045
     updated: 2026-11-21T11:43:53.791Z
   brand.verbal.voice:
-    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
-      اینترنت قطع هست دوبره امتحان کن!»"
+    value: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error example:
+      \"Oops, looks like the internet is down. Try again!\""
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
-      until a human approves it."
-    answer_id: ans-0046
-    updated: 2026-11-21T11:43:53.932Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0081
+    updated: 2026-11-21T12:28:43.645Z
   brand.verbal.voice_pairs:
-    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    value: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
-      شدی»”. Draft until a human approves it."
-    answer_id: ans-0047
-    updated: 2026-11-21T11:43:54.059Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0082
+    updated: 2026-11-21T12:28:43.802Z
   brand.mascot.personality:
     value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
       pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
@@ -357,3 +355,223 @@ facts:
     uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
     answer_id: ans-0060
     updated: 2026-11-21T11:43:55.648Z
+  brand.verbal.name_use:
+    value: Always written exactly 'Pilito' (capital P, rest lowercase). No other spelling.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “Pilito فقط درسته”. Draft until a human approves it."
+    answer_id: ans-0098
+    updated: 2026-11-21T12:30:58.296Z
+  brand.identity.public_name_override:
+    value: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
+      Pilito)."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a
+      human approves it."
+    answer_id: ans-0099
+    updated: 2026-11-21T12:30:58.445Z
+  business.legal.trademark:
+    value: none
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۳- هیچ کاری نکردم”. Draft until a human approves it."
+    answer_id: ans-0103
+    updated: 2026-11-21T12:30:59.069Z
+  business.sales.consumer_path:
+    value: null
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: unknown
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Unresolved: the owner said this is not decided yet: “۵-هنوز تصمیم نگرفتم”. No value
+      was invented."
+    answer_id: ans-0067
+    updated: 2026-11-21T12:18:18.478Z
+    proposal_state: unresolved
+  business.problem.pains:
+    value: "Owner's own experience (not user research): existing apps are very boring and monotonous,
+      expensive, and offer nothing new."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
+    answer_id: ans-0089
+    updated: 2026-11-21T12:30:56.885Z
+  business.identity.legal_name:
+    value: FIKO AI LABS LTD
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “Company name: FIKO AI LABS LTD”. Draft until a human
+      approves it."
+    answer_id: ans-0088
+    updated: 2026-11-21T12:30:56.737Z
+  business.legal.entity:
+    value: Private limited company on the UK Companies House register, company number 16502068, status
+      Active, incorporated 6 June 2025. Pilito is a product of this company; the Apple App Store
+      developer account is held by it (owner stated).
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “Company type: Private limited Company”. Draft until
+      a human approves it."
+    answer_id: ans-0102
+    updated: 2026-11-21T12:30:58.905Z
+  business.model.revenue:
+    value: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
+      in-app ads, which must not be intrusive.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it."
+    answer_id: ans-0090
+    updated: 2026-11-21T12:30:57.043Z
+  business.model.defensibility:
+    value: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product
+      itself could be copied."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی
+      که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision."
+    answer_id: ans-0091
+    updated: 2026-11-21T12:30:57.203Z
+  business.plan.milestone:
+    value: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human
+      approves it."
+    answer_id: ans-0092
+    updated: 2026-11-21T12:30:57.345Z
+  business.plan.risks:
+    value: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and
+      GEO, especially being recommended by AI assistants."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات
+      ندارم”. Draft until a human approves it."
+    answer_id: ans-0093
+    updated: 2026-11-21T12:30:57.506Z
+  business.marketing.channels:
+    value: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid
+      advertising."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا
+      توسیه هوش مصنوعی ها”. Draft until a human approves it."
+    answer_id: ans-0101
+    updated: 2026-11-21T12:30:58.746Z
+  brand.strategy.purpose:
+    value: Language learning for everyone, at a price everyone can afford.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند
+      بپردازند.”. Draft until a human approves it."
+    answer_id: ans-0094
+    updated: 2026-11-21T12:30:57.661Z
+  brand.strategy.vision:
+    value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
+      possibly acquired by a large brand."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”.
+      Draft until a human approves it."
+    answer_id: ans-0095
+    updated: 2026-11-21T12:30:57.806Z
+  brand.social.channels:
+    value: Instagram, LinkedIn, TikTok, X, YouTube.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”. Draft
+      until a human approves it."
+    answer_id: ans-0104
+    updated: 2026-11-21T12:30:59.231Z
+  brand.strategy.values:
+    value: No intrusive ads.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human
+      approves it."
+    answer_id: ans-0096
+    updated: 2026-11-21T12:30:57.977Z
+  brand.strategy.promise:
+    value: Get Pilito to captain, and you'll be ready to take off in your new language.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0106
+    updated: 2026-11-21T12:33:21.339Z
+  brand.verbal.tagline:
+    value: Fly through languages.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: approved
+    visibility: internal
+    authority: confirmed_by_owner
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0105
+    updated: 2026-11-21T12:33:21.178Z

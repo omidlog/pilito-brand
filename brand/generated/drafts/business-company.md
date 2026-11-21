@@ -189,17 +189,21 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.identity.legal_name`
 - Field: `business.identity.legal_name`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “Company name: FIKO AI LABS LTD”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:56.737Z
+- Answer id: ans-0088
 
 Value:
 
-TBD
+FIKO AI LABS LTD
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.legal_name end -->
 
 <!-- field:business.problem.pains start -->
@@ -207,17 +211,21 @@ TBD
 
 - Question: `business.problem.pains`
 - Field: `business.problem.pains`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:56.885Z
+- Answer id: ans-0089
 
 Value:
 
-TBD
+Owner's own experience (not user research): existing apps are very boring and monotonous, expensive, and offer nothing new.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.problem.pains end -->
 
 <!-- field:business.model.revenue start -->
@@ -225,17 +233,21 @@ TBD
 
 - Question: `business.model.revenue`
 - Field: `business.model.revenue`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.043Z
+- Answer id: ans-0090
 
 Value:
 
-TBD
+Subscription is the main revenue. Plain flashcard use stays free; the free tier carries in-app ads, which must not be intrusive.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.revenue end -->
 
 <!-- field:business.model.defensibility start -->
@@ -243,17 +255,21 @@ TBD
 
 - Question: `business.model.defensibility`
 - Field: `business.model.defensibility`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision.
+- Updated: 2026-11-21T12:30:57.203Z
+- Answer id: ans-0091
 
 Value:
 
-TBD
+Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product itself could be copied.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.defensibility end -->
 
 <!-- field:business.plan.milestone start -->
@@ -261,17 +277,21 @@ TBD
 
 - Question: `business.plan.milestone`
 - Field: `business.plan.milestone`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.345Z
+- Answer id: ans-0092
 
 Value:
 
-TBD
+In order: finish the MVP, launch on the Apple App Store, reach the first 100 users.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.plan.milestone end -->
 
 <!-- field:business.plan.risks start -->
@@ -279,17 +299,21 @@ TBD
 
 - Question: `business.plan.risks`
 - Field: `business.plan.risks`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات ندارم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.506Z
+- Answer id: ans-0093
 
 Value:
 
-TBD
+Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and GEO, especially being recommended by AI assistants.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.plan.risks end -->
 
 <!-- field:business.partners.risk_process start -->

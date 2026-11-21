@@ -15,17 +15,21 @@ generated: true
 
 - Question: `business.plan.risks`
 - Field: `business.plan.risks`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات ندارم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.506Z
+- Answer id: ans-0093
 
 Value:
 
-TBD
+Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and GEO, especially being recommended by AI assistants.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.plan.risks end -->
 
 <!-- field:business.partners.channels start -->

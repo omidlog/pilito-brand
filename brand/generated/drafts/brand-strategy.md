@@ -123,17 +123,21 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.purpose`
 - Field: `brand.strategy.purpose`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند بپردازند.”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.661Z
+- Answer id: ans-0094
 
 Value:
 
-TBD
+Language learning for everyone, at a price everyone can afford.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.purpose end -->
 
 <!-- field:brand.strategy.vision start -->
@@ -141,17 +145,21 @@ TBD
 
 - Question: `brand.strategy.vision`
 - Field: `brand.strategy.vision`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.806Z
+- Answer id: ans-0095
 
 Value:
 
-TBD
+ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps, possibly acquired by a large brand.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.vision end -->
 
 <!-- field:brand.strategy.values start -->
@@ -159,17 +167,21 @@ TBD
 
 - Question: `brand.strategy.values`
 - Field: `brand.strategy.values`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.977Z
+- Answer id: ans-0096
 
 Value:
 
-TBD
+No intrusive ads.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.values end -->
 
 <!-- field:brand.strategy.differentiation start -->
@@ -199,17 +211,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.promise`
 - Field: `brand.strategy.promise`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
+- Authority: confirmed_by_owner
+- Source: owner
 - Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Updated: 2026-11-21T12:33:21.339Z
+- Answer id: ans-0106
 
 Value:
 
-TBD
+Get Pilito to captain, and you'll be ready to take off in your new language.
+
+Approved by: owner
 <!-- field:brand.strategy.promise end -->
 
 <!-- field:brand.strategy.decision_rule start -->

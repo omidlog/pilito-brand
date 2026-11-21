@@ -37,17 +37,21 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.model.revenue`
 - Field: `business.model.revenue`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:30:57.043Z
+- Answer id: ans-0090
 
 Value:
 
-TBD
+Subscription is the main revenue. Plain flashcard use stays free; the free tier carries in-app ads, which must not be intrusive.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.revenue end -->
 
 <!-- field:business.sales.motion start -->
@@ -163,17 +167,19 @@ TBD
 
 - Question: `business.sales.consumer_path`
 - Field: `business.sales.consumer_path`
-- Status: unanswered
+- Status: unknown
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Unresolved: the owner said this is not decided yet: “۵-هنوز تصمیم نگرفتم”. No value was invented.
+- Updated: 2026-11-21T12:18:18.478Z
+- Answer id: ans-0067
 
 Value:
 
-TBD
+Unknown — not provided. Nothing was invented.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.consumer_path end -->
 
 <!-- field:business.sales.b2b_packaging start -->
