@@ -1,0 +1,65 @@
+id: business-sales
+name: "Sales & Revenue"
+status: not_started
+owner: sales
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company, business-product]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.sales.motion:
+    label: "Sales motion"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.buyer:
+    label: "Buyer versus user"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.pricing:
+    label: "Pricing summary"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.discount:
+    label: "Discount policy"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.stages:
+    label: "Pipeline stages"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.cycle:
+    label: "Cycle assumption"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.b2b_packaging:
+    label: "B2B packaging"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.sales.consumer_path:
+    label: "Consumer purchase path"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

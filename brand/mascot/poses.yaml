@@ -1,0 +1,664 @@
+schema_version: 1
+states:
+  - id: mascot.action.standing
+    category: action
+    name: Standing
+    intent: Neutral resting stance used as the fallback still.
+    emotion_intensity: low
+    pose: Neutral resting stance used as the fallback still.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - action
+      - standing
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Standing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Neutral resting stance used as the fallback still. Pose: Neutral
+      resting stance used as the fallback still.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Standing."
+  - id: mascot.action.waving
+    category: action
+    name: Waving
+    intent: Hello or goodbye without blocking the primary control.
+    emotion_intensity: low
+    pose: Hello or goodbye without blocking the primary control.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - waving
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Waving is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Hello or goodbye without blocking the primary control. Pose:
+      Hello or goodbye without blocking the primary control.. Face: Face supports the action and
+      stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Waving."
+  - id: mascot.action.greeting
+    category: action
+    name: Greeting
+    intent: Arrival posture when a session starts.
+    emotion_intensity: low
+    pose: Arrival posture when a session starts.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - greeting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Greeting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Arrival posture when a session starts. Pose: Arrival posture when
+      a session starts.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Greeting."
+  - id: mascot.action.pointing
+    category: action
+    name: Pointing
+    intent: Direct attention to a control or a piece of content.
+    emotion_intensity: low
+    pose: Direct attention to a control or a piece of content.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - pointing
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Pointing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Direct attention to a control or a piece of content. Pose: Direct
+      attention to a control or a piece of content.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Pointing."
+  - id: mascot.action.running
+    category: action
+    name: Running
+    intent: Movement between places. Not a loading spinner by default.
+    emotion_intensity: low
+    pose: Movement between places. Not a loading spinner by default.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - running
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Running is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Movement between places. Not a loading spinner by default. Pose:
+      Movement between places. Not a loading spinner by default.. Face: Face supports the action and
+      stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Running."
+  - id: mascot.action.jumping
+    category: action
+    name: Jumping
+    intent: A short upward action for delight, not for errors.
+    emotion_intensity: low
+    pose: A short upward action for delight, not for errors.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - jumping
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Jumping is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A short upward action for delight, not for errors. Pose: A short
+      upward action for delight, not for errors.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Jumping."
+  - id: mascot.action.flying
+    category: action
+    name: Flying
+    intent: Optional travel metaphor. Skip if the character cannot leave the ground.
+    emotion_intensity: low
+    pose: Optional travel metaphor. Skip if the character cannot leave the ground.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - flying
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Flying is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional travel metaphor. Skip if the character cannot leave the
+      ground. Pose: Optional travel metaphor. Skip if the character cannot leave the ground.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Flying."
+  - id: mascot.action.landing
+    category: action
+    name: Landing
+    intent: End of a move, returning to a stable pose.
+    emotion_intensity: low
+    pose: End of a move, returning to a stable pose.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - landing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Landing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: End of a move, returning to a stable pose. Pose: End of a move,
+      returning to a stable pose.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Landing."
+  - id: mascot.action.dancing
+    category: action
+    name: Dancing
+    intent: Optional celebration variant. Rare.
+    emotion_intensity: low
+    pose: Optional celebration variant. Rare.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - dancing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Dancing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional celebration variant. Rare. Pose: Optional celebration
+      variant. Rare.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Dancing."
+  - id: mascot.action.thinking
+    category: action
+    name: Thinking
+    intent: Considering a choice. Pairs with confused or focused faces.
+    emotion_intensity: low
+    pose: Considering a choice. Pairs with confused or focused faces.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - thinking
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Thinking is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Considering a choice. Pairs with confused or focused faces. Pose:
+      Considering a choice. Pairs with confused or focused faces.. Face: Face supports the action
+      and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Thinking."
+  - id: mascot.action.reading
+    category: action
+    name: Reading
+    intent: Attention on a text object. Do not imply a specific curriculum.
+    emotion_intensity: low
+    pose: Attention on a text object. Do not imply a specific curriculum.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - reading
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Reading is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attention on a text object. Do not imply a specific curriculum.
+      Pose: Attention on a text object. Do not imply a specific curriculum.. Face: Face supports the
+      action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Reading."
+  - id: mascot.action.cheering
+    category: action
+    name: Cheering
+    intent: Encouragement directed at the user’s effort.
+    emotion_intensity: low
+    pose: Encouragement directed at the user’s effort.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - cheering
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Cheering is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Encouragement directed at the user’s effort. Pose: Encouragement
+      directed at the user’s effort.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Cheering."
+  - id: mascot.action.sitting
+    category: action
+    name: Sitting
+    intent: Calm presence beside long-form content.
+    emotion_intensity: low
+    pose: Calm presence beside long-form content.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - sitting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sitting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Calm presence beside long-form content. Pose: Calm presence
+      beside long-form content.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Sitting."
+  - id: mascot.action.stretching
+    category: action
+    name: Stretching
+    intent: Reset or break. Not a medical claim.
+    emotion_intensity: low
+    pose: Reset or break. Not a medical claim.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - stretching
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Stretching is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Reset or break. Not a medical claim. Pose: Reset or break. Not a
+      medical claim.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Stretching."
+  - id: mascot.action.hiding
+    category: action
+    name: Hiding
+    intent: Peeking from an edge. Do not use it to obscure required information.
+    emotion_intensity: low
+    pose: Peeking from an edge. Do not use it to obscure required information.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - hiding
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Hiding is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Peeking from an edge. Do not use it to obscure required
+      information. Pose: Peeking from an edge. Do not use it to obscure required information.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Hiding."
+  - id: mascot.action.looking-around
+    category: action
+    name: Looking around
+    intent: Searching the scene before offering help.
+    emotion_intensity: low
+    pose: Searching the scene before offering help.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - looking-around
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Looking around is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Searching the scene before offering help. Pose: Searching the
+      scene before offering help.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Looking around."
+  - id: mascot.action.listening
+    category: action
+    name: Listening
+    intent: Attending to the user or to audio. Silent fallback required.
+    emotion_intensity: low
+    pose: Attending to the user or to audio. Silent fallback required.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - listening
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Listening is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attending to the user or to audio. Silent fallback required.
+      Pose: Attending to the user or to audio. Silent fallback required.. Face: Face supports the
+      action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Listening."
+  - id: mascot.action.presenting
+    category: action
+    name: Presenting
+    intent: Introducing a feature that product status allows.
+    emotion_intensity: low
+    pose: Introducing a feature that product status allows.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - presenting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Presenting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Introducing a feature that product status allows. Pose:
+      Introducing a feature that product status allows.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Presenting."
+  - id: mascot.action.thumbs-up-equivalent
+    category: action
+    name: Affirming gesture
+    intent: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal.
+    emotion_intensity: low
+    pose: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - thumbs-up-equivalent
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Affirming gesture is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A culturally careful “yes” gesture. Do not assume a thumbs-up is
+      universal. Pose: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal..
+      Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Affirming gesture."
+  - id: mascot.action.resting
+    category: action
+    name: Resting
+    intent: Done for now. Supports end-of-session and reduced-motion stillness.
+    emotion_intensity: low
+    pose: Done for now. Supports end-of-session and reduced-motion stillness.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - resting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Resting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Done for now. Supports end-of-session and reduced-motion
+      stillness. Pose: Done for now. Supports end-of-session and reduced-motion stillness.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Resting."

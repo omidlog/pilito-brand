@@ -1,0 +1,15 @@
+{
+  "note": "EXAMPLE pairs for the draft palette. They are pipeline checks, not an approved brand accessibility audit.",
+  "pairs": [
+    { "id": "example.light.text-on-canvas", "fg": "color.light.text", "bg": "color.light.canvas", "min": 4.5 },
+    { "id": "example.light.muted-on-canvas", "fg": "color.light.muted", "bg": "color.light.canvas", "min": 4.5 },
+    { "id": "example.light.link-on-canvas", "fg": "color.light.link", "bg": "color.light.canvas", "min": 4.5 },
+    { "id": "example.dark.text-on-canvas", "fg": "color.dark.text", "bg": "color.dark.canvas", "min": 4.5 },
+    { "id": "example.dark.muted-on-canvas", "fg": "color.dark.muted", "bg": "color.dark.canvas", "min": 4.5 },
+    { "id": "example.dark.link-on-canvas", "fg": "color.dark.link", "bg": "color.dark.canvas", "min": 4.5 },
+    { "id": "example.on-primary", "fg": "color.brand.onPrimary", "bg": "color.brand.primary", "min": 4.5 },
+    { "id": "example.on-secondary", "fg": "color.brand.onSecondary", "bg": "color.brand.secondary", "min": 4.5 },
+    { "id": "example.on-success", "fg": "color.semantic.onSuccess", "bg": "color.semantic.success", "min": 4.5 },
+    { "id": "example.on-danger", "fg": "color.semantic.onDanger", "bg": "color.semantic.danger", "min": 4.5 }
+  ]
+}

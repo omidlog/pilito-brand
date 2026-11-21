@@ -1,0 +1,207 @@
+schema_version: 1
+questions:
+  - id: brand.gamification.enabled
+    module: gamification
+    field_path: brand.gamification.enabled
+    label: Gamification
+    prompt:
+      en: Will this brand use game-like progress visuals (levels, streaks, badges, rewards)?
+      fa: آیا این برند از تصویرهای پیشرفت بازی‌مانند (سطح، زنجیره، نشان، پاداش) استفاده می‌کند؟
+      tr: Bu marka oyun benzeri ilerleme görselleri (seviye, seri, rozet, ödül) kullanacak mı?
+    why_it_matters: Turning this off hides the module and skips the rest of the questions.
+    question_type: boolean
+    examples:
+      - "EXAMPLE ONLY: no"
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 11
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: &a1
+      - owner
+      - approved_import
+      - external_cited
+      - agent_suggestion
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+    related_ids: []
+    completion_rule: boolean
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.gamification.model
+    module: gamification
+    field_path: brand.gamification.model
+    label: Progress model
+    prompt:
+      en: What progress visuals are in scope? Leave mechanics as placeholders.
+      fa: کدام تصویرهای پیشرفت در محدوده‌اند؟ مکانیک‌ها را جای‌نگهدار بگذارید.
+      tr: Hangi ilerleme görselleri kapsamda? Mekanikleri yer tutucu bırakın.
+    why_it_matters: Visual design can start before the economy exists, if it does not invent the economy.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: A progress indicator only. No points."
+    required_when: answers[brand.gamification.enabled] == yes
+    skip_when: config.modules.gamification == false
+    depends_on:
+      - brand.gamification.enabled
+    priority: high
+    order: 700
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.gamification.streaks
+    module: gamification
+    field_path: brand.gamification.streaks
+    label: Streak policy
+    prompt:
+      en: If streaks are shown, what emotional rule limits them? Do not set a day count unless product
+        already has.
+      fa: اگر زنجیره نشان داده می‌شود، کدام قاعدهٔ احساسی آن را محدود می‌کند؟ تعداد روز را نگذارید مگر
+        محصول از قبل داشته باشد.
+      tr: Seri gösteriliyorsa onu hangi duygu kuralı sınırlar? Üründe yoksa gün sayısı koymayın.
+    why_it_matters: Streak UIs easily become punitive. The brand can forbid that without defining the mechanic.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: No streak until product defines one. No shame copy."
+    required_when: always
+    skip_when: config.modules.gamification == false
+    depends_on:
+      - brand.gamification.enabled
+    priority: high
+    order: 701
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.gamification.ethics
+    module: gamification
+    field_path: brand.gamification.ethics
+    label: Reward ethics
+    prompt:
+      en: Which manipulative patterns are forbidden in rewards and celebrations?
+      fa: کدام الگوهای دستکاری در پاداش و جشن ممنوع‌اند؟
+      tr: Ödül ve kutlamalarda hangi manipülatif örüntüler yasak?
+    why_it_matters: The spec requires anti-manipulative constraints, not a points fantasy.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: No fake scarcity, no hidden odds, no punishment for rest."
+    required_when: always
+    skip_when: config.modules.gamification == false
+    depends_on:
+      - brand.gamification.enabled
+    priority: high
+    order: 702
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+      - brand/generated/drafts/brand-strategy.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.gamification.failure
+    module: gamification
+    field_path: brand.gamification.failure
+    label: Failure tone
+    prompt:
+      en: How should a failed or missed attempt look and sound?
+      fa: یک تلاش ناموفق یا ازدست‌رفته چگونه دیده و شنیده شود؟
+      tr: Başarısız veya kaçırılmış bir deneme nasıl görünsün ve duyulsun?
+    why_it_matters: Failure is a brand moment. It maps to mascot and voice rules.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Neutral and specific. Offer a next step. No buzzer."
+    required_when: always
+    skip_when: config.modules.gamification == false
+    depends_on:
+      - brand.gamification.enabled
+    priority: high
+    order: 703
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+      - brand/generated/drafts/mascot-expression.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.gamification.mascot_link
+    module: gamification
+    field_path: brand.gamification.mascot_link
+    label: Character link
+    prompt:
+      en: Do progress visuals change the character stage? If the mascot is off, say no.
+      fa: آیا تصویرهای پیشرفت، مرحلهٔ شخصیت را عوض می‌کنند؟ اگر مسکات خاموش است، no.
+      tr: İlerleme görselleri karakter aşamasını değiştirir mi? Maskot kapalıysa no.
+    why_it_matters: Stage changes are owned by the mascot module. This field only links them.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: no"
+    required_when: always
+    skip_when: config.modules.gamification == false
+    depends_on:
+      - brand.gamification.enabled
+    priority: high
+    order: 704
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/gamification.md
+    related_ids:
+      - brand.mascot.unlocks
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered

@@ -1,0 +1,53 @@
+id: business-engineering
+name: "Engineering, Data & Security"
+status: not_started
+owner: engineering
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-product]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.engineering.stack:
+    label: "Stack"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.engineering.environments:
+    label: "Environments"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.engineering.data_classes:
+    label: "Data classes"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.engineering.secrets:
+    label: "Secrets policy"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.engineering.reliability:
+    label: "Reliability intent"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.engineering.repos:
+    label: "Code repositories"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

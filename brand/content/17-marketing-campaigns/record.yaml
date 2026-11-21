@@ -1,0 +1,47 @@
+id: campaigns
+name: "Marketing & Campaigns"
+status: not_started
+owner: marketing
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-marketing, verbal-identity]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.campaign.owner:
+    label: "Brief owner"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.campaign.naming:
+    label: "Campaign naming"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.campaign.offer_source:
+    label: "Offer source"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.campaign.cobrand:
+    label: "Co-branding"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.campaign.seasonal:
+    label: "Seasonal work"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

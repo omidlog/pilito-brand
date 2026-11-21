@@ -1,0 +1,59 @@
+id: personal-identity
+name: "Personal Identity"
+status: not_started
+owner: person
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: []
+approved_by: null
+category: personal
+type: module-record
+fields:
+  personal.identity.public_name:
+    label: "Public name"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.headline:
+    label: "Professional headline"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.roles:
+    label: "Roles, specialties and industries"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.name_forms:
+    label: "Other approved name forms"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.localized_headline:
+    label: "Localized headline"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.service_scope:
+    label: "Geographic service scope"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.identity.pronouns:
+    label: "Pronouns (optional)"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"

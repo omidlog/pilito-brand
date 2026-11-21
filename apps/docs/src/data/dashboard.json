@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "audience": "public",
+  "available": false,
+  "note": "The review dashboard exists only in the internal build. Run npm run docs:start in the repository."
+}

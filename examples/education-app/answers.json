@@ -1,0 +1,12 @@
+{
+  "business.identity.new_or_existing": "new",
+  "business.identity.trade_name": "Example Learners",
+  "business.identity.sector": "education",
+  "business.offer.summary": "EXAMPLE ONLY: a practice app. Not a real product.",
+  "business.stage.current": "idea",
+  "business.market.geography": "unknown",
+  "business.customer.primary_segment": "unknown",
+  "brand.mascot.enabled": "yes",
+  "business.offer.value_proposition": "unknown",
+  "brand.personality.traits": "unknown"
+}

@@ -1,0 +1,472 @@
+schema_version: 1
+states:
+  - id: mascot.ui.welcome
+    category: ui
+    name: Welcome
+    intent: First hello on a surface the product actually has.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: First hello on a surface the product actually has.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - ui
+      - welcome
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Welcome is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: First hello on a surface the product actually has. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: First hello on a surface the
+      product actually has.. Leave the drawing TBD."
+    usage: "Product UI situation: Welcome."
+  - id: mascot.ui.onboarding
+    category: ui
+    name: Onboarding
+    intent: Guides a first-run step that is in scope.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Guides a first-run step that is in scope.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - onboarding
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Onboarding is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Guides a first-run step that is in scope. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Guides a first-run step that is in scope..
+      Leave the drawing TBD."
+    usage: "Product UI situation: Onboarding."
+  - id: mascot.ui.empty-state
+    category: ui
+    name: Empty state
+    intent: Nothing here yet, with a single next step.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Nothing here yet, with a single next step.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - empty-state
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Empty state is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Nothing here yet, with a single next step. Pose: Leave room for
+      UI controls. Do not cover the primary button.. Face: Nothing here yet, with a single next
+      step.. Leave the drawing TBD."
+    usage: "Product UI situation: Empty state."
+  - id: mascot.ui.loading
+    category: ui
+    name: Loading
+    intent: Waiting. Must have a non-animated fallback.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Waiting. Must have a non-animated fallback.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - loading
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Loading is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Waiting. Must have a non-animated fallback. Pose: Leave room for
+      UI controls. Do not cover the primary button.. Face: Waiting. Must have a non-animated
+      fallback.. Leave the drawing TBD."
+    usage: "Product UI situation: Loading."
+  - id: mascot.ui.offline
+    category: ui
+    name: Offline
+    intent: Connectivity problem, including maintenance if you later split it.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Connectivity problem, including maintenance if you later split it.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - offline
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Offline is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Connectivity problem, including maintenance if you later split
+      it. Pose: Leave room for UI controls. Do not cover the primary button.. Face: Connectivity
+      problem, including maintenance if you later split it.. Leave the drawing TBD."
+    usage: "Product UI situation: Offline."
+  - id: mascot.ui.success
+    category: ui
+    name: Success
+    intent: A completed action. Distinct from rare celebration.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A completed action. Distinct from rare celebration.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - success
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Success is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A completed action. Distinct from rare celebration. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A completed action. Distinct
+      from rare celebration.. Leave the drawing TBD."
+    usage: "Product UI situation: Success."
+  - id: mascot.ui.failure
+    category: ui
+    name: Failure
+    intent: Something failed. Tone stays respectful.
+    emotion_intensity: medium
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Something failed. Tone stays respectful.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - failure
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Failure is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Something failed. Tone stays respectful. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Something failed. Tone stays respectful..
+      Leave the drawing TBD."
+    usage: "Product UI situation: Failure."
+  - id: mascot.ui.retry
+    category: ui
+    name: Retry
+    intent: Offers another attempt without blame.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Offers another attempt without blame.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - retry
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Retry is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Offers another attempt without blame. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Offers another attempt without blame.. Leave
+      the drawing TBD."
+    usage: "Product UI situation: Retry."
+  - id: mascot.ui.hint
+    category: ui
+    name: Hint
+    intent: Points at help the user did not fail to deserve.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Points at help the user did not fail to deserve.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - hint
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Hint is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Points at help the user did not fail to deserve. Pose: Leave room
+      for UI controls. Do not cover the primary button.. Face: Points at help the user did not fail
+      to deserve.. Leave the drawing TBD."
+    usage: "Product UI situation: Hint."
+  - id: mascot.ui.reminder
+    category: ui
+    name: Reminder
+    intent: A nudge that can be dismissed.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A nudge that can be dismissed.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - reminder
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Reminder is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A nudge that can be dismissed. Pose: Leave room for UI controls.
+      Do not cover the primary button.. Face: A nudge that can be dismissed.. Leave the drawing
+      TBD."
+    usage: "Product UI situation: Reminder."
+  - id: mascot.ui.notification
+    category: ui
+    name: Notification
+    intent: A small alert. Not a full-screen takeover by default.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A small alert. Not a full-screen takeover by default.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - notification
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Notification is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small alert. Not a full-screen takeover by default. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A small alert. Not a full-screen
+      takeover by default.. Leave the drawing TBD."
+    usage: "Product UI situation: Notification."
+  - id: mascot.ui.level-complete
+    category: ui
+    name: Level complete
+    intent: Only if progression exists. Otherwise leave unused.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Only if progression exists. Otherwise leave unused.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - level-complete
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Level complete is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if progression exists. Otherwise leave unused. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: Only if progression exists.
+      Otherwise leave unused.. Leave the drawing TBD."
+    usage: "Product UI situation: Level complete."
+  - id: mascot.ui.streak
+    category: ui
+    name: Streak
+    intent: Only if a streak rule exists. No invented day count.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Only if a streak rule exists. No invented day count.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - streak
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Streak is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if a streak rule exists. No invented day count. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: Only if a streak rule exists. No
+      invented day count.. Leave the drawing TBD."
+    usage: "Product UI situation: Streak."
+  - id: mascot.ui.unlock
+    category: ui
+    name: Unlock
+    intent: A newly available capability that is really shipped.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A newly available capability that is really shipped.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - unlock
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Unlock is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A newly available capability that is really shipped. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A newly available capability
+      that is really shipped.. Leave the drawing TBD."
+    usage: "Product UI situation: Unlock."
+  - id: mascot.ui.permission-request
+    category: ui
+    name: Permission request
+    intent: Asks for a device or data permission honestly.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Asks for a device or data permission honestly.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - permission-request
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Permission request is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Asks for a device or data permission honestly. Pose: Leave room
+      for UI controls. Do not cover the primary button.. Face: Asks for a device or data permission
+      honestly.. Leave the drawing TBD."
+    usage: "Product UI situation: Permission request."

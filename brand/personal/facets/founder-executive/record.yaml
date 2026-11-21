@@ -1,0 +1,47 @@
+id: personal-founder
+name: "Facet: Founder & Executive"
+status: not_started
+owner: person
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [personal-career]
+approved_by: null
+category: personal
+type: module-record
+fields:
+  personal.founder.ventures:
+    label: "Ventures and your role"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"
+  personal.founder.narrative:
+    label: "Founder narrative"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.founder.sectors:
+    label: "Sectors you build in"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.founder.leadership_topics:
+    label: "Leadership topics"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.founder.investor_relations:
+    label: "Investor and press positioning"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

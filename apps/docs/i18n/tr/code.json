@@ -1,0 +1,182 @@
+{
+  "brandBook.title": {
+    "message": "Marka Kitabı",
+    "description": "Brand Book page. English: Brand Book"
+  },
+  "brandBook.description": {
+    "message": "Kaynaklarıyla birlikte onaylı marka olguları. Eksik bölümler eksik kalır.",
+    "description": "Brand Book page. English: Approved brand facts with their sources. Missing sections stay missing."
+  },
+  "brandBook.intro.public": {
+    "message": "Yalnızca onaylı ve yayımlanmış olgular gösterilir. Geri kalan her şey eksik olarak listelenir. Hiçbir şey uydurulmaz.",
+    "description": "Brand Book page. English: Only approved and published facts are shown. Everything else is listed as missing. Nothing is invented."
+  },
+  "brandBook.intro.internal": {
+    "message": "İç sürüm. Onaylı olgular esastır. Varsayımlar ve öneriler karar değildir. Eksik öğeler eksik kalır.",
+    "description": "Brand Book page. English: Internal edition. Approved facts are canonical. Assumptions and recommendations are not decisions. Missing items stay missing."
+  },
+  "brandBook.tag.approved": {
+    "message": "Onaylı",
+    "description": "Brand Book page. English: Approved"
+  },
+  "brandBook.tag.assumption": {
+    "message": "Varsayım",
+    "description": "Brand Book page. English: Assumption"
+  },
+  "brandBook.tag.recommendation": {
+    "message": "Öneri",
+    "description": "Brand Book page. English: Recommendation"
+  },
+  "brandBook.tag.missing": {
+    "message": "Eksik",
+    "description": "Brand Book page. English: Missing"
+  },
+  "brandBook.status.complete": {
+    "message": "Tam",
+    "description": "Brand Book page. English: Complete"
+  },
+  "brandBook.status.partial": {
+    "message": "Kısmi",
+    "description": "Brand Book page. English: Partial"
+  },
+  "brandBook.status.missing": {
+    "message": "Eksik",
+    "description": "Brand Book page. English: Missing"
+  },
+  "brandBook.section.overview": {
+    "message": "Markaya genel bakış",
+    "description": "Brand Book page. English: Brand overview"
+  },
+  "brandBook.section.strategy": {
+    "message": "Strateji",
+    "description": "Brand Book page. English: Strategy"
+  },
+  "brandBook.section.verbal": {
+    "message": "Sözel kimlik",
+    "description": "Brand Book page. English: Verbal identity"
+  },
+  "brandBook.section.color": {
+    "message": "Renk",
+    "description": "Brand Book page. English: Color"
+  },
+  "brandBook.section.type": {
+    "message": "Tipografi",
+    "description": "Brand Book page. English: Typography"
+  },
+  "brandBook.section.logo": {
+    "message": "Logo",
+    "description": "Brand Book page. English: Logo"
+  },
+  "brandBook.section.governance": {
+    "message": "Yönetişim",
+    "description": "Brand Book page. English: Governance"
+  },
+  "brandBook.specimen": {
+    "message": "Pijamalı hasta yağız şoföre çabucak güvendi. İı Ğğ Şş 0123456789",
+    "description": "Brand Book page. English: The quick brown fox jumps over the lazy dog. 0123456789"
+  },
+  "brandBook.logo.minSize": {
+    "message": "En küçük boyut",
+    "description": "Brand Book page. English: Minimum size"
+  },
+  "brandBook.logo.clearSpace": {
+    "message": "Boşluk alanı",
+    "description": "Brand Book page. English: Clear space"
+  },
+  "brandBook.logo.markHeight": {
+    "message": "işaret yüksekliği",
+    "description": "Brand Book page. English: mark height"
+  },
+  "brandBook.logo.minPrint": {
+    "message": "En küçük baskı boyutu",
+    "description": "Brand Book page. English: Minimum print size"
+  },
+  "brandBook.voice.do": {
+    "message": "Yap",
+    "description": "Brand Book page. English: Do"
+  },
+  "brandBook.voice.dont": {
+    "message": "Yapma",
+    "description": "Brand Book page. English: Don’t"
+  },
+  "brandBook.withheld": {
+    "message": "Değer gizlendi.",
+    "description": "Brand Book page. English: Value withheld."
+  },
+  "brandBook.sources": {
+    "message": "Kaynaklar",
+    "description": "Brand Book page. English: Sources"
+  },
+  "dashboard.title": {
+    "message": "İnceleme panosu",
+    "description": "Dashboard page. English: Review dashboard"
+  },
+  "dashboard.description": {
+    "message": "İç sürüm için kapsam, inceleme kuyruğu ve çelişkiler.",
+    "description": "Dashboard page. English: Coverage, review queue and contradictions for the internal build."
+  },
+  "dashboard.internalOnly": {
+    "message": "İnceleme panosu yalnızca iç sürümde vardır. Depoda npm run docs:start komutunu çalıştırın.",
+    "description": "Dashboard page. English: The review dashboard exists only in the internal build. Run npm run docs:start in the repository."
+  },
+  "dashboard.coverage": {
+    "message": "Kapsam",
+    "description": "Dashboard page. English: Coverage"
+  },
+  "dashboard.approval": {
+    "message": "Onay",
+    "description": "Dashboard page. English: Approval"
+  },
+  "dashboard.requiredUnanswered": {
+    "message": "Yanıtsız zorunlu alanlar",
+    "description": "Dashboard page. English: Required unanswered"
+  },
+  "dashboard.modules": {
+    "message": "Modüller",
+    "description": "Dashboard page. English: Modules"
+  },
+  "dashboard.module": {
+    "message": "Modül",
+    "description": "Dashboard page. English: Module"
+  },
+  "dashboard.pending": {
+    "message": "İnceleme bekliyor",
+    "description": "Dashboard page. English: Pending review"
+  },
+  "dashboard.queue": {
+    "message": "İnceleme kuyruğu",
+    "description": "Dashboard page. English: Review queue"
+  },
+  "dashboard.queueEmpty": {
+    "message": "İnceleme bekleyen bir şey yok.",
+    "description": "Dashboard page. English: Nothing is waiting for review."
+  },
+  "dashboard.queueHint": {
+    "message": "npm run brand:approve -- --module <id> veya --ids <id,…> ile onaylayın. Onay kanıtı BRAND_OS_APPROVAL_PROOF değişkeninden veya bir istemden okunur, asla argümanlardan okunmaz.",
+    "description": "Dashboard page. English: Approve with npm run brand:approve -- --module <id> or --ids <id,…>. The proof is read from BRAND_OS_APPROVAL_PROOF or a prompt, never from argv."
+  },
+  "dashboard.withheld": {
+    "message": "Kısıtlı değer gizlendi",
+    "description": "Dashboard page. English: Restricted value withheld"
+  },
+  "dashboard.draft": {
+    "message": "Taslak",
+    "description": "Dashboard page. English: Draft"
+  },
+  "dashboard.approved": {
+    "message": "Onaylı",
+    "description": "Dashboard page. English: Approved"
+  },
+  "dashboard.contradictions": {
+    "message": "Çelişkiler",
+    "description": "Dashboard page. English: Contradictions"
+  },
+  "dashboard.contradictionsEmpty": {
+    "message": "Açık çelişki yok.",
+    "description": "Dashboard page. English: No open contradictions."
+  },
+  "dashboard.next": {
+    "message": "Sonraki sorular",
+    "description": "Dashboard page. English: Next questions"
+  }
+}

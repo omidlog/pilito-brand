@@ -1,0 +1,182 @@
+{
+  "brandBook.title": {
+    "message": "کتاب برند",
+    "description": "Brand Book page. English: Brand Book"
+  },
+  "brandBook.description": {
+    "message": "واقعیت‌های تأییدشدهٔ برند همراه با منبع. بخش‌های ناقص، ناقص می‌مانند.",
+    "description": "Brand Book page. English: Approved brand facts with their sources. Missing sections stay missing."
+  },
+  "brandBook.intro.public": {
+    "message": "فقط واقعیت‌های تأییدشده و منتشرشده نشان داده می‌شوند. بقیه به‌عنوان ناموجود فهرست می‌شوند. چیزی ساخته نمی‌شود.",
+    "description": "Brand Book page. English: Only approved and published facts are shown. Everything else is listed as missing. Nothing is invented."
+  },
+  "brandBook.intro.internal": {
+    "message": "نسخهٔ داخلی. واقعیت‌های تأییدشده مرجع‌اند. فرض‌ها و پیشنهادها تصمیم نیستند. موارد ناموجود، ناموجود می‌مانند.",
+    "description": "Brand Book page. English: Internal edition. Approved facts are canonical. Assumptions and recommendations are not decisions. Missing items stay missing."
+  },
+  "brandBook.tag.approved": {
+    "message": "تأییدشده",
+    "description": "Brand Book page. English: Approved"
+  },
+  "brandBook.tag.assumption": {
+    "message": "فرض",
+    "description": "Brand Book page. English: Assumption"
+  },
+  "brandBook.tag.recommendation": {
+    "message": "پیشنهاد",
+    "description": "Brand Book page. English: Recommendation"
+  },
+  "brandBook.tag.missing": {
+    "message": "ناموجود",
+    "description": "Brand Book page. English: Missing"
+  },
+  "brandBook.status.complete": {
+    "message": "کامل",
+    "description": "Brand Book page. English: Complete"
+  },
+  "brandBook.status.partial": {
+    "message": "ناقص",
+    "description": "Brand Book page. English: Partial"
+  },
+  "brandBook.status.missing": {
+    "message": "ناموجود",
+    "description": "Brand Book page. English: Missing"
+  },
+  "brandBook.section.overview": {
+    "message": "نمای کلی برند",
+    "description": "Brand Book page. English: Brand overview"
+  },
+  "brandBook.section.strategy": {
+    "message": "راهبرد",
+    "description": "Brand Book page. English: Strategy"
+  },
+  "brandBook.section.verbal": {
+    "message": "هویت کلامی",
+    "description": "Brand Book page. English: Verbal identity"
+  },
+  "brandBook.section.color": {
+    "message": "رنگ",
+    "description": "Brand Book page. English: Color"
+  },
+  "brandBook.section.type": {
+    "message": "تایپوگرافی",
+    "description": "Brand Book page. English: Typography"
+  },
+  "brandBook.section.logo": {
+    "message": "لوگو",
+    "description": "Brand Book page. English: Logo"
+  },
+  "brandBook.section.governance": {
+    "message": "حاکمیت",
+    "description": "Brand Book page. English: Governance"
+  },
+  "brandBook.specimen": {
+    "message": "این یک متن نمونه برای نمایش حروف است. ۰۱۲۳۴۵۶۷۸۹",
+    "description": "Brand Book page. English: The quick brown fox jumps over the lazy dog. 0123456789"
+  },
+  "brandBook.logo.minSize": {
+    "message": "کمترین اندازه",
+    "description": "Brand Book page. English: Minimum size"
+  },
+  "brandBook.logo.clearSpace": {
+    "message": "فضای خالی",
+    "description": "Brand Book page. English: Clear space"
+  },
+  "brandBook.logo.markHeight": {
+    "message": "ارتفاع نشانه",
+    "description": "Brand Book page. English: mark height"
+  },
+  "brandBook.logo.minPrint": {
+    "message": "کمترین اندازهٔ چاپ",
+    "description": "Brand Book page. English: Minimum print size"
+  },
+  "brandBook.voice.do": {
+    "message": "انجام بده",
+    "description": "Brand Book page. English: Do"
+  },
+  "brandBook.voice.dont": {
+    "message": "انجام نده",
+    "description": "Brand Book page. English: Don’t"
+  },
+  "brandBook.withheld": {
+    "message": "مقدار پنهان است.",
+    "description": "Brand Book page. English: Value withheld."
+  },
+  "brandBook.sources": {
+    "message": "منابع",
+    "description": "Brand Book page. English: Sources"
+  },
+  "dashboard.title": {
+    "message": "داشبورد بازبینی",
+    "description": "Dashboard page. English: Review dashboard"
+  },
+  "dashboard.description": {
+    "message": "پوشش، صف بازبینی و تناقض‌ها برای نسخهٔ داخلی.",
+    "description": "Dashboard page. English: Coverage, review queue and contradictions for the internal build."
+  },
+  "dashboard.internalOnly": {
+    "message": "داشبورد بازبینی فقط در نسخهٔ داخلی وجود دارد. در مخزن npm run docs:start را اجرا کنید.",
+    "description": "Dashboard page. English: The review dashboard exists only in the internal build. Run npm run docs:start in the repository."
+  },
+  "dashboard.coverage": {
+    "message": "پوشش",
+    "description": "Dashboard page. English: Coverage"
+  },
+  "dashboard.approval": {
+    "message": "تأیید",
+    "description": "Dashboard page. English: Approval"
+  },
+  "dashboard.requiredUnanswered": {
+    "message": "موارد الزامی بی‌پاسخ",
+    "description": "Dashboard page. English: Required unanswered"
+  },
+  "dashboard.modules": {
+    "message": "ماژول‌ها",
+    "description": "Dashboard page. English: Modules"
+  },
+  "dashboard.module": {
+    "message": "ماژول",
+    "description": "Dashboard page. English: Module"
+  },
+  "dashboard.pending": {
+    "message": "در انتظار بازبینی",
+    "description": "Dashboard page. English: Pending review"
+  },
+  "dashboard.queue": {
+    "message": "صف بازبینی",
+    "description": "Dashboard page. English: Review queue"
+  },
+  "dashboard.queueEmpty": {
+    "message": "چیزی در انتظار بازبینی نیست.",
+    "description": "Dashboard page. English: Nothing is waiting for review."
+  },
+  "dashboard.queueHint": {
+    "message": "با npm run brand:approve -- --module <id> یا --ids <id,…> تأیید کنید. گواهی تأیید از BRAND_OS_APPROVAL_PROOF یا یک پرسش خوانده می‌شود، هرگز از آرگومان‌ها.",
+    "description": "Dashboard page. English: Approve with npm run brand:approve -- --module <id> or --ids <id,…>. The proof is read from BRAND_OS_APPROVAL_PROOF or a prompt, never from argv."
+  },
+  "dashboard.withheld": {
+    "message": "مقدار محرمانه نمایش داده نمی‌شود",
+    "description": "Dashboard page. English: Restricted value withheld"
+  },
+  "dashboard.draft": {
+    "message": "پیش‌نویس",
+    "description": "Dashboard page. English: Draft"
+  },
+  "dashboard.approved": {
+    "message": "تأییدشده",
+    "description": "Dashboard page. English: Approved"
+  },
+  "dashboard.contradictions": {
+    "message": "تناقض‌ها",
+    "description": "Dashboard page. English: Contradictions"
+  },
+  "dashboard.contradictionsEmpty": {
+    "message": "تناقض بازی وجود ندارد.",
+    "description": "Dashboard page. English: No open contradictions."
+  },
+  "dashboard.next": {
+    "message": "پرسش‌های بعدی",
+    "description": "Dashboard page. English: Next questions"
+  }
+}

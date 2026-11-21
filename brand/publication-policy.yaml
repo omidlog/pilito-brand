@@ -1,0 +1,13 @@
+schema_version: 1
+brand_id: example-brand
+status: draft
+audiences:
+  public: false
+approved_page_ids: []
+approved_fact_ids: []
+approved_asset_ids: []
+approved_token_ids: []
+locales: []
+release_id: null
+approval_proof_reference: brand/.private/approval-secret
+note: Visibility public is not publication. Public claims are copied only when their id is listed here after a human proof.

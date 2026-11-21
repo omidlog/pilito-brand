@@ -1,0 +1,13 @@
+{
+  "business.identity.new_or_existing": "existing",
+  "business.identity.trade_name": "Example Systems",
+  "business.identity.sector": "b2b-saas",
+  "business.offer.summary": "EXAMPLE ONLY: workflow software. Not a real product.",
+  "business.stage.current": "established",
+  "business.market.geography": "unknown",
+  "business.customer.primary_segment": "unknown",
+  "brand.mascot.enabled": "no",
+  "business.offer.value_proposition": "unknown",
+  "brand.personality.traits": "unknown",
+  "brand.gamification.enabled": "no"
+}

@@ -1,0 +1,278 @@
+{
+  "$id": "https://brand-os.local/schemas/mascot-state.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mascot state",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "name",
+    "intent",
+    "emotion_intensity",
+    "pose",
+    "face",
+    "stage_compatibility",
+    "approved_angles",
+    "applicable_surfaces",
+    "animation_possible",
+    "source_assets",
+    "preview",
+    "status",
+    "do",
+    "dont",
+    "tags",
+    "version",
+    "owner"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "emotion",
+        "action",
+        "ui",
+        "learning",
+        "prop",
+        "seasonal"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "emotion_intensity": {
+      "enum": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "pose": {
+      "type": "string"
+    },
+    "face": {
+      "type": "string"
+    },
+    "stage_compatibility": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved_angles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "applicable_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "animation_possible": {
+      "type": "boolean"
+    },
+    "source_assets": {
+      "type": "array"
+    },
+    "preview": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "defined",
+        "pending",
+        "created",
+        "reviewed",
+        "approved",
+        "published",
+        "deprecated"
+      ],
+      "description": "Artwork lifecycle of this state slot. defined = described, no artwork. Run brand:migrate to convert pre-0.2 values (not_started, draft, in_review)."
+    },
+    "do": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dont": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "emotion": {
+      "type": "string",
+      "description": "Optional emotion keyword used by the finder, for example celebrating."
+    },
+    "use_cases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optional use-case keywords, for example correct-answer or onboarding-success."
+    },
+    "outfit": {
+      "type": "string"
+    },
+    "accessories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "animation_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "object",
+      "required": [
+        "holder",
+        "terms"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "holder": {
+          "type": "string",
+          "minLength": 1
+        },
+        "terms": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "attribution": {
+          "type": "string"
+        }
+      }
+    },
+    "artwork": {
+      "type": "array",
+      "description": "Artwork variants of this state. Each references an asset manifest id and has its own lifecycle.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "stage",
+          "asset_id",
+          "status",
+          "version"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "stage": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A stage id from stages.yaml, or any."
+          },
+          "angle": {
+            "type": "string",
+            "description": "An angle id from angles.yaml."
+          },
+          "intensity": {
+            "enum": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "outfit": {
+            "type": "string"
+          },
+          "accessories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "asset_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "preview_asset_id": {
+            "type": "string"
+          },
+          "animation_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "enum": [
+              "defined",
+              "pending",
+              "created",
+              "reviewed",
+              "approved",
+              "published",
+              "deprecated"
+            ]
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "license": {
+            "type": "object",
+            "required": [
+              "holder",
+              "terms"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "holder": {
+                "type": "string",
+                "minLength": 1
+              },
+              "terms": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string"
+              },
+              "attribution": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+name: Bug
+description: Something in the template engine, validation, or interview fails.
+title: "[bug] "
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What you expected
+  - type: input
+    attributes:
+      label: Command
+      placeholder: npm run brand:status

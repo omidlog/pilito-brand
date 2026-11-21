@@ -1,0 +1,18 @@
+name: Brand change
+description: Propose a change to an approved or draft brand record. Do not paste secrets.
+title: "[brand] "
+body:
+  - type: input
+    attributes:
+      label: Record id
+      placeholder: brand.verbal.tagline
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current value and proposed value
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Impacted documents

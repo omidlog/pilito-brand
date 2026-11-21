@@ -1,0 +1,53 @@
+id: business-legal
+name: "Legal, IP & Compliance"
+status: not_started
+owner: legal
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.legal.entity:
+    label: "Entity status"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.legal.trademark:
+    label: "Trademark status"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.legal.privacy:
+    label: "Privacy scope"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.legal.consent:
+    label: "Marketing consent"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.legal.third_party:
+    label: "Third-party content"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.legal.counsel:
+    label: "Counsel review"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

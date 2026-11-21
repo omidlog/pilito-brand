@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="EXAMPLE wordmark placeholder">
+  <title>EXAMPLE wordmark placeholder</title>
+  <rect width="640" height="160" fill="#F7F5F2"/>
+  <rect x="24" y="24" width="112" height="112" rx="12" fill="#123A73"/>
+  <text x="160" y="88" font-family="Georgia, serif" font-size="42" fill="#1A1C1E">EXAMPLE</text>
+  <text x="160" y="118" font-family="sans-serif" font-size="14" fill="#3E4A44">DRAFT placeholder — not an approved logo</text>
+</svg>

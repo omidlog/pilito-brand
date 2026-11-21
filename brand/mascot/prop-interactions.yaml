@@ -1,0 +1,327 @@
+schema_version: 1
+states:
+  - id: mascot.prop.book
+    category: prop
+    name: Book
+    intent: A generic book prop. Do not show a real title.
+    emotion_intensity: none
+    pose: Interacting with a book prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - prop
+      - book
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Book is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A generic book prop. Do not show a real title. Pose: Interacting
+      with a book prop that is not a licensed third-party object.. Face: Expression stays secondary
+      to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Book."
+  - id: mascot.prop.pencil
+    category: prop
+    name: Pencil
+    intent: A writing tool.
+    emotion_intensity: none
+    pose: Interacting with a pencil prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - pencil
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Pencil is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A writing tool. Pose: Interacting with a pencil prop that is not
+      a licensed third-party object.. Face: Expression stays secondary to the prop’s readability..
+      Leave the drawing TBD."
+    usage: "Prop interaction: Pencil."
+  - id: mascot.prop.headphones
+    category: prop
+    name: Headphones
+    intent: Audio equipment for listening states.
+    emotion_intensity: none
+    pose: Interacting with a headphones prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - headphones
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Headphones is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Audio equipment for listening states. Pose: Interacting with a
+      headphones prop that is not a licensed third-party object.. Face: Expression stays secondary
+      to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Headphones."
+  - id: mascot.prop.speech-bubble
+    category: prop
+    name: Speech bubble
+    intent: Holds approved copy only. No placeholder jokes in production.
+    emotion_intensity: none
+    pose: Interacting with a speech bubble prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - speech-bubble
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Speech bubble is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Holds approved copy only. No placeholder jokes in production.
+      Pose: Interacting with a speech bubble prop that is not a licensed third-party object.. Face:
+      Expression stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Speech bubble."
+  - id: mascot.prop.trophy
+    category: prop
+    name: Trophy
+    intent: Optional reward object. No invented prize.
+    emotion_intensity: none
+    pose: Interacting with a trophy prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - trophy
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Trophy is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional reward object. No invented prize. Pose: Interacting with
+      a trophy prop that is not a licensed third-party object.. Face: Expression stays secondary to
+      the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Trophy."
+  - id: mascot.prop.badge
+    category: prop
+    name: Badge
+    intent: Pairs with the badge rules in iconography.
+    emotion_intensity: none
+    pose: Interacting with a badge prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - badge
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Badge is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Pairs with the badge rules in iconography. Pose: Interacting with
+      a badge prop that is not a licensed third-party object.. Face: Expression stays secondary to
+      the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Badge."
+  - id: mascot.prop.map
+    category: prop
+    name: Map
+    intent: A generic map, not a claim about a market.
+    emotion_intensity: none
+    pose: Interacting with a map prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - map
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Map is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A generic map, not a claim about a market. Pose: Interacting with
+      a map prop that is not a licensed third-party object.. Face: Expression stays secondary to the
+      prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Map."
+  - id: mascot.prop.phone
+    category: prop
+    name: Phone
+    intent: A device frame only when the product is on a phone.
+    emotion_intensity: none
+    pose: Interacting with a phone prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - phone
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Phone is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A device frame only when the product is on a phone. Pose:
+      Interacting with a phone prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Phone."
+  - id: mascot.prop.star
+    category: prop
+    name: Star
+    intent: A small emphasis mark, not a rating of the user.
+    emotion_intensity: none
+    pose: Interacting with a star prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - star
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Star is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small emphasis mark, not a rating of the user. Pose:
+      Interacting with a star prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Star."
+  - id: mascot.prop.ticket
+    category: prop
+    name: Ticket
+    intent: An access or event prop. Seasonal campaigns may reuse it.
+    emotion_intensity: none
+    pose: Interacting with a ticket prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - ticket
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Ticket is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: An access or event prop. Seasonal campaigns may reuse it. Pose:
+      Interacting with a ticket prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Ticket."

@@ -1,0 +1,37 @@
+{
+  "$description": "EXAMPLE draft typography. No commercial font is bundled or licensed.",
+  "type": {
+    "fontFamily": {
+      "$type": "fontFamily",
+      "display": {
+        "$value": ["EXAMPLE Display", "Georgia", "Noto Naskh Arabic", "serif"],
+        "$description": "EXAMPLE display stack. License TBD. Georgia and Naskh are fallbacks, not a brand choice."
+      },
+      "body": {
+        "$value": ["EXAMPLE Sans", "Noto Sans", "Segoe UI", "Tahoma", "sans-serif"],
+        "$description": "EXAMPLE body stack with Latin, Persian, and Turkish-capable system fallbacks."
+      },
+      "mono": {
+        "$value": ["EXAMPLE Mono", "ui-monospace", "monospace"],
+        "$description": "EXAMPLE monospace stack."
+      }
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "regular": { "$value": 400, "$description": "EXAMPLE regular weight." },
+      "semibold": { "$value": 600, "$description": "EXAMPLE semibold weight." }
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "caption": { "$value": { "value": 12, "unit": "px" }, "$description": "EXAMPLE caption size." },
+      "body": { "$value": { "value": 16, "unit": "px" }, "$description": "EXAMPLE body size." },
+      "headline": { "$value": { "value": 32, "unit": "px" }, "$description": "EXAMPLE headline size." },
+      "display": { "$value": { "value": 48, "unit": "px" }, "$description": "EXAMPLE display size." }
+    },
+    "lineHeight": {
+      "$type": "number",
+      "body": { "$value": 1.5, "$description": "EXAMPLE body line height." },
+      "tight": { "$value": 1.2, "$description": "EXAMPLE tight line height for headlines." }
+    }
+  }
+}

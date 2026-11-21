@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "name": "EXAMPLE Brand",
+  "slug": "example-brand",
+  "status": "draft",
+  "note": "Index of template documents. EXAMPLE values are not approved brand facts.",
+  "documents": [
+    {
+      "id": "brand-strategy",
+      "title": "Brand Strategy",
+      "path": "brand/content/01-brand-strategy/overview.md",
+      "draft": "brand/generated/drafts/brand-strategy.md",
+      "optional": null
+    },
+    {
+      "id": "verbal-identity",
+      "title": "Verbal Identity",
+      "path": "brand/content/02-verbal-identity/overview.md",
+      "draft": "brand/generated/drafts/verbal-identity.md",
+      "optional": null
+    },
+    {
+      "id": "logo-system",
+      "title": "Logo System",
+      "path": "brand/content/03-logo-system/overview.md",
+      "draft": "brand/generated/drafts/logo-system.md",
+      "optional": null
+    },
+    {
+      "id": "color-system",
+      "title": "Color System",
+      "path": "brand/content/04-color-system/overview.md",
+      "draft": "brand/generated/drafts/color-system.md",
+      "optional": null
+    },
+    {
+      "id": "typography",
+      "title": "Typography",
+      "path": "brand/content/05-typography/overview.md",
+      "draft": "brand/generated/drafts/typography.md",
+      "optional": null
+    },
+    {
+      "id": "mascot-identity",
+      "title": "Mascot Identity",
+      "path": "brand/content/06-mascot-identity/overview.md",
+      "draft": "brand/generated/drafts/mascot-identity.md",
+      "optional": "mascot"
+    },
+    {
+      "id": "mascot-expression",
+      "title": "Mascot Expression & Pose Library",
+      "path": "brand/content/07-mascot-expression-pose-library/overview.md",
+      "draft": "brand/generated/drafts/mascot-expression.md",
+      "optional": "mascot"
+    },
+    {
+      "id": "mascot-evolution",
+      "title": "Mascot Evolution",
+      "path": "brand/content/08-mascot-evolution/overview.md",
+      "draft": "brand/generated/drafts/mascot-evolution.md",
+      "optional": "mascot"
+    },
+    {
+      "id": "illustration",
+      "title": "Illustration System",
+      "path": "brand/content/09-illustration-system/overview.md",
+      "draft": "brand/generated/drafts/illustration.md",
+      "optional": null
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography & Graphic Elements",
+      "path": "brand/content/10-iconography-graphic-elements/overview.md",
+      "draft": "brand/generated/drafts/iconography.md",
+      "optional": null
+    },
+    {
+      "id": "layout",
+      "title": "Layout & Composition",
+      "path": "brand/content/11-layout-composition/overview.md",
+      "draft": "brand/generated/drafts/layout.md",
+      "optional": null
+    },
+    {
+      "id": "product-ui",
+      "title": "Product UI Design System",
+      "path": "brand/content/12-product-ui-system/overview.md",
+      "draft": "brand/generated/drafts/product-ui.md",
+      "optional": null
+    },
+    {
+      "id": "motion",
+      "title": "Motion Identity",
+      "path": "brand/content/13-motion-identity/overview.md",
+      "draft": "brand/generated/drafts/motion.md",
+      "optional": null
+    },
+    {
+      "id": "sonic",
+      "title": "Sonic Branding",
+      "path": "brand/content/14-sonic-branding/overview.md",
+      "draft": "brand/generated/drafts/sonic.md",
+      "optional": null
+    },
+    {
+      "id": "photo-video",
+      "title": "Photography & Video",
+      "path": "brand/content/15-photo-video-style/overview.md",
+      "draft": "brand/generated/drafts/photo-video.md",
+      "optional": null
+    },
+    {
+      "id": "social",
+      "title": "Social Media",
+      "path": "brand/content/16-social-media/overview.md",
+      "draft": "brand/generated/drafts/social.md",
+      "optional": null
+    },
+    {
+      "id": "campaigns",
+      "title": "Marketing & Campaigns",
+      "path": "brand/content/17-marketing-campaigns/overview.md",
+      "draft": "brand/generated/drafts/campaigns.md",
+      "optional": null
+    },
+    {
+      "id": "print",
+      "title": "Print, Merchandise & Environment",
+      "path": "brand/content/18-print-merchandise/overview.md",
+      "draft": "brand/generated/drafts/print.md",
+      "optional": null
+    },
+    {
+      "id": "applications",
+      "title": "Brand Applications",
+      "path": "brand/content/19-brand-applications/overview.md",
+      "draft": "brand/generated/drafts/applications.md",
+      "optional": null
+    },
+    {
+      "id": "governance",
+      "title": "Governance & Asset Library",
+      "path": "brand/content/20-governance-assets/overview.md",
+      "draft": "brand/generated/drafts/governance.md",
+      "optional": null
+    },
+    {
+      "id": "gamification",
+      "title": "Gamification",
+      "path": "brand/content/gamification/overview.md",
+      "draft": "brand/generated/drafts/gamification.md",
+      "optional": "gamification"
+    },
+    {
+      "id": "business-company",
+      "title": "Company & Business Plan",
+      "path": "brand/business-os/01-company-business-plan/overview.md",
+      "draft": "brand/generated/drafts/business-company.md",
+      "optional": null
+    },
+    {
+      "id": "business-marketing",
+      "title": "Marketing Strategy & Planning",
+      "path": "brand/business-os/02-marketing/overview.md",
+      "draft": "brand/generated/drafts/business-marketing.md",
+      "optional": null
+    },
+    {
+      "id": "business-product",
+      "title": "Product & Service Strategy",
+      "path": "brand/business-os/03-product-services/overview.md",
+      "draft": "brand/generated/drafts/business-product.md",
+      "optional": null
+    },
+    {
+      "id": "business-sales",
+      "title": "Sales & Revenue",
+      "path": "brand/business-os/04-sales-revenue/overview.md",
+      "draft": "brand/generated/drafts/business-sales.md",
+      "optional": null
+    },
+    {
+      "id": "business-customer",
+      "title": "Customer Experience, Success & Support",
+      "path": "brand/business-os/05-customer-experience/overview.md",
+      "draft": "brand/generated/drafts/business-customer.md",
+      "optional": null
+    },
+    {
+      "id": "business-operations",
+      "title": "Operations & Team SOPs",
+      "path": "brand/business-os/06-operations-sops/overview.md",
+      "draft": "brand/generated/drafts/business-operations.md",
+      "optional": null
+    },
+    {
+      "id": "business-finance",
+      "title": "Finance & Unit Economics",
+      "path": "brand/business-os/07-finance-unit-economics/overview.md",
+      "draft": "brand/generated/drafts/business-finance.md",
+      "optional": null
+    },
+    {
+      "id": "business-engineering",
+      "title": "Engineering, Data & Security",
+      "path": "brand/business-os/08-engineering-security/overview.md",
+      "draft": "brand/generated/drafts/business-engineering.md",
+      "optional": null
+    },
+    {
+      "id": "business-legal",
+      "title": "Legal, IP & Compliance",
+      "path": "brand/business-os/09-legal-compliance/overview.md",
+      "draft": "brand/generated/drafts/business-legal.md",
+      "optional": null
+    },
+    {
+      "id": "business-growth",
+      "title": "Growth & Experimentation",
+      "path": "brand/business-os/10-growth-experiments/overview.md",
+      "draft": "brand/generated/drafts/business-growth.md",
+      "optional": null
+    },
+    {
+      "id": "business-goals",
+      "title": "Goals, KPIs, Analytics & Reviews",
+      "path": "brand/business-os/11-goals-kpis-reports/overview.md",
+      "draft": "brand/generated/drafts/business-goals.md",
+      "optional": null
+    },
+    {
+      "id": "business-partnerships",
+      "title": "Partnerships, Distribution, Risk & Investor Readiness",
+      "path": "brand/business-os/12-partnerships-risk-investors/overview.md",
+      "draft": "brand/generated/drafts/business-partnerships.md",
+      "optional": null
+    },
+    {
+      "id": "personal-identity",
+      "title": "Personal Identity",
+      "path": "brand/personal/01-identity/overview.md",
+      "draft": "brand/generated/drafts/personal-identity.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-positioning",
+      "title": "Personal Positioning",
+      "path": "brand/personal/02-positioning/overview.md",
+      "draft": "brand/generated/drafts/personal-positioning.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-story",
+      "title": "Professional Story",
+      "path": "brand/personal/03-story/overview.md",
+      "draft": "brand/generated/drafts/personal-story.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-career",
+      "title": "Experience & Credentials",
+      "path": "brand/personal/04-career/overview.md",
+      "draft": "brand/generated/drafts/personal-career.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-proof",
+      "title": "Evidence, Portfolio & Reputation",
+      "path": "brand/personal/05-proof/overview.md",
+      "draft": "brand/generated/drafts/personal-proof.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-content",
+      "title": "Thought Leadership & Channels",
+      "path": "brand/personal/06-content/overview.md",
+      "draft": "brand/generated/drafts/personal-content.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-presence",
+      "title": "Visual Presence & Media",
+      "path": "brand/personal/07-presence/overview.md",
+      "draft": "brand/generated/drafts/personal-presence.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-boundaries",
+      "title": "Privacy, Contact & Governance",
+      "path": "brand/personal/08-boundaries/overview.md",
+      "draft": "brand/generated/drafts/personal-boundaries.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-founder",
+      "title": "Facet: Founder & Executive",
+      "path": "brand/personal/facets/founder-executive/overview.md",
+      "draft": "brand/generated/drafts/personal-founder.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-consultant",
+      "title": "Facet: Consultant, Expert & Mentor",
+      "path": "brand/personal/facets/consultant-expert/overview.md",
+      "draft": "brand/generated/drafts/personal-consultant.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-creator",
+      "title": "Facet: Creator & Educator",
+      "path": "brand/personal/facets/creator-educator/overview.md",
+      "draft": "brand/generated/drafts/personal-creator.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-artist",
+      "title": "Facet: Artist & Designer",
+      "path": "brand/personal/facets/artist-designer/overview.md",
+      "draft": "brand/generated/drafts/personal-artist.md",
+      "optional": "personal"
+    },
+    {
+      "id": "personal-speaker",
+      "title": "Facet: Speaker & Author",
+      "path": "brand/personal/facets/speaker-author/overview.md",
+      "draft": "brand/generated/drafts/personal-speaker.md",
+      "optional": "personal"
+    }
+  ],
+  "tokens": [
+    "brand/tokens/color.tokens.json",
+    "brand/tokens/typography.tokens.json",
+    "brand/tokens/space.tokens.json",
+    "brand/tokens/radius.tokens.json",
+    "brand/tokens/motion.tokens.json",
+    "brand/tokens/elevation.tokens.json"
+  ],
+  "question_bank": "brand/interview/question-bank",
+  "field_registry": "brand/interview/field-registry.yaml",
+  "assets": "brand/assets/asset-manifest.yaml",
+  "mascot_catalog": "brand/mascot/catalog.yaml"
+}

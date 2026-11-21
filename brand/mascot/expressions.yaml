@@ -1,0 +1,659 @@
+schema_version: 1
+states:
+  - id: mascot.emotion.joyful
+    category: emotion
+    name: Joyful
+    intent: Uncomplicated happiness after a real success.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Uncomplicated happiness after a real success.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - emotion
+      - joyful
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Joyful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Uncomplicated happiness after a real success. Pose: Readable full
+      body or bust, not distorted. Face: Uncomplicated happiness after a real success.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Joyful."
+  - id: mascot.emotion.delighted
+    category: emotion
+    name: Delighted
+    intent: A warmer, smaller surprise than full celebration.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: A warmer, smaller surprise than full celebration.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - delighted
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Delighted is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A warmer, smaller surprise than full celebration. Pose: Readable
+      full body or bust, not distorted. Face: A warmer, smaller surprise than full celebration..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Delighted."
+  - id: mascot.emotion.sad
+    category: emotion
+    name: Sad
+    intent: Quiet disappointment without guilt.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Quiet disappointment without guilt.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - sad
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Sad is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Quiet disappointment without guilt. Pose: Readable full body or
+      bust, not distorted. Face: Quiet disappointment without guilt.. Leave the drawing TBD."
+    usage: "Emotional beat: Sad."
+  - id: mascot.emotion.angry
+    category: emotion
+    name: Angry
+    intent: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - angry
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Angry is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+      Pose: Readable full body or bust, not distorted. Face: Firm boundary. Not cruelty and not a
+      tantrum aimed at the user.. Leave the drawing TBD."
+    usage: "Emotional beat: Angry."
+  - id: mascot.emotion.crying
+    category: emotion
+    name: Crying
+    intent: Visible upset reserved for story moments, not ordinary errors.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Visible upset reserved for story moments, not ordinary errors.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - crying
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Crying is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Visible upset reserved for story moments, not ordinary errors.
+      Pose: Readable full body or bust, not distorted. Face: Visible upset reserved for story
+      moments, not ordinary errors.. Leave the drawing TBD."
+    usage: "Emotional beat: Crying."
+  - id: mascot.emotion.surprised
+    category: emotion
+    name: Surprised
+    intent: Short reaction to something new.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Short reaction to something new.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - surprised
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Surprised is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Short reaction to something new. Pose: Readable full body or
+      bust, not distorted. Face: Short reaction to something new.. Leave the drawing TBD."
+    usage: "Emotional beat: Surprised."
+  - id: mascot.emotion.excited
+    category: emotion
+    name: Excited
+    intent: Forward energy before an action starts.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Forward energy before an action starts.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - excited
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Excited is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Forward energy before an action starts. Pose: Readable full body
+      or bust, not distorted. Face: Forward energy before an action starts.. Leave the drawing TBD."
+    usage: "Emotional beat: Excited."
+  - id: mascot.emotion.confused
+    category: emotion
+    name: Confused
+    intent: The character does not understand yet and is not blaming the user.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: The character does not understand yet and is not blaming the user.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - confused
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Confused is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: The character does not understand yet and is not blaming the
+      user. Pose: Readable full body or bust, not distorted. Face: The character does not understand
+      yet and is not blaming the user.. Leave the drawing TBD."
+    usage: "Emotional beat: Confused."
+  - id: mascot.emotion.proud
+    category: emotion
+    name: Proud
+    intent: Satisfaction in effort, not superiority.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Satisfaction in effort, not superiority.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - proud
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Proud is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Satisfaction in effort, not superiority. Pose: Readable full body
+      or bust, not distorted. Face: Satisfaction in effort, not superiority.. Leave the drawing
+      TBD."
+    usage: "Emotional beat: Proud."
+  - id: mascot.emotion.embarrassed
+    category: emotion
+    name: Embarrassed
+    intent: A small mistake, recovered quickly.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: A small mistake, recovered quickly.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - embarrassed
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Embarrassed is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small mistake, recovered quickly. Pose: Readable full body or
+      bust, not distorted. Face: A small mistake, recovered quickly.. Leave the drawing TBD."
+    usage: "Emotional beat: Embarrassed."
+  - id: mascot.emotion.determined
+    category: emotion
+    name: Determined
+    intent: Continuing after friction.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Continuing after friction.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - determined
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Determined is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Continuing after friction. Pose: Readable full body or bust, not
+      distorted. Face: Continuing after friction.. Leave the drawing TBD."
+    usage: "Emotional beat: Determined."
+  - id: mascot.emotion.curious
+    category: emotion
+    name: Curious
+    intent: Attention toward something worth inspecting.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Attention toward something worth inspecting.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - curious
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Curious is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attention toward something worth inspecting. Pose: Readable full
+      body or bust, not distorted. Face: Attention toward something worth inspecting.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Curious."
+  - id: mascot.emotion.sleepy
+    category: emotion
+    name: Sleepy
+    intent: Rest, end of session, or a gentle pause.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Rest, end of session, or a gentle pause.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - sleepy
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sleepy is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Rest, end of session, or a gentle pause. Pose: Readable full body
+      or bust, not distorted. Face: Rest, end of session, or a gentle pause.. Leave the drawing
+      TBD."
+    usage: "Emotional beat: Sleepy."
+  - id: mascot.emotion.worried
+    category: emotion
+    name: Worried
+    intent: Concern that invites a next step, not panic.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Concern that invites a next step, not panic.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - worried
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Worried is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Concern that invites a next step, not panic. Pose: Readable full
+      body or bust, not distorted. Face: Concern that invites a next step, not panic.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Worried."
+  - id: mascot.emotion.relieved
+    category: emotion
+    name: Relieved
+    intent: A problem just became solvable.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: A problem just became solvable.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - relieved
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Relieved is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A problem just became solvable. Pose: Readable full body or bust,
+      not distorted. Face: A problem just became solvable.. Leave the drawing TBD."
+    usage: "Emotional beat: Relieved."
+  - id: mascot.emotion.frustrated
+    category: emotion
+    name: Frustrated
+    intent: Stuck, but still respectful.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Stuck, but still respectful.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - frustrated
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Frustrated is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Stuck, but still respectful. Pose: Readable full body or bust,
+      not distorted. Face: Stuck, but still respectful.. Leave the drawing TBD."
+    usage: "Emotional beat: Frustrated."
+  - id: mascot.emotion.thankful
+    category: emotion
+    name: Thankful
+    intent: Acknowledgement of help or patience.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Acknowledgement of help or patience.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - thankful
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Thankful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Acknowledgement of help or patience. Pose: Readable full body or
+      bust, not distorted. Face: Acknowledgement of help or patience.. Leave the drawing TBD."
+    usage: "Emotional beat: Thankful."
+  - id: mascot.emotion.playful
+    category: emotion
+    name: Playful
+    intent: Lightness that must not undercut a serious error.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Lightness that must not undercut a serious error.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - playful
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Playful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Lightness that must not undercut a serious error. Pose: Readable
+      full body or bust, not distorted. Face: Lightness that must not undercut a serious error..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Playful."
+  - id: mascot.emotion.focused
+    category: emotion
+    name: Focused
+    intent: Working attention with little theatrical emotion.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Working attention with little theatrical emotion.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - focused
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Focused is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Working attention with little theatrical emotion. Pose: Readable
+      full body or bust, not distorted. Face: Working attention with little theatrical emotion..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Focused."
+  - id: mascot.emotion.celebrating
+    category: emotion
+    name: Celebrating
+    intent: A rare peak. Do not use it for routine clicks.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: A rare peak. Do not use it for routine clicks.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - celebrating
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Celebrating is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A rare peak. Do not use it for routine clicks. Pose: Readable
+      full body or bust, not distorted. Face: A rare peak. Do not use it for routine clicks.. Leave
+      the drawing TBD."
+    usage: "Emotional beat: Celebrating."

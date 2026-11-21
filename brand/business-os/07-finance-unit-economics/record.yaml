@@ -1,0 +1,65 @@
+id: business-finance
+name: "Finance & Unit Economics"
+status: not_started
+owner: finance
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company, business-sales]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.finance.currency:
+    label: "Reporting currency"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.basis:
+    label: "Accounting basis"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.revenue_figure:
+    label: "Revenue figure"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.costs:
+    label: "Cost drivers"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.runway:
+    label: "Runway"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.economics_note:
+    label: "Pricing economics note"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.system:
+    label: "Finance system"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.finance.scenarios:
+    label: "Scenarios"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

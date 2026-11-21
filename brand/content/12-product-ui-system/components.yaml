@@ -1,0 +1,123 @@
+schema_version: 1
+status: draft
+note: Starter index. Not an approved production component library.
+components:
+  - id: component.button
+    name: button
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.text-field
+    name: text-field
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.dialog
+    name: dialog
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.card
+    name: card
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.navigation
+    name: navigation
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.feedback
+    name: feedback
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null
+  - id: component.chart
+    name: chart
+    status: draft
+    states:
+      - default
+      - hover
+      - focus
+      - active
+      - disabled
+      - loading
+      - error
+    tokens:
+      - color.brand.primary
+      - space.2
+      - radius.md
+      - type.body
+    figma: null

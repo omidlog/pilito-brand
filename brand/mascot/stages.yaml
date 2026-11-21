@@ -1,0 +1,77 @@
+schema_version: 1
+label: EXAMPLE CONFIGURATION — not a universal brand rule
+stages:
+  - id: example.stage.egg
+    order: 1
+    name: Egg / emergence
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. A contained form before limbs are reliable. Not a universal brand rule.
+    silhouette: Simple closed shape. No extra features that later stages cannot explain.
+    costume: None beyond the shell motif.
+    personality_note: Potential, not competence.
+    continuity: A mark introduced here must be drawable later.
+    available_state_rule: Prefer resting, curious, and welcome. Avoid complex props.
+    transition_brief: "To hatchling: a short crack or crossfade. Reduced motion cuts to the next still."
+    status: draft
+  - id: example.stage.hatchling
+    order: 2
+    name: Hatchling / beginner
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. First mobile form. Proportions read as young without caricature.
+    silhouette: Large head relative to body only if that rule is approved. Otherwise TBD.
+    costume: Minimal, so the body plan stays visible.
+    personality_note: Beginner energy. No incompetence jokes.
+    continuity: Keep the mark from the egg stage if one was approved.
+    available_state_rule: Onboarding, confused, determined, listening.
+    transition_brief: "To explorer: add one capability cue, not a full costume change."
+    status: draft
+  - id: example.stage.explorer
+    order: 3
+    name: Young explorer / early learner
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. The character can point, read, and travel a short distance.
+    silhouette: Stable profile so side angles stay recognizable.
+    costume: One optional prop slot.
+    personality_note: Curious first.
+    continuity: Face proportions do not reset.
+    available_state_rule: Most core UI states. Flight only if the body plan allows it.
+    transition_brief: "To trainee: a small responsibility cue. Placeholder, not an XP cost."
+    status: draft
+  - id: example.stage.trainee
+    order: 4
+    name: Trainee / growing competence
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. More upright posture. Still not an expert.
+    silhouette: Slightly taller stance. Do not lose the original mark.
+    costume: Training cue that is not a real uniform unless the owner defines one.
+    personality_note: Effort is visible. Results are not guaranteed.
+    continuity: Hands, face, and mark match the model sheet.
+    available_state_rule: Practice, retry, focused, presenting.
+    transition_brief: "To pilot: one confidence cue. Reduced motion is a cut."
+    status: draft
+  - id: example.stage.pilot
+    order: 5
+    name: Skilled pilot / advanced learner
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. Capable silhouette. “Pilot” is a metaphor in this example, not a
+      product feature.
+    silhouette: Controlled, not bulky.
+    costume: Functional accent only.
+    personality_note: Calm competence.
+    continuity: Earlier-stage viewers must still recognize the character.
+    available_state_rule: Full MVP set plus travel poses if approved.
+    transition_brief: "To captain: a responsibility cue, not a crown, unless the owner asks for one."
+    status: draft
+  - id: example.stage.captain
+    order: 6
+    name: Professional captain / mastery
+    configuration: example
+    summary: EXAMPLE CONFIGURATION. The most capable form in the example. Mastery is not a claim about
+      the user.
+    silhouette: Distinct from the egg, recognizably the same character.
+    costume: Highest complexity allowed by the continuity rules.
+    personality_note: Steady. Does not talk down.
+    continuity: No new species traits.
+    available_state_rule: All catalog states that the owner has not marked out of model.
+    transition_brief: No further stage in this example. Loop back only if the owner adds one.
+    status: draft

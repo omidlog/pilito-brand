@@ -1,0 +1,3672 @@
+schema_version: 1
+fields:
+  - id: brand.personality.traits
+    module: brand-strategy
+    field_path: brand.personality.traits
+    label: Personality
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.personality.traits
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/verbal-identity.md
+      - brand/generated/drafts/mascot-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.purpose
+    module: brand-strategy
+    field_path: brand.strategy.purpose
+    label: Purpose
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.purpose
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.vision
+    module: brand-strategy
+    field_path: brand.strategy.vision
+    label: Vision
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.vision
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.values
+    module: brand-strategy
+    field_path: brand.strategy.values
+    label: Values
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.values
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.differentiation
+    module: brand-strategy
+    field_path: brand.strategy.differentiation
+    label: Differentiation
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.differentiation
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.promise
+    module: brand-strategy
+    field_path: brand.strategy.promise
+    label: Brand promise
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.promise
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.decision_rule
+    module: brand-strategy
+    field_path: brand.strategy.decision_rule
+    label: Decision rule
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.decision_rule
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.strategy.experience
+    module: brand-strategy
+    field_path: brand.strategy.experience
+    label: Experience principles
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.strategy.experience
+    documents:
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/product-ui.md
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.name_use
+    module: verbal-identity
+    field_path: brand.verbal.name_use
+    label: Name usage
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.name_use
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.identity.public_name_override
+    module: verbal-identity
+    field_path: brand.identity.public_name_override
+    label: Public name override
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.identity.public_name_override
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+    validator: non_empty
+    related_ids:
+      - business.identity.trade_name
+  - id: brand.verbal.tagline
+    module: verbal-identity
+    field_path: brand.verbal.tagline
+    label: Tagline
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.tagline
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.voice
+    module: verbal-identity
+    field_path: brand.verbal.voice
+    label: Tone of voice
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.voice
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+      - brand/generated/drafts/product-ui.md
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.forbidden
+    module: verbal-identity
+    field_path: brand.verbal.forbidden
+    label: Forbidden language
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.forbidden
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.localization
+    module: verbal-identity
+    field_path: brand.verbal.localization
+    label: Localization
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.localization
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.microcopy
+    module: verbal-identity
+    field_path: brand.verbal.microcopy
+    label: Microcopy principle
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.microcopy
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.verbal.voice_pairs
+    module: verbal-identity
+    field_path: brand.verbal.voice_pairs
+    label: Voice do and don’t
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.verbal.voice_pairs
+    documents:
+      - brand/generated/drafts/verbal-identity.md
+      - brand/generated/drafts/product-ui.md
+    validator: structured
+    related_ids: []
+  - id: brand.logo.variants
+    module: logo-system
+    field_path: brand.logo.variants
+    label: Variants needed
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.logo.variants
+    documents:
+      - brand/generated/drafts/logo-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.logo.clear_space
+    module: logo-system
+    field_path: brand.logo.clear_space
+    label: Clear space
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.logo.clear_space
+    documents:
+      - brand/generated/drafts/logo-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.logo.min_size
+    module: logo-system
+    field_path: brand.logo.min_size
+    label: Minimum size and clear space
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.logo.min_size
+    documents:
+      - brand/generated/drafts/logo-system.md
+    validator: structured
+    related_ids: []
+  - id: brand.logo.misuse
+    module: logo-system
+    field_path: brand.logo.misuse
+    label: Misuse rules
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.logo.misuse
+    documents:
+      - brand/generated/drafts/logo-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.logo.masters
+    module: logo-system
+    field_path: brand.logo.masters
+    label: Master location
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.logo.masters
+    documents:
+      - brand/generated/drafts/logo-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.color.roles
+    module: color-system
+    field_path: brand.color.roles
+    label: Color roles
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.color.roles
+    documents:
+      - brand/generated/drafts/color-system.md
+      - brand/generated/drafts/product-ui.md
+    validator: structured
+    related_ids: []
+  - id: brand.color.themes
+    module: color-system
+    field_path: brand.color.themes
+    label: Themes
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.color.themes
+    documents:
+      - brand/generated/drafts/color-system.md
+    validator: one_of
+    related_ids: []
+  - id: brand.color.semantics
+    module: color-system
+    field_path: brand.color.semantics
+    label: Semantic colors
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.color.semantics
+    documents:
+      - brand/generated/drafts/color-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.color.contrast
+    module: color-system
+    field_path: brand.color.contrast
+    label: Contrast target
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.color.contrast
+    documents:
+      - brand/generated/drafts/color-system.md
+    validator: one_of
+    related_ids: []
+  - id: brand.color.print
+    module: color-system
+    field_path: brand.color.print
+    label: Print color
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.color.print
+    documents:
+      - brand/generated/drafts/color-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.type.intent
+    module: typography
+    field_path: brand.type.intent
+    label: Type intent
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.type.intent
+    documents:
+      - brand/generated/drafts/typography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.type.license
+    module: typography
+    field_path: brand.type.license
+    label: License status
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.type.license
+    documents:
+      - brand/generated/drafts/typography.md
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.type.scale
+    module: typography
+    field_path: brand.type.scale
+    label: Type roles and scale
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.type.scale
+    documents:
+      - brand/generated/drafts/typography.md
+    validator: structured
+    related_ids: []
+  - id: brand.type.rtl
+    module: typography
+    field_path: brand.type.rtl
+    label: RTL and locales
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.type.rtl
+    documents:
+      - brand/generated/drafts/typography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.type.fallback
+    module: typography
+    field_path: brand.type.fallback
+    label: Fallback policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.type.fallback
+    documents:
+      - brand/generated/drafts/typography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.enabled
+    module: mascot-identity
+    field_path: brand.mascot.enabled
+    label: Mascot
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.enabled
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+    validator: boolean
+    related_ids: []
+  - id: brand.mascot.role
+    module: mascot-identity
+    field_path: brand.mascot.role
+    label: Character role
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.role
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.personality
+    module: mascot-identity
+    field_path: brand.mascot.personality
+    label: Character personality
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.personality
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.anatomy
+    module: mascot-identity
+    field_path: brand.mascot.anatomy
+    label: Anatomy rules
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.anatomy
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.forbidden
+    module: mascot-identity
+    field_path: brand.mascot.forbidden
+    label: Forbidden distortions
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.forbidden
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.palette
+    module: mascot-identity
+    field_path: brand.mascot.palette
+    label: Character palette
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.palette
+    documents:
+      - brand/generated/drafts/mascot-identity.md
+      - brand/generated/drafts/color-system.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.emotion_priority
+    module: mascot-expression
+    field_path: brand.mascot.emotion_priority
+    label: Emotion priority
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.emotion_priority
+    documents:
+      - brand/generated/drafts/mascot-expression.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.situation_map
+    module: mascot-expression
+    field_path: brand.mascot.situation_map
+    label: Situation map
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.situation_map
+    documents:
+      - brand/generated/drafts/mascot-expression.md
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.intensity
+    module: mascot-expression
+    field_path: brand.mascot.intensity
+    label: Intensity scale
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.intensity
+    documents:
+      - brand/generated/drafts/mascot-expression.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.angles
+    module: mascot-expression
+    field_path: brand.mascot.angles
+    label: Angle priority
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.angles
+    documents:
+      - brand/generated/drafts/mascot-expression.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.mvp
+    module: mascot-expression
+    field_path: brand.mascot.mvp
+    label: MVP states
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.mvp
+    documents:
+      - brand/generated/drafts/mascot-expression.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.stage_count
+    module: mascot-evolution
+    field_path: brand.mascot.stage_count
+    label: Stage count
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.stage_count
+    documents:
+      - brand/generated/drafts/mascot-evolution.md
+    validator: number
+    related_ids: []
+  - id: brand.mascot.stage_story
+    module: mascot-evolution
+    field_path: brand.mascot.stage_story
+    label: Stage story
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.stage_story
+    documents:
+      - brand/generated/drafts/mascot-evolution.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.continuity
+    module: mascot-evolution
+    field_path: brand.mascot.continuity
+    label: Continuity
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.continuity
+    documents:
+      - brand/generated/drafts/mascot-evolution.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.unlocks
+    module: mascot-evolution
+    field_path: brand.mascot.unlocks
+    label: Unlock placeholder
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.unlocks
+    documents:
+      - brand/generated/drafts/mascot-evolution.md
+      - brand/generated/drafts/gamification.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.mascot.transition
+    module: mascot-evolution
+    field_path: brand.mascot.transition
+    label: Transition
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.mascot.transition
+    documents:
+      - brand/generated/drafts/mascot-evolution.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.illustration.shapes
+    module: illustration
+    field_path: brand.illustration.shapes
+    label: Shape language
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.illustration.shapes
+    documents:
+      - brand/generated/drafts/illustration.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.illustration.light
+    module: illustration
+    field_path: brand.illustration.light
+    label: Light and materials
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.illustration.light
+    documents:
+      - brand/generated/drafts/illustration.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.illustration.complexity
+    module: illustration
+    field_path: brand.illustration.complexity
+    label: Complexity
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.illustration.complexity
+    documents:
+      - brand/generated/drafts/illustration.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.illustration.character
+    module: illustration
+    field_path: brand.illustration.character
+    label: Character integration
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.illustration.character
+    documents:
+      - brand/generated/drafts/illustration.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.illustration.unacceptable
+    module: illustration
+    field_path: brand.illustration.unacceptable
+    label: Unacceptable variations
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.illustration.unacceptable
+    documents:
+      - brand/generated/drafts/illustration.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.icons.grid
+    module: iconography
+    field_path: brand.icons.grid
+    label: Icon grid
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.icons.grid
+    documents:
+      - brand/generated/drafts/iconography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.icons.stroke
+    module: iconography
+    field_path: brand.icons.stroke
+    label: Stroke and corners
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.icons.stroke
+    documents:
+      - brand/generated/drafts/iconography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.icons.metaphor
+    module: iconography
+    field_path: brand.icons.metaphor
+    label: Metaphors
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.icons.metaphor
+    documents:
+      - brand/generated/drafts/iconography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.icons.badges
+    module: iconography
+    field_path: brand.icons.badges
+    label: Badges
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.icons.badges
+    documents:
+      - brand/generated/drafts/iconography.md
+      - brand/generated/drafts/gamification.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.icons.naming
+    module: iconography
+    field_path: brand.icons.naming
+    label: Naming and export
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.icons.naming
+    documents:
+      - brand/generated/drafts/iconography.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.layout.grid
+    module: layout
+    field_path: brand.layout.grid
+    label: Grids
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.layout.grid
+    documents:
+      - brand/generated/drafts/layout.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.layout.density
+    module: layout
+    field_path: brand.layout.density
+    label: Density
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.layout.density
+    documents:
+      - brand/generated/drafts/layout.md
+    validator: one_of
+    related_ids: []
+  - id: brand.layout.breakpoints
+    module: layout
+    field_path: brand.layout.breakpoints
+    label: Breakpoints
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.layout.breakpoints
+    documents:
+      - brand/generated/drafts/layout.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.layout.hierarchy
+    module: layout
+    field_path: brand.layout.hierarchy
+    label: Hierarchy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.layout.hierarchy
+    documents:
+      - brand/generated/drafts/layout.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.layout.mascot_zone
+    module: layout
+    field_path: brand.layout.mascot_zone
+    label: Character zone
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.layout.mascot_zone
+    documents:
+      - brand/generated/drafts/layout.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.platforms
+    module: product-ui
+    field_path: brand.ui.platforms
+    label: Platforms
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.platforms
+    documents:
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.components
+    module: product-ui
+    field_path: brand.ui.components
+    label: Component priority
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.components
+    documents:
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.states
+    module: product-ui
+    field_path: brand.ui.states
+    label: Required states
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.states
+    documents:
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.onboarding
+    module: product-ui
+    field_path: brand.ui.onboarding
+    label: Onboarding pattern
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.onboarding
+    documents:
+      - brand/generated/drafts/product-ui.md
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.a11y
+    module: product-ui
+    field_path: brand.ui.a11y
+    label: UI accessibility
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.a11y
+    documents:
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.ui.handoff
+    module: product-ui
+    field_path: brand.ui.handoff
+    label: Handoff
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.ui.handoff
+    documents:
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.motion.principles
+    module: motion
+    field_path: brand.motion.principles
+    label: Motion principles
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.motion.principles
+    documents:
+      - brand/generated/drafts/motion.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.motion.duration
+    module: motion
+    field_path: brand.motion.duration
+    label: Duration feel
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.motion.duration
+    documents:
+      - brand/generated/drafts/motion.md
+    validator: one_of
+    related_ids: []
+  - id: brand.motion.reduced
+    module: motion
+    field_path: brand.motion.reduced
+    label: Reduced motion
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.motion.reduced
+    documents:
+      - brand/generated/drafts/motion.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.motion.logo
+    module: motion
+    field_path: brand.motion.logo
+    label: Logo motion
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.motion.logo
+    documents:
+      - brand/generated/drafts/motion.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.motion.formats
+    module: motion
+    field_path: brand.motion.formats
+    label: Deliverable formats
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.motion.formats
+    documents:
+      - brand/generated/drafts/motion.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.sonic.needed
+    module: sonic
+    field_path: brand.sonic.needed
+    label: Sound
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.sonic.needed
+    documents:
+      - brand/generated/drafts/sonic.md
+    validator: boolean
+    related_ids: []
+  - id: brand.sonic.logo
+    module: sonic
+    field_path: brand.sonic.logo
+    label: Sonic logo
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.sonic.logo
+    documents:
+      - brand/generated/drafts/sonic.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.sonic.cues
+    module: sonic
+    field_path: brand.sonic.cues
+    label: Cues
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.sonic.cues
+    documents:
+      - brand/generated/drafts/sonic.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.sonic.rights
+    module: sonic
+    field_path: brand.sonic.rights
+    label: Rights
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.sonic.rights
+    documents:
+      - brand/generated/drafts/sonic.md
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.sonic.fallback
+    module: sonic
+    field_path: brand.sonic.fallback
+    label: Sound off
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.sonic.fallback
+    documents:
+      - brand/generated/drafts/sonic.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.photo.direction
+    module: photo-video
+    field_path: brand.photo.direction
+    label: Art direction
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.photo.direction
+    documents:
+      - brand/generated/drafts/photo-video.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.photo.lighting
+    module: photo-video
+    field_path: brand.photo.lighting
+    label: Lighting and lens
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.photo.lighting
+    documents:
+      - brand/generated/drafts/photo-video.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.photo.grade
+    module: photo-video
+    field_path: brand.photo.grade
+    label: Grade
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.photo.grade
+    documents:
+      - brand/generated/drafts/photo-video.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.photo.compositing
+    module: photo-video
+    field_path: brand.photo.compositing
+    label: Compositing
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.photo.compositing
+    documents:
+      - brand/generated/drafts/photo-video.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.photo.subtitles
+    module: photo-video
+    field_path: brand.photo.subtitles
+    label: Subtitles and titles
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.photo.subtitles
+    documents:
+      - brand/generated/drafts/photo-video.md
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.social.channels
+    module: social
+    field_path: brand.social.channels
+    label: Social channels
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.social.channels
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids:
+      - business.marketing.channels
+  - id: brand.social.safe
+    module: social
+    field_path: brand.social.safe
+    label: Safe zones
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.social.safe
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.social.cta
+    module: social
+    field_path: brand.social.cta
+    label: CTA style
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.social.cta
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.social.templates
+    module: social
+    field_path: brand.social.templates
+    label: Template priority
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.social.templates
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.social.localization
+    module: social
+    field_path: brand.social.localization
+    label: Post localization
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.social.localization
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.social.exports
+    module: social
+    field_path: brand.social.exports
+    label: Export presets
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.social.exports
+    documents:
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.campaign.owner
+    module: campaigns
+    field_path: brand.campaign.owner
+    label: Brief owner
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.campaign.owner
+    documents:
+      - brand/generated/drafts/campaigns.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.campaign.naming
+    module: campaigns
+    field_path: brand.campaign.naming
+    label: Campaign naming
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.campaign.naming
+    documents:
+      - brand/generated/drafts/campaigns.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.campaign.offer_source
+    module: campaigns
+    field_path: brand.campaign.offer_source
+    label: Offer source
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.campaign.offer_source
+    documents:
+      - brand/generated/drafts/campaigns.md
+    validator: non_empty
+    related_ids:
+      - business.sales.pricing
+      - business.product.public_status
+  - id: brand.campaign.cobrand
+    module: campaigns
+    field_path: brand.campaign.cobrand
+    label: Co-branding
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.campaign.cobrand
+    documents:
+      - brand/generated/drafts/campaigns.md
+      - brand/generated/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.campaign.seasonal
+    module: campaigns
+    field_path: brand.campaign.seasonal
+    label: Seasonal work
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.campaign.seasonal
+    documents:
+      - brand/generated/drafts/campaigns.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.print.scope
+    module: print
+    field_path: brand.print.scope
+    label: Physical scope
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.print.scope
+    documents:
+      - brand/generated/drafts/print.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.print.color
+    module: print
+    field_path: brand.print.color
+    label: Print specification
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.print.color
+    documents:
+      - brand/generated/drafts/print.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.print.bleed
+    module: print
+    field_path: brand.print.bleed
+    label: Bleed and safe area
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.print.bleed
+    documents:
+      - brand/generated/drafts/print.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.print.merch
+    module: print
+    field_path: brand.print.merch
+    label: Merchandise rules
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.print.merch
+    documents:
+      - brand/generated/drafts/print.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.print.vendor
+    module: print
+    field_path: brand.print.vendor
+    label: Production notes
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - brand.print.vendor
+    documents:
+      - brand/generated/drafts/print.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.applications.surfaces
+    module: applications
+    field_path: brand.applications.surfaces
+    label: Reference surfaces
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.applications.surfaces
+    documents:
+      - brand/generated/drafts/applications.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.applications.launch
+    module: applications
+    field_path: brand.applications.launch
+    label: Launch exemplar
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.applications.launch
+    documents:
+      - brand/generated/drafts/applications.md
+    validator: boolean
+    related_ids: []
+  - id: brand.applications.consistency
+    module: applications
+    field_path: brand.applications.consistency
+    label: Consistency bar
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.applications.consistency
+    documents:
+      - brand/generated/drafts/applications.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.applications.reviewer
+    module: applications
+    field_path: brand.applications.reviewer
+    label: Application reviewer
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.applications.reviewer
+    documents:
+      - brand/generated/drafts/applications.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.applications.edges
+    module: applications
+    field_path: brand.applications.edges
+    label: Edge cases
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.applications.edges
+    documents:
+      - brand/generated/drafts/applications.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.approver
+    module: governance
+    field_path: brand.gov.approver
+    label: Brand approver
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.approver
+    documents:
+      - brand/generated/drafts/governance.md
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.versioning
+    module: governance
+    field_path: brand.gov.versioning
+    label: Versioning
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.versioning
+    documents:
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.deprecation
+    module: governance
+    field_path: brand.gov.deprecation
+    label: Deprecation
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.deprecation
+    documents:
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.license
+    module: governance
+    field_path: brand.gov.license
+    label: Content license
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.license
+    documents:
+      - brand/generated/drafts/governance.md
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.ai
+    module: governance
+    field_path: brand.gov.ai
+    label: AI provenance
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.ai
+    documents:
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gov.cadence
+    module: governance
+    field_path: brand.gov.cadence
+    label: Maintenance cadence
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gov.cadence
+    documents:
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gamification.enabled
+    module: gamification
+    field_path: brand.gamification.enabled
+    label: Gamification
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.enabled
+    documents:
+      - brand/generated/drafts/gamification.md
+    validator: boolean
+    related_ids: []
+  - id: brand.gamification.model
+    module: gamification
+    field_path: brand.gamification.model
+    label: Progress model
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.model
+    documents:
+      - brand/generated/drafts/gamification.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gamification.streaks
+    module: gamification
+    field_path: brand.gamification.streaks
+    label: Streak policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.streaks
+    documents:
+      - brand/generated/drafts/gamification.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gamification.ethics
+    module: gamification
+    field_path: brand.gamification.ethics
+    label: Reward ethics
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.ethics
+    documents:
+      - brand/generated/drafts/gamification.md
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gamification.failure
+    module: gamification
+    field_path: brand.gamification.failure
+    label: Failure tone
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.failure
+    documents:
+      - brand/generated/drafts/gamification.md
+      - brand/generated/drafts/mascot-expression.md
+    validator: non_empty
+    related_ids: []
+  - id: brand.gamification.mascot_link
+    module: gamification
+    field_path: brand.gamification.mascot_link
+    label: Character link
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - brand.gamification.mascot_link
+    documents:
+      - brand/generated/drafts/gamification.md
+    validator: non_empty
+    related_ids:
+      - brand.mascot.unlocks
+  - id: business.identity.new_or_existing
+    module: business-company
+    field_path: business.identity.new_or_existing
+    label: New or existing business
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.identity.new_or_existing
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: one_of
+    related_ids: []
+  - id: business.identity.trade_name
+    module: business-company
+    field_path: business.identity.trade_name
+    label: Trade name
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - business.identity.trade_name
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: business.identity.legal_name
+    module: business-company
+    field_path: business.identity.legal_name
+    label: Legal name
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.identity.legal_name
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: non_empty
+    related_ids: []
+  - id: business.identity.sector
+    module: business-company
+    field_path: business.identity.sector
+    label: Sector
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.identity.sector
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: one_of
+    related_ids: []
+  - id: business.offer.summary
+    module: business-company
+    field_path: business.offer.summary
+    label: Offer
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.offer.summary
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.stage.current
+    module: business-company
+    field_path: business.stage.current
+    label: Operating stage
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.stage.current
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: one_of
+    related_ids: []
+  - id: business.market.geography
+    module: business-company
+    field_path: business.market.geography
+    label: Geography
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.market.geography
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: business.customer.primary_segment
+    module: business-company
+    field_path: business.customer.primary_segment
+    label: Primary customer
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.customer.primary_segment
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids:
+      - brand.personality.traits
+      - business.product.jobs
+  - id: business.offer.value_proposition
+    module: business-company
+    field_path: business.offer.value_proposition
+    label: Value proposition
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.offer.value_proposition
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/brand-strategy.md
+      - brand/generated/drafts/business-marketing.md
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.problem.pains
+    module: business-company
+    field_path: business.problem.pains
+    label: Customer pains
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.problem.pains
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: non_empty
+    related_ids: []
+  - id: business.model.revenue
+    module: business-company
+    field_path: business.model.revenue
+    label: Revenue model
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.model.revenue
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/business-sales.md
+      - brand/generated/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.model.defensibility
+    module: business-company
+    field_path: business.model.defensibility
+    label: Defensibility
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.model.defensibility
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: non_empty
+    related_ids: []
+  - id: business.plan.milestone
+    module: business-company
+    field_path: business.plan.milestone
+    label: Next milestone
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.plan.milestone
+    documents:
+      - brand/generated/drafts/business-company.md
+    validator: non_empty
+    related_ids: []
+  - id: business.plan.risks
+    module: business-company
+    field_path: business.plan.risks
+    label: Top risks
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.plan.risks
+    documents:
+      - brand/generated/drafts/business-company.md
+      - brand/generated/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.objective
+    module: business-marketing
+    field_path: business.marketing.objective
+    label: Marketing objective
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.marketing.objective
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.channels
+    module: business-marketing
+    field_path: business.marketing.channels
+    label: Channels
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.marketing.channels
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.journey
+    module: business-marketing
+    field_path: business.marketing.journey
+    label: Journey hypothesis
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.marketing.journey
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.pillars
+    module: business-marketing
+    field_path: business.marketing.pillars
+    label: Content pillars
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.marketing.pillars
+    documents:
+      - brand/generated/drafts/business-marketing.md
+      - brand/generated/drafts/social.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.budget
+    module: business-marketing
+    field_path: business.marketing.budget
+    label: Channel budget
+    required: true
+    weight: 2
+    sensitivity: restricted
+    question_ids:
+      - business.marketing.budget
+    documents:
+      - brand/restricted/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.marketing.attribution
+    module: business-marketing
+    field_path: business.marketing.attribution
+    label: Attribution
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.marketing.attribution
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: one_of
+    related_ids: []
+  - id: business.marketing.availability_claim
+    module: business-marketing
+    field_path: business.marketing.availability_claim
+    label: Availability claims
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.marketing.availability_claim
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: one_of
+    related_ids:
+      - business.product.public_status
+  - id: business.marketing.utm
+    module: business-marketing
+    field_path: business.marketing.utm
+    label: UTM taxonomy
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.marketing.utm
+    documents:
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.portfolio
+    module: business-product
+    field_path: business.product.portfolio
+    label: Portfolio
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.portfolio
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.jobs
+    module: business-product
+    field_path: business.product.jobs
+    label: Jobs to be done
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.jobs
+    documents:
+      - brand/generated/drafts/business-product.md
+      - brand/generated/drafts/brand-strategy.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.mvp
+    module: business-product
+    field_path: business.product.mvp
+    label: MVP boundary
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.mvp
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.public_status
+    module: business-product
+    field_path: business.product.public_status
+    label: Public status
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.public_status
+    documents:
+      - brand/generated/drafts/business-product.md
+      - brand/generated/drafts/business-marketing.md
+      - brand/generated/drafts/campaigns.md
+    validator: one_of
+    related_ids:
+      - business.marketing.availability_claim
+  - id: business.product.roadmap
+    module: business-product
+    field_path: business.product.roadmap
+    label: Roadmap horizon
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.roadmap
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.accessibility
+    module: business-product
+    field_path: business.product.accessibility
+    label: Accessibility intent
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.accessibility
+    documents:
+      - brand/generated/drafts/business-product.md
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.activation
+    module: business-product
+    field_path: business.product.activation
+    label: Activation definition
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.product.activation
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.learning_model
+    module: business-product
+    field_path: business.product.learning_model
+    label: Learning model
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.product.learning_model
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.learning_languages
+    module: business-product
+    field_path: business.product.learning_languages
+    label: Languages taught
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.product.learning_languages
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.product.evidence_policy
+    module: business-product
+    field_path: business.product.evidence_policy
+    label: Research evidence policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.product.evidence_policy
+    documents:
+      - brand/generated/drafts/business-product.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.motion
+    module: business-sales
+    field_path: business.sales.motion
+    label: Sales motion
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.sales.motion
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: one_of
+    related_ids: []
+  - id: business.sales.buyer
+    module: business-sales
+    field_path: business.sales.buyer
+    label: Buyer versus user
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.sales.buyer
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids:
+      - business.customer.primary_segment
+  - id: business.sales.pricing
+    module: business-sales
+    field_path: business.sales.pricing
+    label: Pricing summary
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.sales.pricing
+    documents:
+      - brand/generated/drafts/business-sales.md
+      - brand/generated/drafts/business-marketing.md
+      - brand/generated/drafts/business-finance.md
+      - brand/generated/drafts/campaigns.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.discount
+    module: business-sales
+    field_path: business.sales.discount
+    label: Discount policy
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.sales.discount
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.stages
+    module: business-sales
+    field_path: business.sales.stages
+    label: Pipeline stages
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.sales.stages
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.cycle
+    module: business-sales
+    field_path: business.sales.cycle
+    label: Cycle assumption
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.sales.cycle
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.b2b_packaging
+    module: business-sales
+    field_path: business.sales.b2b_packaging
+    label: B2B packaging
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.sales.b2b_packaging
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.sales.consumer_path
+    module: business-sales
+    field_path: business.sales.consumer_path
+    label: Consumer purchase path
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.sales.consumer_path
+    documents:
+      - brand/generated/drafts/business-sales.md
+    validator: non_empty
+    related_ids: []
+  - id: business.cx.onboarding
+    module: business-customer
+    field_path: business.cx.onboarding
+    label: Onboarding outcome
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.cx.onboarding
+    documents:
+      - brand/generated/drafts/business-customer.md
+      - brand/generated/drafts/product-ui.md
+    validator: non_empty
+    related_ids: []
+  - id: business.cx.channels
+    module: business-customer
+    field_path: business.cx.channels
+    label: Support channels
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.cx.channels
+    documents:
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: business.cx.sla
+    module: business-customer
+    field_path: business.cx.sla
+    label: Response commitment
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.cx.sla
+    documents:
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: business.cx.feedback_metric
+    module: business-customer
+    field_path: business.cx.feedback_metric
+    label: Feedback metric
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.cx.feedback_metric
+    documents:
+      - brand/generated/drafts/business-customer.md
+    validator: one_of
+    related_ids: []
+  - id: business.cx.churn
+    module: business-customer
+    field_path: business.cx.churn
+    label: Cancellation stance
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.cx.churn
+    documents:
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: business.cx.case_study
+    module: business-customer
+    field_path: business.cx.case_study
+    label: Case-study permission
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.cx.case_study
+    documents:
+      - brand/generated/drafts/business-customer.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.roles
+    module: business-operations
+    field_path: business.ops.roles
+    label: Roles
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.ops.roles
+    documents:
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.decisions
+    module: business-operations
+    field_path: business.ops.decisions
+    label: Decision rights
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.ops.decisions
+    documents:
+      - brand/generated/drafts/business-operations.md
+      - brand/generated/drafts/governance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.sop
+    module: business-operations
+    field_path: business.ops.sop
+    label: First SOP
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.ops.sop
+    documents:
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.vendors
+    module: business-operations
+    field_path: business.ops.vendors
+    label: Vendors
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.ops.vendors
+    documents:
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.cadence
+    module: business-operations
+    field_path: business.ops.cadence
+    label: Meeting cadence
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.ops.cadence
+    documents:
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: business.ops.tracker
+    module: business-operations
+    field_path: business.ops.tracker
+    label: Task tracker
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.ops.tracker
+    documents:
+      - brand/generated/drafts/business-operations.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.currency
+    module: business-finance
+    field_path: business.finance.currency
+    label: Reporting currency
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.finance.currency
+    documents:
+      - brand/generated/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.basis
+    module: business-finance
+    field_path: business.finance.basis
+    label: Accounting basis
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.finance.basis
+    documents:
+      - brand/generated/drafts/business-finance.md
+    validator: one_of
+    related_ids: []
+  - id: business.finance.revenue_figure
+    module: business-finance
+    field_path: business.finance.revenue_figure
+    label: Revenue figure
+    required: true
+    weight: 2
+    sensitivity: restricted
+    question_ids:
+      - business.finance.revenue_figure
+    documents:
+      - brand/restricted/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.costs
+    module: business-finance
+    field_path: business.finance.costs
+    label: Cost drivers
+    required: true
+    weight: 2
+    sensitivity: restricted
+    question_ids:
+      - business.finance.costs
+    documents:
+      - brand/restricted/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.runway
+    module: business-finance
+    field_path: business.finance.runway
+    label: Runway
+    required: false
+    weight: 1
+    sensitivity: restricted
+    question_ids:
+      - business.finance.runway
+    documents:
+      - brand/restricted/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.economics_note
+    module: business-finance
+    field_path: business.finance.economics_note
+    label: Pricing economics note
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.finance.economics_note
+    documents:
+      - brand/generated/drafts/business-finance.md
+    validator: non_empty
+    related_ids:
+      - business.sales.pricing
+  - id: business.finance.system
+    module: business-finance
+    field_path: business.finance.system
+    label: Finance system
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.finance.system
+    documents:
+      - brand/generated/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.finance.scenarios
+    module: business-finance
+    field_path: business.finance.scenarios
+    label: Scenarios
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.finance.scenarios
+    documents:
+      - brand/generated/drafts/business-finance.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.stack
+    module: business-engineering
+    field_path: business.engineering.stack
+    label: Stack
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.engineering.stack
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.environments
+    module: business-engineering
+    field_path: business.engineering.environments
+    label: Environments
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.engineering.environments
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.data_classes
+    module: business-engineering
+    field_path: business.engineering.data_classes
+    label: Data classes
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.engineering.data_classes
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.secrets
+    module: business-engineering
+    field_path: business.engineering.secrets
+    label: Secrets policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.engineering.secrets
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.reliability
+    module: business-engineering
+    field_path: business.engineering.reliability
+    label: Reliability intent
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.engineering.reliability
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.engineering.repos
+    module: business-engineering
+    field_path: business.engineering.repos
+    label: Code repositories
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.engineering.repos
+    documents:
+      - brand/generated/drafts/business-engineering.md
+    validator: non_empty
+    related_ids: []
+  - id: business.legal.entity
+    module: business-legal
+    field_path: business.legal.entity
+    label: Entity status
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.entity
+    documents:
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: business.legal.trademark
+    module: business-legal
+    field_path: business.legal.trademark
+    label: Trademark status
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.trademark
+    documents:
+      - brand/generated/drafts/business-legal.md
+    validator: one_of
+    related_ids: []
+  - id: business.legal.privacy
+    module: business-legal
+    field_path: business.legal.privacy
+    label: Privacy scope
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.privacy
+    documents:
+      - brand/generated/drafts/business-legal.md
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.legal.consent
+    module: business-legal
+    field_path: business.legal.consent
+    label: Marketing consent
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.consent
+    documents:
+      - brand/generated/drafts/business-legal.md
+    validator: non_empty
+    related_ids: []
+  - id: business.legal.third_party
+    module: business-legal
+    field_path: business.legal.third_party
+    label: Third-party content
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.third_party
+    documents:
+      - brand/generated/drafts/business-legal.md
+      - brand/generated/drafts/typography.md
+      - brand/generated/drafts/sonic.md
+    validator: non_empty
+    related_ids: []
+  - id: business.legal.counsel
+    module: business-legal
+    field_path: business.legal.counsel
+    label: Counsel review
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.legal.counsel
+    documents:
+      - brand/generated/drafts/business-legal.md
+    validator: boolean
+    related_ids: []
+  - id: business.growth.loops
+    module: business-growth
+    field_path: business.growth.loops
+    label: Growth loops
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.growth.loops
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: non_empty
+    related_ids: []
+  - id: business.growth.hypothesis
+    module: business-growth
+    field_path: business.growth.hypothesis
+    label: First hypothesis
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.growth.hypothesis
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: non_empty
+    related_ids: []
+  - id: business.growth.guardrail
+    module: business-growth
+    field_path: business.growth.guardrail
+    label: Guardrails
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.growth.guardrail
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: non_empty
+    related_ids: []
+  - id: business.growth.owner
+    module: business-growth
+    field_path: business.growth.owner
+    label: Experiment owner
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.growth.owner
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: non_empty
+    related_ids: []
+  - id: business.growth.results_policy
+    module: business-growth
+    field_path: business.growth.results_policy
+    label: Results policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.growth.results_policy
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: boolean
+    related_ids: []
+  - id: business.growth.replication
+    module: business-growth
+    field_path: business.growth.replication
+    label: Replication rule
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.growth.replication
+    documents:
+      - brand/generated/drafts/business-growth.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.annual
+    module: business-goals
+    field_path: business.goals.annual
+    label: Annual objective
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.goals.annual
+    documents:
+      - brand/generated/drafts/business-goals.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.quarter
+    module: business-goals
+    field_path: business.goals.quarter
+    label: Quarterly focus
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.goals.quarter
+    documents:
+      - brand/generated/drafts/business-goals.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.north_star
+    module: business-goals
+    field_path: business.goals.north_star
+    label: North star definition
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.goals.north_star
+    documents:
+      - brand/generated/drafts/business-goals.md
+      - brand/generated/drafts/business-marketing.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.sources
+    module: business-goals
+    field_path: business.goals.sources
+    label: Metric sources
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.goals.sources
+    documents:
+      - brand/generated/drafts/business-goals.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.cadence
+    module: business-goals
+    field_path: business.goals.cadence
+    label: Review cadence
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.goals.cadence
+    documents:
+      - brand/generated/drafts/business-goals.md
+    validator: non_empty
+    related_ids: []
+  - id: business.goals.plan_vs_actual
+    module: business-goals
+    field_path: business.goals.plan_vs_actual
+    label: Plan versus actual
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.goals.plan_vs_actual
+    documents:
+      - brand/generated/drafts/business-goals.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.channels
+    module: business-partnerships
+    field_path: business.partners.channels
+    label: Partners
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.partners.channels
+    documents:
+      - brand/generated/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.share
+    module: business-partnerships
+    field_path: business.partners.share
+    label: Revenue share
+    required: false
+    weight: 1
+    sensitivity: restricted
+    question_ids:
+      - business.partners.share
+    documents:
+      - brand/restricted/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.risk_process
+    module: business-partnerships
+    field_path: business.partners.risk_process
+    label: Risk review
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.partners.risk_process
+    documents:
+      - brand/generated/drafts/business-partnerships.md
+      - brand/generated/drafts/business-company.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.narrative
+    module: business-partnerships
+    field_path: business.partners.narrative
+    label: External narrative
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - business.partners.narrative
+    documents:
+      - brand/generated/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.diligence
+    module: business-partnerships
+    field_path: business.partners.diligence
+    label: Diligence index
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - business.partners.diligence
+    documents:
+      - brand/generated/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: business.partners.board_home
+    module: business-partnerships
+    field_path: business.partners.board_home
+    label: Board documents
+    required: false
+    weight: 1
+    sensitivity: restricted
+    question_ids:
+      - business.partners.board_home
+    documents:
+      - brand/restricted/drafts/business-partnerships.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.public_name
+    module: personal-identity
+    field_path: personal.identity.public_name
+    label: Public name
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.identity.public_name
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids:
+      - business.identity.trade_name
+  - id: personal.identity.headline
+    module: personal-identity
+    field_path: personal.identity.headline
+    label: Professional headline
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.identity.headline
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.roles
+    module: personal-identity
+    field_path: personal.identity.roles
+    label: Roles, specialties and industries
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.identity.roles
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.name_forms
+    module: personal-identity
+    field_path: personal.identity.name_forms
+    label: Other approved name forms
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.identity.name_forms
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.localized_headline
+    module: personal-identity
+    field_path: personal.identity.localized_headline
+    label: Localized headline
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.identity.localized_headline
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.service_scope
+    module: personal-identity
+    field_path: personal.identity.service_scope
+    label: Geographic service scope
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.identity.service_scope
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.identity.pronouns
+    module: personal-identity
+    field_path: personal.identity.pronouns
+    label: Pronouns (optional)
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.identity.pronouns
+    documents:
+      - brand/generated/drafts/personal-identity.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.positioning.known_for
+    module: personal-positioning
+    field_path: personal.positioning.known_for
+    label: Known for
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.positioning.known_for
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.positioning.primary_audience
+    module: personal-positioning
+    field_path: personal.positioning.primary_audience
+    label: Primary audience
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.positioning.primary_audience
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.positioning.expertise
+    module: personal-positioning
+    field_path: personal.positioning.expertise
+    label: Expertise topics
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.positioning.expertise
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.positioning.outcome
+    module: personal-positioning
+    field_path: personal.positioning.outcome
+    label: Outcome you help create
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.positioning.outcome
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.positioning.perspective
+    module: personal-positioning
+    field_path: personal.positioning.perspective
+    label: Point of view
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.positioning.perspective
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.services.offers
+    module: personal-positioning
+    field_path: personal.services.offers
+    label: Offers
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.services.offers
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids:
+      - business.offer.summary
+  - id: personal.positioning.boundaries
+    module: personal-positioning
+    field_path: personal.positioning.boundaries
+    label: Expertise boundaries
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.positioning.boundaries
+    documents:
+      - brand/generated/drafts/personal-positioning.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.story.origin
+    module: personal-story
+    field_path: personal.story.origin
+    label: Origin
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.story.origin
+    documents:
+      - brand/generated/drafts/personal-story.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.story.turning_points
+    module: personal-story
+    field_path: personal.story.turning_points
+    label: Turning points
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.story.turning_points
+    documents:
+      - brand/generated/drafts/personal-story.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.story.motivation
+    module: personal-story
+    field_path: personal.story.motivation
+    label: Motivation
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.story.motivation
+    documents:
+      - brand/generated/drafts/personal-story.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.story.timeline
+    module: personal-story
+    field_path: personal.story.timeline
+    label: Milestone timeline
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.story.timeline
+    documents:
+      - brand/generated/drafts/personal-story.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.story.next_chapter
+    module: personal-story
+    field_path: personal.story.next_chapter
+    label: Next chapter (aspiration)
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.story.next_chapter
+    documents:
+      - brand/generated/drafts/personal-story.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.experience.relationships
+    module: personal-career
+    field_path: personal.experience.relationships
+    label: Organizations and relationships
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.experience.relationships
+    documents:
+      - brand/generated/drafts/personal-career.md
+    validator: structured
+    related_ids:
+      - business.identity.trade_name
+  - id: personal.experience.roles
+    module: personal-career
+    field_path: personal.experience.roles
+    label: Responsibilities by role
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.experience.roles
+    documents:
+      - brand/generated/drafts/personal-career.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.experience.highlights
+    module: personal-career
+    field_path: personal.experience.highlights
+    label: Demonstrable results
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.experience.highlights
+    documents:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.credibility.credentials
+    module: personal-career
+    field_path: personal.credibility.credentials
+    label: Education and certifications
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.credibility.credentials
+    documents:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.credibility.awards
+    module: personal-career
+    field_path: personal.credibility.awards
+    label: Awards and recognition
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.credibility.awards
+    documents:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.credibility.evidence
+    module: personal-proof
+    field_path: personal.credibility.evidence
+    label: Evidence sources
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.credibility.evidence
+    documents:
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.portfolio.projects
+    module: personal-proof
+    field_path: personal.portfolio.projects
+    label: Shareable projects and case studies
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.portfolio.projects
+    documents:
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.reputation.testimonials
+    module: personal-proof
+    field_path: personal.reputation.testimonials
+    label: Testimonials
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.reputation.testimonials
+    documents:
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.reputation.conflicts
+    module: personal-proof
+    field_path: personal.reputation.conflicts
+    label: Conflicts of interest
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.reputation.conflicts
+    documents:
+      - brand/generated/drafts/personal-proof.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.governance.public_claim_policy
+    module: personal-proof
+    field_path: personal.governance.public_claim_policy
+    label: Public claim policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.governance.public_claim_policy
+    documents:
+      - brand/generated/drafts/personal-proof.md
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.content.pillars
+    module: personal-content
+    field_path: personal.content.pillars
+    label: Content pillars
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.content.pillars
+    documents:
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.content.channels
+    module: personal-content
+    field_path: personal.content.channels
+    label: Channels and their goals
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.content.channels
+    documents:
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.content.channel_tone
+    module: personal-content
+    field_path: personal.content.channel_tone
+    label: Channel tone differences
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.content.channel_tone
+    documents:
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.goals.outcomes
+    module: personal-content
+    field_path: personal.goals.outcomes
+    label: Outcome that matters
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.goals.outcomes
+    documents:
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.goals.kpis
+    module: personal-content
+    field_path: personal.goals.kpis
+    label: Measurement
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.goals.kpis
+    documents:
+      - brand/generated/drafts/personal-content.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.media.photo_guidelines
+    module: personal-presence
+    field_path: personal.media.photo_guidelines
+    label: Portrait style
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.media.photo_guidelines
+    documents:
+      - brand/generated/drafts/personal-presence.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.media.avoid
+    module: personal-presence
+    field_path: personal.media.avoid
+    label: Images to avoid
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.media.avoid
+    documents:
+      - brand/generated/drafts/personal-presence.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.media.portraits
+    module: personal-presence
+    field_path: personal.media.portraits
+    label: Approved portraits and rights
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.media.portraits
+    documents:
+      - brand/generated/drafts/personal-presence.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.media.presentation
+    module: personal-presence
+    field_path: personal.media.presentation
+    label: Presentation guidelines
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.media.presentation
+    documents:
+      - brand/generated/drafts/personal-presence.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.media.visual_templates
+    module: personal-presence
+    field_path: personal.media.visual_templates
+    label: Templates that reuse your look
+    required: false
+    weight: 1
+    sensitivity: internal
+    question_ids:
+      - personal.media.visual_templates
+    documents:
+      - brand/generated/drafts/personal-presence.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.privacy.boundaries
+    module: personal-boundaries
+    field_path: personal.privacy.boundaries
+    label: Private topics
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.privacy.boundaries
+    documents:
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.privacy.never_publish
+    module: personal-boundaries
+    field_path: personal.privacy.never_publish
+    label: Never-publish details
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.privacy.never_publish
+    documents:
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.contact.public_channels
+    module: personal-boundaries
+    field_path: personal.contact.public_channels
+    label: Public professional contact
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.contact.public_channels
+    documents:
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.governance.reviewer
+    module: personal-boundaries
+    field_path: personal.governance.reviewer
+    label: Draft reviewer
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.governance.reviewer
+    documents:
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.privacy.availability
+    module: personal-boundaries
+    field_path: personal.privacy.availability
+    label: Public availability
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.privacy.availability
+    documents:
+      - brand/generated/drafts/personal-boundaries.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.founder.ventures
+    module: personal-founder
+    field_path: personal.founder.ventures
+    label: Ventures and your role
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.founder.ventures
+    documents:
+      - brand/generated/drafts/personal-founder.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.founder.narrative
+    module: personal-founder
+    field_path: personal.founder.narrative
+    label: Founder narrative
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.founder.narrative
+    documents:
+      - brand/generated/drafts/personal-founder.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.founder.sectors
+    module: personal-founder
+    field_path: personal.founder.sectors
+    label: Sectors you build in
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.founder.sectors
+    documents:
+      - brand/generated/drafts/personal-founder.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.founder.leadership_topics
+    module: personal-founder
+    field_path: personal.founder.leadership_topics
+    label: Leadership topics
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.founder.leadership_topics
+    documents:
+      - brand/generated/drafts/personal-founder.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.founder.investor_relations
+    module: personal-founder
+    field_path: personal.founder.investor_relations
+    label: Investor and press positioning
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.founder.investor_relations
+    documents:
+      - brand/generated/drafts/personal-founder.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.consulting.methodology
+    module: personal-consultant
+    field_path: personal.consulting.methodology
+    label: Methodology
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.consulting.methodology
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.consulting.engagements
+    module: personal-consultant
+    field_path: personal.consulting.engagements
+    label: Engagement formats
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.consulting.engagements
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.consulting.target_clients
+    module: personal-consultant
+    field_path: personal.consulting.target_clients
+    label: Target clients
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.consulting.target_clients
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.consulting.pricing_policy
+    module: personal-consultant
+    field_path: personal.consulting.pricing_policy
+    label: Pricing publication policy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.consulting.pricing_policy
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: one_of
+    related_ids: []
+  - id: personal.consulting.confidentiality
+    module: personal-consultant
+    field_path: personal.consulting.confidentiality
+    label: Confidentiality and ethics
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.consulting.confidentiality
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.consulting.cta
+    module: personal-consultant
+    field_path: personal.consulting.cta
+    label: Inquiry call to action
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.consulting.cta
+    documents:
+      - brand/generated/drafts/personal-consultant.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.creator.series
+    module: personal-creator
+    field_path: personal.creator.series
+    label: Content series
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.creator.series
+    documents:
+      - brand/generated/drafts/personal-creator.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.creator.audience_segments
+    module: personal-creator
+    field_path: personal.creator.audience_segments
+    label: Audience segments
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.creator.audience_segments
+    documents:
+      - brand/generated/drafts/personal-creator.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.creator.metrics
+    module: personal-creator
+    field_path: personal.creator.metrics
+    label: Audience metrics (dated, sourced)
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.creator.metrics
+    documents:
+      - brand/generated/drafts/personal-creator.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.creator.sponsorship
+    module: personal-creator
+    field_path: personal.creator.sponsorship
+    label: Sponsorship categories
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.creator.sponsorship
+    documents:
+      - brand/generated/drafts/personal-creator.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.creator.disclosure
+    module: personal-creator
+    field_path: personal.creator.disclosure
+    label: Disclosure rules
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.creator.disclosure
+    documents:
+      - brand/generated/drafts/personal-creator.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.artist.practice
+    module: personal-artist
+    field_path: personal.artist.practice
+    label: Practice and philosophy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.artist.practice
+    documents:
+      - brand/generated/drafts/personal-artist.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.artist.aesthetic
+    module: personal-artist
+    field_path: personal.artist.aesthetic
+    label: Aesthetic vocabulary
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.artist.aesthetic
+    documents:
+      - brand/generated/drafts/personal-artist.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.artist.portfolio_taxonomy
+    module: personal-artist
+    field_path: personal.artist.portfolio_taxonomy
+    label: Portfolio taxonomy
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.artist.portfolio_taxonomy
+    documents:
+      - brand/generated/drafts/personal-artist.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.artist.exhibitions
+    module: personal-artist
+    field_path: personal.artist.exhibitions
+    label: Exhibitions and publications
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.artist.exhibitions
+    documents:
+      - brand/generated/drafts/personal-artist.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.artist.usage_rights
+    module: personal-artist
+    field_path: personal.artist.usage_rights
+    label: Usage rights and credits
+    required: true
+    weight: 2
+    sensitivity: internal
+    question_ids:
+      - personal.artist.usage_rights
+    documents:
+      - brand/generated/drafts/personal-artist.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.speaking.topics
+    module: personal-speaker
+    field_path: personal.speaking.topics
+    label: Speaking topics
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.speaking.topics
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.speaking.abstracts
+    module: personal-speaker
+    field_path: personal.speaking.abstracts
+    label: Talk abstracts
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.speaking.abstracts
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.speaking.languages
+    module: personal-speaker
+    field_path: personal.speaking.languages
+    label: Speaking languages
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.speaking.languages
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.speaking.prior_talks
+    module: personal-speaker
+    field_path: personal.speaking.prior_talks
+    label: Previous talks
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.speaking.prior_talks
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.speaking.introduction
+    module: personal-speaker
+    field_path: personal.speaking.introduction
+    label: Stage introduction
+    required: true
+    weight: 2
+    sensitivity: public
+    question_ids:
+      - personal.speaking.introduction
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []
+  - id: personal.author.publications
+    module: personal-speaker
+    field_path: personal.author.publications
+    label: Publications
+    required: false
+    weight: 1
+    sensitivity: public
+    question_ids:
+      - personal.author.publications
+    documents:
+      - brand/generated/drafts/personal-speaker.md
+    validator: non_empty
+    related_ids: []

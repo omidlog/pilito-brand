@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run tokens:build
+      - run: npm run prepare:docs
+      - run: npm run typecheck
+      - run: npm run validate
+      - run: npm run test
+      - run: npm run build -w @brand-os/docs
+      - run: npx tsx scripts/scan-public.ts apps/docs/build
+      - run: npm run build:docs:nomascot
+      - run: npx tsx scripts/scan-public.ts apps/docs/build
+      # The internal audience (drafts, internal Brand Book, review dashboard) must compile too.
+      # It is never deployed and is not scanned as public.
+      - name: internal docs build compiles
+        run: npx tsx scripts/prepare-docs.ts --audience internal && npm run build -w @brand-os/docs

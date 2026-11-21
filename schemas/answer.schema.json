@@ -1,0 +1,17 @@
+{
+  "$id": "https://brand-os.local/schemas/answer.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Answer ledger record",
+  "type": "object",
+  "required": ["answer_id", "question_id", "status", "visibility", "authority", "source_type"],
+  "additionalProperties": true,
+  "properties": {
+    "answer_id": { "type": "string" },
+    "question_id": { "type": "string" },
+    "status": { "type": "string" },
+    "visibility": { "enum": ["public", "internal", "restricted"] },
+    "authority": { "type": "string" },
+    "source_type": { "type": ["string", "null"] },
+    "value": { "type": ["string", "number", "boolean", "null"] }
+  }
+}

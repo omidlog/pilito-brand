@@ -1,0 +1,481 @@
+schema_version: 1
+states:
+  - id: mascot.learning.flashcard-practice
+    category: learning
+    name: Flashcard practice
+    intent: Short recall drill. Education-specific.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Short recall drill. Education-specific.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - learning
+      - flashcard-practice
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Flashcard practice is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Short recall drill. Education-specific. Pose: Beside the learning
+      surface, not instead of the content.. Face: Short recall drill. Education-specific.. Leave the
+      drawing TBD."
+    usage: "Learning context: Flashcard practice. Skip the whole category if the sector is not education."
+  - id: mascot.learning.recall
+    category: learning
+    name: Recall
+    intent: Remembering without showing the answer first.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Remembering without showing the answer first.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - recall
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Recall is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Remembering without showing the answer first. Pose: Beside the
+      learning surface, not instead of the content.. Face: Remembering without showing the answer
+      first.. Leave the drawing TBD."
+    usage: "Learning context: Recall. Skip the whole category if the sector is not education."
+  - id: mascot.learning.new-word
+    category: learning
+    name: New word
+    intent: Introducing one new item.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Introducing one new item.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - new-word
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: New word is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Introducing one new item. Pose: Beside the learning surface, not
+      instead of the content.. Face: Introducing one new item.. Leave the drawing TBD."
+    usage: "Learning context: New word. Skip the whole category if the sector is not education."
+  - id: mascot.learning.sentence-practice
+    category: learning
+    name: Sentence practice
+    intent: Using an item in a sentence.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Using an item in a sentence.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - sentence-practice
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sentence practice is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Using an item in a sentence. Pose: Beside the learning surface,
+      not instead of the content.. Face: Using an item in a sentence.. Leave the drawing TBD."
+    usage: "Learning context: Sentence practice. Skip the whole category if the sector is not education."
+  - id: mascot.learning.quiz
+    category: learning
+    name: Quiz
+    intent: A check, not a trick.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: A check, not a trick.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - quiz
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Quiz is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A check, not a trick. Pose: Beside the learning surface, not
+      instead of the content.. Face: A check, not a trick.. Leave the drawing TBD."
+    usage: "Learning context: Quiz. Skip the whole category if the sector is not education."
+  - id: mascot.learning.pronunciation
+    category: learning
+    name: Pronunciation
+    intent: Speaking or listening to a form. Needs a silent alternative.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Speaking or listening to a form. Needs a silent alternative.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - pronunciation
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Pronunciation is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Speaking or listening to a form. Needs a silent alternative.
+      Pose: Beside the learning surface, not instead of the content.. Face: Speaking or listening to
+      a form. Needs a silent alternative.. Leave the drawing TBD."
+    usage: "Learning context: Pronunciation. Skip the whole category if the sector is not education."
+  - id: mascot.learning.listening
+    category: learning
+    name: Listening
+    intent: Audio-led task with captions or a transcript path.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Audio-led task with captions or a transcript path.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - listening
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Listening is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Audio-led task with captions or a transcript path. Pose: Beside
+      the learning surface, not instead of the content.. Face: Audio-led task with captions or a
+      transcript path.. Leave the drawing TBD."
+    usage: "Learning context: Listening. Skip the whole category if the sector is not education."
+  - id: mascot.learning.speaking
+    category: learning
+    name: Speaking
+    intent: User production. No fake fluency score.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: User production. No fake fluency score.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - speaking
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Speaking is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: User production. No fake fluency score. Pose: Beside the learning
+      surface, not instead of the content.. Face: User production. No fake fluency score.. Leave the
+      drawing TBD."
+    usage: "Learning context: Speaking. Skip the whole category if the sector is not education."
+  - id: mascot.learning.writing
+    category: learning
+    name: Writing
+    intent: Text production.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Text production.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - writing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Writing is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Text production. Pose: Beside the learning surface, not instead
+      of the content.. Face: Text production.. Leave the drawing TBD."
+    usage: "Learning context: Writing. Skip the whole category if the sector is not education."
+  - id: mascot.learning.review
+    category: learning
+    name: Review
+    intent: Returning to older material.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Returning to older material.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - review
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Review is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Returning to older material. Pose: Beside the learning surface,
+      not instead of the content.. Face: Returning to older material.. Leave the drawing TBD."
+    usage: "Learning context: Review. Skip the whole category if the sector is not education."
+  - id: mascot.learning.spaced-repetition
+    category: learning
+    name: Spaced repetition
+    intent: Only if that method is actually chosen.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Only if that method is actually chosen.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - spaced-repetition
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Spaced repetition is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if that method is actually chosen. Pose: Beside the learning
+      surface, not instead of the content.. Face: Only if that method is actually chosen.. Leave the
+      drawing TBD."
+    usage: "Learning context: Spaced repetition. Skip the whole category if the sector is not education."
+  - id: mascot.learning.hard-word
+    category: learning
+    name: Hard item
+    intent: An item the learner is struggling with. No shame.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: An item the learner is struggling with. No shame.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - hard-word
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Hard item is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: An item the learner is struggling with. No shame. Pose: Beside
+      the learning surface, not instead of the content.. Face: An item the learner is struggling
+      with. No shame.. Leave the drawing TBD."
+    usage: "Learning context: Hard item. Skip the whole category if the sector is not education."
+  - id: mascot.learning.lesson-completed
+    category: learning
+    name: Lesson completed
+    intent: The end of a unit that exists in the product.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: The end of a unit that exists in the product.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - lesson-completed
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Lesson completed is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: The end of a unit that exists in the product. Pose: Beside the
+      learning surface, not instead of the content.. Face: The end of a unit that exists in the
+      product.. Leave the drawing TBD."
+    usage: "Learning context: Lesson completed. Skip the whole category if the sector is not education."
+  - id: mascot.learning.encouragement
+    category: learning
+    name: Encouragement
+    intent: Support mid-task.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Support mid-task.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - encouragement
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Encouragement is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Support mid-task. Pose: Beside the learning surface, not instead
+      of the content.. Face: Support mid-task.. Leave the drawing TBD."
+    usage: "Learning context: Encouragement. Skip the whole category if the sector is not education."
+  - id: mascot.learning.progress
+    category: learning
+    name: Progress
+    intent: Showing movement through a real syllabus.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Showing movement through a real syllabus.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - progress
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Progress is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Showing movement through a real syllabus. Pose: Beside the
+      learning surface, not instead of the content.. Face: Showing movement through a real
+      syllabus.. Leave the drawing TBD."
+    usage: "Learning context: Progress. Skip the whole category if the sector is not education."

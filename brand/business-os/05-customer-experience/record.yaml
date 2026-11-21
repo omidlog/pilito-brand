@@ -1,0 +1,53 @@
+id: business-customer
+name: "Customer Experience, Success & Support"
+status: not_started
+owner: support
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [verbal-identity, business-product]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.cx.onboarding:
+    label: "Onboarding outcome"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.cx.channels:
+    label: "Support channels"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.cx.sla:
+    label: "Response commitment"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.cx.feedback_metric:
+    label: "Feedback metric"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.cx.churn:
+    label: "Cancellation stance"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.cx.case_study:
+    label: "Case-study permission"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

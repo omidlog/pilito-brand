@@ -1,0 +1,47 @@
+id: sonic
+name: "Sonic Branding"
+status: not_started
+owner: brand
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [verbal-identity]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.sonic.needed:
+    label: "Sound"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.sonic.logo:
+    label: "Sonic logo"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.sonic.cues:
+    label: "Cues"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.sonic.rights:
+    label: "Rights"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.sonic.fallback:
+    label: "Sound off"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

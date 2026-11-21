@@ -1,0 +1,53 @@
+id: business-growth
+name: "Growth & Experimentation"
+status: not_started
+owner: growth
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-marketing, business-product]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.growth.loops:
+    label: "Growth loops"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.growth.hypothesis:
+    label: "First hypothesis"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.growth.guardrail:
+    label: "Guardrails"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.growth.owner:
+    label: "Experiment owner"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.growth.results_policy:
+    label: "Results policy"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.growth.replication:
+    label: "Replication rule"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

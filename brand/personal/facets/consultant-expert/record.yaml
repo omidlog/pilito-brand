@@ -1,0 +1,53 @@
+id: personal-consultant
+name: "Facet: Consultant, Expert & Mentor"
+status: not_started
+owner: person
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [personal-positioning]
+approved_by: null
+category: personal
+type: module-record
+fields:
+  personal.consulting.methodology:
+    label: "Methodology"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.consulting.engagements:
+    label: "Engagement formats"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.consulting.target_clients:
+    label: "Target clients"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.consulting.pricing_policy:
+    label: "Pricing publication policy"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.consulting.confidentiality:
+    label: "Confidentiality and ethics"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.consulting.cta:
+    label: "Inquiry call to action"
+    value: null
+    status: unanswered
+    sensitivity: public
+    notes: "TBD — no approved brand facts in the template"

@@ -1,0 +1,47 @@
+id: personal-content
+name: "Thought Leadership & Channels"
+status: not_started
+owner: person
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [personal-positioning]
+approved_by: null
+category: personal
+type: module-record
+fields:
+  personal.content.pillars:
+    label: "Content pillars"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.content.channels:
+    label: "Channels and their goals"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.content.channel_tone:
+    label: "Channel tone differences"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.goals.outcomes:
+    label: "Outcome that matters"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.goals.kpis:
+    label: "Measurement"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

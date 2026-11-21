@@ -1,0 +1,38 @@
+schema_version: 1
+status: draft
+artwork: none
+note: Catalog slots are proposals. The six stages are an EXAMPLE CONFIGURATION, not a universal rule.
+counts:
+  emotion: 20
+  action: 20
+  ui: 15
+  learning: 15
+  prop: 10
+  seasonal: 10
+total: 90
+mvp:
+  - mascot.emotion.joyful
+  - mascot.emotion.delighted
+  - mascot.emotion.sad
+  - mascot.emotion.confused
+  - mascot.emotion.determined
+  - mascot.emotion.curious
+  - mascot.emotion.worried
+  - mascot.emotion.celebrating
+  - mascot.action.standing
+  - mascot.action.waving
+  - mascot.action.pointing
+  - mascot.action.thinking
+  - mascot.action.cheering
+  - mascot.ui.welcome
+  - mascot.ui.onboarding
+  - mascot.ui.empty-state
+  - mascot.ui.loading
+  - mascot.ui.success
+  - mascot.ui.failure
+  - mascot.ui.hint
+  - mascot.learning.lesson-completed
+  - mascot.learning.encouragement
+  - mascot.learning.progress
+  - mascot.prop.speech-bubble
+  - mascot.seasonal.launch

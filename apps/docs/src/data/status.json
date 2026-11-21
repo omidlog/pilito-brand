@@ -1,0 +1,348 @@
+{
+  "audience": "public",
+  "brandName": "Unpublished",
+  "nameStatus": "unpublished",
+  "placeholderName": null,
+  "coverage": 0,
+  "approval": 0,
+  "required": 0,
+  "requiredUnanswered": 0,
+  "contradictions": 0,
+  "modules": [
+    {
+      "id": "brand-strategy",
+      "title": "Brand Strategy",
+      "code": "01",
+      "group": "brand",
+      "href": "/docs/brand-book/brand-strategy",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "verbal-identity",
+      "title": "Verbal Identity",
+      "code": "02",
+      "group": "brand",
+      "href": "/docs/brand-book/verbal-identity",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "logo-system",
+      "title": "Logo System",
+      "code": "03",
+      "group": "brand",
+      "href": "/docs/brand-book/logo-system",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "color-system",
+      "title": "Color System",
+      "code": "04",
+      "group": "brand",
+      "href": "/docs/brand-book/color-system",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "typography",
+      "title": "Typography",
+      "code": "05",
+      "group": "brand",
+      "href": "/docs/brand-book/typography",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "mascot-identity",
+      "title": "Mascot Identity",
+      "code": "06",
+      "group": "brand",
+      "href": "/docs/brand-book/mascot-identity",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "mascot-expression",
+      "title": "Mascot Expression & Pose Library",
+      "code": "07",
+      "group": "brand",
+      "href": "/docs/brand-book/mascot-expression",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "mascot-evolution",
+      "title": "Mascot Evolution",
+      "code": "08",
+      "group": "brand",
+      "href": "/docs/brand-book/mascot-evolution",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "illustration",
+      "title": "Illustration System",
+      "code": "09",
+      "group": "brand",
+      "href": "/docs/brand-book/illustration",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography & Graphic Elements",
+      "code": "10",
+      "group": "brand",
+      "href": "/docs/brand-book/iconography",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "layout",
+      "title": "Layout & Composition",
+      "code": "11",
+      "group": "brand",
+      "href": "/docs/brand-book/layout",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "product-ui",
+      "title": "Product UI Design System",
+      "code": "12",
+      "group": "brand",
+      "href": "/docs/brand-book/product-ui",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "motion",
+      "title": "Motion Identity",
+      "code": "13",
+      "group": "brand",
+      "href": "/docs/brand-book/motion",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "sonic",
+      "title": "Sonic Branding",
+      "code": "14",
+      "group": "brand",
+      "href": "/docs/brand-book/sonic",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "photo-video",
+      "title": "Photography & Video",
+      "code": "15",
+      "group": "brand",
+      "href": "/docs/brand-book/photo-video",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "social",
+      "title": "Social Media",
+      "code": "16",
+      "group": "brand",
+      "href": "/docs/brand-book/social",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "campaigns",
+      "title": "Marketing & Campaigns",
+      "code": "17",
+      "group": "brand",
+      "href": "/docs/brand-book/campaigns",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "print",
+      "title": "Print, Merchandise & Environment",
+      "code": "18",
+      "group": "brand",
+      "href": "/docs/brand-book/print",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "applications",
+      "title": "Brand Applications",
+      "code": "19",
+      "group": "brand",
+      "href": "/docs/brand-book/applications",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "governance",
+      "title": "Governance & Asset Library",
+      "code": "20",
+      "group": "brand",
+      "href": "/docs/brand-book/governance",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "gamification",
+      "title": "Gamification",
+      "code": "G",
+      "group": "system",
+      "href": "/docs/brand-book/gamification",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-company",
+      "title": "Company & Business Plan",
+      "code": "BO-01",
+      "group": "business",
+      "href": "/docs/business-book/business-company",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-marketing",
+      "title": "Marketing Strategy & Planning",
+      "code": "BO-02",
+      "group": "business",
+      "href": "/docs/business-book/business-marketing",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-product",
+      "title": "Product & Service Strategy",
+      "code": "BO-03",
+      "group": "business",
+      "href": "/docs/business-book/business-product",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-sales",
+      "title": "Sales & Revenue",
+      "code": "BO-04",
+      "group": "business",
+      "href": "/docs/business-book/business-sales",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-customer",
+      "title": "Customer Experience, Success & Support",
+      "code": "BO-05",
+      "group": "business",
+      "href": "/docs/business-book/business-customer",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-operations",
+      "title": "Operations & Team SOPs",
+      "code": "BO-06",
+      "group": "business",
+      "href": "/docs/business-book/business-operations",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-finance",
+      "title": "Finance & Unit Economics",
+      "code": "BO-07",
+      "group": "business",
+      "href": "/docs/business-book/business-finance",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-engineering",
+      "title": "Engineering, Data & Security",
+      "code": "BO-08",
+      "group": "business",
+      "href": "/docs/business-book/business-engineering",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-legal",
+      "title": "Legal, IP & Compliance",
+      "code": "BO-09",
+      "group": "business",
+      "href": "/docs/business-book/business-legal",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-growth",
+      "title": "Growth & Experimentation",
+      "code": "BO-10",
+      "group": "business",
+      "href": "/docs/business-book/business-growth",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-goals",
+      "title": "Goals, KPIs, Analytics & Reviews",
+      "code": "BO-11",
+      "group": "business",
+      "href": "/docs/business-book/business-goals",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    },
+    {
+      "id": "business-partnerships",
+      "title": "Partnerships, Distribution, Risk & Investor Readiness",
+      "code": "BO-12",
+      "group": "business",
+      "href": "/docs/business-book/business-partnerships",
+      "coverage": 0,
+      "approval": 0,
+      "requiredUnanswered": 0
+    }
+  ],
+  "next": [],
+  "release": {
+    "version": "0.1.0",
+    "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

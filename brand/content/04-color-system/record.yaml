@@ -1,0 +1,47 @@
+id: color-system
+name: "Color System"
+status: not_started
+owner: design
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [brand-strategy]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.color.roles:
+    label: "Color roles"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.color.themes:
+    label: "Themes"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.color.semantics:
+    label: "Semantic colors"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.color.contrast:
+    label: "Contrast target"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.color.print:
+    label: "Print color"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

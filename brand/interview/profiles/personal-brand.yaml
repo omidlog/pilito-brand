@@ -1,0 +1,91 @@
+schema_version: 1
+id: personal-brand
+title: Personal brand
+description: "A person-centered brand: identity, positioning, story, experience and credentials,
+  evidence, content, visual presence and privacy, plus the shared voice and visual basics. Facet
+  questions (founder-executive, consultant-expert, creator-educator, artist-designer,
+  speaker-author) apply only for the facets selected in modules.personal.facets. The profile is
+  exclusive: company legal-entity, SaaS, mascot and other Business OS questions count as not
+  applicable, not missing. A person who also runs a business can set brand.profile back to universal
+  and keep modules.personal enabled to work through both."
+exclusive: true
+question_ids:
+  - personal.identity.public_name
+  - personal.identity.headline
+  - personal.identity.roles
+  - personal.identity.name_forms
+  - personal.identity.localized_headline
+  - personal.identity.service_scope
+  - personal.identity.pronouns
+  - personal.positioning.known_for
+  - personal.positioning.primary_audience
+  - personal.positioning.expertise
+  - personal.positioning.outcome
+  - personal.positioning.perspective
+  - personal.services.offers
+  - personal.positioning.boundaries
+  - personal.story.origin
+  - personal.story.turning_points
+  - personal.story.motivation
+  - personal.story.timeline
+  - personal.story.next_chapter
+  - personal.experience.relationships
+  - personal.experience.roles
+  - personal.experience.highlights
+  - personal.credibility.credentials
+  - personal.credibility.awards
+  - personal.credibility.evidence
+  - personal.portfolio.projects
+  - personal.reputation.testimonials
+  - personal.reputation.conflicts
+  - personal.governance.public_claim_policy
+  - personal.content.pillars
+  - personal.content.channels
+  - personal.content.channel_tone
+  - personal.goals.outcomes
+  - personal.goals.kpis
+  - personal.media.photo_guidelines
+  - personal.media.avoid
+  - personal.media.portraits
+  - personal.media.presentation
+  - personal.media.visual_templates
+  - personal.privacy.boundaries
+  - personal.privacy.never_publish
+  - personal.contact.public_channels
+  - personal.governance.reviewer
+  - personal.privacy.availability
+  - brand.personality.traits
+  - brand.verbal.voice
+  - brand.verbal.voice_pairs
+  - brand.verbal.forbidden
+  - brand.verbal.localization
+  - brand.photo.direction
+  - brand.color.roles
+  - brand.type.intent
+  - personal.founder.ventures
+  - personal.founder.narrative
+  - personal.founder.sectors
+  - personal.founder.leadership_topics
+  - personal.founder.investor_relations
+  - personal.consulting.methodology
+  - personal.consulting.engagements
+  - personal.consulting.target_clients
+  - personal.consulting.pricing_policy
+  - personal.consulting.confidentiality
+  - personal.consulting.cta
+  - personal.creator.series
+  - personal.creator.audience_segments
+  - personal.creator.metrics
+  - personal.creator.sponsorship
+  - personal.creator.disclosure
+  - personal.artist.practice
+  - personal.artist.aesthetic
+  - personal.artist.portfolio_taxonomy
+  - personal.artist.exhibitions
+  - personal.artist.usage_rights
+  - personal.speaking.topics
+  - personal.speaking.abstracts
+  - personal.speaking.languages
+  - personal.speaking.prior_talks
+  - personal.speaking.introduction
+  - personal.author.publications

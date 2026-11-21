@@ -1,0 +1,47 @@
+id: personal-presence
+name: "Visual Presence & Media"
+status: not_started
+owner: person
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [personal-identity]
+approved_by: null
+category: personal
+type: module-record
+fields:
+  personal.media.photo_guidelines:
+    label: "Portrait style"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.media.avoid:
+    label: "Images to avoid"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.media.portraits:
+    label: "Approved portraits and rights"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.media.presentation:
+    label: "Presentation guidelines"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  personal.media.visual_templates:
+    label: "Templates that reuse your look"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

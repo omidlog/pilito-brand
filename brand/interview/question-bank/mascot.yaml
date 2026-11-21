@@ -1,0 +1,545 @@
+schema_version: 1
+questions:
+  - id: brand.mascot.enabled
+    module: mascot-identity
+    field_path: brand.mascot.enabled
+    label: Mascot
+    prompt:
+      en: Will this brand use a mascot or recurring character?
+      fa: آیا این برند از یک مسکات یا شخصیت تکرارشونده استفاده می‌کند؟
+      tr: Bu marka bir maskot veya tekrarlayan karakter kullanacak mı?
+    why_it_matters: A no here removes mascot questions and hides the module. It does not delete the
+      catalog from the template.
+    question_type: boolean
+    examples:
+      - "EXAMPLE ONLY: no"
+    suggestions:
+      - yes
+      - no
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 8
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: &a1
+      - owner
+      - approved_import
+      - external_cited
+      - agent_suggestion
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+    related_ids: []
+    completion_rule: boolean
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.role
+    module: mascot-identity
+    field_path: brand.mascot.role
+    label: Character role
+    prompt:
+      en: What job does the character do in the brand?
+      fa: شخصیت در برند چه کاری انجام می‌دهد؟
+      tr: Karakter markada hangi işi yapar?
+    why_it_matters: A role limits where the character appears.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: A guide for empty states. Not a spokesperson for legal claims."
+    required_when: answers[brand.mascot.enabled] == yes
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 400
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.personality
+    module: mascot-identity
+    field_path: brand.mascot.personality
+    label: Character personality
+    prompt:
+      en: Which character traits extend the brand personality, and which are forbidden?
+      fa: کدام ویژگی‌های شخصیت، شخصیت برند را گسترش می‌دهند و کدام ممنوع‌اند؟
+      tr: Hangi karakter özellikleri marka kişiliğini genişletir ve hangileri yasaktır?
+    why_it_matters: The character is not a second brand.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Curious, never mean. Must still match the brand traits once those exist."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+      - brand.personality.traits
+    priority: high
+    order: 401
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.anatomy
+    module: mascot-identity
+    field_path: brand.mascot.anatomy
+    label: Anatomy rules
+    prompt:
+      en: What anatomical or silhouette rules must stay true once art exists?
+      fa: وقتی طرح وجود داشت، کدام قواعد آناتومی یا سیلوئت باید درست بمانند؟
+      tr: Çizim olunca hangi anatomi veya siluet kuralları doğru kalmalı?
+    why_it_matters: Expressions are useless if the body plan is unstable.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: TBD. No approved model sheet. Do not invent limb counts."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 402
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.forbidden
+    module: mascot-identity
+    field_path: brand.mascot.forbidden
+    label: Forbidden distortions
+    prompt:
+      en: Which distortions are always forbidden?
+      fa: کدام تحریف‌ها همیشه ممنوع‌اند؟
+      tr: Hangi bozulmalar her zaman yasak?
+    why_it_matters: The bible needs a no list before production volume grows.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: No extra limbs, no copied characters, no unsafe stereotypes."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 403
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.palette
+    module: mascot-identity
+    field_path: brand.mascot.palette
+    label: Character palette
+    prompt:
+      en: How should the character palette relate to brand color roles? Hues stay TBD until art is
+        approved.
+      fa: پالت شخصیت چگونه به نقش‌های رنگ برند مربوط شود؟ تا تأیید طرح، فام‌ها TBD می‌مانند.
+      tr: Karakter paleti marka renk rollerine nasıl bağlansın? Çizim onaylanana kadar tonlar TBD kalsın.
+    why_it_matters: Character color is a token decision, not a one-off PNG.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Use semantic roles. No unique hex until approval."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 404
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-identity.md
+      - brand/generated/drafts/color-system.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.emotion_priority
+    module: mascot-expression
+    field_path: brand.mascot.emotion_priority
+    label: Emotion priority
+    prompt:
+      en: Which emotions matter first for this brand?
+      fa: کدام احساس‌ها برای این برند اول مهم‌اند؟
+      tr: Bu marka için önce hangi duygular önemli?
+    why_it_matters: The long catalog is a backlog. Priority decides the first model sheet.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: joyful, curious, determined. Others remain backlog."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 420
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-expression.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.situation_map
+    module: mascot-expression
+    field_path: brand.mascot.situation_map
+    label: Situation map
+    prompt:
+      en: Which product situations need a character reaction first?
+      fa: کدام موقعیت‌های محصول اول به واکنش شخصیت نیاز دارند؟
+      tr: Hangi ürün durumları önce bir karakter tepkisi ister?
+    why_it_matters: UI states should be requested from real screens, not from a generic poster.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Empty, success, and failure. Loading can stay typographic."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 421
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-expression.md
+      - brand/generated/drafts/product-ui.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.intensity
+    module: mascot-expression
+    field_path: brand.mascot.intensity
+    label: Intensity scale
+    prompt:
+      en: How should emotional intensity be described (for example low, medium, high)?
+      fa: شدت احساس چگونه توصیف شود (مثلاً کم، متوسط، زیاد)؟
+      tr: Duygu yoğunluğu nasıl tarif edilsin (örneğin düşük, orta, yüksek)?
+    why_it_matters: The catalog field emotion_intensity needs a shared scale.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Use low, medium, high. Do not add a numeric score."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 422
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-expression.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.angles
+    module: mascot-expression
+    field_path: brand.mascot.angles
+    label: Angle priority
+    prompt:
+      en: Which of the eight canonical angles are required for the first approved sheet?
+      fa: از هشت زاویهٔ canonical، کدام‌ها برای اولین شیت تأییدشده لازم‌اند؟
+      tr: Sekiz kanonik açıdan hangileri ilk onaylı pafta için gerekli?
+    why_it_matters: Asking for eight angles on day one stalls brands that only need a front view.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Front and front-left three-quarter first. The other six stay defined but
+        unproduced."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 423
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-expression.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.mvp
+    module: mascot-expression
+    field_path: brand.mascot.mvp
+    label: MVP states
+    prompt:
+      en: Confirm or edit the starter MVP state ids. Leave the default set if you have no opinion.
+      fa: شناسه‌های MVP آغازین را تأیید یا ویرایش کنید. اگر نظری ندارید، مجموعهٔ پیش‌فرض بماند.
+      tr: Başlangıç MVP durum kimliklerini onaylayın veya düzenleyin. Fikriniz yoksa varsayılan küme
+        kalsın.
+    why_it_matters: The catalog flags an MVP subset so production does not try to draw all 90 states.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Use the flagged MVP ids in brand/mascot/catalog.yaml."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 424
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-expression.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.stage_count
+    module: mascot-evolution
+    field_path: brand.mascot.stage_count
+    label: Stage count
+    prompt:
+      en: How many visual stages should the character have? Use 1 if the character does not evolve.
+      fa: شخصیت چند مرحلهٔ بصری داشته باشد؟ اگر تکامل نمی‌یابد، ۱.
+      tr: Karakterin kaç görsel aşaması olsun? Evrim yoksa 1.
+    why_it_matters: The example file has six stages so the schema is proven. Your brand picks the count.
+    question_type: number
+    examples:
+      - "EXAMPLE ONLY: 1"
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 440
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-evolution.md
+    related_ids: []
+    completion_rule: number
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.stage_story
+    module: mascot-evolution
+    field_path: brand.mascot.stage_story
+    label: Stage story
+    prompt:
+      en: If there is more than one stage, what changes visually, and what must stay recognizable?
+      fa: اگر بیش از یک مرحله هست، از نظر بصری چه تغییر می‌کند و چه چیزی باید قابل تشخیص بماند؟
+      tr: Birden fazla aşama varsa görsel olarak ne değişir ve ne tanınır kalmalı?
+    why_it_matters: Evolution without continuity rules produces a different character.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Not applicable at one stage. The egg-to-captain list is only an example
+        configuration."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.stage_count
+    priority: high
+    order: 441
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-evolution.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.continuity
+    module: mascot-evolution
+    field_path: brand.mascot.continuity
+    label: Continuity
+    prompt:
+      en: Which marks, proportions, or props must survive every stage?
+      fa: کدام نشانه‌ها، تناسب‌ها یا ابزارها باید در هر مرحله بمانند؟
+      tr: Hangi işaretler, oranlar veya gereçler her aşamada kalmalı?
+    why_it_matters: Recognition is a brand requirement, not a drawing habit.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: TBD until a model sheet exists."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 442
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-evolution.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.unlocks
+    module: mascot-evolution
+    field_path: brand.mascot.unlocks
+    label: Unlock placeholder
+    prompt:
+      en: Should stage changes be tied to product progress? If yes, leave the mechanic as a placeholder,
+        not a number.
+      fa: آیا تغییر مرحله به پیشرفت محصول وصل شود؟ اگر بله، مکانیک را جای‌نگهدار بگذارید نه یک عدد.
+      tr: Aşama değişimi ürün ilerlemesine bağlansın mı? Evetse mekaniği sayı değil yer tutucu bırakın.
+    why_it_matters: The spec forbids invented game economics.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Placeholder only. No XP value."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 443
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-evolution.md
+      - brand/generated/drafts/gamification.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: brand.mascot.transition
+    module: mascot-evolution
+    field_path: brand.mascot.transition
+    label: Transition
+    prompt:
+      en: How should a stage change move, including reduced motion?
+      fa: تغییر مرحله، از جمله با حرکت کم، چگونه حرکت کند؟
+      tr: Bir aşama değişimi, azaltılmış hareket dahil, nasıl hareket etsin?
+    why_it_matters: Motion and accessibility are part of evolution, not a later polish pass.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Crossfade. Reduced motion shows the new still immediately."
+    required_when: always
+    skip_when: config.modules.mascot == false
+    depends_on:
+      - brand.mascot.enabled
+    priority: high
+    order: 444
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/mascot-evolution.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered

@@ -1,0 +1,42 @@
+schema_version: 1
+angles:
+  - id: mascot.angle.front
+    name: Front
+    description: Primary readable view.
+    required_for_model_sheet: true
+    status: draft
+  - id: mascot.angle.back
+    name: Back
+    description: Confirms the silhouette without the face.
+    required_for_model_sheet: false
+    status: draft
+  - id: mascot.angle.left-profile
+    name: Left profile
+    description: Pure side view, facing left.
+    required_for_model_sheet: false
+    status: draft
+  - id: mascot.angle.right-profile
+    name: Right profile
+    description: Pure side view, facing right.
+    required_for_model_sheet: false
+    status: draft
+  - id: mascot.angle.front-left-three-quarter
+    name: Front-left three-quarter
+    description: Usually the most useful second angle.
+    required_for_model_sheet: true
+    status: draft
+  - id: mascot.angle.front-right-three-quarter
+    name: Front-right three-quarter
+    description: Mirror of the front-left angle, not a flipped accident if the design is asymmetric.
+    required_for_model_sheet: false
+    status: draft
+  - id: mascot.angle.rear-left-three-quarter
+    name: Rear-left three-quarter
+    description: Back corner.
+    required_for_model_sheet: false
+    status: draft
+  - id: mascot.angle.rear-right-three-quarter
+    name: Rear-right three-quarter
+    description: Back corner.
+    required_for_model_sheet: false
+    status: draft

@@ -1,0 +1,94 @@
+{
+  "$description": "EXAMPLE draft color roles. Not an approved brand palette.",
+  "color": {
+    "$type": "color",
+    "brand": {
+      "primary": {
+        "$value": { "colorSpace": "srgb", "hex": "#123A73" },
+        "$description": "EXAMPLE primary. Replace after a real palette is approved."
+      },
+      "onPrimary": {
+        "$value": { "colorSpace": "srgb", "hex": "#FFFFFF" },
+        "$description": "EXAMPLE foreground on primary."
+      },
+      "secondary": {
+        "$value": { "colorSpace": "srgb", "hex": "#0F6E56" },
+        "$description": "EXAMPLE secondary."
+      },
+      "onSecondary": {
+        "$value": { "colorSpace": "srgb", "hex": "#FFFFFF" },
+        "$description": "EXAMPLE foreground on secondary."
+      },
+      "accent": {
+        "$value": { "colorSpace": "srgb", "hex": "#8A4B08" },
+        "$description": "EXAMPLE accent."
+      }
+    },
+    "light": {
+      "canvas": {
+        "$value": { "colorSpace": "srgb", "hex": "#F7F5F2" },
+        "$description": "EXAMPLE light canvas."
+      },
+      "text": {
+        "$value": { "colorSpace": "srgb", "hex": "#1A1C1E" },
+        "$description": "EXAMPLE light-theme body text."
+      },
+      "muted": {
+        "$value": { "colorSpace": "srgb", "hex": "#3E4A44" },
+        "$description": "EXAMPLE light-theme secondary text."
+      },
+      "link": {
+        "$value": { "colorSpace": "srgb", "hex": "#123A73" },
+        "$description": "EXAMPLE light-theme link, aliased in spirit to primary."
+      }
+    },
+    "dark": {
+      "canvas": {
+        "$value": { "colorSpace": "srgb", "hex": "#121418" },
+        "$description": "EXAMPLE dark canvas.",
+        "$extensions": { "brand.os": { "theme": "dark", "example": true, "status": "draft" } }
+      },
+      "text": {
+        "$value": { "colorSpace": "srgb", "hex": "#F4F1EA" },
+        "$description": "EXAMPLE dark-theme body text.",
+        "$extensions": { "brand.os": { "theme": "dark", "example": true, "status": "draft" } }
+      },
+      "muted": {
+        "$value": { "colorSpace": "srgb", "hex": "#C5CBD6" },
+        "$description": "EXAMPLE dark-theme secondary text.",
+        "$extensions": { "brand.os": { "theme": "dark", "example": true, "status": "draft" } }
+      },
+      "link": {
+        "$value": { "colorSpace": "srgb", "hex": "#9DB7E0" },
+        "$description": "EXAMPLE dark-theme link, lighter than primary so it clears the dark canvas.",
+        "$extensions": { "brand.os": { "theme": "dark", "example": true, "status": "draft" } }
+      }
+    },
+    "semantic": {
+      "success": {
+        "$value": { "colorSpace": "srgb", "hex": "#0F7A3A" },
+        "$description": "EXAMPLE success. Do not use as the only signal."
+      },
+      "onSuccess": {
+        "$value": { "colorSpace": "srgb", "hex": "#FFFFFF" },
+        "$description": "EXAMPLE foreground on success."
+      },
+      "warning": {
+        "$value": { "colorSpace": "srgb", "hex": "#8A5A00" },
+        "$description": "EXAMPLE warning."
+      },
+      "danger": {
+        "$value": { "colorSpace": "srgb", "hex": "#9B2331" },
+        "$description": "EXAMPLE danger."
+      },
+      "onDanger": {
+        "$value": { "colorSpace": "srgb", "hex": "#FFFFFF" },
+        "$description": "EXAMPLE foreground on danger."
+      },
+      "info": {
+        "$value": { "colorSpace": "srgb", "hex": "#0C5C8A" },
+        "$description": "EXAMPLE info."
+      }
+    }
+  }
+}

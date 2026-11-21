@@ -1,0 +1,37 @@
+# EXAMPLE finance input. Every number below is hypothetical and exists only to show the format.
+# Copy it OUTSIDE the repository, or to brand/restricted/finance/<name>.yaml (gitignored), then run:
+#   npm run brand:finance -- --input /path/outside/repo/inputs.yaml
+#   npm run brand:finance -- --input restricted:<name>
+# Never commit real financial records. Leave a value out (or set it to null) when you do not know it:
+# the metric that needs it is reported as MISSING instead of a guessed number.
+schema_version: 1
+currency: USD
+period: month          # default period for flow inputs: month | quarter | year
+basis: hypothetical    # default basis: actual | forecast | hypothetical
+inputs:
+  revenue: 20000
+  cogs: 5000
+  sales_marketing_spend: 8000
+  new_customers: 40
+  customers_start: 200
+  churned_customers: 10
+  arpa: 100
+  active_customers: 230
+  cash_balance: 120000
+  cash_in: 20000
+  cash_out: 30000
+  fixed_costs: 9000
+  price_per_unit: 50
+  variable_cost_per_unit: 20
+  # A per-input override:
+  # new_customers: { value: 40, basis: forecast, period: month }
+scenarios:
+  - name: example-base
+    basis: hypothetical
+    months: 12
+    starting_mrr: 23000
+    monthly_growth_rate: 0.05
+    monthly_churn_rate: 0.02
+    gross_margin_pct: 75
+    monthly_fixed_costs: 30000
+    starting_cash: 120000

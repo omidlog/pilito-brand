@@ -1,0 +1,2895 @@
+schema_version: 1
+states:
+  - id: mascot.emotion.joyful
+    category: emotion
+    name: Joyful
+    intent: Uncomplicated happiness after a real success.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Uncomplicated happiness after a real success.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - emotion
+      - joyful
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Joyful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Uncomplicated happiness after a real success. Pose: Readable full
+      body or bust, not distorted. Face: Uncomplicated happiness after a real success.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Joyful."
+  - id: mascot.emotion.delighted
+    category: emotion
+    name: Delighted
+    intent: A warmer, smaller surprise than full celebration.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: A warmer, smaller surprise than full celebration.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - delighted
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Delighted is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A warmer, smaller surprise than full celebration. Pose: Readable
+      full body or bust, not distorted. Face: A warmer, smaller surprise than full celebration..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Delighted."
+  - id: mascot.emotion.sad
+    category: emotion
+    name: Sad
+    intent: Quiet disappointment without guilt.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Quiet disappointment without guilt.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - sad
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Sad is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Quiet disappointment without guilt. Pose: Readable full body or
+      bust, not distorted. Face: Quiet disappointment without guilt.. Leave the drawing TBD."
+    usage: "Emotional beat: Sad."
+  - id: mascot.emotion.angry
+    category: emotion
+    name: Angry
+    intent: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - angry
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Angry is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Firm boundary. Not cruelty and not a tantrum aimed at the user.
+      Pose: Readable full body or bust, not distorted. Face: Firm boundary. Not cruelty and not a
+      tantrum aimed at the user.. Leave the drawing TBD."
+    usage: "Emotional beat: Angry."
+  - id: mascot.emotion.crying
+    category: emotion
+    name: Crying
+    intent: Visible upset reserved for story moments, not ordinary errors.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Visible upset reserved for story moments, not ordinary errors.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - crying
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Crying is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Visible upset reserved for story moments, not ordinary errors.
+      Pose: Readable full body or bust, not distorted. Face: Visible upset reserved for story
+      moments, not ordinary errors.. Leave the drawing TBD."
+    usage: "Emotional beat: Crying."
+  - id: mascot.emotion.surprised
+    category: emotion
+    name: Surprised
+    intent: Short reaction to something new.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Short reaction to something new.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - surprised
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Surprised is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Short reaction to something new. Pose: Readable full body or
+      bust, not distorted. Face: Short reaction to something new.. Leave the drawing TBD."
+    usage: "Emotional beat: Surprised."
+  - id: mascot.emotion.excited
+    category: emotion
+    name: Excited
+    intent: Forward energy before an action starts.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: Forward energy before an action starts.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - excited
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Excited is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Forward energy before an action starts. Pose: Readable full body
+      or bust, not distorted. Face: Forward energy before an action starts.. Leave the drawing TBD."
+    usage: "Emotional beat: Excited."
+  - id: mascot.emotion.confused
+    category: emotion
+    name: Confused
+    intent: The character does not understand yet and is not blaming the user.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: The character does not understand yet and is not blaming the user.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - confused
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Confused is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: The character does not understand yet and is not blaming the
+      user. Pose: Readable full body or bust, not distorted. Face: The character does not understand
+      yet and is not blaming the user.. Leave the drawing TBD."
+    usage: "Emotional beat: Confused."
+  - id: mascot.emotion.proud
+    category: emotion
+    name: Proud
+    intent: Satisfaction in effort, not superiority.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Satisfaction in effort, not superiority.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - proud
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Proud is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Satisfaction in effort, not superiority. Pose: Readable full body
+      or bust, not distorted. Face: Satisfaction in effort, not superiority.. Leave the drawing
+      TBD."
+    usage: "Emotional beat: Proud."
+  - id: mascot.emotion.embarrassed
+    category: emotion
+    name: Embarrassed
+    intent: A small mistake, recovered quickly.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: A small mistake, recovered quickly.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - embarrassed
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Embarrassed is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small mistake, recovered quickly. Pose: Readable full body or
+      bust, not distorted. Face: A small mistake, recovered quickly.. Leave the drawing TBD."
+    usage: "Emotional beat: Embarrassed."
+  - id: mascot.emotion.determined
+    category: emotion
+    name: Determined
+    intent: Continuing after friction.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Continuing after friction.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - determined
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Determined is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Continuing after friction. Pose: Readable full body or bust, not
+      distorted. Face: Continuing after friction.. Leave the drawing TBD."
+    usage: "Emotional beat: Determined."
+  - id: mascot.emotion.curious
+    category: emotion
+    name: Curious
+    intent: Attention toward something worth inspecting.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Attention toward something worth inspecting.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - curious
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Curious is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attention toward something worth inspecting. Pose: Readable full
+      body or bust, not distorted. Face: Attention toward something worth inspecting.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Curious."
+  - id: mascot.emotion.sleepy
+    category: emotion
+    name: Sleepy
+    intent: Rest, end of session, or a gentle pause.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Rest, end of session, or a gentle pause.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - sleepy
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sleepy is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Rest, end of session, or a gentle pause. Pose: Readable full body
+      or bust, not distorted. Face: Rest, end of session, or a gentle pause.. Leave the drawing
+      TBD."
+    usage: "Emotional beat: Sleepy."
+  - id: mascot.emotion.worried
+    category: emotion
+    name: Worried
+    intent: Concern that invites a next step, not panic.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Concern that invites a next step, not panic.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - worried
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Worried is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Concern that invites a next step, not panic. Pose: Readable full
+      body or bust, not distorted. Face: Concern that invites a next step, not panic.. Leave the
+      drawing TBD."
+    usage: "Emotional beat: Worried."
+  - id: mascot.emotion.relieved
+    category: emotion
+    name: Relieved
+    intent: A problem just became solvable.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: A problem just became solvable.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - relieved
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Relieved is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A problem just became solvable. Pose: Readable full body or bust,
+      not distorted. Face: A problem just became solvable.. Leave the drawing TBD."
+    usage: "Emotional beat: Relieved."
+  - id: mascot.emotion.frustrated
+    category: emotion
+    name: Frustrated
+    intent: Stuck, but still respectful.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Stuck, but still respectful.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - frustrated
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Frustrated is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Stuck, but still respectful. Pose: Readable full body or bust,
+      not distorted. Face: Stuck, but still respectful.. Leave the drawing TBD."
+    usage: "Emotional beat: Frustrated."
+  - id: mascot.emotion.thankful
+    category: emotion
+    name: Thankful
+    intent: Acknowledgement of help or patience.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Acknowledgement of help or patience.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - thankful
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Thankful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Acknowledgement of help or patience. Pose: Readable full body or
+      bust, not distorted. Face: Acknowledgement of help or patience.. Leave the drawing TBD."
+    usage: "Emotional beat: Thankful."
+  - id: mascot.emotion.playful
+    category: emotion
+    name: Playful
+    intent: Lightness that must not undercut a serious error.
+    emotion_intensity: medium
+    pose: Readable full body or bust, not distorted
+    face: Lightness that must not undercut a serious error.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - playful
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Playful is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Lightness that must not undercut a serious error. Pose: Readable
+      full body or bust, not distorted. Face: Lightness that must not undercut a serious error..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Playful."
+  - id: mascot.emotion.focused
+    category: emotion
+    name: Focused
+    intent: Working attention with little theatrical emotion.
+    emotion_intensity: low
+    pose: Readable full body or bust, not distorted
+    face: Working attention with little theatrical emotion.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - focused
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Focused is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Working attention with little theatrical emotion. Pose: Readable
+      full body or bust, not distorted. Face: Working attention with little theatrical emotion..
+      Leave the drawing TBD."
+    usage: "Emotional beat: Focused."
+  - id: mascot.emotion.celebrating
+    category: emotion
+    name: Celebrating
+    intent: A rare peak. Do not use it for routine clicks.
+    emotion_intensity: high
+    pose: Readable full body or bust, not distorted
+    face: A rare peak. Do not use it for routine clicks.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - emotion
+      - celebrating
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Celebrating is a proposed emotion slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A rare peak. Do not use it for routine clicks. Pose: Readable
+      full body or bust, not distorted. Face: A rare peak. Do not use it for routine clicks.. Leave
+      the drawing TBD."
+    usage: "Emotional beat: Celebrating."
+  - id: mascot.action.standing
+    category: action
+    name: Standing
+    intent: Neutral resting stance used as the fallback still.
+    emotion_intensity: low
+    pose: Neutral resting stance used as the fallback still.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - standing
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Standing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Neutral resting stance used as the fallback still. Pose: Neutral
+      resting stance used as the fallback still.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Standing."
+  - id: mascot.action.waving
+    category: action
+    name: Waving
+    intent: Hello or goodbye without blocking the primary control.
+    emotion_intensity: low
+    pose: Hello or goodbye without blocking the primary control.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - waving
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Waving is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Hello or goodbye without blocking the primary control. Pose:
+      Hello or goodbye without blocking the primary control.. Face: Face supports the action and
+      stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Waving."
+  - id: mascot.action.greeting
+    category: action
+    name: Greeting
+    intent: Arrival posture when a session starts.
+    emotion_intensity: low
+    pose: Arrival posture when a session starts.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - greeting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Greeting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Arrival posture when a session starts. Pose: Arrival posture when
+      a session starts.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Greeting."
+  - id: mascot.action.pointing
+    category: action
+    name: Pointing
+    intent: Direct attention to a control or a piece of content.
+    emotion_intensity: low
+    pose: Direct attention to a control or a piece of content.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - pointing
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Pointing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Direct attention to a control or a piece of content. Pose: Direct
+      attention to a control or a piece of content.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Pointing."
+  - id: mascot.action.running
+    category: action
+    name: Running
+    intent: Movement between places. Not a loading spinner by default.
+    emotion_intensity: low
+    pose: Movement between places. Not a loading spinner by default.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - running
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Running is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Movement between places. Not a loading spinner by default. Pose:
+      Movement between places. Not a loading spinner by default.. Face: Face supports the action and
+      stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Running."
+  - id: mascot.action.jumping
+    category: action
+    name: Jumping
+    intent: A short upward action for delight, not for errors.
+    emotion_intensity: low
+    pose: A short upward action for delight, not for errors.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - jumping
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Jumping is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A short upward action for delight, not for errors. Pose: A short
+      upward action for delight, not for errors.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Jumping."
+  - id: mascot.action.flying
+    category: action
+    name: Flying
+    intent: Optional travel metaphor. Skip if the character cannot leave the ground.
+    emotion_intensity: low
+    pose: Optional travel metaphor. Skip if the character cannot leave the ground.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - flying
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Flying is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional travel metaphor. Skip if the character cannot leave the
+      ground. Pose: Optional travel metaphor. Skip if the character cannot leave the ground.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Flying."
+  - id: mascot.action.landing
+    category: action
+    name: Landing
+    intent: End of a move, returning to a stable pose.
+    emotion_intensity: low
+    pose: End of a move, returning to a stable pose.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - landing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Landing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: End of a move, returning to a stable pose. Pose: End of a move,
+      returning to a stable pose.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Landing."
+  - id: mascot.action.dancing
+    category: action
+    name: Dancing
+    intent: Optional celebration variant. Rare.
+    emotion_intensity: low
+    pose: Optional celebration variant. Rare.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - dancing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Dancing is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional celebration variant. Rare. Pose: Optional celebration
+      variant. Rare.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Dancing."
+  - id: mascot.action.thinking
+    category: action
+    name: Thinking
+    intent: Considering a choice. Pairs with confused or focused faces.
+    emotion_intensity: low
+    pose: Considering a choice. Pairs with confused or focused faces.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - thinking
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Thinking is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Considering a choice. Pairs with confused or focused faces. Pose:
+      Considering a choice. Pairs with confused or focused faces.. Face: Face supports the action
+      and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Thinking."
+  - id: mascot.action.reading
+    category: action
+    name: Reading
+    intent: Attention on a text object. Do not imply a specific curriculum.
+    emotion_intensity: low
+    pose: Attention on a text object. Do not imply a specific curriculum.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - reading
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Reading is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attention on a text object. Do not imply a specific curriculum.
+      Pose: Attention on a text object. Do not imply a specific curriculum.. Face: Face supports the
+      action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Reading."
+  - id: mascot.action.cheering
+    category: action
+    name: Cheering
+    intent: Encouragement directed at the user’s effort.
+    emotion_intensity: low
+    pose: Encouragement directed at the user’s effort.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - cheering
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Cheering is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Encouragement directed at the user’s effort. Pose: Encouragement
+      directed at the user’s effort.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Cheering."
+  - id: mascot.action.sitting
+    category: action
+    name: Sitting
+    intent: Calm presence beside long-form content.
+    emotion_intensity: low
+    pose: Calm presence beside long-form content.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - sitting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sitting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Calm presence beside long-form content. Pose: Calm presence
+      beside long-form content.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Sitting."
+  - id: mascot.action.stretching
+    category: action
+    name: Stretching
+    intent: Reset or break. Not a medical claim.
+    emotion_intensity: low
+    pose: Reset or break. Not a medical claim.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - stretching
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Stretching is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Reset or break. Not a medical claim. Pose: Reset or break. Not a
+      medical claim.. Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Stretching."
+  - id: mascot.action.hiding
+    category: action
+    name: Hiding
+    intent: Peeking from an edge. Do not use it to obscure required information.
+    emotion_intensity: low
+    pose: Peeking from an edge. Do not use it to obscure required information.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - hiding
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Hiding is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Peeking from an edge. Do not use it to obscure required
+      information. Pose: Peeking from an edge. Do not use it to obscure required information.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Hiding."
+  - id: mascot.action.looking-around
+    category: action
+    name: Looking around
+    intent: Searching the scene before offering help.
+    emotion_intensity: low
+    pose: Searching the scene before offering help.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - looking-around
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Looking around is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Searching the scene before offering help. Pose: Searching the
+      scene before offering help.. Face: Face supports the action and stays on-model.. Leave the
+      drawing TBD."
+    usage: "Action beat: Looking around."
+  - id: mascot.action.listening
+    category: action
+    name: Listening
+    intent: Attending to the user or to audio. Silent fallback required.
+    emotion_intensity: low
+    pose: Attending to the user or to audio. Silent fallback required.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - listening
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Listening is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Attending to the user or to audio. Silent fallback required.
+      Pose: Attending to the user or to audio. Silent fallback required.. Face: Face supports the
+      action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Listening."
+  - id: mascot.action.presenting
+    category: action
+    name: Presenting
+    intent: Introducing a feature that product status allows.
+    emotion_intensity: low
+    pose: Introducing a feature that product status allows.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - presenting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Presenting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Introducing a feature that product status allows. Pose:
+      Introducing a feature that product status allows.. Face: Face supports the action and stays
+      on-model.. Leave the drawing TBD."
+    usage: "Action beat: Presenting."
+  - id: mascot.action.thumbs-up-equivalent
+    category: action
+    name: Affirming gesture
+    intent: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal.
+    emotion_intensity: low
+    pose: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - thumbs-up-equivalent
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Affirming gesture is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A culturally careful “yes” gesture. Do not assume a thumbs-up is
+      universal. Pose: A culturally careful “yes” gesture. Do not assume a thumbs-up is universal..
+      Face: Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Affirming gesture."
+  - id: mascot.action.resting
+    category: action
+    name: Resting
+    intent: Done for now. Supports end-of-session and reduced-motion stillness.
+    emotion_intensity: low
+    pose: Done for now. Supports end-of-session and reduced-motion stillness.
+    face: Face supports the action and stays on-model.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+      - onboarding
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - action
+      - resting
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Resting is a proposed action slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Done for now. Supports end-of-session and reduced-motion
+      stillness. Pose: Done for now. Supports end-of-session and reduced-motion stillness.. Face:
+      Face supports the action and stays on-model.. Leave the drawing TBD."
+    usage: "Action beat: Resting."
+  - id: mascot.ui.welcome
+    category: ui
+    name: Welcome
+    intent: First hello on a surface the product actually has.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: First hello on a surface the product actually has.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - welcome
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Welcome is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: First hello on a surface the product actually has. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: First hello on a surface the
+      product actually has.. Leave the drawing TBD."
+    usage: "Product UI situation: Welcome."
+  - id: mascot.ui.onboarding
+    category: ui
+    name: Onboarding
+    intent: Guides a first-run step that is in scope.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Guides a first-run step that is in scope.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - onboarding
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Onboarding is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Guides a first-run step that is in scope. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Guides a first-run step that is in scope..
+      Leave the drawing TBD."
+    usage: "Product UI situation: Onboarding."
+  - id: mascot.ui.empty-state
+    category: ui
+    name: Empty state
+    intent: Nothing here yet, with a single next step.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Nothing here yet, with a single next step.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - empty-state
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Empty state is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Nothing here yet, with a single next step. Pose: Leave room for
+      UI controls. Do not cover the primary button.. Face: Nothing here yet, with a single next
+      step.. Leave the drawing TBD."
+    usage: "Product UI situation: Empty state."
+  - id: mascot.ui.loading
+    category: ui
+    name: Loading
+    intent: Waiting. Must have a non-animated fallback.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Waiting. Must have a non-animated fallback.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - loading
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Loading is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Waiting. Must have a non-animated fallback. Pose: Leave room for
+      UI controls. Do not cover the primary button.. Face: Waiting. Must have a non-animated
+      fallback.. Leave the drawing TBD."
+    usage: "Product UI situation: Loading."
+  - id: mascot.ui.offline
+    category: ui
+    name: Offline
+    intent: Connectivity problem, including maintenance if you later split it.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Connectivity problem, including maintenance if you later split it.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - offline
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Offline is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Connectivity problem, including maintenance if you later split
+      it. Pose: Leave room for UI controls. Do not cover the primary button.. Face: Connectivity
+      problem, including maintenance if you later split it.. Leave the drawing TBD."
+    usage: "Product UI situation: Offline."
+  - id: mascot.ui.success
+    category: ui
+    name: Success
+    intent: A completed action. Distinct from rare celebration.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A completed action. Distinct from rare celebration.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - success
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Success is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A completed action. Distinct from rare celebration. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A completed action. Distinct
+      from rare celebration.. Leave the drawing TBD."
+    usage: "Product UI situation: Success."
+  - id: mascot.ui.failure
+    category: ui
+    name: Failure
+    intent: Something failed. Tone stays respectful.
+    emotion_intensity: medium
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Something failed. Tone stays respectful.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - failure
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Failure is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Something failed. Tone stays respectful. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Something failed. Tone stays respectful..
+      Leave the drawing TBD."
+    usage: "Product UI situation: Failure."
+  - id: mascot.ui.retry
+    category: ui
+    name: Retry
+    intent: Offers another attempt without blame.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Offers another attempt without blame.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - retry
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Retry is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Offers another attempt without blame. Pose: Leave room for UI
+      controls. Do not cover the primary button.. Face: Offers another attempt without blame.. Leave
+      the drawing TBD."
+    usage: "Product UI situation: Retry."
+  - id: mascot.ui.hint
+    category: ui
+    name: Hint
+    intent: Points at help the user did not fail to deserve.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Points at help the user did not fail to deserve.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - hint
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Hint is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Points at help the user did not fail to deserve. Pose: Leave room
+      for UI controls. Do not cover the primary button.. Face: Points at help the user did not fail
+      to deserve.. Leave the drawing TBD."
+    usage: "Product UI situation: Hint."
+  - id: mascot.ui.reminder
+    category: ui
+    name: Reminder
+    intent: A nudge that can be dismissed.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A nudge that can be dismissed.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - reminder
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Reminder is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A nudge that can be dismissed. Pose: Leave room for UI controls.
+      Do not cover the primary button.. Face: A nudge that can be dismissed.. Leave the drawing
+      TBD."
+    usage: "Product UI situation: Reminder."
+  - id: mascot.ui.notification
+    category: ui
+    name: Notification
+    intent: A small alert. Not a full-screen takeover by default.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A small alert. Not a full-screen takeover by default.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - notification
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Notification is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small alert. Not a full-screen takeover by default. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A small alert. Not a full-screen
+      takeover by default.. Leave the drawing TBD."
+    usage: "Product UI situation: Notification."
+  - id: mascot.ui.level-complete
+    category: ui
+    name: Level complete
+    intent: Only if progression exists. Otherwise leave unused.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Only if progression exists. Otherwise leave unused.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - level-complete
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Level complete is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if progression exists. Otherwise leave unused. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: Only if progression exists.
+      Otherwise leave unused.. Leave the drawing TBD."
+    usage: "Product UI situation: Level complete."
+  - id: mascot.ui.streak
+    category: ui
+    name: Streak
+    intent: Only if a streak rule exists. No invented day count.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Only if a streak rule exists. No invented day count.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - streak
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Streak is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if a streak rule exists. No invented day count. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: Only if a streak rule exists. No
+      invented day count.. Leave the drawing TBD."
+    usage: "Product UI situation: Streak."
+  - id: mascot.ui.unlock
+    category: ui
+    name: Unlock
+    intent: A newly available capability that is really shipped.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: A newly available capability that is really shipped.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - unlock
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Unlock is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A newly available capability that is really shipped. Pose: Leave
+      room for UI controls. Do not cover the primary button.. Face: A newly available capability
+      that is really shipped.. Leave the drawing TBD."
+    usage: "Product UI situation: Unlock."
+  - id: mascot.ui.permission-request
+    category: ui
+    name: Permission request
+    intent: Asks for a device or data permission honestly.
+    emotion_intensity: low
+    pose: Leave room for UI controls. Do not cover the primary button.
+    face: Asks for a device or data permission honestly.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - ui
+      - permission-request
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Permission request is a proposed ui slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Asks for a device or data permission honestly. Pose: Leave room
+      for UI controls. Do not cover the primary button.. Face: Asks for a device or data permission
+      honestly.. Leave the drawing TBD."
+    usage: "Product UI situation: Permission request."
+  - id: mascot.learning.flashcard-practice
+    category: learning
+    name: Flashcard practice
+    intent: Short recall drill. Education-specific.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Short recall drill. Education-specific.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - flashcard-practice
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Flashcard practice is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Short recall drill. Education-specific. Pose: Beside the learning
+      surface, not instead of the content.. Face: Short recall drill. Education-specific.. Leave the
+      drawing TBD."
+    usage: "Learning context: Flashcard practice. Skip the whole category if the sector is not education."
+  - id: mascot.learning.recall
+    category: learning
+    name: Recall
+    intent: Remembering without showing the answer first.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Remembering without showing the answer first.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - recall
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Recall is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Remembering without showing the answer first. Pose: Beside the
+      learning surface, not instead of the content.. Face: Remembering without showing the answer
+      first.. Leave the drawing TBD."
+    usage: "Learning context: Recall. Skip the whole category if the sector is not education."
+  - id: mascot.learning.new-word
+    category: learning
+    name: New word
+    intent: Introducing one new item.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Introducing one new item.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - new-word
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: New word is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Introducing one new item. Pose: Beside the learning surface, not
+      instead of the content.. Face: Introducing one new item.. Leave the drawing TBD."
+    usage: "Learning context: New word. Skip the whole category if the sector is not education."
+  - id: mascot.learning.sentence-practice
+    category: learning
+    name: Sentence practice
+    intent: Using an item in a sentence.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Using an item in a sentence.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - sentence-practice
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Sentence practice is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Using an item in a sentence. Pose: Beside the learning surface,
+      not instead of the content.. Face: Using an item in a sentence.. Leave the drawing TBD."
+    usage: "Learning context: Sentence practice. Skip the whole category if the sector is not education."
+  - id: mascot.learning.quiz
+    category: learning
+    name: Quiz
+    intent: A check, not a trick.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: A check, not a trick.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - quiz
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Quiz is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A check, not a trick. Pose: Beside the learning surface, not
+      instead of the content.. Face: A check, not a trick.. Leave the drawing TBD."
+    usage: "Learning context: Quiz. Skip the whole category if the sector is not education."
+  - id: mascot.learning.pronunciation
+    category: learning
+    name: Pronunciation
+    intent: Speaking or listening to a form. Needs a silent alternative.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Speaking or listening to a form. Needs a silent alternative.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - pronunciation
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Pronunciation is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Speaking or listening to a form. Needs a silent alternative.
+      Pose: Beside the learning surface, not instead of the content.. Face: Speaking or listening to
+      a form. Needs a silent alternative.. Leave the drawing TBD."
+    usage: "Learning context: Pronunciation. Skip the whole category if the sector is not education."
+  - id: mascot.learning.listening
+    category: learning
+    name: Listening
+    intent: Audio-led task with captions or a transcript path.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Audio-led task with captions or a transcript path.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - listening
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Listening is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Audio-led task with captions or a transcript path. Pose: Beside
+      the learning surface, not instead of the content.. Face: Audio-led task with captions or a
+      transcript path.. Leave the drawing TBD."
+    usage: "Learning context: Listening. Skip the whole category if the sector is not education."
+  - id: mascot.learning.speaking
+    category: learning
+    name: Speaking
+    intent: User production. No fake fluency score.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: User production. No fake fluency score.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - speaking
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Speaking is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: User production. No fake fluency score. Pose: Beside the learning
+      surface, not instead of the content.. Face: User production. No fake fluency score.. Leave the
+      drawing TBD."
+    usage: "Learning context: Speaking. Skip the whole category if the sector is not education."
+  - id: mascot.learning.writing
+    category: learning
+    name: Writing
+    intent: Text production.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Text production.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - writing
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Writing is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Text production. Pose: Beside the learning surface, not instead
+      of the content.. Face: Text production.. Leave the drawing TBD."
+    usage: "Learning context: Writing. Skip the whole category if the sector is not education."
+  - id: mascot.learning.review
+    category: learning
+    name: Review
+    intent: Returning to older material.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Returning to older material.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - review
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Review is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Returning to older material. Pose: Beside the learning surface,
+      not instead of the content.. Face: Returning to older material.. Leave the drawing TBD."
+    usage: "Learning context: Review. Skip the whole category if the sector is not education."
+  - id: mascot.learning.spaced-repetition
+    category: learning
+    name: Spaced repetition
+    intent: Only if that method is actually chosen.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Only if that method is actually chosen.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - spaced-repetition
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Spaced repetition is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only if that method is actually chosen. Pose: Beside the learning
+      surface, not instead of the content.. Face: Only if that method is actually chosen.. Leave the
+      drawing TBD."
+    usage: "Learning context: Spaced repetition. Skip the whole category if the sector is not education."
+  - id: mascot.learning.hard-word
+    category: learning
+    name: Hard item
+    intent: An item the learner is struggling with. No shame.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: An item the learner is struggling with. No shame.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - hard-word
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Hard item is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: An item the learner is struggling with. No shame. Pose: Beside
+      the learning surface, not instead of the content.. Face: An item the learner is struggling
+      with. No shame.. Leave the drawing TBD."
+    usage: "Learning context: Hard item. Skip the whole category if the sector is not education."
+  - id: mascot.learning.lesson-completed
+    category: learning
+    name: Lesson completed
+    intent: The end of a unit that exists in the product.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: The end of a unit that exists in the product.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - lesson-completed
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Lesson completed is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: The end of a unit that exists in the product. Pose: Beside the
+      learning surface, not instead of the content.. Face: The end of a unit that exists in the
+      product.. Leave the drawing TBD."
+    usage: "Learning context: Lesson completed. Skip the whole category if the sector is not education."
+  - id: mascot.learning.encouragement
+    category: learning
+    name: Encouragement
+    intent: Support mid-task.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Support mid-task.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - encouragement
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Encouragement is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Support mid-task. Pose: Beside the learning surface, not instead
+      of the content.. Face: Support mid-task.. Leave the drawing TBD."
+    usage: "Learning context: Encouragement. Skip the whole category if the sector is not education."
+  - id: mascot.learning.progress
+    category: learning
+    name: Progress
+    intent: Showing movement through a real syllabus.
+    emotion_intensity: low
+    pose: Beside the learning surface, not instead of the content.
+    face: Showing movement through a real syllabus.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - education
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - learning
+      - progress
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Progress is a proposed learning slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Showing movement through a real syllabus. Pose: Beside the
+      learning surface, not instead of the content.. Face: Showing movement through a real
+      syllabus.. Leave the drawing TBD."
+    usage: "Learning context: Progress. Skip the whole category if the sector is not education."
+  - id: mascot.prop.book
+    category: prop
+    name: Book
+    intent: A generic book prop. Do not show a real title.
+    emotion_intensity: none
+    pose: Interacting with a book prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - book
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Book is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A generic book prop. Do not show a real title. Pose: Interacting
+      with a book prop that is not a licensed third-party object.. Face: Expression stays secondary
+      to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Book."
+  - id: mascot.prop.pencil
+    category: prop
+    name: Pencil
+    intent: A writing tool.
+    emotion_intensity: none
+    pose: Interacting with a pencil prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - pencil
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Pencil is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A writing tool. Pose: Interacting with a pencil prop that is not
+      a licensed third-party object.. Face: Expression stays secondary to the prop’s readability..
+      Leave the drawing TBD."
+    usage: "Prop interaction: Pencil."
+  - id: mascot.prop.headphones
+    category: prop
+    name: Headphones
+    intent: Audio equipment for listening states.
+    emotion_intensity: none
+    pose: Interacting with a headphones prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - headphones
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Headphones is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Audio equipment for listening states. Pose: Interacting with a
+      headphones prop that is not a licensed third-party object.. Face: Expression stays secondary
+      to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Headphones."
+  - id: mascot.prop.speech-bubble
+    category: prop
+    name: Speech bubble
+    intent: Holds approved copy only. No placeholder jokes in production.
+    emotion_intensity: none
+    pose: Interacting with a speech bubble prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - speech-bubble
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Speech bubble is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Holds approved copy only. No placeholder jokes in production.
+      Pose: Interacting with a speech bubble prop that is not a licensed third-party object.. Face:
+      Expression stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Speech bubble."
+  - id: mascot.prop.trophy
+    category: prop
+    name: Trophy
+    intent: Optional reward object. No invented prize.
+    emotion_intensity: none
+    pose: Interacting with a trophy prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - trophy
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Trophy is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Optional reward object. No invented prize. Pose: Interacting with
+      a trophy prop that is not a licensed third-party object.. Face: Expression stays secondary to
+      the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Trophy."
+  - id: mascot.prop.badge
+    category: prop
+    name: Badge
+    intent: Pairs with the badge rules in iconography.
+    emotion_intensity: none
+    pose: Interacting with a badge prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - badge
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Badge is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Pairs with the badge rules in iconography. Pose: Interacting with
+      a badge prop that is not a licensed third-party object.. Face: Expression stays secondary to
+      the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Badge."
+  - id: mascot.prop.map
+    category: prop
+    name: Map
+    intent: A generic map, not a claim about a market.
+    emotion_intensity: none
+    pose: Interacting with a map prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - map
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Map is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A generic map, not a claim about a market. Pose: Interacting with
+      a map prop that is not a licensed third-party object.. Face: Expression stays secondary to the
+      prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Map."
+  - id: mascot.prop.phone
+    category: prop
+    name: Phone
+    intent: A device frame only when the product is on a phone.
+    emotion_intensity: none
+    pose: Interacting with a phone prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - phone
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Phone is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A device frame only when the product is on a phone. Pose:
+      Interacting with a phone prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Phone."
+  - id: mascot.prop.star
+    category: prop
+    name: Star
+    intent: A small emphasis mark, not a rating of the user.
+    emotion_intensity: none
+    pose: Interacting with a star prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - star
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Star is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A small emphasis mark, not a rating of the user. Pose:
+      Interacting with a star prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Star."
+  - id: mascot.prop.ticket
+    category: prop
+    name: Ticket
+    intent: An access or event prop. Seasonal campaigns may reuse it.
+    emotion_intensity: none
+    pose: Interacting with a ticket prop that is not a licensed third-party object.
+    face: Expression stays secondary to the prop’s readability.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - product
+      - marketing
+    animation_possible: true
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - prop
+      - ticket
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Ticket is a proposed prop slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: An access or event prop. Seasonal campaigns may reuse it. Pose:
+      Interacting with a ticket prop that is not a licensed third-party object.. Face: Expression
+      stays secondary to the prop’s readability.. Leave the drawing TBD."
+    usage: "Prop interaction: Ticket."
+  - id: mascot.seasonal.birthday
+    category: seasonal
+    name: Birthday
+    intent: Only when a real birthday moment is in scope and appropriate.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - birthday
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Birthday is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only when a real birthday moment is in scope and appropriate.
+      Pose: Same character, seasonal accent only. Costume must not break silhouette rules.. Face:
+      Match the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Birthday."
+  - id: mascot.seasonal.new-year
+    category: seasonal
+    name: New year
+    intent: A new-year variant. Do not assume a calendar for the user.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - new-year
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: New year is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A new-year variant. Do not assume a calendar for the user. Pose:
+      Same character, seasonal accent only. Costume must not break silhouette rules.. Face: Match
+      the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: New year."
+  - id: mascot.seasonal.winter
+    category: seasonal
+    name: Winter
+    intent: Seasonal dressing. Not a claim that every market has this season now.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - winter
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Winter is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Not a claim that every market has this season
+      now. Pose: Same character, seasonal accent only. Costume must not break silhouette rules..
+      Face: Match the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Winter."
+  - id: mascot.seasonal.spring
+    category: seasonal
+    name: Spring
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - spring
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Spring is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Spring."
+  - id: mascot.seasonal.summer
+    category: seasonal
+    name: Summer
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - summer
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Summer is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Summer."
+  - id: mascot.seasonal.autumn
+    category: seasonal
+    name: Autumn
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - autumn
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Autumn is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Autumn."
+  - id: mascot.seasonal.launch
+    category: seasonal
+    name: Launch
+    intent: A release moment that product status allows.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - launch
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Launch is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A release moment that product status allows. Pose: Same
+      character, seasonal accent only. Costume must not break silhouette rules.. Face: Match the
+      campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Launch."
+  - id: mascot.seasonal.anniversary
+    category: seasonal
+    name: Anniversary
+    intent: Only after a real date exists.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - anniversary
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Anniversary is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only after a real date exists. Pose: Same character, seasonal
+      accent only. Costume must not break silhouette rules.. Face: Match the campaign emotion the
+      owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Anniversary."
+  - id: mascot.seasonal.special-event
+    category: seasonal
+    name: Special event
+    intent: A named event the owner supplied.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - special-event
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Special event is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A named event the owner supplied. Pose: Same character, seasonal
+      accent only. Costume must not break silhouette rules.. Face: Match the campaign emotion the
+      owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Special event."
+  - id: mascot.seasonal.community-milestone
+    category: seasonal
+    name: Community milestone
+    intent: A group achievement with evidence, not a fake user count.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - community-milestone
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Community milestone is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A group achievement with evidence, not a fake user count. Pose:
+      Same character, seasonal accent only. Costume must not break silhouette rules.. Face: Match
+      the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Community milestone."

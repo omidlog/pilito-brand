@@ -1,0 +1,53 @@
+id: business-goals
+name: "Goals, KPIs, Analytics & Reviews"
+status: not_started
+owner: leadership
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.goals.annual:
+    label: "Annual objective"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.goals.quarter:
+    label: "Quarterly focus"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.goals.north_star:
+    label: "North star definition"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.goals.sources:
+    label: "Metric sources"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.goals.cadence:
+    label: "Review cadence"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.goals.plan_vs_actual:
+    label: "Plan versus actual"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

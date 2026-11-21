@@ -1,0 +1,27 @@
+{
+  "$description": "EXAMPLE elevation. Shadow color is not a brand color.",
+  "elevation": {
+    "level1": {
+      "$type": "shadow",
+      "$description": "EXAMPLE low elevation.",
+      "$value": {
+        "color": "#12141824",
+        "offsetX": { "value": 0, "unit": "px" },
+        "offsetY": { "value": 4, "unit": "px" },
+        "blur": { "value": 12, "unit": "px" },
+        "spread": { "value": 0, "unit": "px" }
+      }
+    },
+    "level2": {
+      "$type": "shadow",
+      "$description": "EXAMPLE higher elevation.",
+      "$value": {
+        "color": "#12141833",
+        "offsetX": { "value": 0, "unit": "px" },
+        "offsetY": { "value": 12, "unit": "px" },
+        "blur": { "value": 32, "unit": "px" },
+        "spread": { "value": 0, "unit": "px" }
+      }
+    }
+  }
+}

@@ -1,0 +1,2344 @@
+schema_version: 1
+questions:
+  - id: personal.identity.public_name
+    module: personal-identity
+    field_path: personal.identity.public_name
+    label: Public name
+    prompt:
+      en: What name should we use for you in public, exactly as it should appear?
+      fa: در فضای عمومی دقیقاً با چه نامی معرفی شوید؟ همان‌طور که باید نوشته شود.
+      tr: Kamuya açık alanda tam olarak hangi adı kullanalım? Yazılması gerektiği gibi yazın.
+    why_it_matters: Every bio, profile and introduction starts from one canonical name.
+    question_type: short_text
+    examples:
+      - "EXAMPLE ONLY: Alex Example"
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 1
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: &a1
+      - owner
+      - approved_import
+      - external_cited
+      - agent_suggestion
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids:
+      - business.identity.trade_name
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.headline
+    module: personal-identity
+    field_path: personal.identity.headline
+    label: Professional headline
+    prompt:
+      en: What professional title or one-line headline should appear next to your name?
+      fa: چه عنوان حرفه‌ای یا تیتر یک‌خطی باید کنار نام شما بیاید؟
+      tr: Adınızın yanında hangi mesleki unvan veya tek satırlık başlık görünmeli?
+    why_it_matters: The headline is reused in bios, LinkedIn, speaker sheets and the website hero.
+    question_type: short_text
+    examples:
+      - "EXAMPLE ONLY: Product strategy advisor for early-stage teams"
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 2
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.roles
+    module: personal-identity
+    field_path: personal.identity.roles
+    label: Roles, specialties and industries
+    prompt:
+      en: Which roles, specialties and industries describe your work today?
+      fa: کدام نقش‌ها، تخصص‌ها و صنایع کار امروز شما را توصیف می‌کنند؟
+      tr: Bugünkü işinizi hangi roller, uzmanlıklar ve sektörler tanımlar?
+    why_it_matters: Roles decide which facets and documents are relevant.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Advisor and workshop facilitator; product strategy; education technology."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 3
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.name_forms
+    module: personal-identity
+    field_path: personal.identity.name_forms
+    label: Other approved name forms
+    prompt:
+      en: "Are there other approved forms of your name: a short form, a transliteration, or the name in
+        another script?"
+      fa: "آیا شکل‌های تأییدشدهٔ دیگری از نام شما هست: شکل کوتاه، آوانویسی یا نام به خطی دیگر؟"
+      tr: "Adınızın onaylı başka biçimleri var mı: kısa biçim, harf çevirisi veya başka bir yazıdaki
+        adınız?"
+    why_it_matters: Mixed-language audiences see the name in more than one script. Each form must be
+      approved, not guessed.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Short form: Alex E. Transliteration approved by the owner."
+    required_when: always
+    depends_on:
+      - personal.identity.public_name
+    priority: medium
+    order: 4
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.localized_headline
+    module: personal-identity
+    field_path: personal.identity.localized_headline
+    label: Localized headline
+    prompt:
+      en: What is the approved headline in each of your other languages? Translations are drafts until you
+        approve them.
+      fa: تیتر تأییدشدهٔ شما در هر یک از زبان‌های دیگرتان چیست؟ ترجمه‌ها تا تأیید شما پیش‌نویس‌اند.
+      tr: Diğer dillerinizdeki onaylı başlık nedir? Çeviriler siz onaylayana kadar taslaktır.
+    why_it_matters: A translated claim is a new claim. It is never auto-approved.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: tr: Erken aşama ekipler için ürün stratejisi danışmanı (draft)."
+    required_when: always
+    depends_on:
+      - personal.identity.headline
+    priority: low
+    order: 5
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.service_scope
+    module: personal-identity
+    field_path: personal.identity.service_scope
+    label: Geographic service scope
+    prompt:
+      en: Where do you work or serve clients? A region or "remote" is enough. Never give a home address.
+      fa: کجا کار می‌کنید یا به مشتری خدمت می‌دهید؟ یک منطقه یا «دورکار» کافی است. هرگز آدرس منزل ندهید.
+      tr: Nerede çalışıyor veya müşterilere hizmet veriyorsunuz? Bir bölge ya da "uzaktan" yeterli. Asla
+        ev adresi vermeyin.
+    why_it_matters: Service scope helps the right audience; a precise address is private.
+    question_type: short_text
+    examples:
+      - "EXAMPLE ONLY: Europe and remote."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 6
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.identity.pronouns
+    module: personal-identity
+    field_path: personal.identity.pronouns
+    label: Pronouns (optional)
+    prompt:
+      en: "Optional: are there pronouns you want shown publicly? Say skip if this is not relevant."
+      fa: "اختیاری: آیا ضمیری هست که بخواهید عمومی نمایش داده شود؟ اگر مربوط نیست، رد کنید."
+      tr: "İsteğe bağlı: herkese açık gösterilmesini istediğiniz zamirler var mı? İlgili değilse atlayın."
+    why_it_matters: Only recorded when volunteered. Never inferred from a name.
+    question_type: short_text
+    examples:
+      - "EXAMPLE ONLY: Skipped."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 7
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-identity.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.known_for
+    module: personal-positioning
+    field_path: personal.positioning.known_for
+    label: Known for
+    prompt:
+      en: In one sentence, what should you be known for, and by whom?
+      fa: در یک جمله، به چه چیزی و نزد چه کسانی باید شناخته شوید؟
+      tr: Tek cümleyle, ne ile ve kimler tarafından tanınmalısınız?
+    why_it_matters: The positioning sentence anchors bios and headlines.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Known for practical product discovery, by early-stage founders."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 10
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.primary_audience
+    module: personal-positioning
+    field_path: personal.positioning.primary_audience
+    label: Primary audience
+    prompt:
+      en: "Who is your primary audience today: clients, employers, a community, peers or media?"
+      fa: "مخاطب اصلی امروز شما کیست: مشتریان، کارفرمایان، یک جامعه، همکاران یا رسانه؟"
+      tr: "Bugünkü birincil kitleniz kim: müşteriler, işverenler, bir topluluk, meslektaşlar veya medya?"
+    why_it_matters: Every channel and document is written for someone in particular.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Seed-stage founders without a product lead."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 11
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.expertise
+    module: personal-positioning
+    field_path: personal.positioning.expertise
+    label: Expertise topics
+    prompt:
+      en: Which topic clusters are you an expert in, and which of them can you demonstrate with work?
+      fa: در کدام خوشه‌های موضوعی متخصص هستید و کدام را می‌توانید با کار نشان دهید؟
+      tr: Hangi konu kümelerinde uzmansınız ve hangilerini işle gösterebilirsiniz?
+    why_it_matters: Expertise without evidence is labeled unverified.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Product discovery (portfolio), pricing research (one case study)."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 12
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.outcome
+    module: personal-positioning
+    field_path: personal.positioning.outcome
+    label: Outcome you help create
+    prompt:
+      en: What change do people get from working with you or following your work? Say what you can show,
+        not what you hope.
+      fa: مردم از کار با شما یا دنبال‌کردن کارتان چه تغییری می‌گیرند؟ آنچه را می‌توانید نشان دهید بگویید،
+        نه آنچه امید دارید.
+      tr: İnsanlar sizinle çalışarak veya işinizi takip ederek ne değişim elde eder? Umduğunuzu değil,
+        gösterebileceğinizi söyleyin.
+    why_it_matters: Promised outcomes must be demonstrable; otherwise they are hypotheses.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: A prioritized roadmap at the end of an engagement. No performance promise."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 13
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.perspective
+    module: personal-positioning
+    field_path: personal.positioning.perspective
+    label: Point of view
+    prompt:
+      en: What do you believe about your field that others often get wrong?
+      fa: دربارهٔ حوزهٔ کاری‌تان به چه چیزی باور دارید که دیگران اغلب اشتباه می‌کنند؟
+      tr: Alanınız hakkında başkalarının sıkça yanlış bildiği neye inanıyorsunuz?
+    why_it_matters: A point of view separates a person from a job title.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Most roadmaps fail because nobody wrote down what was decided."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 14
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.services.offers
+    module: personal-positioning
+    field_path: personal.services.offers
+    label: Offers
+    prompt:
+      en: Which offers exist today (advisory, consulting, coaching, speaking, products, courses), and
+        which are only ideas for later?
+      fa: کدام پیشنهادها امروز وجود دارند (مشاوره، کوچینگ، سخنرانی، محصول، دوره) و کدام فقط ایده‌ای برای
+        بعد هستند؟
+      tr: Bugün hangi teklifler var (danışmanlık, koçluk, konuşma, ürün, kurs) ve hangileri yalnızca
+        sonraya dair fikir?
+    why_it_matters: A future idea published as an offer is a false claim.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Exists: two-week discovery sprint. Idea: online course (not offered)."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 15
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids:
+      - business.offer.summary
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.positioning.boundaries
+    module: personal-positioning
+    field_path: personal.positioning.boundaries
+    label: Expertise boundaries
+    prompt:
+      en: Which topics are outside your expertise, so nobody presents you as an expert on them?
+      fa: کدام موضوعات خارج از تخصص شما هستند تا کسی شما را متخصص آن‌ها معرفی نکند؟
+      tr: Hangi konular uzmanlığınızın dışında, böylece kimse sizi o konularda uzman olarak sunmasın?
+    why_it_matters: Boundaries stop an agent from overstating expertise.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Not a lawyer, not an investment advisor."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 16
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-positioning.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.story.origin
+    module: personal-story
+    field_path: personal.story.origin
+    label: Origin
+    prompt:
+      en: How did you come to this work? Two or three sentences in your own words.
+      fa: چطور به این کار رسیدید؟ دو یا سه جمله با کلمات خودتان.
+      tr: Bu işe nasıl geldiniz? Kendi sözlerinizle iki üç cümle.
+    why_it_matters: The origin is the spine of a long bio. It is never invented.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Taught for five years, then built a scheduling tool for my school."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 20
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-story.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.story.turning_points
+    module: personal-story
+    field_path: personal.story.turning_points
+    label: Turning points
+    prompt:
+      en: Which two or three experiences shaped how you work?
+      fa: کدام دو یا سه تجربه شیوهٔ کار شما را شکل داد؟
+      tr: Hangi iki üç deneyim çalışma biçiminizi şekillendirdi?
+    why_it_matters: Turning points make a story specific instead of generic.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: A failed launch taught me to test pricing first."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 21
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-story.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.story.motivation
+    module: personal-story
+    field_path: personal.story.motivation
+    label: Motivation
+    prompt:
+      en: Why do you do this work, beyond income?
+      fa: فراتر از درآمد، چرا این کار را انجام می‌دهید؟
+      tr: Gelirin ötesinde bu işi neden yapıyorsunuz?
+    why_it_matters: Motivation keeps voice and content consistent.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: I like making hard decisions feel calm."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 22
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-story.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.story.timeline
+    module: personal-story
+    field_path: personal.story.timeline
+    label: Milestone timeline
+    prompt:
+      en: List the professional milestones you are comfortable sharing, with a year for each.
+      fa: نقاط عطف حرفه‌ای را که با گفتنشان راحتید، هرکدام با سال، فهرست کنید.
+      tr: Paylaşmaktan rahatsızlık duymadığınız mesleki kilometre taşlarını her biri için yıl vererek
+        listeleyin.
+    why_it_matters: A dated timeline prevents conflicting years across bios.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: 2016 first product role; 2021 independent practice."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 23
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-story.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.story.next_chapter
+    module: personal-story
+    field_path: personal.story.next_chapter
+    label: Next chapter (aspiration)
+    prompt:
+      en: What are you working toward next? This is labeled as an aspiration, not a fact.
+      fa: به سمت چه چیزی کار می‌کنید؟ این آرمان برچسب می‌خورد، نه واقعیت.
+      tr: Sırada neye doğru çalışıyorsunuz? Bu gerçek değil, hedef olarak etiketlenir.
+    why_it_matters: Aspirations are useful for content but must not read as achievements.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Aspiration: write a short book on discovery."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 24
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-story.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.experience.relationships
+    module: personal-career
+    field_path: personal.experience.relationships
+    label: Organizations and relationships
+    prompt:
+      en: Which organizations are you connected to? For each give relation | organization | from | to, and
+        ownership only if you want to state it.
+      fa: "با کدام سازمان‌ها ارتباط دارید؟ برای هرکدام: نوع رابطه | سازمان | از | تا، و مالکیت فقط اگر
+        می‌خواهید بیان کنید."
+      tr: Hangi kuruluşlarla bağlantınız var? Her biri için ilişki | kuruluş | başlangıç | bitiş ve
+        yalnızca belirtmek isterseniz sahiplik.
+    why_it_matters: A person can found, work at, or advise a company without owning it. The relation and
+      dates make that explicit.
+    question_type: relationships
+    examples:
+      - "EXAMPLE ONLY: employed | Example Corp | 2016 | 2020; advised | Example Labs | 2022 |
+        present"
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 30
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-career.md
+    related_ids:
+      - business.identity.trade_name
+    completion_rule: structured
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.experience.roles
+    module: personal-career
+    field_path: personal.experience.roles
+    label: Responsibilities by role
+    prompt:
+      en: For your main roles, what were you responsible for? Name the organization from your relationship
+        list.
+      fa: در نقش‌های اصلی‌تان مسئول چه بودید؟ سازمان را از فهرست روابط نام ببرید.
+      tr: Ana rollerinizde neden sorumluydunuz? Kuruluşu ilişki listenizden adlandırın.
+    why_it_matters: Responsibilities are what LinkedIn experience entries and case studies quote.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Example Corp: led discovery for two product lines."
+    required_when: always
+    depends_on:
+      - personal.experience.relationships
+    priority: high
+    order: 31
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-career.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.experience.highlights
+    module: personal-career
+    field_path: personal.experience.highlights
+    label: Demonstrable results
+    prompt:
+      en: Which results or achievements can you demonstrate? Give the source for each. Numbers without a
+        source stay off public pages.
+      fa: کدام نتایج یا دستاوردها را می‌توانید نشان دهید؟ برای هرکدام منبع بدهید. عدد بدون منبع در صفحات
+        عمومی نمی‌آید.
+      tr: Hangi sonuçları veya başarıları gösterebilirsiniz? Her biri için kaynak verin. Kaynaksız sayılar
+        herkese açık sayfalara girmez.
+    why_it_matters: Quantified outcomes are the most common fabricated claim.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Led the redesign of the onboarding flow (public case study link)."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 32
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.credibility.credentials
+    module: personal-career
+    field_path: personal.credibility.credentials
+    label: Education and certifications
+    prompt:
+      en: Which degrees and certifications may appear publicly? Give the issuer and year, and say whether
+        you have a public source for each.
+      fa: کدام مدارک تحصیلی و گواهی‌ها می‌توانند عمومی شوند؟ صادرکننده و سال را بدهید و بگویید برای هرکدام
+        منبع عمومی دارید یا نه.
+      tr: Hangi diploma ve sertifikalar herkese açık görünebilir? Veren kurumu ve yılı yazın, her biri
+        için açık bir kaynağınız olup olmadığını söyleyin.
+    why_it_matters: Unverified education must never be published as verified.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Certificate in Example Studies, Example Institute, 2018 (registry link)."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 33
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.credibility.awards
+    module: personal-career
+    field_path: personal.credibility.awards
+    label: Awards and recognition
+    prompt:
+      en: Have you received awards or recognition you want to mention? Give the source for each, or say
+        none.
+      fa: آیا جایزه یا تقدیری گرفته‌اید که بخواهید ذکر شود؟ برای هرکدام منبع بدهید یا بگویید هیچ.
+      tr: Bahsetmek istediğiniz ödül veya takdir aldınız mı? Her biri için kaynak verin ya da yok deyin.
+    why_it_matters: Awards are published only with an independent source.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: None."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 34
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-career.md
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.credibility.evidence
+    module: personal-proof
+    field_path: personal.credibility.evidence
+    label: Evidence sources
+    prompt:
+      en: Which links or documents back your main claims? List what each one proves. Their contents are
+        not fetched.
+      fa: کدام لینک‌ها یا اسناد ادعاهای اصلی شما را پشتیبانی می‌کنند؟ بگویید هرکدام چه چیزی را ثابت
+        می‌کند. محتوای آن‌ها دریافت نمی‌شود.
+      tr: Ana iddialarınızı hangi bağlantılar veya belgeler destekliyor? Her birinin neyi kanıtladığını
+        yazın. İçerikleri indirilmez.
+    why_it_matters: Every public claim must trace to a source or be visibly owner-stated.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Talk recording (speaking history); registry entry (certificate)."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 40
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.portfolio.projects
+    module: personal-proof
+    field_path: personal.portfolio.projects
+    label: Shareable projects and case studies
+    prompt:
+      en: "Which projects or case studies may be shared publicly? For each: your exact role, dates, result
+        type, and whether the client agreed."
+      fa: "کدام پروژه‌ها یا مطالعات موردی را می‌توان عمومی کرد؟ برای هرکدام: نقش دقیق، تاریخ‌ها، نوع نتیجه
+        و اینکه مشتری موافقت کرده یا نه."
+      tr: Hangi projeler veya vaka çalışmaları herkese açık paylaşılabilir? Her biri için tam rolünüz,
+        tarihler, sonuç türü ve müşterinin onay verip vermediği.
+    why_it_matters: A client project without permission cannot be published.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Example onboarding redesign, 2022, lead designer, qualitative result, client
+        permission pending."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 41
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+      - rights_permission
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.reputation.testimonials
+    module: personal-proof
+    field_path: personal.reputation.testimonials
+    label: Testimonials
+    prompt:
+      en: Do you have testimonials you may quote? For each, who gave it and whether they agreed to public
+        use.
+      fa: آیا توصیه‌نامه‌ای دارید که بتوانید نقل کنید؟ برای هرکدام، چه کسی داده و آیا با استفادهٔ عمومی
+        موافقت کرده.
+      tr: Alıntılayabileceğiniz referanslarınız var mı? Her biri için kim verdi ve herkese açık kullanıma
+        izin verdi mi?
+    why_it_matters: Testimonials need the giver’s permission. Nothing is drafted on their behalf.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: None yet."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 42
+    sensitivity: public
+    publication_requires:
+      - rights_permission
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.reputation.conflicts
+    module: personal-proof
+    field_path: personal.reputation.conflicts
+    label: Conflicts of interest
+    prompt:
+      en: Are there conflicts of interest, sponsorships or affiliations that must be disclosed when you
+        talk about a topic?
+      fa: آیا تعارض منافع، حمایت مالی یا وابستگی‌ای هست که هنگام صحبت دربارهٔ موضوعی باید افشا شود؟
+      tr: Bir konu hakkında konuşurken açıklanması gereken çıkar çatışması, sponsorluk veya bağlantı var
+        mı?
+    why_it_matters: Disclosure rules protect both the person and the audience.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Advisor to Example Labs: disclose when discussing their category."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 43
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-proof.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.governance.public_claim_policy
+    module: personal-proof
+    field_path: personal.governance.public_claim_policy
+    label: Public claim policy
+    prompt:
+      en: Which claims must never be presented without a source?
+      fa: کدام ادعاها هرگز نباید بدون منبع ارائه شوند؟
+      tr: Hangi iddialar asla kaynaksız sunulmamalı?
+    why_it_matters: The policy tells every agent what to refuse.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Client names, numbers, degrees, press mentions."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 44
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-proof.md
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.content.pillars
+    module: personal-content
+    field_path: personal.content.pillars
+    label: Content pillars
+    prompt:
+      en: Which three topics will you discuss regularly, and what is your point of view on each?
+      fa: دربارهٔ کدام سه موضوع به‌طور منظم صحبت می‌کنید و دیدگاه شما در هرکدام چیست؟
+      tr: Hangi üç konuyu düzenli olarak tartışacaksınız ve her biri hakkındaki bakış açınız nedir?
+    why_it_matters: Pillars keep content coherent and tie it to positioning.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Discovery; pricing research; calm team rituals."
+    required_when: always
+    depends_on:
+      - personal.positioning.known_for
+    priority: high
+    order: 50
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.content.channels
+    module: personal-content
+    field_path: personal.content.channels
+    label: Channels and their goals
+    prompt:
+      en: Which channels do you use (LinkedIn, Instagram, X, YouTube, website, newsletter) and what is
+        each one for?
+      fa: از کدام کانال‌ها استفاده می‌کنید (لینکدین، اینستاگرام، ایکس، یوتیوب، وب‌سایت، خبرنامه) و هرکدام
+        برای چیست؟
+      tr: Hangi kanalları kullanıyorsunuz (LinkedIn, Instagram, X, YouTube, web sitesi, bülten) ve her
+        biri ne için?
+    why_it_matters: Channels with different goals need different formats.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: LinkedIn: client trust. Newsletter: depth. Website: inquiries."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 51
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.content.channel_tone
+    module: personal-content
+    field_path: personal.content.channel_tone
+    label: Channel tone differences
+    prompt:
+      en: Does any channel need a different tone from your default voice? Say how.
+      fa: آیا کانالی هست که لحنی متفاوت با صدای پیش‌فرض شما بخواهد؟ بگویید چطور.
+      tr: Varsayılan sesinizden farklı bir ton gerektiren kanal var mı? Nasıl olduğunu söyleyin.
+    why_it_matters: Platform-specific voice stays a variation of one voice, not a second voice.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Instagram: shorter and warmer."
+    required_when: always
+    depends_on:
+      - personal.content.channels
+    priority: low
+    order: 52
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.goals.outcomes
+    module: personal-content
+    field_path: personal.goals.outcomes
+    label: Outcome that matters
+    prompt:
+      en: What outcome actually matters (inbound leads, speaking invitations, hiring, reputation), beyond
+        follower count?
+      fa: فراتر از تعداد دنبال‌کننده، چه نتیجه‌ای واقعاً مهم است (سرنخ ورودی، دعوت به سخنرانی، استخدام،
+        اعتبار)؟
+      tr: Takipçi sayısının ötesinde gerçekten önemli olan sonuç nedir (gelen talepler, konuşma davetleri,
+        işe alım, itibar)?
+    why_it_matters: The outcome decides the measurement plan.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Two qualified client conversations per month."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 53
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.goals.kpis
+    module: personal-content
+    field_path: personal.goals.kpis
+    label: Measurement
+    prompt:
+      en: How will you measure that outcome? Give the source and date for any baseline number.
+      fa: آن نتیجه را چطور اندازه می‌گیرید؟ برای هر عدد مبنا منبع و تاریخ بدهید.
+      tr: Bu sonucu nasıl ölçeceksiniz? Herhangi bir başlangıç sayısı için kaynak ve tarih verin.
+    why_it_matters: A baseline without a date cannot be compared later.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Inquiry form count, monthly. No baseline yet."
+    required_when: always
+    depends_on:
+      - personal.goals.outcomes
+    priority: low
+    order: 54
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-content.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.media.photo_guidelines
+    module: personal-presence
+    field_path: personal.media.photo_guidelines
+    label: Portrait style
+    prompt:
+      en: What photo styles and environments reflect you?
+      fa: چه سبک‌های عکس و چه محیط‌هایی شما را بازتاب می‌دهند؟
+      tr: Hangi fotoğraf tarzları ve ortamlar sizi yansıtıyor?
+    why_it_matters: Portraits are the most reused personal asset.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Natural light, working settings, no studio backdrops."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 60
+    sensitivity: internal
+    approval_grant: visual
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-presence.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.media.avoid
+    module: personal-presence
+    field_path: personal.media.avoid
+    label: Images to avoid
+    prompt:
+      en: Which images or visual styles should never represent you?
+      fa: کدام تصاویر یا سبک‌های بصری هرگز نباید نمایندهٔ شما باشند؟
+      tr: Hangi görseller veya görsel tarzlar sizi asla temsil etmemeli?
+    why_it_matters: An explicit exclusion list prevents off-brand or private images.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Holiday photos, images with family, AI-generated likeness."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 61
+    sensitivity: internal
+    approval_grant: visual
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-presence.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.media.portraits
+    module: personal-presence
+    field_path: personal.media.portraits
+    label: Approved portraits and rights
+    prompt:
+      en: Which portraits are approved for use, who took them, and do you hold the right to publish them?
+      fa: کدام پرتره‌ها برای استفاده تأیید شده‌اند، چه کسی گرفته و آیا حق انتشار آن‌ها را دارید؟
+      tr: Hangi portreler kullanım için onaylı, kim çekti ve yayınlama hakkınız var mı?
+    why_it_matters: Without a rights record a portrait cannot be released publicly.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Headshot 2024 by Example Photographer, license for web and press."
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 62
+    sensitivity: internal
+    publication_requires:
+      - rights_permission
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-presence.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.media.presentation
+    module: personal-presence
+    field_path: personal.media.presentation
+    label: Presentation guidelines
+    prompt:
+      en: Are there clothing or presentation guidelines for photos, video or stage?
+      fa: آیا راهنمای پوشش یا نحوهٔ حضور برای عکس، ویدئو یا صحنه وجود دارد؟
+      tr: Fotoğraf, video veya sahne için kıyafet ya da sunum yönergeleri var mı?
+    why_it_matters: Consistent presentation makes portraits interchangeable.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Plain colors, no logos of other companies."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 63
+    sensitivity: internal
+    approval_grant: visual
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-presence.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.media.visual_templates
+    module: personal-presence
+    field_path: personal.media.visual_templates
+    label: Templates that reuse your look
+    prompt:
+      en: Which templates (slides, post layouts, speaker card) should reuse your look?
+      fa: کدام قالب‌ها (اسلاید، طرح پست، کارت سخنران) باید ظاهر شما را تکرار کنند؟
+      tr: Hangi şablonlar (slaytlar, gönderi düzenleri, konuşmacı kartı) görünümünüzü yeniden kullanmalı?
+    why_it_matters: Templates turn the visual identity into repeatable work.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Slide master and a quote-card layout."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 64
+    sensitivity: internal
+    approval_grant: visual
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-presence.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.privacy.boundaries
+    module: personal-boundaries
+    field_path: personal.privacy.boundaries
+    label: Private topics
+    prompt:
+      en: Which topics are private and must never be published or used by an AI (for example family,
+        health, home)?
+      fa: کدام موضوعات خصوصی‌اند و هرگز نباید منتشر شوند یا توسط هوش مصنوعی استفاده شوند (مثلاً خانواده،
+        سلامت، خانه)؟
+      tr: Hangi konular özeldir ve asla yayınlanmamalı ya da bir yapay zekâ tarafından kullanılmamalı
+        (örneğin aile, sağlık, ev)?
+    why_it_matters: Agents need an explicit list of what to refuse.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Health, home location, relatives."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 70
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.privacy.never_publish
+    module: personal-boundaries
+    field_path: personal.privacy.never_publish
+    label: Never-publish details
+    prompt:
+      en: Which specific details may AI never publish, even if they appear in a source you shared?
+      fa: کدام جزئیات مشخص را هوش مصنوعی هرگز نباید منتشر کند، حتی اگر در منبعی که داده‌اید آمده باشد؟
+      tr: Paylaştığınız bir kaynakta geçse bile yapay zekânın asla yayınlamaması gereken ayrıntılar
+        hangileri?
+    why_it_matters: Sources often contain more than the person wants public.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Former employer names before 2015; salary history."
+    required_when: always
+    depends_on: []
+    priority: critical
+    order: 71
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.contact.public_channels
+    module: personal-boundaries
+    field_path: personal.contact.public_channels
+    label: Public professional contact
+    prompt:
+      en: "Which professional contact methods may be shown publicly: a booking link, a work email or a
+        contact form? No personal phone or home address."
+      fa: "کدام راه‌های تماس حرفه‌ای را می‌توان عمومی نشان داد: لینک رزرو، ایمیل کاری یا فرم تماس؟ نه تلفن
+        شخصی و نه آدرس منزل."
+      tr: "Hangi mesleki iletişim yolları herkese açık gösterilebilir: rezervasyon bağlantısı, iş
+        e-postası veya iletişim formu? Kişisel telefon veya ev adresi yok."
+    why_it_matters: Public contact is separate from private contact data, which is not collected.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: https://example.com/contact"
+    required_when: always
+    depends_on: []
+    priority: high
+    order: 72
+    sensitivity: public
+    contact_field: true
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.governance.reviewer
+    module: personal-boundaries
+    field_path: personal.governance.reviewer
+    label: Draft reviewer
+    prompt:
+      en: Who besides you, if anyone, may review drafts about you before you approve them?
+      fa: جز شما، چه کسی (اگر کسی هست) می‌تواند پیش‌نویس‌های مربوط به شما را پیش از تأیید شما بازبینی کند؟
+      tr: Siz onaylamadan önce sizinle ilgili taslakları sizden başka kim (varsa) inceleyebilir?
+    why_it_matters: Approval stays with the person. Reviewers only comment.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Nobody. I review everything myself."
+    required_when: always
+    depends_on: []
+    priority: medium
+    order: 73
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.privacy.availability
+    module: personal-boundaries
+    field_path: personal.privacy.availability
+    label: Public availability
+    prompt:
+      en: What availability may be stated publicly (taking clients, booking talks, not available)?
+      fa: چه وضعیتی از دسترس‌پذیری را می‌توان عمومی گفت (پذیرش مشتری، رزرو سخنرانی، در دسترس نیست)؟
+      tr: Hangi müsaitlik durumu herkese açık belirtilebilir (müşteri alıyor, konuşma rezervasyonu, müsait
+        değil)?
+    why_it_matters: Availability changes; a stale claim misleads.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Taking two advisory clients from next quarter."
+    required_when: always
+    depends_on: []
+    priority: low
+    order: 74
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-boundaries.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.founder.ventures
+    module: personal-founder
+    field_path: personal.founder.ventures
+    label: Ventures and your role
+    prompt:
+      en: Which ventures have you started or led, and what exactly was your role in each? Ownership is a
+        separate statement in your relationship list.
+      fa: کدام کسب‌وکارها را راه انداخته یا رهبری کرده‌اید و نقش دقیق شما در هرکدام چه بود؟ مالکیت در
+        فهرست روابط جداگانه بیان می‌شود.
+      tr: Hangi girişimleri başlattınız veya yönettiniz ve her birinde tam rolünüz neydi? Sahiplik ilişki
+        listenizde ayrı bir ifadedir.
+    why_it_matters: Founder claims are among the most repeated, so they must be exact.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Example Studio: co-founder, product lead."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks founder-executive
+    depends_on:
+      - personal.experience.relationships
+    priority: high
+    order: 100
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-founder.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.founder.narrative
+    module: personal-founder
+    field_path: personal.founder.narrative
+    label: Founder narrative
+    prompt:
+      en: Why did you start building companies, and what problem keeps you building?
+      fa: چرا شروع به ساختن شرکت کردید و چه مسئله‌ای شما را به ادامه وامی‌دارد؟
+      tr: Neden şirket kurmaya başladınız ve sizi kurmaya devam ettiren sorun ne?
+    why_it_matters: The founder narrative is reused in press, pitch and about pages.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: I kept seeing teachers lose hours to scheduling."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks founder-executive
+    depends_on: []
+    priority: high
+    order: 101
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-founder.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.founder.sectors
+    module: personal-founder
+    field_path: personal.founder.sectors
+    label: Sectors you build in
+    prompt:
+      en: Which sectors do you build or invest attention in?
+      fa: در کدام بخش‌ها می‌سازید یا توجه خود را سرمایه‌گذاری می‌کنید؟
+      tr: Hangi sektörlerde inşa ediyor veya ilgi yatırıyorsunuz?
+    why_it_matters: Sectors decide which press and community opportunities fit.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Education technology, small-business tools."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks founder-executive
+    depends_on: []
+    priority: medium
+    order: 102
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-founder.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.founder.leadership_topics
+    module: personal-founder
+    field_path: personal.founder.leadership_topics
+    label: Leadership topics
+    prompt:
+      en: Which leadership topics can you speak about from your own experience?
+      fa: دربارهٔ کدام موضوعات رهبری می‌توانید از تجربهٔ خودتان صحبت کنید؟
+      tr: Hangi liderlik konularında kendi deneyiminizden konuşabilirsiniz?
+    why_it_matters: Leadership content needs lived examples, not generic advice.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Hiring a first product team; running calm planning cycles."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks founder-executive
+    depends_on: []
+    priority: medium
+    order: 103
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-founder.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.founder.investor_relations
+    module: personal-founder
+    field_path: personal.founder.investor_relations
+    label: Investor and press positioning
+    prompt:
+      en: How should you be positioned for investors and press, and what may be said about funding? Give
+        no numbers that lack a public source.
+      fa: برای سرمایه‌گذاران و رسانه چطور معرفی شوید و دربارهٔ تأمین مالی چه می‌توان گفت؟ عددی بدون منبع
+        عمومی ندهید.
+      tr: Yatırımcılar ve basın için nasıl konumlanmalısınız, finansman hakkında ne söylenebilir? Açık
+        kaynağı olmayan sayı vermeyin.
+    why_it_matters: Funding statements are regulated and often confidential.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Say “backed by angel investors”; no amounts."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks founder-executive
+    depends_on: []
+    priority: medium
+    order: 104
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-founder.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.methodology
+    module: personal-consultant
+    field_path: personal.consulting.methodology
+    label: Methodology
+    prompt:
+      en: How do you work with a client, step by step?
+      fa: گام‌به‌گام چطور با یک مشتری کار می‌کنید؟
+      tr: Bir müşteriyle adım adım nasıl çalışıyorsunuz?
+    why_it_matters: A named method makes an offer concrete.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Interview, map decisions, prioritize, hand over a plan."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: high
+    order: 110
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.engagements
+    module: personal-consultant
+    field_path: personal.consulting.engagements
+    label: Engagement formats
+    prompt:
+      en: Which engagement formats do you offer (sprint, retainer, workshop, mentoring), and for how long?
+      fa: کدام قالب‌های همکاری را ارائه می‌دهید (اسپرینت، قرارداد ماهانه، کارگاه، منتورینگ) و برای چه مدت؟
+      tr: Hangi çalışma biçimlerini sunuyorsunuz (sprint, aylık anlaşma, atölye, mentorluk) ve ne kadar
+        süreyle?
+    why_it_matters: Formats set expectations before the first call.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Two-week sprint; monthly advisory retainer."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: high
+    order: 111
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.target_clients
+    module: personal-consultant
+    field_path: personal.consulting.target_clients
+    label: Target clients
+    prompt:
+      en: Which clients are a good fit, and which do you turn away?
+      fa: کدام مشتریان مناسب‌اند و کدام را نمی‌پذیرید؟
+      tr: Hangi müşteriler uygun ve hangilerini geri çevirirsiniz?
+    why_it_matters: Fit criteria keep lead generation honest.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Seed-stage software teams; not agencies."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: high
+    order: 112
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.pricing_policy
+    module: personal-consultant
+    field_path: personal.consulting.pricing_policy
+    label: Pricing publication policy
+    prompt:
+      en: Should prices be published? Answer publish, on request, or not decided. Do not give amounts
+        here.
+      fa: "آیا قیمت‌ها منتشر شوند؟ پاسخ: انتشار، در صورت درخواست، یا تصمیم‌گیری نشده. مبلغی اینجا ندهید."
+      tr: Fiyatlar yayınlansın mı? Yayınla, talep üzerine veya karar verilmedi diye cevaplayın. Burada
+        tutar vermeyin.
+    why_it_matters: An invented or stale price is a false public claim.
+    question_type: single_choice
+    examples:
+      - "EXAMPLE ONLY: On request."
+    options:
+      - publish
+      - on_request
+      - not_decided
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: medium
+    order: 113
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: one_of
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.confidentiality
+    module: personal-consultant
+    field_path: personal.consulting.confidentiality
+    label: Confidentiality and ethics
+    prompt:
+      en: What confidentiality and ethical boundaries apply to your client work?
+      fa: چه مرزهای محرمانگی و اخلاقی بر کار شما با مشتریان حاکم است؟
+      tr: Müşteri işinize hangi gizlilik ve etik sınırlar uygulanır?
+    why_it_matters: Client names and details are private unless permission is recorded.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: No client named without written permission."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: high
+    order: 114
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.consulting.cta
+    module: personal-consultant
+    field_path: personal.consulting.cta
+    label: Inquiry call to action
+    prompt:
+      en: "What should a potential client do next: book a call, fill a form, or send an email?"
+      fa: "مشتری بالقوه بعد چه کند: رزرو تماس، پرکردن فرم یا ارسال ایمیل؟"
+      tr: "Potansiyel bir müşteri bundan sonra ne yapmalı: görüşme ayarlamak, form doldurmak veya e-posta
+        göndermek?"
+    why_it_matters: One clear next step per page.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Book a 20-minute intro call."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks consultant-expert
+    depends_on: []
+    priority: low
+    order: 115
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-consultant.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered
+  - id: personal.creator.series
+    module: personal-creator
+    field_path: personal.creator.series
+    label: Content series
+    prompt:
+      en: Which recurring series or formats do you produce, and on which channel?
+      fa: کدام مجموعه‌ها یا قالب‌های تکرارشونده را تولید می‌کنید و در کدام کانال؟
+      tr: Hangi düzenli serileri veya formatları hangi kanalda üretiyorsunuz?
+    why_it_matters: Series make an editorial calendar possible.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Weekly short video, monthly long article."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks creator-educator
+    depends_on: []
+    priority: high
+    order: 120
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-creator.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.creator.audience_segments
+    module: personal-creator
+    field_path: personal.creator.audience_segments
+    label: Audience segments
+    prompt:
+      en: Which audience segments follow you, and how do they differ by platform?
+      fa: کدام بخش‌های مخاطب شما را دنبال می‌کنند و در هر پلتفرم چه تفاوتی دارند؟
+      tr: Sizi hangi kitle segmentleri takip ediyor ve platforma göre nasıl farklılaşıyorlar?
+    why_it_matters: Sponsors and editors ask who the audience is.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: LinkedIn: founders. YouTube: students."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks creator-educator
+    depends_on: []
+    priority: high
+    order: 121
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-creator.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.creator.metrics
+    module: personal-creator
+    field_path: personal.creator.metrics
+    label: Audience metrics (dated, sourced)
+    prompt:
+      en: Which audience numbers may appear in a media kit? Give each with a date and a source.
+      fa: کدام اعداد مخاطب می‌توانند در کیت رسانه بیایند؟ هرکدام را با تاریخ و منبع بدهید.
+      tr: Medya kitinde hangi kitle sayıları yer alabilir? Her birini tarih ve kaynakla verin.
+    why_it_matters: Undated or unsourced metrics are not published.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Newsletter subscribers 1,200 as of 2025-01 (platform export)."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks creator-educator
+    depends_on: []
+    priority: high
+    order: 122
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-creator.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.creator.sponsorship
+    module: personal-creator
+    field_path: personal.creator.sponsorship
+    label: Sponsorship categories
+    prompt:
+      en: Which sponsorship categories do you accept, and which do you refuse?
+      fa: کدام دسته‌های حمایت مالی را می‌پذیرید و کدام را رد می‌کنید؟
+      tr: Hangi sponsorluk kategorilerini kabul ediyor, hangilerini reddediyorsunuz?
+    why_it_matters: A refusal list protects audience trust.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Accept: software tools. Refuse: gambling, crypto trading."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks creator-educator
+    depends_on: []
+    priority: medium
+    order: 123
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-creator.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.creator.disclosure
+    module: personal-creator
+    field_path: personal.creator.disclosure
+    label: Disclosure rules
+    prompt:
+      en: How do you disclose sponsorships, affiliate links and gifts?
+      fa: حمایت‌های مالی، لینک‌های همکاری در فروش و هدایا را چطور افشا می‌کنید؟
+      tr: Sponsorlukları, ortaklık bağlantılarını ve hediyeleri nasıl açıklıyorsunuz?
+    why_it_matters: Disclosure is a legal and trust requirement in many places.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: “Sponsored” label in the first line of every paid post."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks creator-educator
+    depends_on: []
+    priority: high
+    order: 124
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-creator.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.artist.practice
+    module: personal-artist
+    field_path: personal.artist.practice
+    label: Practice and philosophy
+    prompt:
+      en: How would you describe your practice and what guides it?
+      fa: رویهٔ کاری خود را چطور توصیف می‌کنید و چه چیزی آن را هدایت می‌کند؟
+      tr: Pratiğinizi nasıl tanımlarsınız ve ona ne yön veriyor?
+    why_it_matters: A practice statement anchors an artist bio.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Quiet geometric work about public spaces."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks artist-designer
+    depends_on: []
+    priority: high
+    order: 130
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-artist.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.artist.aesthetic
+    module: personal-artist
+    field_path: personal.artist.aesthetic
+    label: Aesthetic vocabulary
+    prompt:
+      en: Which words describe your aesthetic, and which words should never be used for it?
+      fa: کدام واژه‌ها زیبایی‌شناسی شما را توصیف می‌کنند و کدام هرگز نباید برای آن به کار روند؟
+      tr: Estetiğinizi hangi kelimeler tanımlar ve hangileri asla kullanılmamalı?
+    why_it_matters: Editors and curators reuse this vocabulary.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Use: restrained, architectural. Avoid: minimalist."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks artist-designer
+    depends_on: []
+    priority: high
+    order: 131
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-artist.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.artist.portfolio_taxonomy
+    module: personal-artist
+    field_path: personal.artist.portfolio_taxonomy
+    label: Portfolio taxonomy
+    prompt:
+      en: How should your portfolio be grouped (by medium, client type, theme)?
+      fa: نمونه‌کارهای شما چطور دسته‌بندی شوند (بر اساس رسانه، نوع مشتری، موضوع)؟
+      tr: Portfolyonuz nasıl gruplanmalı (araç, müşteri türü, tema)?
+    why_it_matters: A taxonomy makes the portfolio navigable.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Identity, editorial, personal projects."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks artist-designer
+    depends_on: []
+    priority: medium
+    order: 132
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-artist.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.artist.exhibitions
+    module: personal-artist
+    field_path: personal.artist.exhibitions
+    label: Exhibitions and publications
+    prompt:
+      en: Which exhibitions, publications or collaborations may be listed? Give a source for each.
+      fa: کدام نمایشگاه‌ها، انتشارات یا همکاری‌ها را می‌توان فهرست کرد؟ برای هرکدام منبع بدهید.
+      tr: Hangi sergiler, yayınlar veya iş birlikleri listelenebilir? Her biri için kaynak verin.
+    why_it_matters: Exhibition history is checked by curators.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Group show, Example Gallery, 2023 (gallery page)."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks artist-designer
+    depends_on: []
+    priority: high
+    order: 133
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-artist.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.artist.usage_rights
+    module: personal-artist
+    field_path: personal.artist.usage_rights
+    label: Usage rights and credits
+    prompt:
+      en: What are your rules for licensing, credits and reuse of your work?
+      fa: قواعد شما برای مجوز، ذکر نام و استفادهٔ مجدد از آثارتان چیست؟
+      tr: Eserlerinizin lisanslanması, kredilendirilmesi ve yeniden kullanımı için kurallarınız neler?
+    why_it_matters: Rights decide what can be published and by whom.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Credit required; no commercial reuse without a license."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks artist-designer
+    depends_on: []
+    priority: high
+    order: 134
+    sensitivity: internal
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-artist.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.speaking.topics
+    module: personal-speaker
+    field_path: personal.speaking.topics
+    label: Speaking topics
+    prompt:
+      en: Which topics can you speak about publicly?
+      fa: دربارهٔ کدام موضوعات می‌توانید به‌طور عمومی سخنرانی کنید؟
+      tr: Hangi konularda herkese açık konuşma yapabilirsiniz?
+    why_it_matters: Organizers search by topic.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Product discovery; pricing research."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on: []
+    priority: high
+    order: 140
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.speaking.abstracts
+    module: personal-speaker
+    field_path: personal.speaking.abstracts
+    label: Talk abstracts
+    prompt:
+      en: For each topic, what is the talk abstract in two or three sentences?
+      fa: برای هر موضوع، چکیدهٔ سخنرانی در دو یا سه جمله چیست؟
+      tr: Her konu için iki üç cümlelik konuşma özeti nedir?
+    why_it_matters: Abstracts are copied into event programs verbatim.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Decisions before roadmaps: why teams plan the wrong work."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on:
+      - personal.speaking.topics
+    priority: high
+    order: 141
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.speaking.languages
+    module: personal-speaker
+    field_path: personal.speaking.languages
+    label: Speaking languages
+    prompt:
+      en: In which languages can you speak on stage?
+      fa: به کدام زبان‌ها می‌توانید روی صحنه صحبت کنید؟
+      tr: Sahnede hangi dillerde konuşabilirsiniz?
+    why_it_matters: Language is a booking constraint.
+    question_type: short_text
+    examples:
+      - "EXAMPLE ONLY: English and Turkish."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on: []
+    priority: medium
+    order: 142
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.speaking.prior_talks
+    module: personal-speaker
+    field_path: personal.speaking.prior_talks
+    label: Previous talks
+    prompt:
+      en: Which talks have you given? Give the event, year and a source link for each.
+      fa: کدام سخنرانی‌ها را داشته‌اید؟ برای هرکدام رویداد، سال و لینک منبع بدهید.
+      tr: Hangi konuşmaları yaptınız? Her biri için etkinlik, yıl ve kaynak bağlantısı verin.
+    why_it_matters: Unverified speaker history is not published as verified.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Example Conf 2023 (recording link)."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on: []
+    priority: high
+    order: 143
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.speaking.introduction
+    module: personal-speaker
+    field_path: personal.speaking.introduction
+    label: Stage introduction
+    prompt:
+      en: How should a host introduce you on stage, in about 40 words?
+      fa: مجری در حدود ۴۰ کلمه چطور شما را روی صحنه معرفی کند؟
+      tr: Bir sunucu sizi sahnede yaklaşık 40 kelimeyle nasıl tanıtmalı?
+    why_it_matters: Hosts improvise when no introduction is supplied.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: Alex Example helps early teams decide before they build."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on: []
+    priority: high
+    order: 144
+    sensitivity: public
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: true
+    weight: 2
+    sector_hints: []
+    status: unanswered
+  - id: personal.author.publications
+    module: personal-speaker
+    field_path: personal.author.publications
+    label: Publications
+    prompt:
+      en: Which books, articles or papers have you published? Give a source for each, or say none.
+      fa: کدام کتاب‌ها، مقاله‌ها یا نوشته‌ها را منتشر کرده‌اید؟ برای هرکدام منبع بدهید یا بگویید هیچ.
+      tr: Hangi kitapları, makaleleri veya yazıları yayımladınız? Her biri için kaynak verin ya da yok
+        deyin.
+    why_it_matters: Publication history is checked by editors and organizers.
+    question_type: long_text
+    examples:
+      - "EXAMPLE ONLY: None."
+    required_when: always
+    skip_when: config.modules.personal.facets lacks speaker-author
+    depends_on: []
+    priority: low
+    order: 145
+    sensitivity: public
+    publication_requires:
+      - verified_evidence
+    language:
+      - en
+      - fa
+      - tr
+    source_types: *a1
+    related_outputs:
+      - brand/generated/drafts/personal-speaker.md
+    related_ids: []
+    completion_rule: non_empty
+    allows_unknown: true
+    required: false
+    weight: 1
+    sector_hints: []
+    status: unanswered

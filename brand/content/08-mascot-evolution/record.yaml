@@ -1,0 +1,47 @@
+id: mascot-evolution
+name: "Mascot Evolution"
+status: not_started
+owner: design
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [mascot-identity]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.mascot.stage_count:
+    label: "Stage count"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.mascot.stage_story:
+    label: "Stage story"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.mascot.continuity:
+    label: "Continuity"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.mascot.unlocks:
+    label: "Unlock placeholder"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.mascot.transition:
+    label: "Transition"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

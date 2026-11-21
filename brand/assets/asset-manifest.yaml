@@ -1,0 +1,78 @@
+schema_version: 1
+assets:
+  - id: asset.logo.example-wordmark
+    name: EXAMPLE wordmark placeholder
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: public
+    license: EXAMPLE-ONLY — not a real brand license
+    attribution: Original placeholder geometry created for this template.
+    usage: Demonstrates the manifest and the gallery. Do not ship as a logo.
+    restrictions: Not an approved mark. No trademark is claimed.
+    path: brand/assets/logo/example-wordmark.svg
+    present: true
+    checksum_sha256: 9a701dffdafc94eb8bcf62938a516891a337fef7eb084175b95442a7e359d6e1
+    mime: image/svg+xml
+    preview: brand/assets/logo/example-wordmark.svg
+    tags:
+      - logo
+      - example
+      - draft
+  - id: asset.icon.example-mark
+    name: EXAMPLE icon placeholder
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: public
+    license: EXAMPLE-ONLY — not a real brand license
+    attribution: Original placeholder geometry created for this template.
+    usage: Demonstrates an icon download.
+    restrictions: Not an approved icon.
+    path: brand/assets/icons/example-mark.svg
+    present: true
+    checksum_sha256: 3dac889118263c0021410d4e3490327b97dba999e6396fdfee50c5fe15ae528f
+    mime: image/svg+xml
+    preview: brand/assets/icons/example-mark.svg
+    tags:
+      - icon
+      - example
+      - draft
+  - id: asset.mascot.placeholder-frame
+    name: Empty mascot frame
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: public
+    license: EXAMPLE-ONLY
+    attribution: Template placeholder. No character is depicted.
+    usage: Shows an honest empty slot in the gallery.
+    restrictions: Do not treat this frame as character art.
+    path: brand/assets/mascot/placeholder-frame.svg
+    present: true
+    checksum_sha256: 9620f2b5876d05e11d3027bc24c0b09c1e726accccd0ac67e4dddc1e47aab515
+    mime: image/svg+xml
+    preview: brand/assets/mascot/placeholder-frame.svg
+    tags:
+      - mascot
+      - placeholder
+      - draft
+  - id: asset.mascot.turnaround
+    name: Canonical turnaround
+    status: not_started
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD
+    attribution: null
+    usage: Model sheet. Not created.
+    restrictions: Do not invent artwork to fill this id.
+    path: brand/assets/mascot/turnaround/canonical.png
+    present: false
+    checksum_sha256: null
+    mime: image/png
+    preview: null
+    missing_reason: No approved artwork. The placeholder frame is a different asset.
+    tags:
+      - mascot
+      - missing

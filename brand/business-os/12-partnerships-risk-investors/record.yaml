@@ -1,0 +1,53 @@
+id: business-partnerships
+name: "Partnerships, Distribution, Risk & Investor Readiness"
+status: not_started
+owner: leadership
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company, business-finance, business-legal]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.partners.channels:
+    label: "Partners"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.partners.share:
+    label: "Revenue share"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"
+  business.partners.risk_process:
+    label: "Risk review"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.partners.narrative:
+    label: "External narrative"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.partners.diligence:
+    label: "Diligence index"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.partners.board_home:
+    label: "Board documents"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"

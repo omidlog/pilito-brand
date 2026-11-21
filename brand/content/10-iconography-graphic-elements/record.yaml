@@ -1,0 +1,47 @@
+id: iconography
+name: "Iconography & Graphic Elements"
+status: not_started
+owner: design
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [logo-system, color-system]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.icons.grid:
+    label: "Icon grid"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.icons.stroke:
+    label: "Stroke and corners"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.icons.metaphor:
+    label: "Metaphors"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.icons.badges:
+    label: "Badges"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.icons.naming:
+    label: "Naming and export"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

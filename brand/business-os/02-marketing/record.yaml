@@ -1,0 +1,65 @@
+id: business-marketing
+name: "Marketing Strategy & Planning"
+status: not_started
+owner: marketing
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [business-company, brand-strategy]
+approved_by: null
+category: business
+type: module-record
+fields:
+  business.marketing.objective:
+    label: "Marketing objective"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.channels:
+    label: "Channels"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.journey:
+    label: "Journey hypothesis"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.pillars:
+    label: "Content pillars"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.budget:
+    label: "Channel budget"
+    value: null
+    status: unanswered
+    sensitivity: restricted
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.attribution:
+    label: "Attribution"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.availability_claim:
+    label: "Availability claims"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  business.marketing.utm:
+    label: "UTM taxonomy"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

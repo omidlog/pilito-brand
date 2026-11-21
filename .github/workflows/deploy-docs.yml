@@ -1,0 +1,54 @@
+name: deploy-docs
+
+on:
+  workflow_dispatch:
+    inputs:
+      audience:
+        description: public excludes internal and restricted records
+        required: true
+        default: public
+        type: choice
+        options:
+          - public
+          - internal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run tokens:build
+      - run: npx tsx scripts/prepare-docs.ts --audience ${{ inputs.audience }}
+      - run: npm run build -w @brand-os/docs
+      - uses: actions/upload-artifact@v4
+        if: inputs.audience == 'public'
+        with:
+          name: brand-os-docs-public
+          path: apps/docs/build
+          if-no-files-found: error
+
+  pages:
+    needs: build
+    if: vars.DOCS_PAGES == 'true' && inputs.audience == 'public'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: brand-os-docs-public
+          path: apps/docs/build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/docs/build
+      - id: deployment
+        uses: actions/deploy-pages@v4

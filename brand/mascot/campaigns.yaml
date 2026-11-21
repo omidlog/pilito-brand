@@ -1,0 +1,327 @@
+schema_version: 1
+states:
+  - id: mascot.seasonal.birthday
+    category: seasonal
+    name: Birthday
+    intent: Only when a real birthday moment is in scope and appropriate.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: &a1
+      - Wait for an approved master tied to this id before using it in product or marketing.
+      - Keep the pose readable at the smallest surface listed.
+    dont: &a2
+      - Do not generate artwork and mark this catalog row approved.
+      - Do not borrow another brand’s character to fill the preview.
+      - Do not use this state to claim a product feature that is unshipped.
+    tags:
+      - mascot
+      - seasonal
+      - birthday
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Birthday is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only when a real birthday moment is in scope and appropriate.
+      Pose: Same character, seasonal accent only. Costume must not break silhouette rules.. Face:
+      Match the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Birthday."
+  - id: mascot.seasonal.new-year
+    category: seasonal
+    name: New year
+    intent: A new-year variant. Do not assume a calendar for the user.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - new-year
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: New year is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A new-year variant. Do not assume a calendar for the user. Pose:
+      Same character, seasonal accent only. Costume must not break silhouette rules.. Face: Match
+      the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: New year."
+  - id: mascot.seasonal.winter
+    category: seasonal
+    name: Winter
+    intent: Seasonal dressing. Not a claim that every market has this season now.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - winter
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Winter is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Not a claim that every market has this season
+      now. Pose: Same character, seasonal accent only. Costume must not break silhouette rules..
+      Face: Match the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Winter."
+  - id: mascot.seasonal.spring
+    category: seasonal
+    name: Spring
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - spring
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Spring is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Spring."
+  - id: mascot.seasonal.summer
+    category: seasonal
+    name: Summer
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - summer
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Summer is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Summer."
+  - id: mascot.seasonal.autumn
+    category: seasonal
+    name: Autumn
+    intent: Seasonal dressing.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - autumn
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Autumn is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Seasonal dressing. Pose: Same character, seasonal accent only.
+      Costume must not break silhouette rules.. Face: Match the campaign emotion the owner
+      approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Autumn."
+  - id: mascot.seasonal.launch
+    category: seasonal
+    name: Launch
+    intent: A release moment that product status allows.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - launch
+      - mvp
+    version: 0.1.0
+    owner: design
+    mvp: true
+    description: Launch is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A release moment that product status allows. Pose: Same
+      character, seasonal accent only. Costume must not break silhouette rules.. Face: Match the
+      campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Launch."
+  - id: mascot.seasonal.anniversary
+    category: seasonal
+    name: Anniversary
+    intent: Only after a real date exists.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - anniversary
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Anniversary is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: Only after a real date exists. Pose: Same character, seasonal
+      accent only. Costume must not break silhouette rules.. Face: Match the campaign emotion the
+      owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Anniversary."
+  - id: mascot.seasonal.special-event
+    category: seasonal
+    name: Special event
+    intent: A named event the owner supplied.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - special-event
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Special event is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A named event the owner supplied. Pose: Same character, seasonal
+      accent only. Costume must not break silhouette rules.. Face: Match the campaign emotion the
+      owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Special event."
+  - id: mascot.seasonal.community-milestone
+    category: seasonal
+    name: Community milestone
+    intent: A group achievement with evidence, not a fake user count.
+    emotion_intensity: medium
+    pose: Same character, seasonal accent only. Costume must not break silhouette rules.
+    face: Match the campaign emotion the owner approved.
+    stage_compatibility:
+      - any
+    approved_angles: []
+    applicable_surfaces:
+      - marketing
+      - social
+    animation_possible: false
+    source_assets: []
+    preview: null
+    status: defined
+    do: *a1
+    dont: *a2
+    tags:
+      - mascot
+      - seasonal
+      - community-milestone
+      - backlog
+    version: 0.1.0
+    owner: design
+    mvp: false
+    description: Community milestone is a proposed seasonal slot. No approved artwork exists in the template.
+    visual_brief: "EXAMPLE brief only: A group achievement with evidence, not a fake user count. Pose:
+      Same character, seasonal accent only. Costume must not break silhouette rules.. Face: Match
+      the campaign emotion the owner approved.. Leave the drawing TBD."
+    usage: "Seasonal or campaign variant: Community milestone."

@@ -1,0 +1,47 @@
+id: applications
+name: "Brand Applications"
+status: not_started
+owner: brand
+version: 0.1.0
+last_reviewed: null
+next_review: null
+visibility: internal
+locale: und
+confidence: unknown
+assumptions: []
+source_refs: []
+related_ids: [product-ui, social, campaigns]
+approved_by: null
+category: brand
+type: module-record
+fields:
+  brand.applications.surfaces:
+    label: "Reference surfaces"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.applications.launch:
+    label: "Launch exemplar"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.applications.consistency:
+    label: "Consistency bar"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.applications.reviewer:
+    label: "Application reviewer"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"
+  brand.applications.edges:
+    label: "Edge cases"
+    value: null
+    status: unanswered
+    sensitivity: internal
+    notes: "TBD — no approved brand facts in the template"

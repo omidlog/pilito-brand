@@ -1,0 +1,257 @@
+schema_version: 1
+motions:
+  - id: mascot.motion.idle-breathing
+    name: Idle breathing
+    trigger: Character is present and waiting
+    duration_ms: 2400
+    easing: standard
+    repeat: loop
+    entrance: Opacity or a 2px vertical drift
+    exit: Return to the rest pose
+    audio_cue: None
+    reduced_motion: Hold the rest still
+    fallback_still: Still frame for Idle breathing. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.blinking
+    name: Blinking
+    trigger: Idle life
+    duration_ms: 180
+    easing: standard
+    repeat: loop
+    entrance: Lids close
+    exit: Lids open
+    audio_cue: None
+    reduced_motion: Do not blink. Show the open still
+    fallback_still: Still frame for Blinking. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.waving
+    name: Waving
+    trigger: Greeting
+    duration_ms: 900
+    easing: standard
+    repeat: once
+    entrance: Arm rises
+    exit: Arm returns
+    audio_cue: Optional soft tick, off by default
+    reduced_motion: Show the raised-hand still
+    fallback_still: Still frame for Waving. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.jump
+    name: Jump
+    trigger: Short delight
+    duration_ms: 700
+    easing: standard
+    repeat: once
+    entrance: Anticipation crouch
+    exit: Landing pose
+    audio_cue: None by default
+    reduced_motion: Cut to the landing still
+    fallback_still: Still frame for Jump. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.cheering
+    name: Cheering
+    trigger: Encouragement
+    duration_ms: 1000
+    easing: standard
+    repeat: once
+    entrance: Gather
+    exit: Rest
+    audio_cue: None by default
+    reduced_motion: Show the cheer still once
+    fallback_still: Still frame for Cheering. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.sad-reaction
+    name: Sad reaction
+    trigger: Respectful disappointment
+    duration_ms: 800
+    easing: standard
+    repeat: once
+    entrance: Small settle
+    exit: Hold
+    audio_cue: None
+    reduced_motion: Show the sad still
+    fallback_still: Still frame for Sad reaction. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.confused-thinking
+    name: Confused thinking
+    trigger: Needs a hint
+    duration_ms: 1200
+    easing: standard
+    repeat: ping-pong
+    entrance: Head tilt in
+    exit: Head tilt out
+    audio_cue: None
+    reduced_motion: Show the thinking still
+    fallback_still: Still frame for Confused thinking. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.walking-running
+    name: Walking or running
+    trigger: Relocation
+    duration_ms: 800
+    easing: standard
+    repeat: loop
+    entrance: First step
+    exit: Last step
+    audio_cue: Optional footsteps, off by default
+    reduced_motion: Show a single stride still
+    fallback_still: Still frame for Walking or running. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.flying-moving
+    name: Flying or moving
+    trigger: Optional travel
+    duration_ms: 1000
+    easing: standard
+    repeat: loop
+    entrance: Lift
+    exit: Level motion
+    audio_cue: None
+    reduced_motion: Show a static travel pose or skip if the character cannot fly
+    fallback_still: Still frame for Flying or moving. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.listening
+    name: Listening
+    trigger: Audio or user speech
+    duration_ms: 1600
+    easing: standard
+    repeat: loop
+    entrance: Attention in
+    exit: Attention hold
+    audio_cue: None. Never require sound
+    reduced_motion: Show the listening still and captions elsewhere
+    fallback_still: Still frame for Listening. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.celebration
+    name: Celebration
+    trigger: Rare peak
+    duration_ms: 1400
+    easing: standard
+    repeat: once
+    entrance: Gather
+    exit: Settle
+    audio_cue: Optional, user-controlled
+    reduced_motion: Show the celebrating still once
+    fallback_still: Still frame for Celebration. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.level-up
+    name: Level up
+    trigger: Stage or progress change
+    duration_ms: 1200
+    easing: standard
+    repeat: once
+    entrance: Old stage
+    exit: New stage still
+    audio_cue: None until a sound is licensed
+    reduced_motion: Crossfade or hard cut
+    fallback_still: Still frame for Level up. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.success
+    name: Success
+    trigger: Completed action
+    duration_ms: 600
+    easing: standard
+    repeat: once
+    entrance: Small nod or lift
+    exit: Rest
+    audio_cue: None by default
+    reduced_motion: Show the success still
+    fallback_still: Still frame for Success. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.failure
+    name: Failure
+    trigger: Failed action
+    duration_ms: 600
+    easing: standard
+    repeat: once
+    entrance: Small settle
+    exit: Offer pose
+    audio_cue: No buzzer
+    reduced_motion: Show the failure still and the next step in UI
+    fallback_still: Still frame for Failure. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
+  - id: mascot.motion.loop-transition
+    name: Loop transition
+    trigger: Between two cycles
+    duration_ms: 320
+    easing: standard
+    repeat: once
+    entrance: End of previous loop
+    exit: Start of next loop
+    audio_cue: None
+    reduced_motion: Hard cut
+    fallback_still: Still frame for Loop transition. File missing until art exists.
+    performance_budget: TBD. Keep under one lightweight JSON animation or a CSS transform. No video autoplay.
+    formats:
+      - css
+      - svg
+      - lottie
+    status: draft
