@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.model.revenue`
 - Field: `business.model.revenue`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it.
-- Updated: 2026-11-21T12:25:10.614Z
-- Answer id: ans-0074
+- Updated: 2026-11-21T12:30:57.043Z
+- Answer id: ans-0090
 
 Value:
 
 Subscription is the main revenue. Plain flashcard use stays free; the free tier carries in-app ads, which must not be intrusive.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.revenue end -->

@@ -660,3 +660,22 @@ batches:
         text: Read literally this is an outcome claim; keep it clearly playful in public copy, or define
           what 'pilot-level' language means.
     owner_questions: []
+  - id: int-0020
+    received_at: 2026-11-21T12:31:02.178Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-16 (owner chose agent tagline suggestion 4)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.tagline
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-cb384a0e5e94
+        reason: approved fact kept; a change proposal now waits for human approval
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

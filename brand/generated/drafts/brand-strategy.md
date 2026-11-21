@@ -123,17 +123,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.purpose`
 - Field: `brand.strategy.purpose`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند بپردازند.”. Draft until a human approves it.
-- Updated: 2026-11-21T12:28:52.794Z
-- Answer id: ans-0083
+- Updated: 2026-11-21T12:30:57.661Z
+- Answer id: ans-0094
 
 Value:
 
 Language learning for everyone, at a price everyone can afford.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.purpose end -->
@@ -143,17 +145,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.vision`
 - Field: `brand.strategy.vision`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”. Draft until a human approves it.
-- Updated: 2026-11-21T12:25:11.276Z
-- Answer id: ans-0080
+- Updated: 2026-11-21T12:30:57.806Z
+- Answer id: ans-0095
 
 Value:
 
 ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps, possibly acquired by a large brand.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.vision end -->
@@ -163,17 +167,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.values`
 - Field: `brand.strategy.values`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:28:53.039Z
-- Answer id: ans-0085
+- Updated: 2026-11-21T12:30:57.977Z
+- Answer id: ans-0096
 
 Value:
 
 No intrusive ads.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.values end -->
@@ -205,17 +211,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.promise`
 - Field: `brand.strategy.promise`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human approves it.
-- Updated: 2026-11-21T12:28:53.154Z
-- Answer id: ans-0086
+- Updated: 2026-11-21T12:30:58.136Z
+- Answer id: ans-0097
 
 Value:
 
 Playful promise: if you turn Pilito into a pilot (reach the final level), your command of the language you are learning will be good enough to take a pilot exam in it and pass.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.promise end -->

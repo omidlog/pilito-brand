@@ -89,10 +89,27 @@ history:
   - brand.strategy.values
   - brand.strategy.promise
   - brand.verbal.tagline
+  - business.identity.legal_name
+  - business.problem.pains
+  - business.model.revenue
+  - business.model.defensibility
+  - business.plan.milestone
+  - business.plan.risks
+  - brand.strategy.purpose
+  - brand.strategy.vision
+  - brand.strategy.values
+  - brand.strategy.promise
+  - brand.verbal.name_use
+  - brand.identity.public_name_override
+  - brand.verbal.tagline
+  - business.marketing.channels
+  - business.legal.entity
+  - business.legal.trademark
+  - brand.social.channels
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:28:53.280Z
-last_answer_id: ans-0087
+updated_at: 2026-11-21T12:30:59.245Z
+last_answer_id: ans-0104

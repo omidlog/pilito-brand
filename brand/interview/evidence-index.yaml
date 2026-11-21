@@ -672,3 +672,139 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0088
+    question_id: business.identity.legal_name
+    source_reference: intake:int-0014#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:56.737Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0089
+    question_id: business.problem.pains
+    source_reference: intake:int-0016#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:56.885Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0090
+    question_id: business.model.revenue
+    source_reference: intake:int-0017#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.043Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0091
+    question_id: business.model.defensibility
+    source_reference: intake:int-0017#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.203Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0092
+    question_id: business.plan.milestone
+    source_reference: intake:int-0017#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.345Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0093
+    question_id: business.plan.risks
+    source_reference: intake:int-0017#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.506Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0094
+    question_id: brand.strategy.purpose
+    source_reference: intake:int-0019#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.661Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0095
+    question_id: brand.strategy.vision
+    source_reference: intake:int-0017#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.806Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0096
+    question_id: brand.strategy.values
+    source_reference: intake:int-0019#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:57.977Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0097
+    question_id: brand.strategy.promise
+    source_reference: intake:int-0019#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.136Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0098
+    question_id: brand.verbal.name_use
+    source_reference: intake:int-0013#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.296Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0099
+    question_id: brand.identity.public_name_override
+    source_reference: intake:int-0016#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.445Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0100
+    question_id: brand.verbal.tagline
+    source_reference: intake:int-0019#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.596Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0101
+    question_id: business.marketing.channels
+    source_reference: intake:int-0017#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.746Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0102
+    question_id: business.legal.entity
+    source_reference: intake:int-0015#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:58.905Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0103
+    question_id: business.legal.trademark
+    source_reference: intake:int-0013#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:59.069Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0104
+    question_id: brand.social.channels
+    source_reference: intake:int-0019#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:30:59.231Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.

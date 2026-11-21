@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.name_use`
 - Field: `brand.verbal.name_use`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “Pilito فقط درسته”. Draft until a human approves it.
-- Updated: 2026-11-21T12:18:18.165Z
-- Answer id: ans-0064
+- Updated: 2026-11-21T12:30:58.296Z
+- Answer id: ans-0098
 
 Value:
 
 Always written exactly 'Pilito' (capital P, rest lowercase). No other spelling.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.name_use end -->
@@ -57,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.identity.public_name_override`
 - Field: `brand.identity.public_name_override`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a human approves it.
-- Updated: 2026-11-21T12:20:21.754Z
-- Answer id: ans-0072
+- Updated: 2026-11-21T12:30:58.445Z
+- Answer id: ans-0099
 
 Value:
 
 Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays Pilito).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.identity.public_name_override end -->
@@ -77,17 +81,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.tagline`
 - Field: `brand.verbal.tagline`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:28:53.268Z
-- Answer id: ans-0087
+- Updated: 2026-11-21T12:30:58.596Z
+- Answer id: ans-0100
 
 Value:
 
 none
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.tagline end -->

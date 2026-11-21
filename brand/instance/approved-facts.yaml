@@ -806,3 +806,474 @@ facts:
     related_ids:
       - brand.mascot.unlocks
     private_ref: null
+  business.identity.legal_name:
+    id: business.identity.legal_name
+    brand_id: pilito-brand
+    module: business-company
+    value: FIKO AI LABS LTD
+    value_type: short_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0088
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:56.737Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:56.737Z
+    version: 1
+    revision_hash: business.identity.legal_name:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.problem.pains:
+    id: business.problem.pains
+    brand_id: pilito-brand
+    module: business-company
+    value: "Owner's own experience (not user research): existing apps are very boring and monotonous,
+      expensive, and offer nothing new."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0089
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:56.885Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:56.885Z
+    version: 1
+    revision_hash: business.problem.pains:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.model.revenue:
+    id: business.model.revenue
+    brand_id: pilito-brand
+    module: business-company
+    value: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
+      in-app ads, which must not be intrusive.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0090
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.043Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.043Z
+    version: 1
+    revision_hash: business.model.revenue:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.model.defensibility:
+    id: business.model.defensibility
+    brand_id: pilito-brand
+    module: business-company
+    value: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product
+      itself could be copied."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0091
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.203Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.203Z
+    version: 1
+    revision_hash: business.model.defensibility:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.plan.milestone:
+    id: business.plan.milestone
+    brand_id: pilito-brand
+    module: business-company
+    value: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0092
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.345Z
+    confidence: 0.75
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.345Z
+    version: 1
+    revision_hash: business.plan.milestone:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.plan.risks:
+    id: business.plan.risks
+    brand_id: pilito-brand
+    module: business-company
+    value: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and
+      GEO, especially being recommended by AI assistants."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0093
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.506Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.506Z
+    version: 1
+    revision_hash: business.plan.risks:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.purpose:
+    id: brand.strategy.purpose
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: Language learning for everyone, at a price everyone can afford.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0094
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.661Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.661Z
+    version: 1
+    revision_hash: brand.strategy.purpose:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.vision:
+    id: brand.strategy.vision
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
+      possibly acquired by a large brand."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0095
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.806Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.806Z
+    version: 1
+    revision_hash: brand.strategy.vision:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.values:
+    id: brand.strategy.values
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: No intrusive ads.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0096
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.977Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:57.977Z
+    version: 1
+    revision_hash: brand.strategy.values:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.promise:
+    id: brand.strategy.promise
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command of
+      the language you are learning will be good enough to take a pilot exam in it and pass."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0097
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.136Z
+    confidence: 0.75
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.136Z
+    version: 1
+    revision_hash: brand.strategy.promise:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.name_use:
+    id: brand.verbal.name_use
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: Always written exactly 'Pilito' (capital P, rest lowercase). No other spelling.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0098
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.296Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.296Z
+    version: 1
+    revision_hash: brand.verbal.name_use:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.identity.public_name_override:
+    id: brand.identity.public_name_override
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
+      Pilito)."
+    value_type: short_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0099
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.445Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.445Z
+    version: 1
+    revision_hash: brand.identity.public_name_override:1
+    review_due: null
+    related_ids:
+      - business.identity.trade_name
+    private_ref: null
+  brand.verbal.tagline:
+    id: brand.verbal.tagline
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: none
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0100
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.596Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.596Z
+    version: 1
+    revision_hash: brand.verbal.tagline:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.channels:
+    id: business.marketing.channels
+    brand_id: pilito-brand
+    module: business-marketing
+    value: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid
+      advertising."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0101
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.746Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.746Z
+    version: 1
+    revision_hash: business.marketing.channels:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.legal.entity:
+    id: business.legal.entity
+    brand_id: pilito-brand
+    module: business-legal
+    value: Private limited company on the UK Companies House register, company number 16502068, status
+      Active, incorporated 6 June 2025. Pilito is a product of this company; the Apple App Store
+      developer account is held by it (owner stated).
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0102
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.905Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:58.905Z
+    version: 1
+    revision_hash: business.legal.entity:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.legal.trademark:
+    id: business.legal.trademark
+    brand_id: pilito-brand
+    module: business-legal
+    value: none
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0103
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:59.069Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:59.069Z
+    version: 1
+    revision_hash: business.legal.trademark:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.social.channels:
+    id: brand.social.channels
+    brand_id: pilito-brand
+    module: social
+    value: Instagram, LinkedIn, TikTok, X, YouTube.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0104
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:59.231Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:30:59.231Z
+    version: 1
+    revision_hash: brand.social.channels:1
+    review_due: null
+    related_ids:
+      - business.marketing.channels
+    private_ref: null

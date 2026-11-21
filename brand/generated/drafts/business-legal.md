@@ -55,17 +55,19 @@ TBD
 
 - Question: `business.legal.entity`
 - Field: `business.legal.entity`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “Company type: Private limited Company”. Draft until a human approves it.
-- Updated: 2026-11-21T12:18:26.084Z
-- Answer id: ans-0071
+- Updated: 2026-11-21T12:30:58.905Z
+- Answer id: ans-0102
 
 Value:
 
 Private limited company on the UK Companies House register, company number 16502068, status Active, incorporated 6 June 2025. Pilito is a product of this company; the Apple App Store developer account is held by it (owner stated).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.legal.entity end -->
@@ -75,17 +77,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.legal.trademark`
 - Field: `business.legal.trademark`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۳- هیچ کاری نکردم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:18:18.376Z
-- Answer id: ans-0066
+- Updated: 2026-11-21T12:30:59.069Z
+- Answer id: ans-0103
 
 Value:
 
 none
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.legal.trademark end -->
