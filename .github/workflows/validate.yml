@@ -14,16 +14,29 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # A private brand (brand.publish_docs: private) must never get a public docs build.
+      # prepare-docs refuses one, so the public steps below run only for public brands.
+      - name: read publish_docs
+        id: docs
+        run: echo "publish=$(node -e "console.log(require('yaml').parse(require('fs').readFileSync('brand/brand.config.yaml','utf8')).brand.publish_docs)")" >> "$GITHUB_OUTPUT"
       - run: npm run lint
       - run: npm run tokens:build
-      - run: npm run prepare:docs
+      - name: prepare docs (public)
+        if: steps.docs.outputs.publish == 'public'
+        run: npm run prepare:docs
+      - name: prepare docs (internal, private brand)
+        if: steps.docs.outputs.publish != 'public'
+        run: npx tsx scripts/prepare-docs.ts --audience internal
       - run: npm run typecheck
       - run: npm run validate
       - run: npm run test
-      - run: npm run build -w @brand-os/docs
-      - run: npx tsx scripts/scan-public.ts apps/docs/build
-      - run: npm run build:docs:nomascot
-      - run: npx tsx scripts/scan-public.ts apps/docs/build
+      - name: public docs build and scan
+        if: steps.docs.outputs.publish == 'public'
+        run: |
+          npm run build -w @brand-os/docs
+          npx tsx scripts/scan-public.ts apps/docs/build
+          npm run build:docs:nomascot
+          npx tsx scripts/scan-public.ts apps/docs/build
       # The internal audience (drafts, internal Brand Book, review dashboard) must compile too.
       # It is never deployed and is not scanned as public.
       - name: internal docs build compiles
