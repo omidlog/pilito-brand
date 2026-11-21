@@ -279,3 +279,41 @@ facts:
     answer_id: ans-0022
     updated: 2026-11-21T11:01:35.651Z
     proposal_state: proposed
+  brand.personality.traits:
+    value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a
+      human approves it."
+    answer_id: ans-0023
+    updated: 2026-11-21T11:08:22.548Z
+    proposal_state: proposed
+  business.marketing.availability_claim:
+    value: do-not-claim
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
+    answer_id: ans-0024
+    updated: 2026-11-21T11:08:22.662Z
+    proposal_state: proposed
+  business.marketing.objective:
+    value: Increase the number of downloads and purchases.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
+    answer_id: ans-0025
+    updated: 2026-11-21T11:08:22.733Z
+    proposal_state: proposed

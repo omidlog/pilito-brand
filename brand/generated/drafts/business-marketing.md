@@ -55,17 +55,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.marketing.objective`
 - Field: `business.marketing.objective`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.733Z
+- Answer id: ans-0025
 
 Value:
 
-TBD
+Increase the number of downloads and purchases.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.objective end -->
 
 <!-- field:business.marketing.channels start -->
@@ -145,17 +147,19 @@ TBD
 
 - Question: `business.marketing.availability_claim`
 - Field: `business.marketing.availability_claim`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.662Z
+- Answer id: ans-0024
 
 Value:
 
-TBD
+do-not-claim
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.availability_claim end -->
 
 <!-- field:business.marketing.utm start -->

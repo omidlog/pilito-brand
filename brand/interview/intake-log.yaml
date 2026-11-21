@@ -254,3 +254,34 @@ batches:
         text: "'Cheaper than others' is a comparative claim; it needs a price and a dated competitor
           comparison before it is used publicly."
     owner_questions: []
+  - id: int-0007
+    received_at: 2026-11-21T11:08:22.798Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-5
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.personality.traits
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0023
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.marketing.availability_claim
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0024
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.marketing.objective
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0025
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

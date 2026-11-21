@@ -480,3 +480,64 @@ records:
       ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0023
+    question_id: brand.personality.traits
+    value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    raw_answer: شاد و شوخ و صمیمی و باهوش و ماجراجو
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#0
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T11:08:22.548Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft
+      until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0024
+    question_id: business.marketing.availability_claim
+    value: do-not-claim
+    raw_answer: نه نمیخاد چیزی بگی
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:08:22.662Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: do-not-claim
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0025
+    question_id: business.marketing.objective
+    value: Increase the number of downloads and purchases.
+    raw_answer: تعداد خرید و دانلود
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:08:22.733Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Increase the number of downloads and purchases.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

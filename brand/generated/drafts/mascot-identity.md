@@ -35,17 +35,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.personality.traits`
 - Field: `brand.personality.traits`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.548Z
+- Answer id: ans-0023
 
 Value:
 
-TBD
+In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry, serious.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.personality.traits end -->
 
 <!-- field:brand.mascot.role start -->

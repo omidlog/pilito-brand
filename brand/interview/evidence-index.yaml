@@ -176,3 +176,27 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0023
+    question_id: brand.personality.traits
+    source_reference: intake:int-0007#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:08:22.548Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0024
+    question_id: business.marketing.availability_claim
+    source_reference: intake:int-0007#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:08:22.662Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0025
+    question_id: business.marketing.objective
+    source_reference: intake:int-0007#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:08:22.733Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

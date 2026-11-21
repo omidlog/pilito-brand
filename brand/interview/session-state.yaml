@@ -24,10 +24,13 @@ history:
   - business.product.public_status
   - business.market.geography
   - business.offer.value_proposition
+  - brand.personality.traits
+  - business.marketing.availability_claim
+  - business.marketing.objective
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T11:01:35.662Z
-last_answer_id: ans-0022
+updated_at: 2026-11-21T11:08:22.744Z
+last_answer_id: ans-0025
