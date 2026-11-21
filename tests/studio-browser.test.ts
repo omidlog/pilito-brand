@@ -3,6 +3,7 @@ import path from 'node:path'
 import { after, before, test } from 'node:test'
 import { totpAt } from '../apps/studio/src/auth/totp.js'
 import { Browser, findChrome, type Page } from './helpers/browser.js'
+import { teardown } from './helpers/cleanup.js'
 import { approve, editOutsideStudio } from './helpers/edits.js'
 import { OWNER_LOGIN, OWNER_PASSWORD, startStudio, TOTP_SECRET, type RunningStudio } from './helpers/studio-server.js'
 import { OWNER } from './helpers/studio.js'
@@ -30,15 +31,17 @@ before(async () => {
   s = await startStudio()
   page = await browser.newPage()
   await page.viewport(1440, 900)
-})
+}, { timeout: 120_000 })
 
 after(async () => {
   if (!chrome) return
-  // Close the browser first: its keep-alive connections would otherwise hold the server open.
-  page?.close()
-  await browser?.close()
-  await s?.close()
-})
+  // Every step runs even if one fails: a server left listening keeps the test process alive.
+  await teardown(
+    () => page?.close(),
+    () => browser?.close(),
+    () => s?.close(),
+  )
+}, { timeout: 60_000 })
 
 /** Every page must render with no console error, uncaught exception or CSP violation. */
 function assertClean(where: string): void {

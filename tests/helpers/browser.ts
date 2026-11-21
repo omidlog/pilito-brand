@@ -1,7 +1,7 @@
 import { spawn, type ChildProcess } from 'node:child_process'
 import fs from 'node:fs'
-import os from 'node:os'
 import path from 'node:path'
+import { removeTempDir, tempDir } from './cleanup.js'
 
 /**
  * A minimal headless-Chrome driver over the DevTools protocol, with no npm dependency (Node's global
@@ -53,6 +53,13 @@ export class Page {
       }
       for (const listener of this.listeners.get(message.method ?? '') ?? []) listener(message.params ?? {})
     })
+    // If Chrome dies mid-test, fail the waiting calls now rather than at their deadlines.
+    socket.addEventListener('close', () => {
+      for (const [id, waiter] of this.pending) {
+        this.pending.delete(id)
+        waiter.reject(new Error('DevTools socket closed'))
+      }
+    })
     this.on('Runtime.consoleAPICalled', (params) => {
       if (params.type === 'error' || params.type === 'assert') this.problems.push({ kind: 'console', text: JSON.stringify(params.args) })
     })
@@ -64,11 +71,25 @@ export class Page {
     })
   }
 
-  send(method: string, params: Record<string, unknown> = {}): Promise<Record<string, unknown>> {
+  /** Every DevTools call has a deadline, so a crashed or wedged browser fails the test instead of hanging it. */
+  send(method: string, params: Record<string, unknown> = {}, timeoutMs = 30_000): Promise<Record<string, unknown>> {
     const id = this.nextId++
     return new Promise((resolve, reject) => {
-      this.pending.set(id, { resolve, reject })
-      this.socket.send(JSON.stringify({ id, method, params }))
+      const timer = setTimeout(() => {
+        this.pending.delete(id)
+        reject(new Error(`DevTools ${method} timed out after ${timeoutMs} ms`))
+      }, timeoutMs)
+      const settle = <T>(fn: (value: T) => void) => (value: T): void => {
+        clearTimeout(timer)
+        fn(value)
+      }
+      this.pending.set(id, { resolve: settle(resolve), reject: settle(reject) })
+      try {
+        this.socket.send(JSON.stringify({ id, method, params }))
+      } catch (error) {
+        this.pending.delete(id)
+        settle(reject)(error as Error)
+      }
     })
   }
 
@@ -160,19 +181,30 @@ export class Page {
   }
 
   close(): void {
-    this.socket.close()
+    for (const [id, waiter] of this.pending) {
+      this.pending.delete(id)
+      waiter.reject(new Error('page closed'))
+    }
+    try {
+      this.socket.close()
+    } catch {
+      // already closed
+    }
   }
 }
 
 export class Browser {
   private constructor(
     private readonly process: ChildProcess,
-    private readonly port: number,
+    private port: number,
     private readonly profile: string,
   ) {}
 
   static async launch(executable: string): Promise<Browser> {
-    const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'studio-chrome-'))
+    const profile = tempDir('studio-chrome-')
+    // Chrome's own scratch files (com.google.Chrome.*) go inside the profile, so one removal cleans all.
+    const scratch = path.join(profile, 'tmp')
+    fs.mkdirSync(scratch)
     const child = spawn(
       executable,
       [
@@ -191,22 +223,39 @@ export class Browser {
         `--user-data-dir=${profile}`,
         'about:blank',
       ],
-      { stdio: ['ignore', 'ignore', 'pipe'] },
+      // A process group of its own: Chrome forks zygote, GPU, network and crashpad helpers that can
+      // outlive the main process and keep our stderr pipe (and so this test process) alive. Teardown
+      // signals the whole group.
+      { stdio: ['ignore', 'ignore', 'pipe'], detached: true, env: { ...process.env, TMPDIR: scratch } },
     )
-    const port = await new Promise<number>((resolve, reject) => {
-      let buffer = ''
-      const timer = setTimeout(() => reject(new Error('Chrome did not start')), 20_000)
-      child.stderr!.on('data', (chunk: Buffer) => {
-        buffer += chunk.toString()
-        const match = buffer.match(/DevTools listening on ws:\/\/127\.0\.0\.1:(\d+)\//)
-        if (match) {
+    const browser = new Browser(child, 0, profile)
+    try {
+      browser.port = await new Promise<number>((resolve, reject) => {
+        let buffer = ''
+        const timer = setTimeout(() => reject(new Error('Chrome did not start')), 20_000)
+        child.stderr!.on('data', (chunk: Buffer) => {
+          // Keep only the tail: Chrome can log a lot and we only need the DevTools line.
+          buffer = (buffer + chunk.toString()).slice(-4096)
+          const match = buffer.match(/DevTools listening on ws:\/\/127\.0\.0\.1:(\d+)\//)
+          if (match) {
+            clearTimeout(timer)
+            resolve(Number(match[1]))
+          }
+        })
+        child.once('exit', () => {
           clearTimeout(timer)
-          resolve(Number(match[1]))
-        }
+          reject(new Error('Chrome exited during start-up'))
+        })
+        child.once('error', (error) => {
+          clearTimeout(timer)
+          reject(error)
+        })
       })
-      child.on('exit', () => reject(new Error('Chrome exited during start-up')))
-    })
-    return new Browser(child, port, profile)
+    } catch (error) {
+      await browser.close()
+      throw error
+    }
+    return browser
   }
 
   async newPage(): Promise<Page> {
@@ -222,11 +271,36 @@ export class Browser {
     return page
   }
 
+  /**
+   * Stops Chrome and every helper process it forked, then removes the profile. It never throws:
+   * an exception here once skipped the rest of a test file's teardown and left the Studio server
+   * listening, which kept the test process (and CI) running until the job was cancelled.
+   */
   async close(): Promise<void> {
-    const exited = new Promise<void>((resolve) => this.process.once('exit', () => resolve()))
-    this.process.kill('SIGTERM')
-    await Promise.race([exited, new Promise((resolve) => setTimeout(resolve, 3000))])
-    if (this.process.exitCode === null) this.process.kill('SIGKILL')
-    fs.rmSync(this.profile, { recursive: true, force: true })
+    const child = this.process
+    const running = (): boolean => child.exitCode === null && child.signalCode === null
+    const exited = new Promise<void>((resolve) => {
+      if (!running()) resolve()
+      else child.once('exit', () => resolve())
+    })
+    const signalGroup = (signal: NodeJS.Signals): void => {
+      try {
+        if (child.pid) process.kill(-child.pid, signal)
+      } catch {
+        // the group is already gone
+      }
+    }
+    signalGroup('SIGTERM')
+    await Promise.race([exited, delay(3000)])
+    // SIGKILL the group even if the main process exited: helpers may still be running.
+    signalGroup('SIGKILL')
+    await Promise.race([exited, delay(2000)])
+    child.stderr?.destroy()
+    child.unref()
+    removeTempDir(this.profile)
   }
+}
+
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms).unref())
 }

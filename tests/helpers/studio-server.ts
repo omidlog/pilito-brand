@@ -1,15 +1,13 @@
 import crypto from 'node:crypto'
-import fs from 'node:fs'
 import http from 'node:http'
 import type { AddressInfo } from 'node:net'
-import os from 'node:os'
-import path from 'node:path'
 import { buildStudio } from '../../apps/studio/src/app.js'
 import { hashPassword } from '../../apps/studio/src/auth/password.js'
 import { totpAt } from '../../apps/studio/src/auth/totp.js'
 import type { StudioConfig } from '../../apps/studio/src/config.js'
 import { FakeGitHub, templateTree } from './fake-github.js'
 import { OWNER, PROVISION_TOKEN, READ_TOKEN, TEMPLATE } from './studio.js'
+import { closeServer, removeTempDir, tempDir } from './cleanup.js'
 
 export const OWNER_LOGIN = 'owner'
 export const OWNER_PASSWORD = 'correct horse battery staple'
@@ -25,13 +23,15 @@ export interface RunningStudio {
   github: FakeGitHub
   studio: ReturnType<typeof buildStudio>
   config: StudioConfig
-  close: () => Promise<void>
+  /** Stops the server; removes the data directory it created unless `keepData` (a caller-supplied dataDir is never removed). */
+  close: (options?: { keepData?: boolean }) => Promise<void>
 }
 
 export async function startStudio(overrides: Partial<StudioConfig> = {}, githubOverrides: Partial<StudioConfig['github']> = {}): Promise<RunningStudio> {
   const github = new FakeGitHub()
   github.addRepo(TEMPLATE.owner, TEMPLATE.repo, templateTree(), { private: false, is_template: true })
-  const dataDir = fs.mkdtempSync(path.join(os.tmpdir(), 'studio-server-'))
+  const ownsData = overrides.dataDir === undefined
+  const dataDir = overrides.dataDir ?? tempDir('studio-server-')
   const server = http.createServer()
   await new Promise<void>((resolve) => server.listen(0, '127.0.0.1', resolve))
   const port = (server.address() as AddressInfo).port
@@ -69,10 +69,14 @@ export async function startStudio(overrides: Partial<StudioConfig> = {}, githubO
     github,
     studio,
     config,
-    close: async () => {
-      await studio.provisioning.settled()
-      await studio.sync.settled()
-      await new Promise<void>((resolve) => server.close(() => resolve()))
+    close: async (options = {}) => {
+      try {
+        await studio.provisioning.settled()
+        await studio.sync.settled()
+      } finally {
+        await closeServer(server)
+        if (ownsData && !options.keepData) removeTempDir(dataDir)
+      }
     },
   }
 }

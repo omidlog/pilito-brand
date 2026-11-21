@@ -98,7 +98,7 @@ Branch `feat/phase-9-read-only-studio`, stacked on Phase 8. Guide, architecture 
 | Design and accessibility | Done | `studio.*` design variables, light and dark, responsive (1440/1024/390 px checked in a browser), skip link, focus ring, keyboard drawer, labelled fields, status as text plus icon. |
 | Localization | Done | en, fa (RTL, layout mirroring verified in a browser) and tr catalogs with identical keys and placeholders. Brand content inside documents stays in the language the repository holds. |
 | Server CLI | Done | `npm run studio:hash-password`, `npm run studio -- totp-secret\|session-secret\|brands\|register\|unregister`. Registering an existing repository is server-side only. No automated tests for the CLI wrapper itself; it calls the tested registry, hashing and GitHub client. |
-| Tests | Done | 48 Studio tests in five files with an in-memory GitHub (no network, no real repositories). `tests/studio-browser.test.ts` drives headless Chrome inside `npm test` when Chrome is installed and skips otherwise; `npm run test:e2e` requires it. |
+| Tests | Done | 48 Studio tests in five files with an in-memory GitHub (no network, no real repositories). `tests/studio-browser.test.ts` drives headless Chrome inside `npm run test:studio` (not the brand suite `npm test`) when Chrome is installed and skips otherwise; `npm run test:e2e` requires it. |
 | VPS deployment | Not started | Phase 10: reverse proxy, TLS, process supervision, DNS for `studio.omidataei.com`. Nothing is deployed. |
 | Live GitHub | Not verified | All GitHub behavior is tested against a fake at the HTTP level. A first real run against GitHub (token permissions, template generation timing) is still owed. |
 
