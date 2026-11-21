@@ -588,3 +588,29 @@ batches:
         text: The owner's motive is personal (a portfolio of at least 10 apps for stable income); a brand
           purpose for Pilito itself is not stated yet.
     owner_questions: []
+  - id: int-0018
+    received_at: 2026-11-21T12:26:24.242Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: "chat-2026-11-21-14 (owner: record everything in English; agent translated the owner's Persian
+        examples)"
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.voice
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-a4bd5aac813b
+        reason: approved fact kept; a change proposal now waits for human approval
+      - index: 1
+        question_id: brand.verbal.voice_pairs
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-1c5e9d0d5224
+        reason: approved fact kept; a change proposal now waits for human approval
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
