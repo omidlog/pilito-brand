@@ -872,3 +872,43 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0115
+    question_id: brand.verbal.localization
+    source_reference: intake:int-0025#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:45:12.345Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0116
+    question_id: brand.social.localization
+    source_reference: intake:int-0025#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:45:12.480Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0117
+    question_id: brand.logo.misuse
+    source_reference: intake:int-0025#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:45:12.622Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0118
+    question_id: brand.logo.masters
+    source_reference: intake:int-0025#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:45:12.764Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0119
+    question_id: brand.color.themes
+    source_reference: intake:int-0025#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:45:12.894Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

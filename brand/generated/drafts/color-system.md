@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.themes`
 - Field: `brand.color.themes`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it.
+- Updated: 2026-11-21T12:45:12.894Z
+- Answer id: ans-0119
 
 Value:
 
-TBD
+light-only
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.themes end -->
 
 <!-- field:brand.color.semantics start -->

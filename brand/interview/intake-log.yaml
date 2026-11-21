@@ -790,3 +790,47 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0025
+    received_at: 2026-11-21T12:45:12.983Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-21 (owner accepted agent language suggestions and the agent's standard
+        logo-misuse list)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.localization
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0115
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.social.localization
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0116
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: brand.logo.misuse
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0117
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.logo.masters
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0118
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.color.themes
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0119
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

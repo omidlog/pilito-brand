@@ -2432,7 +2432,122 @@ records:
     normalized: "App interface is English first, switchable to major languages: Arabic, Persian,
       Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian.
       Translations are produced and checked by AI."
-    superseded_by: null
+    superseded_by: ans-0115
     disposition_reason: "Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0115
+    question_id: brand.verbal.localization
+    value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
+      Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
+      Languages can be rolled out gradually after launch. Translations are produced and checked by
+      AI."
+    raw_answer: با حرفات موافقم انجام بده اونم اردو هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:45:12.345Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish,
+      French, Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and
+      Indonesian. Languages can be rolled out gradually after launch. Translations are produced and
+      checked by AI."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0116
+    question_id: brand.social.localization
+    value: For now social posts are in English only. How other languages will be handled is not decided.
+    raw_answer: مطمعن نیستم فعلا که انگلیسی فقط
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#1
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-21T12:45:12.480Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که
+      انگلیسی فقط”. Not a decision."
+    session_id: ses-0001
+    normalized: For now social posts are in English only. How other languages will be handled is not decided.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا
+      که انگلیسی فقط”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0117
+    question_id: brand.logo.misuse
+    value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
+      place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
+      glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the
+      wordmark.
+    raw_answer: همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#2
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:45:12.622Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”.
+      Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do
+      not place on busy or low-contrast backgrounds; do not add effects (shadows, outlines,
+      gradients, glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype
+      the wordmark.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد
+      ممنوعه ها”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0118
+    question_id: brand.logo.masters
+    value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    raw_answer: فایل لوگو رو دادم بهت
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:45:12.764Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0119
+    question_id: brand.color.themes
+    value: light-only
+    raw_answer: نه دارک مود نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#4
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:45:12.894Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: light-only
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed

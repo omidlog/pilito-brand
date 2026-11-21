@@ -116,10 +116,15 @@ history:
   - brand.strategy.decision_rule
   - brand.verbal.localization
   - brand.verbal.localization
+  - brand.verbal.localization
+  - brand.social.localization
+  - brand.logo.misuse
+  - brand.logo.masters
+  - brand.color.themes
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:40:18.273Z
-last_answer_id: ans-0114
+updated_at: 2026-11-21T12:45:12.910Z
+last_answer_id: ans-0119

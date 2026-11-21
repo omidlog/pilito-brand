@@ -127,17 +127,19 @@ TBD
 
 - Question: `brand.social.localization`
 - Field: `brand.social.localization`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که انگلیسی فقط”. Not a decision.
+- Updated: 2026-11-21T12:45:12.480Z
+- Answer id: ans-0116
 
 Value:
 
-TBD
+For now social posts are in English only. How other languages will be handled is not decided.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.social.localization end -->
 
 <!-- field:brand.social.exports start -->

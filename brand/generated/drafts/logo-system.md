@@ -71,17 +71,19 @@ TBD
 
 - Question: `brand.logo.misuse`
 - Field: `brand.logo.misuse`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”. Draft until a human approves it.
+- Updated: 2026-11-21T12:45:12.622Z
+- Answer id: ans-0117
 
 Value:
 
-TBD
+Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients, glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the wordmark.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.logo.misuse end -->
 
 <!-- field:brand.logo.masters start -->
@@ -89,15 +91,17 @@ TBD
 
 - Question: `brand.logo.masters`
 - Field: `brand.logo.masters`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it.
+- Updated: 2026-11-21T12:45:12.764Z
+- Answer id: ans-0118
 
 Value:
 
-TBD
+This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No Figma master recorded.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.logo.masters end -->

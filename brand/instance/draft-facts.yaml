@@ -603,18 +603,20 @@ facts:
     updated: 2026-11-21T12:37:59.764Z
     proposal_state: proposed
   brand.verbal.localization:
-    value: "App interface is English first, switchable to major languages: Arabic, Persian, Turkish,
-      Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian.
-      Translations are produced and checked by AI."
+    value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
+      Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
+      Languages can be rolled out gradually after launch. Translations are produced and checked by
+      AI."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it."
-    answer_id: ans-0114
-    updated: 2026-11-21T12:40:18.249Z
+    uncertainty: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft
+      until a human approves it."
+    answer_id: ans-0115
+    updated: 2026-11-21T12:45:12.345Z
     proposal_state: proposed
   brand.verbal.microcopy:
     value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
@@ -654,4 +656,58 @@ facts:
     uncertainty: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
     answer_id: ans-0112
     updated: 2026-11-21T12:40:05.917Z
+    proposal_state: proposed
+  brand.social.localization:
+    value: For now social posts are in English only. How other languages will be handled is not decided.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که
+      انگلیسی فقط”. Not a decision."
+    answer_id: ans-0116
+    updated: 2026-11-21T12:45:12.480Z
+    proposal_state: tentative
+  brand.logo.misuse:
+    value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
+      place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
+      glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the
+      wordmark.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”.
+      Draft until a human approves it."
+    answer_id: ans-0117
+    updated: 2026-11-21T12:45:12.622Z
+    proposal_state: proposed
+  brand.logo.masters:
+    value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
+    answer_id: ans-0118
+    updated: 2026-11-21T12:45:12.764Z
+    proposal_state: proposed
+  brand.color.themes:
+    value: light-only
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
+    answer_id: ans-0119
+    updated: 2026-11-21T12:45:12.894Z
     proposal_state: proposed

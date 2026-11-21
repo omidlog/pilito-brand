@@ -145,13 +145,13 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it.
-- Updated: 2026-11-21T12:40:18.249Z
-- Answer id: ans-0114
+- Uncertainty: Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:45:12.345Z
+- Answer id: ans-0115
 
 Value:
 
-App interface is English first, switchable to major languages: Arabic, Persian, Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian. Translations are produced and checked by AI.
+App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French, Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian. Languages can be rolled out gradually after launch. Translations are produced and checked by AI.
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.localization end -->
