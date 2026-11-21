@@ -14,14 +14,30 @@ import path from 'node:path'
  * - TMPDIR points at a fresh directory for the run, removed at the end, so no test can leave a
  *   directory in the system temp dir, whatever it does or however it fails.
  *
- * Usage: tsx scripts/test.ts [test files...]   (default: tests/*.test.ts)
+ * Suites (a brand repo's CI runs only `brand`; Studio is developed and tested in the template):
+ *
+ *   tsx scripts/test.ts                  brand suite: every tests/*.test.ts except tests/studio-*
+ *   tsx scripts/test.ts --suite studio   Studio server, sync, provisioning and browser tests
+ *   tsx scripts/test.ts --suite all      everything (npm run test:full)
+ *   tsx scripts/test.ts <files...>       just these files
  */
 const PER_TEST_MS = 180_000
 const totalMs = Number(process.env.BRAND_OS_TEST_TIMEOUT_MS ?? 15 * 60_000)
 
-const files = process.argv.slice(2)
+const args = process.argv.slice(2)
+const suiteArg = args.find((arg) => arg.startsWith('--suite'))
+const suite = suiteArg?.includes('=') ? suiteArg.split('=')[1] : suiteArg ? args[args.indexOf(suiteArg) + 1] : 'brand'
+if (!['brand', 'studio', 'all'].includes(suite!)) {
+  console.error(`[test] unknown suite '${suite}' (brand | studio | all)`)
+  process.exit(2)
+}
+const files = args.filter((arg, i) => !arg.startsWith('--suite') && !(suiteArg === '--suite' && i === args.indexOf(suiteArg) + 1))
 if (files.length === 0) {
-  for (const name of fs.readdirSync('tests').sort()) if (name.endsWith('.test.ts')) files.push(path.join('tests', name))
+  for (const name of fs.readdirSync('tests').sort()) {
+    if (!name.endsWith('.test.ts')) continue
+    const studio = name.startsWith('studio-')
+    if (suite === 'all' || (suite === 'studio') === studio) files.push(path.join('tests', name))
+  }
 }
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'brand-os-test-'))

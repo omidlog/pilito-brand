@@ -19,6 +19,8 @@
     "lint": "eslint .",
     "validate": "tsx scripts/validate.ts",
     "test": "tsx scripts/test.ts",
+    "test:studio": "tsx scripts/test.ts --suite studio",
+    "test:full": "tsx scripts/test.ts --suite all",
     "test:e2e": "STUDIO_E2E_REQUIRED=1 tsx scripts/test.ts tests/studio-browser.test.ts",
     "docs:start": "tsx scripts/prepare-docs.ts --audience internal && npm run start -w @brand-os/docs",
     "docs:build": "tsx scripts/prepare-docs.ts --audience public && npm run build -w @brand-os/docs",

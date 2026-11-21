@@ -78,7 +78,8 @@ npm run build
 | `npm run example:b2b` | Mascot-free B2B fixture in a temp directory |
 | `npm run studio:start` | Start the private read-only Studio on `127.0.0.1:4100` (configuration from the environment, see `apps/studio/.env.example`). |
 | `npm run studio:hash-password`, `npm run studio -- totp-secret\|session-secret\|brands\|register\|unregister` | Owner server commands for Studio: password hash, secrets, and registering an existing private brand repository. |
-| `npm run test:e2e` | Studio browser tests in headless Chrome (they also run inside `npm test` when Chrome is installed, and skip otherwise). |
+| `npm run test:studio` / `npm run test:full` | Studio tests only / every test. `npm run test` is the brand suite and leaves out `tests/studio-*`; Studio is tested in the template's CI. |
+| `npm run test:e2e` | Studio browser tests in headless Chrome; fails without a browser (inside `npm run test:studio` they skip when Chrome is missing). |
 
 Details: `docs-internal/SETUP.md`.
 
