@@ -960,3 +960,43 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0126
+    question_id: brand.type.license
+    source_reference: intake:int-0027#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:50:29.935Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0127
+    question_id: brand.type.fallback
+    source_reference: intake:int-0027#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:50:30.091Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0128
+    question_id: business.marketing.journey
+    source_reference: intake:int-0027#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:50:30.239Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0129
+    question_id: business.marketing.pillars
+    source_reference: intake:int-0027#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:50:30.379Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0130
+    question_id: business.marketing.attribution
+    source_reference: intake:int-0027#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:50:30.523Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

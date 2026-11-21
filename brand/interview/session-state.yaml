@@ -127,10 +127,15 @@ history:
   - brand.color.contrast
   - brand.color.print
   - brand.type.intent
+  - brand.type.license
+  - brand.type.fallback
+  - business.marketing.journey
+  - business.marketing.pillars
+  - business.marketing.attribution
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:47:09.463Z
-last_answer_id: ans-0125
+updated_at: 2026-11-21T12:50:30.537Z
+last_answer_id: ans-0130

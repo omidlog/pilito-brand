@@ -884,3 +884,49 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0027
+    received_at: 2026-11-21T12:50:30.605Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-23 (owner accepted agent suggestions 1-3 and 4 minus behind-the-scenes)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.type.license
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0126
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.type.fallback
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0127
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.marketing.journey
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0128
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.marketing.pillars
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0129
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.marketing.attribution
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0130
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.marketing.attribution
+        text: Owner plans an admin-panel stats view, Google Search Console, Google Analytics and Bing
+          Webmaster Tools; attribution approach still to choose.
+    owner_questions: []

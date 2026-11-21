@@ -2669,3 +2669,118 @@ records:
     disposition_reason: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0126
+    question_id: brand.type.license
+    value: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque,
+      Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big
+      Shoulders Display also from Google Fonts). Commercial use in the app and marketing is allowed;
+      keep the licence text with bundled font files.
+    raw_answer: ۱- اره
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:50:29.935Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage
+      Grotesque, Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design
+      file; Big Shoulders Display also from Google Fonts). Commercial use in the app and marketing
+      is allowed; keep the licence text with bundled font files.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0127
+    question_id: brand.type.fallback
+    value: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
+      Vazirmatn or the system font for Persian and Arabic."
+    raw_answer: "* موافقم"
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:50:30.091Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
+      Vazirmatn or the system font for Persian and Arabic."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0128
+    question_id: business.marketing.journey
+    value: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts.
+      Consideration/trial: free download and free basic flashcards. Conversion: subscription for
+      games and full features. Retention: Pilito's growth, points and games. Advocacy/referral: not
+      defined yet."
+    raw_answer: "* ۳-موافقم"
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#2
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-21T12:50:30.239Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social
+      posts. Consideration/trial: free download and free basic flashcards. Conversion: subscription
+      for games and full features. Retention: Pilito's growth, points and games. Advocacy/referral:
+      not defined yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0129
+    question_id: business.marketing.pillars
+    value: Short language tips; stories and mischief of Pilito and Copi; user progress through the
+      levels (A1 to C2). No behind-the-scenes content.
+    raw_answer: پشت صحنه نیاز نیست  ، برای شروع خوبه
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:50:30.379Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: Short language tips; stories and mischief of Pilito and Copi; user progress through the
+      levels (A1 to C2). No behind-the-scenes content.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft
+      until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0130
+    question_id: business.marketing.attribution
+    value: undecided
+    raw_answer: روی سیستم یک امار بزارم تو پنل ادمین ببینم گوگل سرچ و انالاتیکس هم بزارم کافیه ایا؟
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#4
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-21T12:50:30.523Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “روی سیستم یک امار بزارم تو پنل ادمین ببینم گوگل سرچ
+      و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: undecided
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “روی سیستم یک امار بزارم تو پنل ادمین ببینم
+      گوگل سرچ و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
