@@ -1,2 +1,396 @@
 schema_version: 1
-records: []
+records:
+  - answer_id: ans-0001
+    question_id: business.identity.new_or_existing
+    value: new
+    raw_answer: پیلیتو کسب و کار جدیده
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#0
+    authority: unverified
+    confidence: 0.95
+    status: draft
+    last_updated: 2026-11-21T10:34:18.039Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: new
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0002
+    question_id: business.identity.trade_name
+    value: Pilito (پیلیتو)
+    raw_answer: اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:34:18.110Z
+    reviewed_by: null
+    visibility: public
+    uncertainty: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Pilito (پیلیتو)
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0003
+    question_id: business.offer.summary
+    value: A language-learning app built on flashcards, with other language-learning features and
+      gamification.
+    raw_answer: بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد گری زبان همراه با گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T10:34:18.189Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد
+      گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: A language-learning app built on flashcards, with other language-learning features and
+      gamification.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای
+      اموزش و یاد گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0004
+    question_id: business.product.learning_model
+    value: Flashcard-based learning plus other learning features and games; progression follows the
+      CEFR-style levels A1, A2, B1, B2, C1, C2.
+    raw_answer: منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر زبان ها این لول هارو دارن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#3
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:34:18.253Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر
+      زبان ها این لول هارو دارن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Flashcard-based learning plus other learning features and games; progression follows the
+      CEFR-style levels A1, A2, B1, B2, C1, C2.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که
+      بیشتر زبان ها این لول هارو دارن”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0005
+    question_id: business.product.learning_languages
+    value: Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning
+      English, Turkish speaker learning Spanish).
+    raw_answer: این اپلیکیشن برای همه زبان هاست
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#4
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T10:34:18.315Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: Any language to any language (e.g. English speaker learning Arabic, Persian speaker
+      learning English, Turkish speaker learning Spanish).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until
+      a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0006
+    question_id: brand.gamification.enabled
+    value: yes
+    raw_answer: همراه با گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#5
+    authority: unverified
+    confidence: 0.95
+    status: draft
+    last_updated: 2026-11-21T10:34:18.375Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: yes
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0007
+    question_id: brand.gamification.model
+    value: "Multiple games; points awarded by game difficulty; harder tasks earn more points. Example
+      figures given: about 1000 points per level, about 3 points for a daily flashcard review."
+    raw_answer: هر لول مثلا باید ۱۰۰۰ امتیاز بگیره
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#6
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T10:34:18.457Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید ۱۰۰۰
+      امتیاز بگیره”. Not a decision."
+    session_id: ses-0001
+    normalized: "Multiple games; points awarded by game difficulty; harder tasks earn more points.
+      Example figures given: about 1000 points per level, about 3 points for a daily flashcard
+      review."
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید
+      ۱۰۰۰ امتیاز بگیره”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0008
+    question_id: brand.gamification.mascot_link
+    value: Yes. The six mascot stages map to the six levels A1–C2.
+    raw_answer: تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#7
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:34:18.529Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Yes. The six mascot stages map to the six levels A1–C2.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0009
+    question_id: brand.mascot.enabled
+    value: yes
+    raw_answer: مسکاتشم یک طوطی خلبانه
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#8
+    authority: unverified
+    confidence: 0.95
+    status: draft
+    last_updated: 2026-11-21T10:34:18.595Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: yes
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0010
+    question_id: brand.mascot.stage_count
+    value: 6
+    raw_answer: منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#9
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T10:34:18.682Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: 6
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0011
+    question_id: brand.mascot.stage_story
+    value: "A pilot parrot. Stage 1: a parrot egg with only the crest poking out, shown when the account
+      is created. Final stage (6): an airline passenger-jet captain. Intermediate stages not yet
+      defined."
+    raw_answer: اول که حساب رو باز میکنی یک تخم طوطی هست که فقط کاکولاش زده بیرون
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#10
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:34:18.745Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اول که حساب رو باز میکنی یک تخم طوطی هست که فقط
+      کاکولاش زده بیرون”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "A pilot parrot. Stage 1: a parrot egg with only the crest poking out, shown when the
+      account is created. Final stage (6): an airline passenger-jet captain. Intermediate stages not
+      yet defined."
+    superseded_by: ans-0018
+    disposition_reason: "Proposed from the owner's words: “اول که حساب رو باز میکنی یک تخم طوطی هست که
+      فقط کاکولاش زده بیرون”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0012
+    question_id: business.identity.sector
+    value: education
+    raw_answer: اموزشی فک کنم دیگه
+    source_type: agent_suggestion
+    source_reference: intake:int-0002#0
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T10:40:23.495Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم دیگه”.
+      Not a decision."
+    session_id: ses-0001
+    normalized: education
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم
+      دیگه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0013
+    question_id: business.customer.primary_segment
+    value: Everyone who wants to learn a language (no narrower segment chosen).
+    raw_answer: ۳-همه
+    source_type: agent_suggestion
+    source_reference: intake:int-0002#1
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-21T10:40:23.577Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Everyone who wants to learn a language (no narrower segment chosen).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0014
+    question_id: brand.color.roles
+    value: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
+      #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
+    raw_answer: "Paper #F5F2EA"
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#0
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T10:41:49.523Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a
+      decision."
+    session_id: ses-0001
+    normalized: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
+      #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”.
+      Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0015
+    question_id: brand.type.scale
+    value: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage
+      Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
+    raw_answer: Display · Big Shoulders 900 · 112 / 64 / 30
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#1
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T10:41:49.616Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “Display · Big Shoulders
+      900 · 112 / 64 / 30”. Not a decision."
+    session_id: ses-0001
+    normalized: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body:
+      Bricolage Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “Display · Big
+      Shoulders 900 · 112 / 64 / 30”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0016
+    question_id: brand.type.rtl
+    value: Latin and Persian (Arabic script, right to left).
+    raw_answer: نمایشی فارسی · لاله‌زار
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#2
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T10:41:49.688Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
+      لاله‌زار”. Not a decision."
+    session_id: ses-0001
+    normalized: Latin and Persian (Arabic script, right to left).
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
+      لاله‌زار”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0017
+    question_id: brand.mascot.continuity
+    value: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every
+      stage.
+    raw_answer: "Constant across stages: white parrot, yellow crest, dark grey beak, big black eyes,
+      black outline"
+    source_type: agent_suggestion
+    source_reference: intake:int-0004#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:43:34.438Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Constant across stages: white parrot, yellow crest,
+      dark grey beak, big black eyes, black outline”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in
+      every stage.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “Constant across stages: white parrot, yellow
+      crest, dark grey beak, big black eyes, black outline”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0018
+    question_id: brand.mascot.stage_story
+    value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
+      (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5
+      (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
+    raw_answer: "Stage 3: aviator cap and goggles, red scarf, satchel"
+    source_type: agent_suggestion
+    source_reference: intake:int-0005#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T10:43:41.198Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
+      satchel”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the
+      egg. 3 (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight
+      jacket. 5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
+      satchel”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

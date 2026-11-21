@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.mascot.enabled`
 - Field: `brand.mascot.enabled`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it.
+- Updated: 2026-11-21T10:34:18.595Z
+- Answer id: ans-0009
 
 Value:
 
-TBD
+yes
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.enabled end -->
 
 <!-- field:brand.personality.traits start -->

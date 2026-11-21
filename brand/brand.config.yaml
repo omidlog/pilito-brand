@@ -2,15 +2,15 @@ schema_version: 1
 brand:
   name: Pilito
   name_status: working
-  working_name: Pilito
+  working_name: Pilito (پیلیتو)
   working_name_status: draft
   slug: pilito-brand
   legal_name: TBD
   tagline: TBD
   industry: TBD
-  sector: unknown
+  sector: education
   stage: unknown
-  new_or_existing: unknown
+  new_or_existing: new
   website: null
   default_locale: en
   supported_locales:

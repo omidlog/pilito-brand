@@ -76,3 +76,187 @@ assets:
     tags:
       - mascot
       - missing
+  - id: asset.logo.pilito-wordmark
+    name: Pilito wordmark (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate primary wordmark. Not approved for use.
+    restrictions: Draft. Do not ship or publish until the owner approves it.
+    path: brand/assets/logo/pilito-wordmark.svg
+    present: true
+    checksum_sha256: 262629e484d300776fb9ed8ae8b80ac98beec5dfa82db9129f19f134a6351128
+    mime: image/svg+xml
+    preview: brand/assets/logo/pilito-wordmark.svg
+    tags:
+      - logo
+      - wordmark
+      - draft
+  - id: asset.icon.pilito-app-icon
+    name: Pilito app icon (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate app icon, 1254x1254 raster. Not approved for use.
+    restrictions: Draft. Raster only; no vector master recorded.
+    path: brand/assets/icons/pilito-app-icon.webp
+    present: true
+    checksum_sha256: 5210a5fba5cf741aaeba34362adc0302860bc0a5d54da08791072b121ad2010f
+    mime: image/webp
+    preview: brand/assets/icons/pilito-app-icon.webp
+    tags:
+      - icon
+      - app-icon
+      - draft
+  - id: asset.mascot.pilito-stage-lineup
+    name: Pilito mascot six-stage lineup (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Reference sheet for the six evolution stages, left to right stage 1 to 6. Not approved
+      as master art; not linked to catalog states.
+    restrictions: Draft reference. Do not crop into catalog states or mark any state approved.
+    path: brand/assets/mascot/pilito-stage-lineup.webp
+    present: true
+    checksum_sha256: 9b892f6d8f4b56445b497eb5973e20202baa910a52bf5bc2dcee5003bf572851
+    mime: image/webp
+    preview: brand/assets/mascot/pilito-stage-lineup.webp
+    tags:
+      - mascot
+      - stages
+      - draft
+  - id: asset.mascot.stage-1-a1
+    name: Pilito mascot stage 1 (A1), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 1, level A1. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-1-a1.svg
+    present: true
+    checksum_sha256: 73b42acd7714964648a87ecab733e4243e52c101b9d03b71f720920462daadf0
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-1-a1.svg
+    tags:
+      - mascot
+      - stage-1
+      - a1
+      - draft
+  - id: asset.mascot.stage-2-a2
+    name: Pilito mascot stage 2 (A2), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 2, level A2. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-2-a2.svg
+    present: true
+    checksum_sha256: db7e84163469aa466d174c61666d6b001245f997b63dfc28e247ba650f46909b
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-2-a2.svg
+    tags:
+      - mascot
+      - stage-2
+      - a2
+      - draft
+  - id: asset.mascot.stage-3-b1
+    name: Pilito mascot stage 3 (B1), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 3, level B1. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-3-b1.svg
+    present: true
+    checksum_sha256: cb2fc716e58f64dfcfbd7f37866297cd70f4b6de57525833306363a6717b3518
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-3-b1.svg
+    tags:
+      - mascot
+      - stage-3
+      - b1
+      - draft
+  - id: asset.mascot.stage-4-b2
+    name: Pilito mascot stage 4 (B2), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 4, level B2. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-4-b2.svg
+    present: true
+    checksum_sha256: e881c8a21463d6d9e2de80b980d86406baf539181e3918627cd19100fe415c02
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-4-b2.svg
+    tags:
+      - mascot
+      - stage-4
+      - b2
+      - draft
+  - id: asset.mascot.stage-5-c1
+    name: Pilito mascot stage 5 (C1), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 5, level C1. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-5-c1.svg
+    present: true
+    checksum_sha256: 36d8ea6ead371d63617b05d1e515dd0b50849580cf8a65850a38c622c4c5076e
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-5-c1.svg
+    tags:
+      - mascot
+      - stage-5
+      - c1
+      - draft
+  - id: asset.mascot.stage-6-c2
+    name: Pilito mascot stage 6 (C2), default pose (owner-supplied)
+    status: draft
+    owner: design
+    version: 0.1.0
+    visibility: internal
+    license: TBD — AI-generated; usage rights and tool terms not yet recorded
+    attribution: AI-generated (owner stated 2026-11-21). Tool not recorded.
+    usage: Candidate vector for evolution stage 6, level C2. Default pose only; other poses,
+      emotions and accessories are not supplied yet. Not linked to catalog states.
+    restrictions: Draft. Do not mark any catalog state approved from this file.
+    path: brand/assets/mascot/stages/pilito-stage-6-c2.svg
+    present: true
+    checksum_sha256: f79a5b385efd298668277f894ea3fca7f883073fad006a64c5a1ffe50e028ac1
+    mime: image/svg+xml
+    preview: brand/assets/mascot/stages/pilito-stage-6-c2.svg
+    tags:
+      - mascot
+      - stage-6
+      - c2
+      - draft

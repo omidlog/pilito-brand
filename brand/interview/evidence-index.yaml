@@ -1,2 +1,146 @@
 schema_version: 1
-items: []
+items:
+  - answer_id: ans-0001
+    question_id: business.identity.new_or_existing
+    source_reference: intake:int-0001#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.039Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0002
+    question_id: business.identity.trade_name
+    source_reference: intake:int-0001#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.110Z
+    confidentiality: public
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0003
+    question_id: business.offer.summary
+    source_reference: intake:int-0001#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.189Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0004
+    question_id: business.product.learning_model
+    source_reference: intake:int-0001#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.253Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0005
+    question_id: business.product.learning_languages
+    source_reference: intake:int-0001#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.315Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0006
+    question_id: brand.gamification.enabled
+    source_reference: intake:int-0001#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.375Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0007
+    question_id: brand.gamification.model
+    source_reference: intake:int-0001#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.457Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0008
+    question_id: brand.gamification.mascot_link
+    source_reference: intake:int-0001#7
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.529Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0009
+    question_id: brand.mascot.enabled
+    source_reference: intake:int-0001#8
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.595Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0010
+    question_id: brand.mascot.stage_count
+    source_reference: intake:int-0001#9
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.682Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0011
+    question_id: brand.mascot.stage_story
+    source_reference: intake:int-0001#10
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:34:18.745Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0012
+    question_id: business.identity.sector
+    source_reference: intake:int-0002#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:40:23.495Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0013
+    question_id: business.customer.primary_segment
+    source_reference: intake:int-0002#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:40:23.577Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0014
+    question_id: brand.color.roles
+    source_reference: intake:int-0003#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:41:49.523Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0015
+    question_id: brand.type.scale
+    source_reference: intake:int-0003#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:41:49.616Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0016
+    question_id: brand.type.rtl
+    source_reference: intake:int-0003#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:41:49.688Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0017
+    question_id: brand.mascot.continuity
+    source_reference: intake:int-0004#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:43:34.438Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0018
+    question_id: brand.mascot.stage_story
+    source_reference: intake:int-0005#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T10:43:41.198Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

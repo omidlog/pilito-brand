@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
+- Updated: 2026-11-21T10:40:23.577Z
+- Answer id: ans-0013
 
 Value:
 
-TBD
+Everyone who wants to learn a language (no narrower segment chosen).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
 
 <!-- field:business.offer.value_proposition start -->

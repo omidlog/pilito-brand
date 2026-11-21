@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.identity.new_or_existing`
 - Field: `business.identity.new_or_existing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it.
+- Updated: 2026-11-21T10:34:18.039Z
+- Answer id: ans-0001
 
 Value:
 
-TBD
+new
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.new_or_existing end -->
 
 <!-- field:business.identity.trade_name start -->
@@ -33,17 +35,19 @@ TBD
 
 - Question: `business.identity.trade_name`
 - Field: `business.identity.trade_name`
-- Status: unanswered
+- Status: draft
 - Visibility: public
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft until a human approves it.
+- Updated: 2026-11-21T10:34:18.110Z
+- Answer id: ans-0002
 
 Value:
 
-TBD
+Pilito (پیلیتو)
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.trade_name end -->
 
 <!-- field:business.identity.sector start -->
@@ -51,17 +55,19 @@ TBD
 
 - Question: `business.identity.sector`
 - Field: `business.identity.sector`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “اموزشی فک کنم دیگه”. Not a decision.
+- Updated: 2026-11-21T10:40:23.495Z
+- Answer id: ans-0012
 
 Value:
 
-TBD
+education
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.sector end -->
 
 <!-- field:business.offer.summary start -->
@@ -69,17 +75,19 @@ TBD
 
 - Question: `business.offer.summary`
 - Field: `business.offer.summary`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it.
+- Updated: 2026-11-21T10:34:18.189Z
+- Answer id: ans-0003
 
 Value:
 
-TBD
+A language-learning app built on flashcards, with other language-learning features and gamification.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.summary end -->
 
 <!-- field:business.stage.current start -->
@@ -123,17 +131,19 @@ TBD
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
+- Updated: 2026-11-21T10:40:23.577Z
+- Answer id: ans-0013
 
 Value:
 
-TBD
+Everyone who wants to learn a language (no narrower segment chosen).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
 
 <!-- field:business.offer.value_proposition start -->

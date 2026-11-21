@@ -1,11 +1,29 @@
-session_id: null
-status: idle
+session_id: ses-0001
+status: active
 locale: en
-history: []
+history:
+  - business.identity.new_or_existing
+  - business.identity.trade_name
+  - business.offer.summary
+  - business.product.learning_model
+  - business.product.learning_languages
+  - brand.gamification.enabled
+  - brand.gamification.model
+  - brand.gamification.mascot_link
+  - brand.mascot.enabled
+  - brand.mascot.stage_count
+  - brand.mascot.stage_story
+  - business.identity.sector
+  - business.customer.primary_segment
+  - brand.color.roles
+  - brand.type.scale
+  - brand.type.rtl
+  - brand.mascot.continuity
+  - brand.mascot.stage_story
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
-started_at: null
-updated_at: null
-last_answer_id: null
+started_at: 2026-11-21T10:34:18.022Z
+updated_at: 2026-11-21T10:43:41.209Z
+last_answer_id: ans-0018
