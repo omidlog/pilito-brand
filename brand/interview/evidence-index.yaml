@@ -848,3 +848,19 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0112
+    question_id: brand.strategy.decision_rule
+    source_reference: intake:int-0023#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:40:05.917Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0113
+    question_id: brand.verbal.localization
+    source_reference: intake:int-0023#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:40:06.088Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

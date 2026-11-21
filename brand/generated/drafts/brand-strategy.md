@@ -231,17 +231,19 @@ Approved by: owner
 
 - Question: `brand.strategy.decision_rule`
 - Field: `brand.strategy.decision_rule`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it.
+- Updated: 2026-11-21T12:40:05.917Z
+- Answer id: ans-0112
 
 Value:
 
-TBD
+Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a 10-year-old child and a 70-year-old grandmother would understand it.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.decision_rule end -->
 
 <!-- field:brand.strategy.experience start -->
