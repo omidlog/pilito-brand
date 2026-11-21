@@ -334,8 +334,8 @@ facts:
     id: brand.verbal.voice
     brand_id: pilito-brand
     module: verbal-identity
-    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
-      اینترنت قطع هست دوبره امتحان کن!»"
+    value: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error example:
+      \"Oops, looks like the internet is down. Try again!\""
     value_type: long_text
     status: approved
     classification: internal
@@ -343,18 +343,18 @@ facts:
     source:
       kind: interview
       answer_ids:
-        - ans-0046
+        - ans-0081
       reference_ids: []
       citation_paths:
         - brand/instance/approved-facts.yaml
-      observed_at: 2026-11-21T11:43:53.932Z
-    confidence: 0.85
+      observed_at: 2026-11-21T12:28:43.645Z
+    confidence: null
     assumptions: []
     owner: null
     reviewer_id: owner
-    approved_at: 2026-11-21T11:43:53.932Z
-    version: 1
-    revision_hash: brand.verbal.voice:1
+    approved_at: 2026-11-21T12:28:43.645Z
+    version: 2
+    revision_hash: brand.verbal.voice:2
     review_due: null
     related_ids: []
     private_ref: null
@@ -362,7 +362,7 @@ facts:
     id: brand.verbal.voice_pairs
     brand_id: pilito-brand
     module: verbal-identity
-    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    value: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
     value_type: voice_pairs
     status: approved
     classification: internal
@@ -370,18 +370,18 @@ facts:
     source:
       kind: interview
       answer_ids:
-        - ans-0047
+        - ans-0082
       reference_ids: []
       citation_paths:
         - brand/instance/approved-facts.yaml
-      observed_at: 2026-11-21T11:43:54.059Z
-    confidence: 0.8
+      observed_at: 2026-11-21T12:28:43.802Z
+    confidence: null
     assumptions: []
     owner: null
     reviewer_id: owner
-    approved_at: 2026-11-21T11:43:54.059Z
-    version: 1
-    revision_hash: brand.verbal.voice_pairs:1
+    approved_at: 2026-11-21T12:28:43.802Z
+    version: 2
+    revision_hash: brand.verbal.voice_pairs:2
     review_due: null
     related_ids: []
     private_ref: null

@@ -123,17 +123,17 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.purpose`
 - Field: `brand.strategy.purpose`
-- Status: unknown
+- Status: draft
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره به خودم داره”. No value was invented.
-- Updated: 2026-11-21T12:25:11.168Z
-- Answer id: ans-0079
+- Uncertainty: Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند بپردازند.”. Draft until a human approves it.
+- Updated: 2026-11-21T12:28:52.794Z
+- Answer id: ans-0083
 
 Value:
 
-Unknown — not provided. Nothing was invented.
+Language learning for everyone, at a price everyone can afford.
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.purpose end -->
@@ -163,17 +163,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.values`
 - Field: `brand.strategy.values`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:28:53.039Z
+- Answer id: ans-0085
 
 Value:
 
-TBD
+No intrusive ads.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.values end -->
 
 <!-- field:brand.strategy.differentiation start -->
@@ -203,17 +205,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.promise`
 - Field: `brand.strategy.promise`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human approves it.
+- Updated: 2026-11-21T12:28:53.154Z
+- Answer id: ans-0086
 
 Value:
 
-TBD
+Playful promise: if you turn Pilito into a pilot (reach the final level), your command of the language you are learning will be good enough to take a pilot exam in it and pass.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.promise end -->
 
 <!-- field:brand.strategy.decision_rule start -->

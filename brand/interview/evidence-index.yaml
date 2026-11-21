@@ -632,3 +632,43 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0083
+    question_id: brand.strategy.purpose
+    source_reference: intake:int-0019#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:28:52.794Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0084
+    question_id: brand.social.channels
+    source_reference: intake:int-0019#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:28:52.917Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0085
+    question_id: brand.strategy.values
+    source_reference: intake:int-0019#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:28:53.039Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0086
+    question_id: brand.strategy.promise
+    source_reference: intake:int-0019#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:28:53.154Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0087
+    question_id: brand.verbal.tagline
+    source_reference: intake:int-0019#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:28:53.268Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

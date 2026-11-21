@@ -77,17 +77,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.tagline`
 - Field: `brand.verbal.tagline`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:28:53.268Z
+- Answer id: ans-0087
 
 Value:
 
-TBD
+none
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.tagline end -->
 
 <!-- field:brand.verbal.voice start -->
@@ -98,18 +100,16 @@ TBD
 - Status: approved
 - Visibility: internal
 - Authority: confirmed_by_owner
-- Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft until a human approves it.
-- Updated: 2026-11-21T11:43:53.932Z
-- Answer id: ans-0046
+- Source: owner
+- Uncertainty: none
+- Updated: 2026-11-21T12:28:43.645Z
+- Answer id: ans-0081
 
 Value:
 
-Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم اینترنت قطع هست دوبره امتحان کن!»
+Casual and warm, like a friend. Success example: "Well done, that's right!" Error example: "Oops, looks like the internet is down. Try again!"
 
 Approved by: owner
-
-Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice end -->
 
 <!-- field:brand.verbal.forbidden start -->
@@ -174,16 +174,14 @@ TBD
 - Status: approved
 - Visibility: internal
 - Authority: confirmed_by_owner
-- Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»”. Draft until a human approves it.
-- Updated: 2026-11-21T11:43:54.059Z
-- Answer id: ans-0047
+- Source: owner
+- Uncertainty: none
+- Updated: 2026-11-21T12:28:43.802Z
+- Answer id: ans-0082
 
 Value:
 
-do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است
+do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct.
 
 Approved by: owner
-
-Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice_pairs end -->

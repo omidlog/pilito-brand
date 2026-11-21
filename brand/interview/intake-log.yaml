@@ -614,3 +614,49 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0019
+    received_at: 2026-11-21T12:28:53.341Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-15 (owner chose agent purpose suggestion 2; values translated to English)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.purpose
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0083
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.social.channels
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0084
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.strategy.values
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0085
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.strategy.promise
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0086
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.verbal.tagline
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0087
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.strategy.promise
+        text: Read literally this is an outcome claim; keep it clearly playful in public copy, or define
+          what 'pilot-level' language means.
+    owner_questions: []

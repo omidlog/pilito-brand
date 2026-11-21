@@ -984,7 +984,7 @@ records:
     session_id: ses-0001
     normalized: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
       اینترنت قطع هست دوبره امتحان کن!»"
-    superseded_by: null
+    superseded_by: ans-0081
     disposition_reason: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”.
       Draft until a human approves it."
     private_ref: null
@@ -1004,7 +1004,7 @@ records:
       شدی»”. Draft until a human approves it."
     session_id: ses-0001
     normalized: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
-    superseded_by: null
+    superseded_by: ans-0082
     disposition_reason: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن
       نزدیک‌تر شدی»”. Draft until a human approves it."
     private_ref: null
@@ -1694,7 +1694,7 @@ records:
       خودم داره”. No value was invented."
     session_id: ses-0001
     normalized: null
-    superseded_by: null
+    superseded_by: ans-0083
     disposition_reason: "Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره
       به خودم داره”. No value was invented."
     private_ref: null
@@ -1720,5 +1720,152 @@ records:
     superseded_by: null
     disposition_reason: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان
       دنیا هست”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0081
+    question_id: brand.verbal.voice
+    value: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error example:
+      \"Oops, looks like the internet is down. Try again!\""
+    raw_answer: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error
+      example: \"Oops, looks like the internet is down. Try again!\""
+    source_type: owner
+    source_reference: null
+    authority: confirmed_by_owner
+    confidence: null
+    status: approved
+    last_updated: 2026-11-21T12:28:43.645Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: null
+    session_id: ses-0001
+    normalized: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error
+      example: \"Oops, looks like the internet is down. Try again!\""
+    superseded_by: null
+    disposition_reason: null
+    private_ref: null
+  - answer_id: ans-0082
+    question_id: brand.verbal.voice_pairs
+    value: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
+    raw_answer: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
+    source_type: owner
+    source_reference: null
+    authority: confirmed_by_owner
+    confidence: null
+    status: approved
+    last_updated: 2026-11-21T12:28:43.802Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: null
+    session_id: ses-0001
+    normalized: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
+    superseded_by: null
+    disposition_reason: null
+    private_ref: null
+  - answer_id: ans-0083
+    question_id: brand.strategy.purpose
+    value: Language learning for everyone, at a price everyone can afford.
+    raw_answer: یادگیری زبان برای همه، با قیمتی که همه بتوانند بپردازند.
+    source_type: agent_suggestion
+    source_reference: intake:int-0019#0
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:28:52.794Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند
+      بپردازند.”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Language learning for everyone, at a price everyone can afford.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه
+      بتوانند بپردازند.”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0084
+    question_id: brand.social.channels
+    value: Instagram, LinkedIn, TikTok, X, YouTube.
+    raw_answer: اینستاگرام ، لینکدین، تیک تاک ، x, youtube
+    source_type: agent_suggestion
+    source_reference: intake:int-0019#1
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:28:52.917Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Instagram, LinkedIn, TikTok, X, YouTube.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0085
+    question_id: brand.strategy.values
+    value: No intrusive ads.
+    raw_answer: تبلیغ آزاردهنده نمی‌گذاریم
+    source_type: agent_suggestion
+    source_reference: intake:int-0019#2
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:28:53.039Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human
+      approves it."
+    session_id: ses-0001
+    normalized: No intrusive ads.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a
+      human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0086
+    question_id: brand.strategy.promise
+    value: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command of
+      the language you are learning will be good enough to take a pilot exam in it and pass."
+    raw_answer: اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی خودت بری با همون زبانی که داری یاد
+      میگیری بری امتحان خلبانی بدی قبول بشی
+    source_type: agent_suggestion
+    source_reference: intake:int-0019#3
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-21T12:28:53.154Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی
+      خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human
+      approves it."
+    session_id: ses-0001
+    normalized: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command
+      of the language you are learning will be good enough to take a pilot exam in it and pass."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم
+      میتونی خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until
+      a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0087
+    question_id: brand.verbal.tagline
+    value: none
+    raw_answer: ۴- ندارم
+    source_type: agent_suggestion
+    source_reference: intake:int-0019#4
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:28:53.268Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: none
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed

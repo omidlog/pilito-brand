@@ -305,30 +305,28 @@ facts:
     answer_id: ans-0045
     updated: 2026-11-21T11:43:53.791Z
   brand.verbal.voice:
-    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
-      اینترنت قطع هست دوبره امتحان کن!»"
+    value: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error example:
+      \"Oops, looks like the internet is down. Try again!\""
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
-      until a human approves it."
-    answer_id: ans-0046
-    updated: 2026-11-21T11:43:53.932Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0081
+    updated: 2026-11-21T12:28:43.645Z
   brand.verbal.voice_pairs:
-    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    value: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
-      شدی»”. Draft until a human approves it."
-    answer_id: ans-0047
-    updated: 2026-11-21T11:43:54.059Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0082
+    updated: 2026-11-21T12:28:43.802Z
   brand.mascot.personality:
     value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
       pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
@@ -518,18 +516,18 @@ facts:
     updated: 2026-11-21T12:25:11.054Z
     proposal_state: proposed
   brand.strategy.purpose:
-    value: null
+    value: Language learning for everyone, at a price everyone can afford.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: unknown
+    status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره به
-      خودم داره”. No value was invented."
-    answer_id: ans-0079
-    updated: 2026-11-21T12:25:11.168Z
-    proposal_state: unresolved
+    uncertainty: "Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند
+      بپردازند.”. Draft until a human approves it."
+    answer_id: ans-0083
+    updated: 2026-11-21T12:28:52.794Z
+    proposal_state: proposed
   brand.strategy.vision:
     value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
       possibly acquired by a large brand."
@@ -543,4 +541,57 @@ facts:
       Draft until a human approves it."
     answer_id: ans-0080
     updated: 2026-11-21T12:25:11.276Z
+    proposal_state: proposed
+  brand.social.channels:
+    value: Instagram, LinkedIn, TikTok, X, YouTube.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”. Draft
+      until a human approves it."
+    answer_id: ans-0084
+    updated: 2026-11-21T12:28:52.917Z
+    proposal_state: proposed
+  brand.strategy.values:
+    value: No intrusive ads.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human
+      approves it."
+    answer_id: ans-0085
+    updated: 2026-11-21T12:28:53.039Z
+    proposal_state: proposed
+  brand.strategy.promise:
+    value: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command of
+      the language you are learning will be good enough to take a pilot exam in it and pass."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی
+      خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human
+      approves it."
+    answer_id: ans-0086
+    updated: 2026-11-21T12:28:53.154Z
+    proposal_state: proposed
+  brand.verbal.tagline:
+    value: none
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
+    answer_id: ans-0087
+    updated: 2026-11-21T12:28:53.268Z
     proposal_state: proposed

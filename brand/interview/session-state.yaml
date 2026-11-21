@@ -82,10 +82,17 @@ history:
   - business.marketing.channels
   - brand.strategy.purpose
   - brand.strategy.vision
+  - brand.verbal.voice
+  - brand.verbal.voice_pairs
+  - brand.strategy.purpose
+  - brand.social.channels
+  - brand.strategy.values
+  - brand.strategy.promise
+  - brand.verbal.tagline
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:25:11.288Z
-last_answer_id: ans-0080
+updated_at: 2026-11-21T12:28:53.280Z
+last_answer_id: ans-0087

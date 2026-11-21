@@ -51,17 +51,19 @@ TBD
 
 - Question: `brand.social.channels`
 - Field: `brand.social.channels`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”. Draft until a human approves it.
+- Updated: 2026-11-21T12:28:52.917Z
+- Answer id: ans-0084
 
 Value:
 
-TBD
+Instagram, LinkedIn, TikTok, X, YouTube.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.social.channels end -->
 
 <!-- field:brand.social.safe start -->
