@@ -108,10 +108,56 @@ history:
   - brand.social.channels
   - brand.verbal.tagline
   - brand.strategy.promise
+  - brand.strategy.experience
+  - brand.verbal.forbidden
+  - brand.verbal.localization
+  - brand.verbal.microcopy
+  - brand.logo.variants
+  - brand.strategy.decision_rule
+  - brand.verbal.localization
+  - brand.verbal.localization
+  - brand.verbal.localization
+  - brand.social.localization
+  - brand.logo.misuse
+  - brand.logo.masters
+  - brand.color.themes
+  - brand.logo.clear_space
+  - brand.logo.min_size
+  - brand.color.semantics
+  - brand.color.contrast
+  - brand.color.print
+  - brand.type.intent
+  - brand.type.license
+  - brand.type.fallback
+  - business.marketing.journey
+  - business.marketing.pillars
+  - business.marketing.attribution
+  - business.marketing.attribution
+  - brand.strategy.decision_rule
+  - brand.strategy.experience
+  - brand.verbal.forbidden
+  - brand.verbal.localization
+  - brand.verbal.microcopy
+  - brand.logo.variants
+  - brand.logo.clear_space
+  - brand.logo.min_size
+  - brand.logo.misuse
+  - brand.logo.masters
+  - brand.color.themes
+  - brand.color.semantics
+  - brand.color.contrast
+  - brand.color.print
+  - brand.type.intent
+  - brand.type.license
+  - brand.type.fallback
+  - business.marketing.journey
+  - business.marketing.pillars
+  - business.marketing.attribution
+  - brand.social.localization
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:33:21.355Z
-last_answer_id: ans-0106
+updated_at: 2026-11-21T12:51:58.818Z
+last_answer_id: ans-0152

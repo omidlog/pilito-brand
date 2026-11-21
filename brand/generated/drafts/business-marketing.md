@@ -103,17 +103,21 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.marketing.journey`
 - Field: `business.marketing.journey`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:51:58.220Z
+- Answer id: ans-0149
 
 Value:
 
-TBD
+Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts. Consideration/trial: free download and free basic flashcards. Conversion: subscription for games and full features. Retention: Pilito's growth, points and games. Advocacy/referral: not defined yet.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.journey end -->
 
 <!-- field:business.marketing.pillars start -->
@@ -121,17 +125,21 @@ TBD
 
 - Question: `business.marketing.pillars`
 - Field: `business.marketing.pillars`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a human approves it.
+- Updated: 2026-11-21T12:51:58.411Z
+- Answer id: ans-0150
 
 Value:
 
-TBD
+Short language tips; stories and mischief of Pilito and Copi; user progress through the levels (A1 to C2). No behind-the-scenes content.
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.pillars end -->
 
 <!-- field:business.marketing.attribution start -->
@@ -139,17 +147,21 @@ TBD
 
 - Question: `business.marketing.attribution`
 - Field: `business.marketing.attribution`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اره موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:51:58.609Z
+- Answer id: ans-0151
 
 Value:
 
-TBD
+self-reported
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.attribution end -->
 
 <!-- field:business.marketing.availability_claim start -->

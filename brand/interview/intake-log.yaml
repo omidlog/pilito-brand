@@ -699,3 +699,258 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0022
+    received_at: 2026-11-21T12:38:00.232Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-18 (owner confirmed the agent's examples for items 3 and 5)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.experience
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0107
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.verbal.forbidden
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0108
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.verbal.localization
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0109
+        reason: stored as a tentative draft; not approved
+      - index: 3
+        question_id: brand.verbal.microcopy
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0110
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.logo.variants
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0111
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.verbal.localization
+        text: Which languages will the app UI and marketing ship in at launch?
+    owner_questions: []
+  - id: int-0023
+    received_at: 2026-11-21T12:40:06.173Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-19 (owner confirmed both agent examples for the decision rule)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.decision_rule
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0112
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.verbal.localization
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0113
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.verbal.localization
+        text: Confirm 'Pakistani' means Urdu.
+    owner_questions: []
+  - id: int-0024
+    received_at: 2026-11-21T12:40:18.339Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-20
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.localization
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0114
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0025
+    received_at: 2026-11-21T12:45:12.983Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-21 (owner accepted agent language suggestions and the agent's standard
+        logo-misuse list)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.localization
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0115
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.social.localization
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0116
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: brand.logo.misuse
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0117
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.logo.masters
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0118
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.color.themes
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0119
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0026
+    received_at: 2026-11-21T12:47:09.532Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-22 (owner accepted all agent suggestions for logo clear space, min size, colour
+        semantics, contrast and type intent)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.logo.clear_space
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0120
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.logo.min_size
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0121
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.color.semantics
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0122
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.color.contrast
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0123
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.color.print
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0124
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: brand.type.intent
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0125
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0027
+    received_at: 2026-11-21T12:50:30.605Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-23 (owner accepted agent suggestions 1-3 and 4 minus behind-the-scenes)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.type.license
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0126
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.type.fallback
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0127
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.marketing.journey
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0128
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.marketing.pillars
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0129
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.marketing.attribution
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0130
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.marketing.attribution
+        text: Owner plans an admin-panel stats view, Google Search Console, Google Analytics and Bing
+          Webmaster Tools; attribution approach still to choose.
+    owner_questions: []
+  - id: int-0028
+    received_at: 2026-11-21T12:51:37.568Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-24 (owner accepted the agent's attribution suggestion)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.marketing.attribution
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0131
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.marketing.attribution
+        text: "Implementation: an onboarding question 'How did you hear about Pilito?' (incl. AI
+          assistants), plus App Store Connect analytics with per-channel campaign links; Google
+          Search Console, Bing Webmaster Tools, Google Analytics for the website; admin-panel stats
+          for in-app activity."
+    owner_questions: []
