@@ -679,3 +679,23 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0021
+    received_at: 2026-11-21T12:32:35.689Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-17 (owner chose agent promise rewrite 1, replacing the pilot-exam outcome
+        claim)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.promise
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-2262f9584390
+        reason: approved fact kept; a change proposal now waits for human approval
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
