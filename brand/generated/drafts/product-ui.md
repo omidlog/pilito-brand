@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.strategy.experience`
 - Field: `brand.strategy.experience`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it.
-- Updated: 2026-11-21T12:37:59.594Z
-- Answer id: ans-0107
+- Updated: 2026-11-21T12:51:55.204Z
+- Answer id: ans-0133
 
 Value:
 
 Shared across product, support and marketing: never annoying, cheerful, and easy enough that anyone from a 10-year-old child to a 70-year-old grandmother understands it.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.experience end -->
@@ -55,17 +57,19 @@ Approved by: owner
 
 - Question: `brand.verbal.microcopy`
 - Field: `brand.verbal.microcopy`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۵-درسته”. Draft until a human approves it.
-- Updated: 2026-11-21T12:38:00.022Z
-- Answer id: ans-0110
+- Updated: 2026-11-21T12:51:55.759Z
+- Answer id: ans-0136
 
 Value:
 
 Buttons: short, verb-first (e.g. "Start", "Next"). Notifications: at most one per day, in Pilito's voice.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.microcopy end -->

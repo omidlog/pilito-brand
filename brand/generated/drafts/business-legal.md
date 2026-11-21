@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.type.license`
 - Field: `brand.type.license`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۱- اره”. Draft until a human approves it.
-- Updated: 2026-11-21T12:50:29.935Z
-- Answer id: ans-0126
+- Updated: 2026-11-21T12:51:57.827Z
+- Answer id: ans-0147
 
 Value:
 
 All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque, Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big Shoulders Display also from Google Fonts). Commercial use in the app and marketing is allowed; keep the licence text with bundled font files.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.type.license end -->

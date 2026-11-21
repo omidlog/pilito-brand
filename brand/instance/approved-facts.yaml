@@ -1276,3 +1276,592 @@ facts:
     related_ids:
       - business.marketing.channels
     private_ref: null
+  brand.strategy.decision_rule:
+    id: brand.strategy.decision_rule
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
+      10-year-old child and a 70-year-old grandmother would understand it."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0132
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.011Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.011Z
+    version: 1
+    revision_hash: brand.strategy.decision_rule:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.experience:
+    id: brand.strategy.experience
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "Shared across product, support and marketing: never annoying, cheerful, and easy enough that
+      anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0133
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.204Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.204Z
+    version: 1
+    revision_hash: brand.strategy.experience:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.forbidden:
+    id: brand.verbal.forbidden
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: No political or religious jokes. No superlative claims such as "the best app in the world".
+      No guaranteed-outcome claims such as "become fluent in 30 days".
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0134
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.402Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.402Z
+    version: 1
+    revision_hash: brand.verbal.forbidden:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.localization:
+    id: brand.verbal.localization
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
+      Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
+      Languages can be rolled out gradually after launch. Translations are produced and checked by
+      AI."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0135
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.581Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.581Z
+    version: 1
+    revision_hash: brand.verbal.localization:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.microcopy:
+    id: brand.verbal.microcopy
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
+      in Pilito's voice."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0136
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.759Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.759Z
+    version: 1
+    revision_hash: brand.verbal.microcopy:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.logo.variants:
+    id: brand.logo.variants
+    brand_id: pilito-brand
+    module: logo-system
+    value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
+      by the owner later.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0137
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.948Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:55.948Z
+    version: 1
+    revision_hash: brand.logo.variants:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.logo.clear_space:
+    id: brand.logo.clear_space
+    brand_id: pilito-brand
+    module: logo-system
+    value: Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark
+      (about 0.4x the wordmark height).
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0138
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.134Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:56.134Z
+    version: 1
+    revision_hash: brand.logo.clear_space:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.logo.min_size:
+    id: brand.logo.min_size
+    brand_id: pilito-brand
+    module: logo-system
+    value: "min-size: 80px; clear-space: 0.4x"
+    value_type: logo_spec
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0139
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.324Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:56.324Z
+    version: 1
+    revision_hash: brand.logo.min_size:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.logo.misuse:
+    id: brand.logo.misuse
+    brand_id: pilito-brand
+    module: logo-system
+    value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
+      place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
+      glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the
+      wordmark.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0140
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.512Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:56.512Z
+    version: 1
+    revision_hash: brand.logo.misuse:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.logo.masters:
+    id: brand.logo.masters
+    brand_id: pilito-brand
+    module: logo-system
+    value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0141
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.698Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:56.698Z
+    version: 1
+    revision_hash: brand.logo.masters:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.color.themes:
+    id: brand.color.themes
+    brand_id: pilito-brand
+    module: color-system
+    value: light-only
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0142
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.879Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:56.879Z
+    version: 1
+    revision_hash: brand.color.themes:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.color.semantics:
+    id: brand.color.semantics
+    brand_id: pilito-brand
+    module: color-system
+    value: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning:
+      Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0143
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.062Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:57.062Z
+    version: 1
+    revision_hash: brand.color.semantics:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.color.contrast:
+    id: brand.color.contrast
+    brand_id: pilito-brand
+    module: color-system
+    value: aa
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0144
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.256Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:57.256Z
+    version: 1
+    revision_hash: brand.color.contrast:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.color.print:
+    id: brand.color.print
+    brand_id: pilito-brand
+    module: color-system
+    value: "Not applicable: no print yet."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0145
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.444Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:57.444Z
+    version: 1
+    revision_hash: brand.color.print:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.type.intent:
+    id: brand.type.intent
+    brand_id: pilito-brand
+    module: typography
+    value: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0146
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.643Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:57.643Z
+    version: 1
+    revision_hash: brand.type.intent:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.type.license:
+    id: brand.type.license
+    brand_id: pilito-brand
+    module: typography
+    value: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque,
+      Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big
+      Shoulders Display also from Google Fonts). Commercial use in the app and marketing is allowed;
+      keep the licence text with bundled font files.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0147
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.827Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:57.827Z
+    version: 1
+    revision_hash: brand.type.license:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.type.fallback:
+    id: brand.type.fallback
+    brand_id: pilito-brand
+    module: typography
+    value: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
+      Vazirmatn or the system font for Persian and Arabic."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0148
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.025Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:58.025Z
+    version: 1
+    revision_hash: brand.type.fallback:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.journey:
+    id: business.marketing.journey
+    brand_id: pilito-brand
+    module: business-marketing
+    value: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts.
+      Consideration/trial: free download and free basic flashcards. Conversion: subscription for
+      games and full features. Retention: Pilito's growth, points and games. Advocacy/referral: not
+      defined yet."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0149
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.220Z
+    confidence: 0.75
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:58.220Z
+    version: 1
+    revision_hash: business.marketing.journey:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.pillars:
+    id: business.marketing.pillars
+    brand_id: pilito-brand
+    module: business-marketing
+    value: Short language tips; stories and mischief of Pilito and Copi; user progress through the
+      levels (A1 to C2). No behind-the-scenes content.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0150
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.411Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:58.411Z
+    version: 1
+    revision_hash: business.marketing.pillars:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.attribution:
+    id: business.marketing.attribution
+    brand_id: pilito-brand
+    module: business-marketing
+    value: self-reported
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0151
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.609Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:58.609Z
+    version: 1
+    revision_hash: business.marketing.attribution:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.social.localization:
+    id: brand.social.localization
+    brand_id: pilito-brand
+    module: social
+    value: For now social posts are in English only. How other languages will be handled is not decided.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0152
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.802Z
+    confidence: 0.7
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T12:51:58.802Z
+    version: 1
+    revision_hash: brand.social.localization:1
+    review_due: null
+    related_ids: []
+    private_ref: null

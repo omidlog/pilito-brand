@@ -231,17 +231,19 @@ Approved by: owner
 
 - Question: `brand.strategy.decision_rule`
 - Field: `brand.strategy.decision_rule`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it.
-- Updated: 2026-11-21T12:40:05.917Z
-- Answer id: ans-0112
+- Updated: 2026-11-21T12:51:55.011Z
+- Answer id: ans-0132
 
 Value:
 
 Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a 10-year-old child and a 70-year-old grandmother would understand it.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.decision_rule end -->
@@ -251,17 +253,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.experience`
 - Field: `brand.strategy.experience`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it.
-- Updated: 2026-11-21T12:37:59.594Z
-- Answer id: ans-0107
+- Updated: 2026-11-21T12:51:55.204Z
+- Answer id: ans-0133
 
 Value:
 
 Shared across product, support and marketing: never annoying, cheerful, and easy enough that anyone from a 10-year-old child to a 70-year-old grandmother understands it.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.experience end -->

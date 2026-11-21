@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.marketing.pillars`
 - Field: `business.marketing.pillars`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a human approves it.
-- Updated: 2026-11-21T12:50:30.379Z
-- Answer id: ans-0129
+- Updated: 2026-11-21T12:51:58.411Z
+- Answer id: ans-0150
 
 Value:
 
 Short language tips; stories and mischief of Pilito and Copi; user progress through the levels (A1 to C2). No behind-the-scenes content.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.pillars end -->
@@ -129,17 +131,19 @@ TBD
 
 - Question: `brand.social.localization`
 - Field: `brand.social.localization`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که انگلیسی فقط”. Not a decision.
-- Updated: 2026-11-21T12:45:12.480Z
-- Answer id: ans-0116
+- Updated: 2026-11-21T12:51:58.802Z
+- Answer id: ans-0152
 
 Value:
 
 For now social posts are in English only. How other languages will be handled is not decided.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.social.localization end -->

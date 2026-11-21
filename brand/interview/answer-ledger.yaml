@@ -2277,7 +2277,7 @@ records:
     session_id: ses-0001
     normalized: "Shared across product, support and marketing: never annoying, cheerful, and easy enough
       that anyone from a 10-year-old child to a 70-year-old grandmother understands it."
-    superseded_by: null
+    superseded_by: ans-0133
     disposition_reason: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی
       استفاده اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves
       it."
@@ -2300,7 +2300,7 @@ records:
     session_id: ses-0001
     normalized: No political or religious jokes. No superlative claims such as "the best app in the
       world". No guaranteed-outcome claims such as "become fluent in 30 days".
-    superseded_by: null
+    superseded_by: ans-0134
     disposition_reason: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2342,7 +2342,7 @@ records:
     session_id: ses-0001
     normalized: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per
       day, in Pilito's voice."
-    superseded_by: null
+    superseded_by: ans-0136
     disposition_reason: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2363,7 +2363,7 @@ records:
     session_id: ses-0001
     normalized: For now only the existing wordmark. No Persian logo version. Other variants will be
       supplied by the owner later.
-    superseded_by: null
+    superseded_by: ans-0137
     disposition_reason: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2384,7 +2384,7 @@ records:
     session_id: ses-0001
     normalized: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
       10-year-old child and a 70-year-old grandmother would understand it."
-    superseded_by: null
+    superseded_by: ans-0132
     disposition_reason: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2458,7 +2458,7 @@ records:
       French, Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and
       Indonesian. Languages can be rolled out gradually after launch. Translations are produced and
       checked by AI."
-    superseded_by: null
+    superseded_by: ans-0135
     disposition_reason: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”.
       Draft until a human approves it."
     private_ref: null
@@ -2479,7 +2479,7 @@ records:
       انگلیسی فقط”. Not a decision."
     session_id: ses-0001
     normalized: For now social posts are in English only. How other languages will be handled is not decided.
-    superseded_by: null
+    superseded_by: ans-0152
     disposition_reason: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا
       که انگلیسی فقط”. Not a decision."
     private_ref: null
@@ -2506,7 +2506,7 @@ records:
       not place on busy or low-contrast backgrounds; do not add effects (shadows, outlines,
       gradients, glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype
       the wordmark.
-    superseded_by: null
+    superseded_by: ans-0140
     disposition_reason: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد
       ممنوعه ها”. Draft until a human approves it."
     private_ref: null
@@ -2528,7 +2528,7 @@ records:
     session_id: ses-0001
     normalized: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
       Figma master recorded."
-    superseded_by: null
+    superseded_by: ans-0141
     disposition_reason: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2547,7 +2547,7 @@ records:
     uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
     session_id: ses-0001
     normalized: light-only
-    superseded_by: null
+    superseded_by: ans-0142
     disposition_reason: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2568,7 +2568,7 @@ records:
     session_id: ses-0001
     normalized: Keep clear space on every side equal to the height of the lowercase 'i' stem in the
       wordmark (about 0.4x the wordmark height).
-    superseded_by: null
+    superseded_by: ans-0138
     disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2587,7 +2587,7 @@ records:
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: "min-size: 80px; clear-space: 0.4x"
-    superseded_by: null
+    superseded_by: ans-0139
     disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2608,7 +2608,7 @@ records:
     session_id: ses-0001
     normalized: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F.
       Warning: Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
-    superseded_by: null
+    superseded_by: ans-0143
     disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2627,7 +2627,7 @@ records:
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: aa
-    superseded_by: null
+    superseded_by: ans-0144
     disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2646,7 +2646,7 @@ records:
     uncertainty: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: "Not applicable: no print yet."
-    superseded_by: null
+    superseded_by: ans-0145
     disposition_reason: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2665,7 +2665,7 @@ records:
     uncertainty: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
-    superseded_by: null
+    superseded_by: ans-0146
     disposition_reason: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2690,7 +2690,7 @@ records:
       Grotesque, Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design
       file; Big Shoulders Display also from Google Fonts). Commercial use in the app and marketing
       is allowed; keep the licence text with bundled font files.
-    superseded_by: null
+    superseded_by: ans-0147
     disposition_reason: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2711,7 +2711,7 @@ records:
     session_id: ses-0001
     normalized: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
       Vazirmatn or the system font for Persian and Arabic."
-    superseded_by: null
+    superseded_by: ans-0148
     disposition_reason: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2736,7 +2736,7 @@ records:
       posts. Consideration/trial: free download and free basic flashcards. Conversion: subscription
       for games and full features. Retention: Pilito's growth, points and games. Advocacy/referral:
       not defined yet."
-    superseded_by: null
+    superseded_by: ans-0149
     disposition_reason: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -2758,7 +2758,7 @@ records:
     session_id: ses-0001
     normalized: Short language tips; stories and mischief of Pilito and Copi; user progress through the
       levels (A1 to C2). No behind-the-scenes content.
-    superseded_by: null
+    superseded_by: ans-0150
     disposition_reason: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft
       until a human approves it."
     private_ref: null
@@ -2799,7 +2799,441 @@ records:
     uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: self-reported
-    superseded_by: null
+    superseded_by: ans-0151
     disposition_reason: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0132
+    question_id: brand.strategy.decision_rule
+    value: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
+      10-year-old child and a 70-year-old grandmother would understand it."
+    raw_answer: مثالهات درسته
+    source_type: agent_suggestion
+    source_reference: intake:int-0023#0
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:55.011Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
+      10-year-old child and a 70-year-old grandmother would understand it."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0133
+    question_id: brand.strategy.experience
+    value: "Shared across product, support and marketing: never annoying, cheerful, and easy enough that
+      anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    raw_answer: ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده اون راحت باشه از بچه ۱۰ ساله تا
+      پیرزن ۷۰ ساله بفهمش
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#0
+    authority: confirmed_by_owner
+    confidence: 0.9
+    status: approved
+    last_updated: 2026-11-21T12:51:55.204Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده
+      اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Shared across product, support and marketing: never annoying, cheerful, and easy enough
+      that anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی
+      استفاده اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves
+      it."
+    private_ref: null
+  - answer_id: ans-0134
+    question_id: brand.verbal.forbidden
+    value: No political or religious jokes. No superlative claims such as "the best app in the world".
+      No guaranteed-outcome claims such as "become fluent in 30 days".
+    raw_answer: ۳-هر ۳ درسته
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#1
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:55.402Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: No political or religious jokes. No superlative claims such as "the best app in the
+      world". No guaranteed-outcome claims such as "become fluent in 30 days".
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0135
+    question_id: brand.verbal.localization
+    value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
+      Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
+      Languages can be rolled out gradually after launch. Translations are produced and checked by
+      AI."
+    raw_answer: با حرفات موافقم انجام بده اونم اردو هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#0
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:55.581Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish,
+      French, Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and
+      Indonesian. Languages can be rolled out gradually after launch. Translations are produced and
+      checked by AI."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”.
+      Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0136
+    question_id: brand.verbal.microcopy
+    value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
+      in Pilito's voice."
+    raw_answer: ۵-درسته
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#3
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:55.759Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per
+      day, in Pilito's voice."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0137
+    question_id: brand.logo.variants
+    value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
+      by the owner later.
+    raw_answer: نسخه فارسی نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#4
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:55.948Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: For now only the existing wordmark. No Persian logo version. Other variants will be
+      supplied by the owner later.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0138
+    question_id: brand.logo.clear_space
+    value: Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark
+      (about 0.4x the wordmark height).
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#0
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:56.134Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Keep clear space on every side equal to the height of the lowercase 'i' stem in the
+      wordmark (about 0.4x the wordmark height).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0139
+    question_id: brand.logo.min_size
+    value: "min-size: 80px; clear-space: 0.4x"
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#1
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:56.324Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "min-size: 80px; clear-space: 0.4x"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0140
+    question_id: brand.logo.misuse
+    value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
+      place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
+      glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the
+      wordmark.
+    raw_answer: همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#2
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:56.512Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”.
+      Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do
+      not place on busy or low-contrast backgrounds; do not add effects (shadows, outlines,
+      gradients, glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype
+      the wordmark.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد
+      ممنوعه ها”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0141
+    question_id: brand.logo.masters
+    value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    raw_answer: فایل لوگو رو دادم بهت
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#3
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:56.698Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
+      Figma master recorded."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0142
+    question_id: brand.color.themes
+    value: light-only
+    raw_answer: نه دارک مود نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#4
+    authority: confirmed_by_owner
+    confidence: 0.9
+    status: approved
+    last_updated: 2026-11-21T12:51:56.879Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: light-only
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0143
+    question_id: brand.color.semantics
+    value: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning:
+      Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#2
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:57.062Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F.
+      Warning: Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0144
+    question_id: brand.color.contrast
+    value: aa
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#3
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:57.256Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: aa
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0145
+    question_id: brand.color.print
+    value: "Not applicable: no print yet."
+    raw_answer: ۵- فعلا چاپ ندارم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#4
+    authority: confirmed_by_owner
+    confidence: 0.9
+    status: approved
+    last_updated: 2026-11-21T12:51:57.444Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Not applicable: no print yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0146
+    question_id: brand.type.intent
+    value: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
+    raw_answer: ۶ موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#5
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:57.643Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0147
+    question_id: brand.type.license
+    value: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque,
+      Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big
+      Shoulders Display also from Google Fonts). Commercial use in the app and marketing is allowed;
+      keep the licence text with bundled font files.
+    raw_answer: ۱- اره
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#0
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:57.827Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage
+      Grotesque, Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design
+      file; Big Shoulders Display also from Google Fonts). Commercial use in the app and marketing
+      is allowed; keep the licence text with bundled font files.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0148
+    question_id: brand.type.fallback
+    value: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
+      Vazirmatn or the system font for Persian and Arabic."
+    raw_answer: "* موافقم"
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#1
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T12:51:58.025Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
+      Vazirmatn or the system font for Persian and Arabic."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0149
+    question_id: business.marketing.journey
+    value: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts.
+      Consideration/trial: free download and free basic flashcards. Conversion: subscription for
+      games and full features. Retention: Pilito's growth, points and games. Advocacy/referral: not
+      defined yet."
+    raw_answer: "* ۳-موافقم"
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#2
+    authority: confirmed_by_owner
+    confidence: 0.75
+    status: approved
+    last_updated: 2026-11-21T12:51:58.220Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social
+      posts. Consideration/trial: free download and free basic flashcards. Conversion: subscription
+      for games and full features. Retention: Pilito's growth, points and games. Advocacy/referral:
+      not defined yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0150
+    question_id: business.marketing.pillars
+    value: Short language tips; stories and mischief of Pilito and Copi; user progress through the
+      levels (A1 to C2). No behind-the-scenes content.
+    raw_answer: پشت صحنه نیاز نیست  ، برای شروع خوبه
+    source_type: agent_suggestion
+    source_reference: intake:int-0027#3
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:58.411Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: Short language tips; stories and mischief of Pilito and Copi; user progress through the
+      levels (A1 to C2). No behind-the-scenes content.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft
+      until a human approves it."
+    private_ref: null
+  - answer_id: ans-0151
+    question_id: business.marketing.attribution
+    value: self-reported
+    raw_answer: اره موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0028#0
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T12:51:58.609Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: self-reported
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0152
+    question_id: brand.social.localization
+    value: For now social posts are in English only. How other languages will be handled is not decided.
+    raw_answer: مطمعن نیستم فعلا که انگلیسی فقط
+    source_type: agent_suggestion
+    source_reference: intake:int-0025#1
+    authority: confirmed_by_owner
+    confidence: 0.7
+    status: approved
+    last_updated: 2026-11-21T12:51:58.802Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که
+      انگلیسی فقط”. Not a decision."
+    session_id: ses-0001
+    normalized: For now social posts are in English only. How other languages will be handled is not decided.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا
+      که انگلیسی فقط”. Not a decision."
+    private_ref: null

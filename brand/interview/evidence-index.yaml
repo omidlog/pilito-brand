@@ -1008,3 +1008,171 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0132
+    question_id: brand.strategy.decision_rule
+    source_reference: intake:int-0023#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.011Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0133
+    question_id: brand.strategy.experience
+    source_reference: intake:int-0022#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.204Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0134
+    question_id: brand.verbal.forbidden
+    source_reference: intake:int-0022#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.402Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0135
+    question_id: brand.verbal.localization
+    source_reference: intake:int-0025#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.581Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0136
+    question_id: brand.verbal.microcopy
+    source_reference: intake:int-0022#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.759Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0137
+    question_id: brand.logo.variants
+    source_reference: intake:int-0022#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:55.948Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0138
+    question_id: brand.logo.clear_space
+    source_reference: intake:int-0026#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:56.134Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0139
+    question_id: brand.logo.min_size
+    source_reference: intake:int-0026#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:56.324Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0140
+    question_id: brand.logo.misuse
+    source_reference: intake:int-0025#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:56.512Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0141
+    question_id: brand.logo.masters
+    source_reference: intake:int-0025#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:56.698Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0142
+    question_id: brand.color.themes
+    source_reference: intake:int-0025#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:56.879Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0143
+    question_id: brand.color.semantics
+    source_reference: intake:int-0026#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:57.062Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0144
+    question_id: brand.color.contrast
+    source_reference: intake:int-0026#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:57.256Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0145
+    question_id: brand.color.print
+    source_reference: intake:int-0026#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:57.444Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0146
+    question_id: brand.type.intent
+    source_reference: intake:int-0026#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:57.643Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0147
+    question_id: brand.type.license
+    source_reference: intake:int-0027#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:57.827Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0148
+    question_id: brand.type.fallback
+    source_reference: intake:int-0027#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:58.025Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0149
+    question_id: business.marketing.journey
+    source_reference: intake:int-0027#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:58.220Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0150
+    question_id: business.marketing.pillars
+    source_reference: intake:int-0027#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:58.411Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0151
+    question_id: business.marketing.attribution
+    source_reference: intake:int-0028#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:58.609Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0152
+    question_id: brand.social.localization
+    source_reference: intake:int-0025#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:58.802Z
+    confidentiality: internal
+    review_status: approved
+    note: Reference only. Contents were not fetched.

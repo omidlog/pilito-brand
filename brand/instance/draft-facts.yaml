@@ -580,28 +580,26 @@ facts:
       anyone from a 10-year-old child to a 70-year-old grandmother understands it."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده
       اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it."
-    answer_id: ans-0107
-    updated: 2026-11-21T12:37:59.594Z
-    proposal_state: proposed
+    answer_id: ans-0133
+    updated: 2026-11-21T12:51:55.204Z
   brand.verbal.forbidden:
     value: No political or religious jokes. No superlative claims such as "the best app in the world".
       No guaranteed-outcome claims such as "become fluent in 30 days".
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
-    answer_id: ans-0108
-    updated: 2026-11-21T12:37:59.764Z
-    proposal_state: proposed
+    answer_id: ans-0134
+    updated: 2026-11-21T12:51:55.402Z
   brand.verbal.localization:
     value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
       Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
@@ -609,67 +607,62 @@ facts:
       AI."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft
       until a human approves it."
-    answer_id: ans-0115
-    updated: 2026-11-21T12:45:12.345Z
-    proposal_state: proposed
+    answer_id: ans-0135
+    updated: 2026-11-21T12:51:55.581Z
   brand.verbal.microcopy:
     value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
       in Pilito's voice."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
-    answer_id: ans-0110
-    updated: 2026-11-21T12:38:00.022Z
-    proposal_state: proposed
+    answer_id: ans-0136
+    updated: 2026-11-21T12:51:55.759Z
   brand.logo.variants:
     value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
       by the owner later.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
-    answer_id: ans-0111
-    updated: 2026-11-21T12:38:00.155Z
-    proposal_state: proposed
+    answer_id: ans-0137
+    updated: 2026-11-21T12:51:55.948Z
   brand.strategy.decision_rule:
     value: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
       10-year-old child and a 70-year-old grandmother would understand it."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
-    answer_id: ans-0112
-    updated: 2026-11-21T12:40:05.917Z
-    proposal_state: proposed
+    answer_id: ans-0132
+    updated: 2026-11-21T12:51:55.011Z
   brand.social.localization:
     value: For now social posts are in English only. How other languages will be handled is not decided.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که
       انگلیسی فقط”. Not a decision."
-    answer_id: ans-0116
-    updated: 2026-11-21T12:45:12.480Z
-    proposal_state: tentative
+    answer_id: ans-0152
+    updated: 2026-11-21T12:51:58.802Z
   brand.logo.misuse:
     value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
       place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
@@ -677,114 +670,105 @@ facts:
       wordmark.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”.
       Draft until a human approves it."
-    answer_id: ans-0117
-    updated: 2026-11-21T12:45:12.622Z
-    proposal_state: proposed
+    answer_id: ans-0140
+    updated: 2026-11-21T12:51:56.512Z
   brand.logo.masters:
     value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
       Figma master recorded."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
-    answer_id: ans-0118
-    updated: 2026-11-21T12:45:12.764Z
-    proposal_state: proposed
+    answer_id: ans-0141
+    updated: 2026-11-21T12:51:56.698Z
   brand.color.themes:
     value: light-only
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
-    answer_id: ans-0119
-    updated: 2026-11-21T12:45:12.894Z
-    proposal_state: proposed
+    answer_id: ans-0142
+    updated: 2026-11-21T12:51:56.879Z
   brand.logo.clear_space:
     value: Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark
       (about 0.4x the wordmark height).
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0120
-    updated: 2026-11-21T12:47:08.730Z
-    proposal_state: proposed
+    answer_id: ans-0138
+    updated: 2026-11-21T12:51:56.134Z
   brand.logo.min_size:
     value: "min-size: 80px; clear-space: 0.4x"
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0121
-    updated: 2026-11-21T12:47:08.882Z
-    proposal_state: proposed
+    answer_id: ans-0139
+    updated: 2026-11-21T12:51:56.324Z
   brand.color.semantics:
     value: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning:
       Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0122
-    updated: 2026-11-21T12:47:09.027Z
-    proposal_state: proposed
+    answer_id: ans-0143
+    updated: 2026-11-21T12:51:57.062Z
   brand.color.contrast:
     value: aa
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0123
-    updated: 2026-11-21T12:47:09.169Z
-    proposal_state: proposed
+    answer_id: ans-0144
+    updated: 2026-11-21T12:51:57.256Z
   brand.color.print:
     value: "Not applicable: no print yet."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
-    answer_id: ans-0124
-    updated: 2026-11-21T12:47:09.315Z
-    proposal_state: proposed
+    answer_id: ans-0145
+    updated: 2026-11-21T12:51:57.444Z
   brand.type.intent:
     value: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
-    answer_id: ans-0125
-    updated: 2026-11-21T12:47:09.449Z
-    proposal_state: proposed
+    answer_id: ans-0146
+    updated: 2026-11-21T12:51:57.643Z
   brand.type.license:
     value: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque,
       Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big
@@ -792,27 +776,25 @@ facts:
       keep the licence text with bundled font files.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
-    answer_id: ans-0126
-    updated: 2026-11-21T12:50:29.935Z
-    proposal_state: proposed
+    answer_id: ans-0147
+    updated: 2026-11-21T12:51:57.827Z
   brand.type.fallback:
     value: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
       Vazirmatn or the system font for Persian and Arabic."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
-    answer_id: ans-0127
-    updated: 2026-11-21T12:50:30.091Z
-    proposal_state: proposed
+    answer_id: ans-0148
+    updated: 2026-11-21T12:51:58.025Z
   business.marketing.journey:
     value: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts.
       Consideration/trial: free download and free basic flashcards. Conversion: subscription for
@@ -820,37 +802,34 @@ facts:
       defined yet."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
-    answer_id: ans-0128
-    updated: 2026-11-21T12:50:30.239Z
-    proposal_state: proposed
+    answer_id: ans-0149
+    updated: 2026-11-21T12:51:58.220Z
   business.marketing.pillars:
     value: Short language tips; stories and mischief of Pilito and Copi; user progress through the
       levels (A1 to C2). No behind-the-scenes content.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a
       human approves it."
-    answer_id: ans-0129
-    updated: 2026-11-21T12:50:30.379Z
-    proposal_state: proposed
+    answer_id: ans-0150
+    updated: 2026-11-21T12:51:58.411Z
   business.marketing.attribution:
     value: self-reported
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
-    answer_id: ans-0131
-    updated: 2026-11-21T12:51:37.477Z
-    proposal_state: proposed
+    answer_id: ans-0151
+    updated: 2026-11-21T12:51:58.609Z

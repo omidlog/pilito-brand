@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.themes`
 - Field: `brand.color.themes`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it.
-- Updated: 2026-11-21T12:45:12.894Z
-- Answer id: ans-0119
+- Updated: 2026-11-21T12:51:56.879Z
+- Answer id: ans-0142
 
 Value:
 
 light-only
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.themes end -->
@@ -57,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.semantics`
 - Field: `brand.color.semantics`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:47:09.027Z
-- Answer id: ans-0122
+- Updated: 2026-11-21T12:51:57.062Z
+- Answer id: ans-0143
 
 Value:
 
 Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning: Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.semantics end -->
@@ -77,17 +81,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.contrast`
 - Field: `brand.color.contrast`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:47:09.169Z
-- Answer id: ans-0123
+- Updated: 2026-11-21T12:51:57.256Z
+- Answer id: ans-0144
 
 Value:
 
 aa
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.contrast end -->
@@ -97,17 +103,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.print`
 - Field: `brand.color.print`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:47:09.315Z
-- Answer id: ans-0124
+- Updated: 2026-11-21T12:51:57.444Z
+- Answer id: ans-0145
 
 Value:
 
 Not applicable: no print yet.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.print end -->

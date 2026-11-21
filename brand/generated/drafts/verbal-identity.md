@@ -121,17 +121,19 @@ Approved by: owner
 
 - Question: `brand.verbal.forbidden`
 - Field: `brand.verbal.forbidden`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it.
-- Updated: 2026-11-21T12:37:59.764Z
-- Answer id: ans-0108
+- Updated: 2026-11-21T12:51:55.402Z
+- Answer id: ans-0134
 
 Value:
 
 No political or religious jokes. No superlative claims such as "the best app in the world". No guaranteed-outcome claims such as "become fluent in 30 days".
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.forbidden end -->
@@ -141,17 +143,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.localization`
 - Field: `brand.verbal.localization`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft until a human approves it.
-- Updated: 2026-11-21T12:45:12.345Z
-- Answer id: ans-0115
+- Updated: 2026-11-21T12:51:55.581Z
+- Answer id: ans-0135
 
 Value:
 
 App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French, Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian. Languages can be rolled out gradually after launch. Translations are produced and checked by AI.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.localization end -->
@@ -161,17 +165,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.microcopy`
 - Field: `brand.verbal.microcopy`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۵-درسته”. Draft until a human approves it.
-- Updated: 2026-11-21T12:38:00.022Z
-- Answer id: ans-0110
+- Updated: 2026-11-21T12:51:55.759Z
+- Answer id: ans-0136
 
 Value:
 
 Buttons: short, verb-first (e.g. "Start", "Next"). Notifications: at most one per day, in Pilito's voice.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.microcopy end -->
