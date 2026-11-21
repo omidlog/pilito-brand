@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.offer.summary`
 - Field: `business.offer.summary`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.189Z
-- Answer id: ans-0003
+- Updated: 2026-11-21T11:43:52.748Z
+- Answer id: ans-0037
 
 Value:
 
 A language-learning app built on flashcards, with other language-learning features and gamification.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.summary end -->
@@ -89,17 +91,19 @@ TBD
 
 - Question: `business.product.public_status`
 - Field: `business.product.public_status`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.456Z
-- Answer id: ans-0020
+- Updated: 2026-11-21T11:43:54.765Z
+- Answer id: ans-0053
 
 Value:
 
 unshipped
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.public_status end -->
@@ -181,17 +185,19 @@ TBD
 
 - Question: `business.product.learning_model`
 - Field: `business.product.learning_model`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر زبان ها این لول هارو دارن”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.253Z
-- Answer id: ans-0004
+- Updated: 2026-11-21T11:43:54.896Z
+- Answer id: ans-0054
 
 Value:
 
 Flashcard-based learning plus other learning features and games; progression follows the CEFR-style levels A1, A2, B1, B2, C1, C2.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.learning_model end -->
@@ -201,17 +207,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.learning_languages`
 - Field: `business.product.learning_languages`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.315Z
-- Answer id: ans-0005
+- Updated: 2026-11-21T11:43:55.017Z
+- Answer id: ans-0055
 
 Value:
 
 Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning English, Turkish speaker learning Spanish).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.learning_languages end -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.personality.traits`
 - Field: `brand.personality.traits`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a human approves it.
-- Updated: 2026-11-21T11:08:22.548Z
-- Answer id: ans-0023
+- Updated: 2026-11-21T11:43:53.497Z
+- Answer id: ans-0043
 
 Value:
 
 In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry, serious.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.personality.traits end -->
@@ -89,17 +91,19 @@ TBD
 
 - Question: `brand.verbal.voice`
 - Field: `brand.verbal.voice`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft until a human approves it.
-- Updated: 2026-11-21T11:34:15.968Z
-- Answer id: ans-0027
+- Updated: 2026-11-21T11:43:53.932Z
+- Answer id: ans-0046
 
 Value:
 
 Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم اینترنت قطع هست دوبره امتحان کن!»
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice end -->
@@ -163,17 +167,19 @@ TBD
 
 - Question: `brand.verbal.voice_pairs`
 - Field: `brand.verbal.voice_pairs`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»”. Draft until a human approves it.
-- Updated: 2026-11-21T11:34:16.067Z
-- Answer id: ans-0028
+- Updated: 2026-11-21T11:43:54.059Z
+- Answer id: ans-0047
 
 Value:
 
 do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice_pairs end -->

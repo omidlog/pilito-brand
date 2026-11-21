@@ -4,359 +4,332 @@ facts:
     value: new
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
-    answer_id: ans-0001
-    updated: 2026-11-21T10:34:18.039Z
-    proposal_state: proposed
+    answer_id: ans-0034
+    updated: 2026-11-21T11:43:52.398Z
   business.identity.trade_name:
     value: Pilito (پیلیتو)
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: public
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft
       until a human approves it."
-    answer_id: ans-0002
-    updated: 2026-11-21T10:34:18.110Z
-    proposal_state: proposed
+    answer_id: ans-0035
+    updated: 2026-11-21T11:43:52.511Z
   business.offer.summary:
     value: A language-learning app built on flashcards, with other language-learning features and
       gamification.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد
       گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0003
-    updated: 2026-11-21T10:34:18.189Z
-    proposal_state: proposed
+    answer_id: ans-0037
+    updated: 2026-11-21T11:43:52.748Z
   business.product.learning_model:
     value: Flashcard-based learning plus other learning features and games; progression follows the
       CEFR-style levels A1, A2, B1, B2, C1, C2.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر
       زبان ها این لول هارو دارن”. Draft until a human approves it."
-    answer_id: ans-0004
-    updated: 2026-11-21T10:34:18.253Z
-    proposal_state: proposed
+    answer_id: ans-0054
+    updated: 2026-11-21T11:43:54.896Z
   business.product.learning_languages:
     value: Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning
       English, Turkish speaker learning Spanish).
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until a
       human approves it."
-    answer_id: ans-0005
-    updated: 2026-11-21T10:34:18.315Z
-    proposal_state: proposed
+    answer_id: ans-0055
+    updated: 2026-11-21T11:43:55.017Z
   brand.gamification.enabled:
     value: yes
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0006
-    updated: 2026-11-21T10:34:18.375Z
-    proposal_state: proposed
+    answer_id: ans-0044
+    updated: 2026-11-21T11:43:53.627Z
   brand.gamification.model:
     value: "Multiple games; points awarded by game difficulty; harder tasks earn more points. Example
       figures given: about 1000 points per level, about 3 points for a daily flashcard review."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید ۱۰۰۰
       امتیاز بگیره”. Not a decision."
-    answer_id: ans-0007
-    updated: 2026-11-21T10:34:18.457Z
-    proposal_state: tentative
+    answer_id: ans-0061
+    updated: 2026-11-21T11:43:55.774Z
   brand.gamification.mascot_link:
     value: Yes. The six mascot stages map to the six levels A1–C2.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”. Draft
       until a human approves it."
-    answer_id: ans-0008
-    updated: 2026-11-21T10:34:18.529Z
-    proposal_state: proposed
+    answer_id: ans-0062
+    updated: 2026-11-21T11:43:55.899Z
   brand.mascot.enabled:
     value: yes
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
-    answer_id: ans-0009
-    updated: 2026-11-21T10:34:18.595Z
-    proposal_state: proposed
+    answer_id: ans-0041
+    updated: 2026-11-21T11:43:53.243Z
   brand.mascot.stage_count:
     value: 6
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”. Draft
       until a human approves it."
-    answer_id: ans-0010
-    updated: 2026-11-21T10:34:18.682Z
-    proposal_state: proposed
+    answer_id: ans-0057
+    updated: 2026-11-21T11:43:55.258Z
   brand.mascot.stage_story:
     value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
       (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5
       (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
       satchel”. Draft until a human approves it."
-    answer_id: ans-0018
-    updated: 2026-11-21T10:43:41.198Z
-    proposal_state: proposed
+    answer_id: ans-0058
+    updated: 2026-11-21T11:43:55.380Z
   business.identity.sector:
     value: education
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم دیگه”.
       Not a decision."
-    answer_id: ans-0012
-    updated: 2026-11-21T10:40:23.495Z
-    proposal_state: tentative
+    answer_id: ans-0036
+    updated: 2026-11-21T11:43:52.635Z
   business.customer.primary_segment:
     value: Everyone who wants to learn a language (no narrower segment chosen).
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
-    answer_id: ans-0013
-    updated: 2026-11-21T10:40:23.577Z
-    proposal_state: proposed
+    answer_id: ans-0040
+    updated: 2026-11-21T11:43:53.113Z
   brand.color.roles:
     value: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
       #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a
       decision."
-    answer_id: ans-0014
-    updated: 2026-11-21T10:41:49.523Z
-    proposal_state: tentative
+    answer_id: ans-0048
+    updated: 2026-11-21T11:43:54.179Z
   brand.type.scale:
     value: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage
       Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “Display · Big Shoulders
       900 · 112 / 64 / 30”. Not a decision."
-    answer_id: ans-0015
-    updated: 2026-11-21T10:41:49.616Z
-    proposal_state: tentative
+    answer_id: ans-0049
+    updated: 2026-11-21T11:43:54.295Z
   brand.type.rtl:
     value: Latin and Persian (Arabic script, right to left).
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
       لاله‌زار”. Not a decision."
-    answer_id: ans-0016
-    updated: 2026-11-21T10:41:49.688Z
-    proposal_state: tentative
+    answer_id: ans-0050
+    updated: 2026-11-21T11:43:54.405Z
   brand.mascot.continuity:
     value: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every
       stage.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “Constant across stages: white parrot, yellow crest,
       dark grey beak, big black eyes, black outline”. Draft until a human approves it."
-    answer_id: ans-0017
-    updated: 2026-11-21T10:43:34.438Z
-    proposal_state: proposed
+    answer_id: ans-0059
+    updated: 2026-11-21T11:43:55.498Z
   business.stage.current:
     value: pre-revenue
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”. Draft
       until a human approves it."
-    answer_id: ans-0019
-    updated: 2026-11-21T11:01:35.359Z
-    proposal_state: proposed
+    answer_id: ans-0038
+    updated: 2026-11-21T11:43:52.865Z
   business.product.public_status:
     value: unshipped
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human
       approves it."
-    answer_id: ans-0020
-    updated: 2026-11-21T11:01:35.456Z
-    proposal_state: proposed
+    answer_id: ans-0053
+    updated: 2026-11-21T11:43:54.765Z
   business.market.geography:
     value: First release on the Apple App Store, in every country the App Store supports.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور
       هایی که اون ساپورت میکنه”. Draft until a human approves it."
-    answer_id: ans-0021
-    updated: 2026-11-21T11:01:35.555Z
-    proposal_state: proposed
+    answer_id: ans-0039
+    updated: 2026-11-21T11:43:52.984Z
   business.offer.value_proposition:
     value: Creative learning with gamification and AI; simple and practical; priced lower than
       competitors.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و
       کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
-    answer_id: ans-0022
-    updated: 2026-11-21T11:01:35.651Z
-    proposal_state: proposed
+    answer_id: ans-0042
+    updated: 2026-11-21T11:43:53.364Z
   brand.personality.traits:
     value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
       serious."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a
       human approves it."
-    answer_id: ans-0023
-    updated: 2026-11-21T11:08:22.548Z
-    proposal_state: proposed
+    answer_id: ans-0043
+    updated: 2026-11-21T11:43:53.497Z
   business.marketing.availability_claim:
     value: do-not-claim
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
-    answer_id: ans-0024
-    updated: 2026-11-21T11:08:22.662Z
-    proposal_state: proposed
+    answer_id: ans-0052
+    updated: 2026-11-21T11:43:54.642Z
   business.marketing.objective:
     value: Increase the number of downloads and purchases.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
-    answer_id: ans-0025
-    updated: 2026-11-21T11:08:22.733Z
-    proposal_state: proposed
+    answer_id: ans-0051
+    updated: 2026-11-21T11:43:54.517Z
   brand.strategy.differentiation:
     value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
       better UX. No evidence yet."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0031
-    updated: 2026-11-21T11:38:54.879Z
-    proposal_state: proposed
+    answer_id: ans-0045
+    updated: 2026-11-21T11:43:53.791Z
   brand.verbal.voice:
     value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
       اینترنت قطع هست دوبره امتحان کن!»"
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
       until a human approves it."
-    answer_id: ans-0027
-    updated: 2026-11-21T11:34:15.968Z
-    proposal_state: proposed
+    answer_id: ans-0046
+    updated: 2026-11-21T11:43:53.932Z
   brand.verbal.voice_pairs:
     value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
       شدی»”. Draft until a human approves it."
-    answer_id: ans-0028
-    updated: 2026-11-21T11:34:16.067Z
-    proposal_state: proposed
+    answer_id: ans-0047
+    updated: 2026-11-21T11:43:54.059Z
   brand.mascot.personality:
     value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
       pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
@@ -364,26 +337,24 @@ facts:
       showing sadness (e.g. when the user is away)."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره
       هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
-    answer_id: ans-0030
-    updated: 2026-11-21T11:38:54.791Z
-    proposal_state: proposed
+    answer_id: ans-0056
+    updated: 2026-11-21T11:43:55.139Z
   brand.illustration.character:
     value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
       Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
       headband with a fake yellow parrot crest."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: draft
+    status: approved
     visibility: internal
-    authority: unverified
+    authority: confirmed_by_owner
     source_type: agent_suggestion
     uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
-    answer_id: ans-0033
-    updated: 2026-11-21T11:42:42.338Z
-    proposal_state: proposed
+    answer_id: ans-0060
+    updated: 2026-11-21T11:43:55.648Z

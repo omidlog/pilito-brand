@@ -33,17 +33,19 @@ TBD
 
 - Question: `brand.verbal.voice`
 - Field: `brand.verbal.voice`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft until a human approves it.
-- Updated: 2026-11-21T11:34:15.968Z
-- Answer id: ans-0027
+- Updated: 2026-11-21T11:43:53.932Z
+- Answer id: ans-0046
 
 Value:
 
 Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم اینترنت قطع هست دوبره امتحان کن!»
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice end -->
@@ -71,17 +73,19 @@ TBD
 
 - Question: `brand.verbal.voice_pairs`
 - Field: `brand.verbal.voice_pairs`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»”. Draft until a human approves it.
-- Updated: 2026-11-21T11:34:16.067Z
-- Answer id: ans-0028
+- Updated: 2026-11-21T11:43:54.059Z
+- Answer id: ans-0047
 
 Value:
 
 do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice_pairs end -->
@@ -91,17 +95,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.roles`
 - Field: `brand.color.roles`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a decision.
-- Updated: 2026-11-21T10:41:49.523Z
-- Answer id: ans-0014
+- Updated: 2026-11-21T11:43:54.179Z
+- Answer id: ans-0048
 
 Value:
 
 background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.roles end -->

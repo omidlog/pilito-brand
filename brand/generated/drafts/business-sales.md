@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.651Z
-- Answer id: ans-0022
+- Updated: 2026-11-21T11:43:53.364Z
+- Answer id: ans-0042
 
 Value:
 
 Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->

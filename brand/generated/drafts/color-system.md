@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.color.roles`
 - Field: `brand.color.roles`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a decision.
-- Updated: 2026-11-21T10:41:49.523Z
-- Answer id: ans-0014
+- Updated: 2026-11-21T11:43:54.179Z
+- Answer id: ans-0048
 
 Value:
 
 background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.roles end -->

@@ -51,17 +51,19 @@ TBD
 
 - Question: `brand.type.scale`
 - Field: `brand.type.scale`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “Display · Big Shoulders 900 · 112 / 64 / 30”. Not a decision.
-- Updated: 2026-11-21T10:41:49.616Z
-- Answer id: ans-0015
+- Updated: 2026-11-21T11:43:54.295Z
+- Answer id: ans-0049
 
 Value:
 
 display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.type.scale end -->
@@ -71,17 +73,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.type.rtl`
 - Field: `brand.type.rtl`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “نمایشی فارسی · لاله‌زار”. Not a decision.
-- Updated: 2026-11-21T10:41:49.688Z
-- Answer id: ans-0016
+- Updated: 2026-11-21T11:43:54.405Z
+- Answer id: ans-0050
 
 Value:
 
 Latin and Persian (Arabic script, right to left).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.type.rtl end -->

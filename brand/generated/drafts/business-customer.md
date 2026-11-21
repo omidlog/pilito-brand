@@ -33,17 +33,19 @@ TBD
 
 - Question: `brand.verbal.voice`
 - Field: `brand.verbal.voice`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft until a human approves it.
-- Updated: 2026-11-21T11:34:15.968Z
-- Answer id: ans-0027
+- Updated: 2026-11-21T11:43:53.932Z
+- Answer id: ans-0046
 
 Value:
 
 Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم اینترنت قطع هست دوبره امتحان کن!»
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice end -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.identity.trade_name`
 - Field: `business.identity.trade_name`
-- Status: draft
+- Status: approved
 - Visibility: public
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.110Z
-- Answer id: ans-0002
+- Updated: 2026-11-21T11:43:52.511Z
+- Answer id: ans-0035
 
 Value:
 
 Pilito (پیلیتو)
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.trade_name end -->
@@ -35,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.market.geography`
 - Field: `business.market.geography`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.555Z
-- Answer id: ans-0021
+- Updated: 2026-11-21T11:43:52.984Z
+- Answer id: ans-0039
 
 Value:
 
 First release on the Apple App Store, in every country the App Store supports.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.market.geography end -->
@@ -55,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
-- Updated: 2026-11-21T10:40:23.577Z
-- Answer id: ans-0013
+- Updated: 2026-11-21T11:43:53.113Z
+- Answer id: ans-0040
 
 Value:
 
 Everyone who wants to learn a language (no narrower segment chosen).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
@@ -75,17 +81,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.651Z
-- Answer id: ans-0022
+- Updated: 2026-11-21T11:43:53.364Z
+- Answer id: ans-0042
 
 Value:
 
 Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->
@@ -95,17 +103,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.personality.traits`
 - Field: `brand.personality.traits`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a human approves it.
-- Updated: 2026-11-21T11:08:22.548Z
-- Answer id: ans-0023
+- Updated: 2026-11-21T11:43:53.497Z
+- Answer id: ans-0043
 
 Value:
 
 In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry, serious.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.personality.traits end -->
@@ -169,17 +179,19 @@ TBD
 
 - Question: `brand.strategy.differentiation`
 - Field: `brand.strategy.differentiation`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it.
-- Updated: 2026-11-21T11:38:54.879Z
-- Answer id: ans-0031
+- Updated: 2026-11-21T11:43:53.791Z
+- Answer id: ans-0045
 
 Value:
 
 Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features, better UX. No evidence yet.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.differentiation end -->

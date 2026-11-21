@@ -15,7 +15,7 @@ records:
     uncertainty: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
     session_id: ses-0001
     normalized: new
-    superseded_by: null
+    superseded_by: ans-0034
     disposition_reason: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -35,7 +35,7 @@ records:
       until a human approves it."
     session_id: ses-0001
     normalized: Pilito (پیلیتو)
-    superseded_by: null
+    superseded_by: ans-0035
     disposition_reason: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”.
       Draft until a human approves it."
     private_ref: null
@@ -58,7 +58,7 @@ records:
     session_id: ses-0001
     normalized: A language-learning app built on flashcards, with other language-learning features and
       gamification.
-    superseded_by: null
+    superseded_by: ans-0037
     disposition_reason: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای
       اموزش و یاد گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
     private_ref: null
@@ -81,7 +81,7 @@ records:
     session_id: ses-0001
     normalized: Flashcard-based learning plus other learning features and games; progression follows the
       CEFR-style levels A1, A2, B1, B2, C1, C2.
-    superseded_by: null
+    superseded_by: ans-0054
     disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که
       بیشتر زبان ها این لول هارو دارن”. Draft until a human approves it."
     private_ref: null
@@ -104,7 +104,7 @@ records:
     session_id: ses-0001
     normalized: Any language to any language (e.g. English speaker learning Arabic, Persian speaker
       learning English, Turkish speaker learning Spanish).
-    superseded_by: null
+    superseded_by: ans-0055
     disposition_reason: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until
       a human approves it."
     private_ref: null
@@ -124,7 +124,7 @@ records:
     uncertainty: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
     session_id: ses-0001
     normalized: yes
-    superseded_by: null
+    superseded_by: ans-0044
     disposition_reason: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -147,7 +147,7 @@ records:
     normalized: "Multiple games; points awarded by game difficulty; harder tasks earn more points.
       Example figures given: about 1000 points per level, about 3 points for a daily flashcard
       review."
-    superseded_by: null
+    superseded_by: ans-0061
     disposition_reason: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید
       ۱۰۰۰ امتیاز بگیره”. Not a decision."
     private_ref: null
@@ -168,7 +168,7 @@ records:
       until a human approves it."
     session_id: ses-0001
     normalized: Yes. The six mascot stages map to the six levels A1–C2.
-    superseded_by: null
+    superseded_by: ans-0062
     disposition_reason: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”.
       Draft until a human approves it."
     private_ref: null
@@ -188,7 +188,7 @@ records:
     uncertainty: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
     session_id: ses-0001
     normalized: yes
-    superseded_by: null
+    superseded_by: ans-0041
     disposition_reason: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -208,7 +208,7 @@ records:
       until a human approves it."
     session_id: ses-0001
     normalized: 6
-    superseded_by: null
+    superseded_by: ans-0057
     disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”.
       Draft until a human approves it."
     private_ref: null
@@ -254,7 +254,7 @@ records:
       Not a decision."
     session_id: ses-0001
     normalized: education
-    superseded_by: null
+    superseded_by: ans-0036
     disposition_reason: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم
       دیگه”. Not a decision."
     private_ref: null
@@ -274,7 +274,7 @@ records:
     uncertainty: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
     session_id: ses-0001
     normalized: Everyone who wants to learn a language (no narrower segment chosen).
-    superseded_by: null
+    superseded_by: ans-0040
     disposition_reason: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -296,7 +296,7 @@ records:
     session_id: ses-0001
     normalized: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
       #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
-    superseded_by: null
+    superseded_by: ans-0048
     disposition_reason: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”.
       Not a decision."
     private_ref: null
@@ -319,7 +319,7 @@ records:
     session_id: ses-0001
     normalized: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body:
       Bricolage Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
-    superseded_by: null
+    superseded_by: ans-0049
     disposition_reason: "Tentative: the owner described this as possible, not decided: “Display · Big
       Shoulders 900 · 112 / 64 / 30”. Not a decision."
     private_ref: null
@@ -340,7 +340,7 @@ records:
       لاله‌زار”. Not a decision."
     session_id: ses-0001
     normalized: Latin and Persian (Arabic script, right to left).
-    superseded_by: null
+    superseded_by: ans-0050
     disposition_reason: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
       لاله‌زار”. Not a decision."
     private_ref: null
@@ -364,7 +364,7 @@ records:
     session_id: ses-0001
     normalized: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in
       every stage.
-    superseded_by: null
+    superseded_by: ans-0059
     disposition_reason: "Proposed from the owner's words: “Constant across stages: white parrot, yellow
       crest, dark grey beak, big black eyes, black outline”. Draft until a human approves it."
     private_ref: null
@@ -389,7 +389,7 @@ records:
     normalized: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the
       egg. 3 (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight
       jacket. 5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
-    superseded_by: null
+    superseded_by: ans-0058
     disposition_reason: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
       satchel”. Draft until a human approves it."
     private_ref: null
@@ -410,7 +410,7 @@ records:
       until a human approves it."
     session_id: ses-0001
     normalized: pre-revenue
-    superseded_by: null
+    superseded_by: ans-0038
     disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”.
       Draft until a human approves it."
     private_ref: null
@@ -431,7 +431,7 @@ records:
       approves it."
     session_id: ses-0001
     normalized: unshipped
-    superseded_by: null
+    superseded_by: ans-0053
     disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a
       human approves it."
     private_ref: null
@@ -452,7 +452,7 @@ records:
       هایی که اون ساپورت میکنه”. Draft until a human approves it."
     session_id: ses-0001
     normalized: First release on the Apple App Store, in every country the App Store supports.
-    superseded_by: null
+    superseded_by: ans-0039
     disposition_reason: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای
       همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it."
     private_ref: null
@@ -475,7 +475,7 @@ records:
     session_id: ses-0001
     normalized: Creative learning with gamification and AI; simple and practical; priced lower than
       competitors.
-    superseded_by: null
+    superseded_by: ans-0042
     disposition_reason: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ،
       ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
     private_ref: null
@@ -498,7 +498,7 @@ records:
     session_id: ses-0001
     normalized: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
       serious."
-    superseded_by: null
+    superseded_by: ans-0043
     disposition_reason: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft
       until a human approves it."
     private_ref: null
@@ -518,7 +518,7 @@ records:
     uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
     session_id: ses-0001
     normalized: do-not-claim
-    superseded_by: null
+    superseded_by: ans-0052
     disposition_reason: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -537,7 +537,7 @@ records:
     uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
     session_id: ses-0001
     normalized: Increase the number of downloads and purchases.
-    superseded_by: null
+    superseded_by: ans-0051
     disposition_reason: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -582,7 +582,7 @@ records:
     session_id: ses-0001
     normalized: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
       اینترنت قطع هست دوبره امتحان کن!»"
-    superseded_by: null
+    superseded_by: ans-0046
     disposition_reason: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”.
       Draft until a human approves it."
     private_ref: null
@@ -603,7 +603,7 @@ records:
       شدی»”. Draft until a human approves it."
     session_id: ses-0001
     normalized: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
-    superseded_by: null
+    superseded_by: ans-0047
     disposition_reason: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن
       نزدیک‌تر شدی»”. Draft until a human approves it."
     private_ref: null
@@ -656,7 +656,7 @@ records:
       or pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
       yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
       showing sadness (e.g. when the user is away)."
-    superseded_by: null
+    superseded_by: ans-0056
     disposition_reason: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه
       اون بره هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
     private_ref: null
@@ -678,7 +678,7 @@ records:
     session_id: ses-0001
     normalized: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more
       features, better UX. No evidence yet."
-    superseded_by: null
+    superseded_by: ans-0045
     disposition_reason: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
@@ -724,7 +724,610 @@ records:
     normalized: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character
       named Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat
       or headband with a fake yellow parrot crest."
-    superseded_by: null
+    superseded_by: ans-0060
     disposition_reason: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0034
+    question_id: business.identity.new_or_existing
+    value: new
+    raw_answer: پیلیتو کسب و کار جدیده
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#0
+    authority: confirmed_by_owner
+    confidence: 0.95
+    status: approved
+    last_updated: 2026-11-21T11:43:52.398Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: new
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0035
+    question_id: business.identity.trade_name
+    value: Pilito (پیلیتو)
+    raw_answer: اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#1
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:52.511Z
+    reviewed_by: owner
+    visibility: public
+    uncertainty: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Pilito (پیلیتو)
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”.
+      Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0036
+    question_id: business.identity.sector
+    value: education
+    raw_answer: اموزشی فک کنم دیگه
+    source_type: agent_suggestion
+    source_reference: intake:int-0002#0
+    authority: confirmed_by_owner
+    confidence: 0.6
+    status: approved
+    last_updated: 2026-11-21T11:43:52.635Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم دیگه”.
+      Not a decision."
+    session_id: ses-0001
+    normalized: education
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم
+      دیگه”. Not a decision."
+    private_ref: null
+  - answer_id: ans-0037
+    question_id: business.offer.summary
+    value: A language-learning app built on flashcards, with other language-learning features and
+      gamification.
+    raw_answer: بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد گری زبان همراه با گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#2
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:52.748Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد
+      گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: A language-learning app built on flashcards, with other language-learning features and
+      gamification.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای
+      اموزش و یاد گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0038
+    question_id: business.stage.current
+    value: pre-revenue
+    raw_answer: هنوز تازه میخام درستش کنم پس درامد نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#0
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:52.865Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: pre-revenue
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”.
+      Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0039
+    question_id: business.market.geography
+    value: First release on the Apple App Store, in every country the App Store supports.
+    raw_answer: نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#2
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:52.984Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور
+      هایی که اون ساپورت میکنه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: First release on the Apple App Store, in every country the App Store supports.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای
+      همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0040
+    question_id: business.customer.primary_segment
+    value: Everyone who wants to learn a language (no narrower segment chosen).
+    raw_answer: ۳-همه
+    source_type: agent_suggestion
+    source_reference: intake:int-0002#1
+    authority: confirmed_by_owner
+    confidence: 0.7
+    status: approved
+    last_updated: 2026-11-21T11:43:53.113Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Everyone who wants to learn a language (no narrower segment chosen).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0041
+    question_id: brand.mascot.enabled
+    value: yes
+    raw_answer: مسکاتشم یک طوطی خلبانه
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#8
+    authority: confirmed_by_owner
+    confidence: 0.95
+    status: approved
+    last_updated: 2026-11-21T11:43:53.243Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: yes
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0042
+    question_id: business.offer.value_proposition
+    value: Creative learning with gamification and AI; simple and practical; priced lower than
+      competitors.
+    raw_answer: یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#3
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:53.364Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و
+      کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Creative learning with gamification and AI; simple and practical; priced lower than
+      competitors.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ،
+      ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0043
+    question_id: brand.personality.traits
+    value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    raw_answer: شاد و شوخ و صمیمی و باهوش و ماجراجو
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#0
+    authority: confirmed_by_owner
+    confidence: 0.9
+    status: approved
+    last_updated: 2026-11-21T11:43:53.497Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft
+      until a human approves it."
+    private_ref: null
+  - answer_id: ans-0044
+    question_id: brand.gamification.enabled
+    value: yes
+    raw_answer: همراه با گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#5
+    authority: confirmed_by_owner
+    confidence: 0.95
+    status: approved
+    last_updated: 2026-11-21T11:43:53.627Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: yes
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0045
+    question_id: brand.strategy.differentiation
+    value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
+      better UX. No evidence yet."
+    raw_answer: ۴-گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0009#1
+    authority: confirmed_by_owner
+    confidence: 0.75
+    status: approved
+    last_updated: 2026-11-21T11:43:53.791Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more
+      features, better UX. No evidence yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0046
+    question_id: brand.verbal.voice
+    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    raw_answer: اوو فک کنم اینترنت قطع هست دوبره امتحان کن!
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#1
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:53.932Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”.
+      Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0047
+    question_id: brand.verbal.voice_pairs
+    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    raw_answer: "* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»"
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#2
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:54.059Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
+      شدی»”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن
+      نزدیک‌تر شدی»”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0048
+    question_id: brand.color.roles
+    value: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
+      #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
+    raw_answer: "Paper #F5F2EA"
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#0
+    authority: confirmed_by_owner
+    confidence: 0.6
+    status: approved
+    last_updated: 2026-11-21T11:43:54.179Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a
+      decision."
+    session_id: ses-0001
+    normalized: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
+      #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”.
+      Not a decision."
+    private_ref: null
+  - answer_id: ans-0049
+    question_id: brand.type.scale
+    value: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage
+      Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
+    raw_answer: Display · Big Shoulders 900 · 112 / 64 / 30
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#1
+    authority: confirmed_by_owner
+    confidence: 0.6
+    status: approved
+    last_updated: 2026-11-21T11:43:54.295Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “Display · Big Shoulders
+      900 · 112 / 64 / 30”. Not a decision."
+    session_id: ses-0001
+    normalized: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body:
+      Bricolage Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “Display · Big
+      Shoulders 900 · 112 / 64 / 30”. Not a decision."
+    private_ref: null
+  - answer_id: ans-0050
+    question_id: brand.type.rtl
+    value: Latin and Persian (Arabic script, right to left).
+    raw_answer: نمایشی فارسی · لاله‌زار
+    source_type: agent_suggestion
+    source_reference: intake:int-0003#2
+    authority: confirmed_by_owner
+    confidence: 0.6
+    status: approved
+    last_updated: 2026-11-21T11:43:54.405Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
+      لاله‌زار”. Not a decision."
+    session_id: ses-0001
+    normalized: Latin and Persian (Arabic script, right to left).
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
+      لاله‌زار”. Not a decision."
+    private_ref: null
+  - answer_id: ans-0051
+    question_id: business.marketing.objective
+    value: Increase the number of downloads and purchases.
+    raw_answer: تعداد خرید و دانلود
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#2
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:54.517Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Increase the number of downloads and purchases.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0052
+    question_id: business.marketing.availability_claim
+    value: do-not-claim
+    raw_answer: نه نمیخاد چیزی بگی
+    source_type: agent_suggestion
+    source_reference: intake:int-0007#1
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:54.642Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: do-not-claim
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0053
+    question_id: business.product.public_status
+    value: unshipped
+    raw_answer: هنوز تازه میخام درستش کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#1
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:54.765Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human
+      approves it."
+    session_id: ses-0001
+    normalized: unshipped
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a
+      human approves it."
+    private_ref: null
+  - answer_id: ans-0054
+    question_id: business.product.learning_model
+    value: Flashcard-based learning plus other learning features and games; progression follows the
+      CEFR-style levels A1, A2, B1, B2, C1, C2.
+    raw_answer: منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر زبان ها این لول هارو دارن
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#3
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:54.896Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر
+      زبان ها این لول هارو دارن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Flashcard-based learning plus other learning features and games; progression follows the
+      CEFR-style levels A1, A2, B1, B2, C1, C2.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که
+      بیشتر زبان ها این لول هارو دارن”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0055
+    question_id: business.product.learning_languages
+    value: Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning
+      English, Turkish speaker learning Spanish).
+    raw_answer: این اپلیکیشن برای همه زبان هاست
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#4
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:55.017Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: Any language to any language (e.g. English speaker learning Arabic, Persian speaker
+      learning English, Turkish speaker learning Spanish).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until
+      a human approves it."
+    private_ref: null
+  - answer_id: ans-0056
+    question_id: brand.mascot.personality
+    value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
+      pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    raw_answer: انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره هم طفلکی از همه جا بی خبر باید نقش
+      طوطی بازی بکنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0009#0
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:55.139Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره
+      هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Brand personality plus a little mischievous. He may pop up from the bottom of the app,
+      or pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه
+      اون بره هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0057
+    question_id: brand.mascot.stage_count
+    value: 6
+    raw_answer: منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#9
+    authority: confirmed_by_owner
+    confidence: 0.9
+    status: approved
+    last_updated: 2026-11-21T11:43:55.258Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: 6
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”.
+      Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0058
+    question_id: brand.mascot.stage_story
+    value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
+      (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5
+      (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
+    raw_answer: "Stage 3: aviator cap and goggles, red scarf, satchel"
+    source_type: agent_suggestion
+    source_reference: intake:int-0005#0
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:55.380Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
+      satchel”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the
+      egg. 3 (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight
+      jacket. 5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
+      satchel”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0059
+    question_id: brand.mascot.continuity
+    value: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every
+      stage.
+    raw_answer: "Constant across stages: white parrot, yellow crest, dark grey beak, big black eyes,
+      black outline"
+    source_type: agent_suggestion
+    source_reference: intake:int-0004#1
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:55.498Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Constant across stages: white parrot, yellow crest,
+      dark grey beak, big black eyes, black outline”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in
+      every stage.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “Constant across stages: white parrot, yellow
+      crest, dark grey beak, big black eyes, black outline”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0060
+    question_id: brand.illustration.character
+    value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
+      Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
+      headband with a fake yellow parrot crest."
+    raw_answer: اره اسمش پیلیتو هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0011#0
+    authority: confirmed_by_owner
+    confidence: 0.85
+    status: approved
+    last_updated: 2026-11-21T11:43:55.648Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character
+      named Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat
+      or headband with a fake yellow parrot crest."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0061
+    question_id: brand.gamification.model
+    value: "Multiple games; points awarded by game difficulty; harder tasks earn more points. Example
+      figures given: about 1000 points per level, about 3 points for a daily flashcard review."
+    raw_answer: هر لول مثلا باید ۱۰۰۰ امتیاز بگیره
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#6
+    authority: confirmed_by_owner
+    confidence: 0.6
+    status: approved
+    last_updated: 2026-11-21T11:43:55.774Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید ۱۰۰۰
+      امتیاز بگیره”. Not a decision."
+    session_id: ses-0001
+    normalized: "Multiple games; points awarded by game difficulty; harder tasks earn more points.
+      Example figures given: about 1000 points per level, about 3 points for a daily flashcard
+      review."
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید
+      ۱۰۰۰ امتیاز بگیره”. Not a decision."
+    private_ref: null
+  - answer_id: ans-0062
+    question_id: brand.gamification.mascot_link
+    value: Yes. The six mascot stages map to the six levels A1–C2.
+    raw_answer: تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی
+    source_type: agent_suggestion
+    source_reference: intake:int-0001#7
+    authority: confirmed_by_owner
+    confidence: 0.8
+    status: approved
+    last_updated: 2026-11-21T11:43:55.899Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Yes. The six mascot stages map to the six levels A1–C2.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”.
+      Draft until a human approves it."
+    private_ref: null
