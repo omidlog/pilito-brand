@@ -18,18 +18,16 @@ generated: true
 - Status: approved
 - Visibility: public
 - Authority: confirmed_by_owner
-- Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft until a human approves it.
-- Updated: 2026-11-21T11:43:52.511Z
-- Answer id: ans-0035
+- Source: owner
+- Uncertainty: none
+- Updated: 2026-11-21T11:47:46.149Z
+- Answer id: ans-0063
 
 Value:
 
-Pilito (پیلیتو)
+Pilito
 
 Approved by: owner
-
-Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.trade_name end -->
 
 <!-- field:business.market.geography start -->

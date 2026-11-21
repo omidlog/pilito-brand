@@ -64,10 +64,11 @@ history:
   - brand.illustration.character
   - brand.gamification.model
   - brand.gamification.mascot_link
+  - business.identity.trade_name
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T11:43:55.910Z
-last_answer_id: ans-0062
+updated_at: 2026-11-21T11:47:46.164Z
+last_answer_id: ans-0063

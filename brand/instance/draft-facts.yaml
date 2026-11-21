@@ -12,17 +12,16 @@ facts:
     answer_id: ans-0034
     updated: 2026-11-21T11:43:52.398Z
   business.identity.trade_name:
-    value: Pilito (پیلیتو)
+    value: Pilito
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: public
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft
-      until a human approves it."
-    answer_id: ans-0035
-    updated: 2026-11-21T11:43:52.511Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0063
+    updated: 2026-11-21T11:47:46.149Z
   business.offer.summary:
     value: A language-learning app built on flashcards, with other language-learning features and
       gamification.

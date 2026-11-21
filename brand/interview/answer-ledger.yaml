@@ -762,7 +762,7 @@ records:
       until a human approves it."
     session_id: ses-0001
     normalized: Pilito (پیلیتو)
-    superseded_by: null
+    superseded_by: ans-0063
     disposition_reason: "Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”.
       Draft until a human approves it."
     private_ref: null
@@ -1330,4 +1330,22 @@ records:
     superseded_by: null
     disposition_reason: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”.
       Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0063
+    question_id: business.identity.trade_name
+    value: Pilito
+    raw_answer: Pilito
+    source_type: owner
+    source_reference: null
+    authority: confirmed_by_owner
+    confidence: null
+    status: approved
+    last_updated: 2026-11-21T11:47:46.149Z
+    reviewed_by: owner
+    visibility: public
+    uncertainty: null
+    session_id: ses-0001
+    normalized: Pilito
+    superseded_by: null
+    disposition_reason: null
     private_ref: null
