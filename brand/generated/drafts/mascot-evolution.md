@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.mascot.stage_count`
 - Field: `brand.mascot.stage_count`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.682Z
-- Answer id: ans-0010
+- Updated: 2026-11-21T11:43:55.258Z
+- Answer id: ans-0057
 
 Value:
 
 6
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.stage_count end -->
@@ -35,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.mascot.stage_story`
 - Field: `brand.mascot.stage_story`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf, satchel”. Draft until a human approves it.
-- Updated: 2026-11-21T10:43:41.198Z
-- Answer id: ans-0018
+- Updated: 2026-11-21T11:43:55.380Z
+- Answer id: ans-0058
 
 Value:
 
 1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3 (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.stage_story end -->
@@ -55,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.mascot.continuity`
 - Field: `brand.mascot.continuity`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “Constant across stages: white parrot, yellow crest, dark grey beak, big black eyes, black outline”. Draft until a human approves it.
-- Updated: 2026-11-21T10:43:34.438Z
-- Answer id: ans-0017
+- Updated: 2026-11-21T11:43:55.498Z
+- Answer id: ans-0059
 
 Value:
 
 White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every stage.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.continuity end -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.product.public_status`
 - Field: `business.product.public_status`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.456Z
-- Answer id: ans-0020
+- Updated: 2026-11-21T11:43:54.765Z
+- Answer id: ans-0053
 
 Value:
 
 unshipped
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.public_status end -->

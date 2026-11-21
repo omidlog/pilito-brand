@@ -27,10 +27,48 @@ history:
   - brand.personality.traits
   - business.marketing.availability_claim
   - business.marketing.objective
+  - brand.strategy.differentiation
+  - brand.verbal.voice
+  - brand.verbal.voice_pairs
+  - brand.mascot.personality
+  - brand.mascot.personality
+  - brand.strategy.differentiation
+  - brand.illustration.character
+  - brand.illustration.character
+  - business.identity.new_or_existing
+  - business.identity.trade_name
+  - business.identity.sector
+  - business.offer.summary
+  - business.stage.current
+  - business.market.geography
+  - business.customer.primary_segment
+  - brand.mascot.enabled
+  - business.offer.value_proposition
+  - brand.personality.traits
+  - brand.gamification.enabled
+  - brand.strategy.differentiation
+  - brand.verbal.voice
+  - brand.verbal.voice_pairs
+  - brand.color.roles
+  - brand.type.scale
+  - brand.type.rtl
+  - business.marketing.objective
+  - business.marketing.availability_claim
+  - business.product.public_status
+  - business.product.learning_model
+  - business.product.learning_languages
+  - brand.mascot.personality
+  - brand.mascot.stage_count
+  - brand.mascot.stage_story
+  - brand.mascot.continuity
+  - brand.illustration.character
+  - brand.gamification.model
+  - brand.gamification.mascot_link
+  - business.identity.trade_name
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T11:08:22.744Z
-last_answer_id: ans-0025
+updated_at: 2026-11-21T11:47:46.164Z
+last_answer_id: ans-0063

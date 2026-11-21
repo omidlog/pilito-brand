@@ -285,3 +285,130 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0008
+    received_at: 2026-11-21T11:34:16.211Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-6
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.differentiation
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0026
+        reason: stored as a tentative draft; not approved
+      - index: 1
+        question_id: brand.verbal.voice
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0027
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.verbal.voice_pairs
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0028
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.mascot.personality
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0029
+        reason: stored as a tentative draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.strategy.differentiation
+        text: Which one of these four is the main reason someone would switch?
+      - question_id: brand.mascot.personality
+        text: Confirm the sheep friend's headwear, and what the parrot must never do.
+    owner_questions: []
+  - id: int-0009
+    received_at: 2026-11-21T11:38:54.938Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-7
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.mascot.personality
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0030
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.strategy.differentiation
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0031
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.mascot.personality
+        text: The lamb has no name yet.
+    owner_questions: []
+  - id: int-0010
+    received_at: 2026-11-21T11:40:14.165Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-8 (owner picked the agent's name suggestion 'Copi', from co-pilot)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.illustration.character
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0032
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.illustration.character
+        text: Trademark check for the name Copi before public use.
+    owner_questions: []
+  - id: int-0011
+    received_at: 2026-11-21T11:42:42.401Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-9
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.illustration.character
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0033
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0012
+    received_at: 2026-11-21T11:47:28.294Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-10
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.identity.trade_name
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-21c4276b7a1e
+        reason: approved fact kept; a change proposal now waits for human approval
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

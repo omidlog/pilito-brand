@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.mascot.enabled`
 - Field: `brand.mascot.enabled`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.595Z
-- Answer id: ans-0009
+- Updated: 2026-11-21T11:43:53.243Z
+- Answer id: ans-0041
 
 Value:
 
 yes
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.enabled end -->
@@ -35,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.personality.traits`
 - Field: `brand.personality.traits`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a human approves it.
-- Updated: 2026-11-21T11:08:22.548Z
-- Answer id: ans-0023
+- Updated: 2026-11-21T11:43:53.497Z
+- Answer id: ans-0043
 
 Value:
 
 In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry, serious.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.personality.traits end -->
@@ -73,17 +77,21 @@ TBD
 
 - Question: `brand.mascot.personality`
 - Field: `brand.mascot.personality`
-- Status: unanswered
+- Status: approved
 - Visibility: internal
-- Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Authority: confirmed_by_owner
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:43:55.139Z
+- Answer id: ans-0056
 
 Value:
 
-TBD
+Brand personality plus a little mischievous. He may pop up from the bottom of the app, or pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed: showing sadness (e.g. when the user is away).
+
+Approved by: owner
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.personality end -->
 
 <!-- field:brand.mascot.anatomy start -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
-- Updated: 2026-11-21T10:40:23.577Z
-- Answer id: ans-0013
+- Updated: 2026-11-21T11:43:53.113Z
+- Answer id: ans-0040
 
 Value:
 
 Everyone who wants to learn a language (no narrower segment chosen).
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
@@ -35,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.651Z
-- Answer id: ans-0022
+- Updated: 2026-11-21T11:43:53.364Z
+- Answer id: ans-0042
 
 Value:
 
 Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->
@@ -55,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.marketing.objective`
 - Field: `business.marketing.objective`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it.
-- Updated: 2026-11-21T11:08:22.733Z
-- Answer id: ans-0025
+- Updated: 2026-11-21T11:43:54.517Z
+- Answer id: ans-0051
 
 Value:
 
 Increase the number of downloads and purchases.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.objective end -->
@@ -147,17 +153,19 @@ TBD
 
 - Question: `business.marketing.availability_claim`
 - Field: `business.marketing.availability_claim`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it.
-- Updated: 2026-11-21T11:08:22.662Z
-- Answer id: ans-0024
+- Updated: 2026-11-21T11:43:54.642Z
+- Answer id: ans-0052
 
 Value:
 
 do-not-claim
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.availability_claim end -->
@@ -185,17 +193,19 @@ TBD
 
 - Question: `business.product.public_status`
 - Field: `business.product.public_status`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.456Z
-- Answer id: ans-0020
+- Updated: 2026-11-21T11:43:54.765Z
+- Answer id: ans-0053
 
 Value:
 
 unshipped
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.public_status end -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.gamification.enabled`
 - Field: `brand.gamification.enabled`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.375Z
-- Answer id: ans-0006
+- Updated: 2026-11-21T11:43:53.627Z
+- Answer id: ans-0044
 
 Value:
 
 yes
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.gamification.enabled end -->
@@ -71,17 +73,19 @@ TBD
 
 - Question: `brand.gamification.model`
 - Field: `brand.gamification.model`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Tentative: the owner described this as possible, not decided: “هر لول مثلا باید ۱۰۰۰ امتیاز بگیره”. Not a decision.
-- Updated: 2026-11-21T10:34:18.457Z
-- Answer id: ans-0007
+- Updated: 2026-11-21T11:43:55.774Z
+- Answer id: ans-0061
 
 Value:
 
 Multiple games; points awarded by game difficulty; harder tasks earn more points. Example figures given: about 1000 points per level, about 3 points for a daily flashcard review.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.gamification.model end -->
@@ -145,17 +149,19 @@ TBD
 
 - Question: `brand.gamification.mascot_link`
 - Field: `brand.gamification.mascot_link`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”. Draft until a human approves it.
-- Updated: 2026-11-21T10:34:18.529Z
-- Answer id: ans-0008
+- Updated: 2026-11-21T11:43:55.899Z
+- Answer id: ans-0062
 
 Value:
 
 Yes. The six mascot stages map to the six levels A1–C2.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.gamification.mascot_link end -->

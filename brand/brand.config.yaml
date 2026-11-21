@@ -1,8 +1,8 @@
 schema_version: 1
 brand:
   name: Pilito
-  name_status: working
-  working_name: Pilito (پیلیتو)
+  name_status: approved
+  working_name: Pilito
   working_name_status: draft
   slug: pilito-brand
   legal_name: TBD

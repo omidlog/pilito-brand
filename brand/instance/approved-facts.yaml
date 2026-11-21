@@ -1,2 +1,808 @@
-schema_version: 1
-facts: {}
+schema_version: 2
+facts:
+  business.identity.new_or_existing:
+    id: business.identity.new_or_existing
+    brand_id: pilito-brand
+    module: business-company
+    value: new
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0034
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.398Z
+    confidence: 0.95
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:52.398Z
+    version: 1
+    revision_hash: business.identity.new_or_existing:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.identity.trade_name:
+    id: business.identity.trade_name
+    brand_id: pilito-brand
+    module: business-company
+    value: Pilito
+    value_type: short_text
+    status: approved
+    classification: public
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0063
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:47:46.149Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:47:46.149Z
+    version: 2
+    revision_hash: business.identity.trade_name:2
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.identity.sector:
+    id: business.identity.sector
+    brand_id: pilito-brand
+    module: business-company
+    value: education
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0036
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.635Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:52.635Z
+    version: 1
+    revision_hash: business.identity.sector:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.offer.summary:
+    id: business.offer.summary
+    brand_id: pilito-brand
+    module: business-company
+    value: A language-learning app built on flashcards, with other language-learning features and
+      gamification.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0037
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.748Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:52.748Z
+    version: 1
+    revision_hash: business.offer.summary:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.stage.current:
+    id: business.stage.current
+    brand_id: pilito-brand
+    module: business-company
+    value: pre-revenue
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0038
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.865Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:52.865Z
+    version: 1
+    revision_hash: business.stage.current:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.market.geography:
+    id: business.market.geography
+    brand_id: pilito-brand
+    module: business-company
+    value: First release on the Apple App Store, in every country the App Store supports.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0039
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.984Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:52.984Z
+    version: 1
+    revision_hash: business.market.geography:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.customer.primary_segment:
+    id: business.customer.primary_segment
+    brand_id: pilito-brand
+    module: business-company
+    value: Everyone who wants to learn a language (no narrower segment chosen).
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0040
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.113Z
+    confidence: 0.7
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.113Z
+    version: 1
+    revision_hash: business.customer.primary_segment:1
+    review_due: null
+    related_ids:
+      - brand.personality.traits
+      - business.product.jobs
+    private_ref: null
+  brand.mascot.enabled:
+    id: brand.mascot.enabled
+    brand_id: pilito-brand
+    module: mascot-identity
+    value: yes
+    value_type: boolean
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0041
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.243Z
+    confidence: 0.95
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.243Z
+    version: 1
+    revision_hash: brand.mascot.enabled:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.offer.value_proposition:
+    id: business.offer.value_proposition
+    brand_id: pilito-brand
+    module: business-company
+    value: Creative learning with gamification and AI; simple and practical; priced lower than
+      competitors.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0042
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.364Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.364Z
+    version: 1
+    revision_hash: business.offer.value_proposition:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.personality.traits:
+    id: brand.personality.traits
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
+      serious."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0043
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.497Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.497Z
+    version: 1
+    revision_hash: brand.personality.traits:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.gamification.enabled:
+    id: brand.gamification.enabled
+    brand_id: pilito-brand
+    module: gamification
+    value: yes
+    value_type: boolean
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0044
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.627Z
+    confidence: 0.95
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.627Z
+    version: 1
+    revision_hash: brand.gamification.enabled:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.strategy.differentiation:
+    id: brand.strategy.differentiation
+    brand_id: pilito-brand
+    module: brand-strategy
+    value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
+      better UX. No evidence yet."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0045
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.791Z
+    confidence: 0.75
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.791Z
+    version: 1
+    revision_hash: brand.strategy.differentiation:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.voice:
+    id: brand.verbal.voice
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0046
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.932Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:53.932Z
+    version: 1
+    revision_hash: brand.verbal.voice:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.verbal.voice_pairs:
+    id: brand.verbal.voice_pairs
+    brand_id: pilito-brand
+    module: verbal-identity
+    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    value_type: voice_pairs
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0047
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.059Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.059Z
+    version: 1
+    revision_hash: brand.verbal.voice_pairs:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.color.roles:
+    id: brand.color.roles
+    brand_id: pilito-brand
+    module: color-system
+    value: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
+      #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
+    value_type: color
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0048
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.179Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.179Z
+    version: 1
+    revision_hash: brand.color.roles:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.type.scale:
+    id: brand.type.scale
+    brand_id: pilito-brand
+    module: typography
+    value: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage
+      Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
+    value_type: font
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0049
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.295Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.295Z
+    version: 1
+    revision_hash: brand.type.scale:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.type.rtl:
+    id: brand.type.rtl
+    brand_id: pilito-brand
+    module: typography
+    value: Latin and Persian (Arabic script, right to left).
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0050
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.405Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.405Z
+    version: 1
+    revision_hash: brand.type.rtl:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.objective:
+    id: business.marketing.objective
+    brand_id: pilito-brand
+    module: business-marketing
+    value: Increase the number of downloads and purchases.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0051
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.517Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.517Z
+    version: 1
+    revision_hash: business.marketing.objective:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.marketing.availability_claim:
+    id: business.marketing.availability_claim
+    brand_id: pilito-brand
+    module: business-marketing
+    value: do-not-claim
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0052
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.642Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.642Z
+    version: 1
+    revision_hash: business.marketing.availability_claim:1
+    review_due: null
+    related_ids:
+      - business.product.public_status
+    private_ref: null
+  business.product.public_status:
+    id: business.product.public_status
+    brand_id: pilito-brand
+    module: business-product
+    value: unshipped
+    value_type: single_choice
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0053
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.765Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.765Z
+    version: 1
+    revision_hash: business.product.public_status:1
+    review_due: null
+    related_ids:
+      - business.marketing.availability_claim
+    private_ref: null
+  business.product.learning_model:
+    id: business.product.learning_model
+    brand_id: pilito-brand
+    module: business-product
+    value: Flashcard-based learning plus other learning features and games; progression follows the
+      CEFR-style levels A1, A2, B1, B2, C1, C2.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0054
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.896Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:54.896Z
+    version: 1
+    revision_hash: business.product.learning_model:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  business.product.learning_languages:
+    id: business.product.learning_languages
+    brand_id: pilito-brand
+    module: business-product
+    value: Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning
+      English, Turkish speaker learning Spanish).
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0055
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.017Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.017Z
+    version: 1
+    revision_hash: business.product.learning_languages:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.mascot.personality:
+    id: brand.mascot.personality
+    brand_id: pilito-brand
+    module: mascot-identity
+    value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
+      pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0056
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.139Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.139Z
+    version: 1
+    revision_hash: brand.mascot.personality:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.mascot.stage_count:
+    id: brand.mascot.stage_count
+    brand_id: pilito-brand
+    module: mascot-evolution
+    value: 6
+    value_type: number
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0057
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.258Z
+    confidence: 0.9
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.258Z
+    version: 1
+    revision_hash: brand.mascot.stage_count:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.mascot.stage_story:
+    id: brand.mascot.stage_story
+    brand_id: pilito-brand
+    module: mascot-evolution
+    value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
+      (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5
+      (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0058
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.380Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.380Z
+    version: 1
+    revision_hash: brand.mascot.stage_story:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.mascot.continuity:
+    id: brand.mascot.continuity
+    brand_id: pilito-brand
+    module: mascot-evolution
+    value: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every
+      stage.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0059
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.498Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.498Z
+    version: 1
+    revision_hash: brand.mascot.continuity:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.illustration.character:
+    id: brand.illustration.character
+    brand_id: pilito-brand
+    module: illustration
+    value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
+      Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
+      headband with a fake yellow parrot crest."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0060
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.648Z
+    confidence: 0.85
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.648Z
+    version: 1
+    revision_hash: brand.illustration.character:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.gamification.model:
+    id: brand.gamification.model
+    brand_id: pilito-brand
+    module: gamification
+    value: "Multiple games; points awarded by game difficulty; harder tasks earn more points. Example
+      figures given: about 1000 points per level, about 3 points for a daily flashcard review."
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0061
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.774Z
+    confidence: 0.6
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.774Z
+    version: 1
+    revision_hash: brand.gamification.model:1
+    review_due: null
+    related_ids: []
+    private_ref: null
+  brand.gamification.mascot_link:
+    id: brand.gamification.mascot_link
+    brand_id: pilito-brand
+    module: gamification
+    value: Yes. The six mascot stages map to the six levels A1–C2.
+    value_type: long_text
+    status: approved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0062
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.899Z
+    confidence: 0.8
+    assumptions: []
+    owner: null
+    reviewer_id: owner
+    approved_at: 2026-11-21T11:43:55.899Z
+    version: 1
+    revision_hash: brand.gamification.mascot_link:1
+    review_due: null
+    related_ids:
+      - brand.mascot.unlocks
+    private_ref: null

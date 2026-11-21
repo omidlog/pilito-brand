@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.market.geography`
 - Field: `business.market.geography`
-- Status: draft
+- Status: approved
 - Visibility: internal
-- Authority: unverified
+- Authority: confirmed_by_owner
 - Source: agent_suggestion
 - Uncertainty: Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it.
-- Updated: 2026-11-21T11:01:35.555Z
-- Answer id: ans-0021
+- Updated: 2026-11-21T11:43:52.984Z
+- Answer id: ans-0039
 
 Value:
 
 First release on the Apple App Store, in every country the App Store supports.
+
+Approved by: owner
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.market.geography end -->
