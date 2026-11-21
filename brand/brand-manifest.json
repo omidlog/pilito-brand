@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "name": "EXAMPLE Brand",
-  "slug": "example-brand",
+  "name": "Pilito",
+  "slug": "pilito-brand",
   "status": "draft",
   "note": "Index of template documents. EXAMPLE values are not approved brand facts.",
   "documents": [
@@ -339,5 +339,6 @@
   "question_bank": "brand/interview/question-bank",
   "field_registry": "brand/interview/field-registry.yaml",
   "assets": "brand/assets/asset-manifest.yaml",
-  "mascot_catalog": "brand/mascot/catalog.yaml"
+  "mascot_catalog": "brand/mascot/catalog.yaml",
+  "publish_docs": "private"
 }

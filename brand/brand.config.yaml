@@ -1,10 +1,10 @@
 schema_version: 1
 brand:
-  name: EXAMPLE Brand
-  name_status: placeholder
-  working_name: null
-  working_name_status: null
-  slug: example-brand
+  name: Pilito
+  name_status: working
+  working_name: Pilito
+  working_name_status: draft
+  slug: pilito-brand
   legal_name: TBD
   tagline: TBD
   industry: TBD
@@ -18,10 +18,10 @@ brand:
     - fa
     - tr
   profile: universal
-  publish_docs: public
+  publish_docs: private
   status: draft
   version: 0.1.0
-  initialized: false
+  initialized: true
 capabilities:
   consumer_app: false
   b2b_saas: false
