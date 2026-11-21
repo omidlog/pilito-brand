@@ -530,3 +530,61 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0017
+    received_at: 2026-11-21T12:25:11.349Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-13
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.model.revenue
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0074
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.model.defensibility
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0075
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: business.plan.milestone
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0076
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.plan.risks
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0077
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.marketing.channels
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0078
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: brand.strategy.purpose
+        state: unresolved
+        outcome: unresolved
+        answer_id: ans-0079
+        reason: marked unresolved; no value stored
+      - index: 6
+        question_id: brand.strategy.vision
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0080
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.strategy.purpose
+        text: The owner's motive is personal (a portfolio of at least 10 apps for stable income); a brand
+          purpose for Pilito itself is not stated yet.
+    owner_questions: []

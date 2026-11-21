@@ -576,3 +576,59 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0074
+    question_id: business.model.revenue
+    source_reference: intake:int-0017#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:10.614Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0075
+    question_id: business.model.defensibility
+    source_reference: intake:int-0017#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:10.730Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0076
+    question_id: business.plan.milestone
+    source_reference: intake:int-0017#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:10.834Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0077
+    question_id: business.plan.risks
+    source_reference: intake:int-0017#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:10.943Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0078
+    question_id: business.marketing.channels
+    source_reference: intake:int-0017#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:11.054Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0079
+    question_id: brand.strategy.purpose
+    source_reference: intake:int-0017#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:11.168Z
+    confidentiality: internal
+    review_status: unknown
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0080
+    question_id: brand.strategy.vision
+    source_reference: intake:int-0017#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:25:11.276Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

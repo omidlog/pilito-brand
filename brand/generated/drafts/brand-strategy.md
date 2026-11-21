@@ -123,17 +123,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.strategy.purpose`
 - Field: `brand.strategy.purpose`
-- Status: unanswered
+- Status: unknown
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره به خودم داره”. No value was invented.
+- Updated: 2026-11-21T12:25:11.168Z
+- Answer id: ans-0079
 
 Value:
 
-TBD
+Unknown — not provided. Nothing was invented.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.purpose end -->
 
 <!-- field:brand.strategy.vision start -->
@@ -141,17 +143,19 @@ TBD
 
 - Question: `brand.strategy.vision`
 - Field: `brand.strategy.vision`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:11.276Z
+- Answer id: ans-0080
 
 Value:
 
-TBD
+ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps, possibly acquired by a large brand.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.vision end -->
 
 <!-- field:brand.strategy.values start -->

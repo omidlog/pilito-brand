@@ -449,3 +449,98 @@ facts:
     answer_id: ans-0071
     updated: 2026-11-21T12:18:26.084Z
     proposal_state: proposed
+  business.model.revenue:
+    value: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
+      in-app ads, which must not be intrusive.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it."
+    answer_id: ans-0074
+    updated: 2026-11-21T12:25:10.614Z
+    proposal_state: proposed
+  business.model.defensibility:
+    value: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product
+      itself could be copied."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی
+      که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision."
+    answer_id: ans-0075
+    updated: 2026-11-21T12:25:10.730Z
+    proposal_state: tentative
+  business.plan.milestone:
+    value: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human
+      approves it."
+    answer_id: ans-0076
+    updated: 2026-11-21T12:25:10.834Z
+    proposal_state: proposed
+  business.plan.risks:
+    value: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and
+      GEO, especially being recommended by AI assistants."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات
+      ندارم”. Draft until a human approves it."
+    answer_id: ans-0077
+    updated: 2026-11-21T12:25:10.943Z
+    proposal_state: proposed
+  business.marketing.channels:
+    value: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid
+      advertising."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا
+      توسیه هوش مصنوعی ها”. Draft until a human approves it."
+    answer_id: ans-0078
+    updated: 2026-11-21T12:25:11.054Z
+    proposal_state: proposed
+  brand.strategy.purpose:
+    value: null
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: unknown
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره به
+      خودم داره”. No value was invented."
+    answer_id: ans-0079
+    updated: 2026-11-21T12:25:11.168Z
+    proposal_state: unresolved
+  brand.strategy.vision:
+    value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
+      possibly acquired by a large brand."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”.
+      Draft until a human approves it."
+    answer_id: ans-0080
+    updated: 2026-11-21T12:25:11.276Z
+    proposal_state: proposed

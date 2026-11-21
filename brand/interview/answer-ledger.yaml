@@ -1567,3 +1567,158 @@ records:
     disposition_reason: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0074
+    question_id: business.model.revenue
+    value: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
+      in-app ads, which must not be intrusive.
+    raw_answer: اشتراک پول اصلی هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:25:10.614Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
+      in-app ads, which must not be intrusive.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0075
+    question_id: business.model.defensibility
+    value: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product
+      itself could be copied."
+    raw_answer: برندینگ و داستان سرایی که برای این برند با مسکات هاش دارم شاید سخت بتونه
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#1
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T12:25:10.730Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی
+      که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision."
+    session_id: ses-0001
+    normalized: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the
+      product itself could be copied."
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “برندینگ و داستان
+      سرایی که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0076
+    question_id: business.plan.milestone
+    value: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
+    raw_answer: ۳-به ترتیسب همونی هست که گفتی
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#2
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-21T12:25:10.834Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human
+      approves it."
+    session_id: ses-0001
+    normalized: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a
+      human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0077
+    question_id: business.plan.risks
+    value: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and
+      GEO, especially being recommended by AI assistants."
+    raw_answer: میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات ندارم
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:25:10.943Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات
+      ندارم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO
+      and GEO, especially being recommended by AI assistants."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای
+      تبلیغات ندارم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0078
+    question_id: business.marketing.channels
+    value: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid
+      advertising."
+    raw_answer: بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا توسیه هوش مصنوعی ها
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#4
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:25:11.054Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا
+      توسیه هوش مصنوعی ها”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing:
+      paid advertising."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست
+      مخصوصا توسیه هوش مصنوعی ها”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0079
+    question_id: brand.strategy.purpose
+    value: null
+    raw_answer: ۵-این ربطی به پیلیتو نداره به خودم داره
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#5
+    authority: unverified
+    confidence: 0.8
+    status: unknown
+    last_updated: 2026-11-21T12:25:11.168Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره به
+      خودم داره”. No value was invented."
+    session_id: ses-0001
+    normalized: null
+    superseded_by: null
+    disposition_reason: "Unresolved: the owner said this is not decided yet: “۵-این ربطی به پیلیتو نداره
+      به خودم داره”. No value was invented."
+    private_ref: null
+    proposal_state: unresolved
+  - answer_id: ans-0080
+    question_id: brand.strategy.vision
+    value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
+      possibly acquired by a large brand."
+    raw_answer: پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0017#6
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:25:11.276Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”.
+      Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning
+      apps, possibly acquired by a large brand."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان
+      دنیا هست”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

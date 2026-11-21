@@ -81,17 +81,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.marketing.channels`
 - Field: `business.marketing.channels`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا توسیه هوش مصنوعی ها”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:11.054Z
+- Answer id: ans-0078
 
 Value:
 
-TBD
+In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid advertising.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.channels end -->
 
 <!-- field:business.marketing.journey start -->

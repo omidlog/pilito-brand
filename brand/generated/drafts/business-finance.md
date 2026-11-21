@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.model.revenue`
 - Field: `business.model.revenue`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:10.614Z
+- Answer id: ans-0074
 
 Value:
 
-TBD
+Subscription is the main revenue. Plain flashcard use stays free; the free tier carries in-app ads, which must not be intrusive.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.revenue end -->
 
 <!-- field:business.sales.pricing start -->

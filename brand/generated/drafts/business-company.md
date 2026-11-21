@@ -229,17 +229,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.model.revenue`
 - Field: `business.model.revenue`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:10.614Z
+- Answer id: ans-0074
 
 Value:
 
-TBD
+Subscription is the main revenue. Plain flashcard use stays free; the free tier carries in-app ads, which must not be intrusive.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.revenue end -->
 
 <!-- field:business.model.defensibility start -->
@@ -247,17 +249,19 @@ TBD
 
 - Question: `business.model.defensibility`
 - Field: `business.model.defensibility`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision.
+- Updated: 2026-11-21T12:25:10.730Z
+- Answer id: ans-0075
 
 Value:
 
-TBD
+Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product itself could be copied.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.model.defensibility end -->
 
 <!-- field:business.plan.milestone start -->
@@ -265,17 +269,19 @@ TBD
 
 - Question: `business.plan.milestone`
 - Field: `business.plan.milestone`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:10.834Z
+- Answer id: ans-0076
 
 Value:
 
-TBD
+In order: finish the MVP, launch on the Apple App Store, reach the first 100 users.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.plan.milestone end -->
 
 <!-- field:business.plan.risks start -->
@@ -283,17 +289,19 @@ TBD
 
 - Question: `business.plan.risks`
 - Field: `business.plan.risks`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات ندارم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:25:10.943Z
+- Answer id: ans-0077
 
 Value:
 
-TBD
+Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and GEO, especially being recommended by AI assistants.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.plan.risks end -->
 
 <!-- field:business.partners.risk_process start -->
