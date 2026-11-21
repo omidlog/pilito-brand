@@ -89,17 +89,19 @@ TBD
 
 - Question: `brand.verbal.voice`
 - Field: `brand.verbal.voice`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft until a human approves it.
+- Updated: 2026-11-21T11:34:15.968Z
+- Answer id: ans-0027
 
 Value:
 
-TBD
+Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم اینترنت قطع هست دوبره امتحان کن!»
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice end -->
 
 <!-- field:brand.verbal.forbidden start -->
@@ -161,15 +163,17 @@ TBD
 
 - Question: `brand.verbal.voice_pairs`
 - Field: `brand.verbal.voice_pairs`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»”. Draft until a human approves it.
+- Updated: 2026-11-21T11:34:16.067Z
+- Answer id: ans-0028
 
 Value:
 
-TBD
+do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.voice_pairs end -->

@@ -541,3 +541,190 @@ records:
     disposition_reason: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0026
+    question_id: brand.strategy.differentiation
+    value: "HYPOTHESIS (owner: 'I think'): gamification, lower price, more features and better UX than
+      the alternatives. No evidence yet."
+    raw_answer: فکر کنم همین گیمیفیکیشن و قیمت کمتر و امکانات بیشتر و ux بهتر
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#0
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T11:34:15.887Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “فکر کنم همین گیمیفیکیشن
+      و قیمت کمتر و امکانات بیشتر و ux بهتر”. Not a decision."
+    session_id: ses-0001
+    normalized: "HYPOTHESIS (owner: 'I think'): gamification, lower price, more features and better UX
+      than the alternatives. No evidence yet."
+    superseded_by: ans-0031
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “فکر کنم همین
+      گیمیفیکیشن و قیمت کمتر و امکانات بیشتر و ux بهتر”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0027
+    question_id: brand.verbal.voice
+    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    raw_answer: اوو فک کنم اینترنت قطع هست دوبره امتحان کن!
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:34:15.968Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0028
+    question_id: brand.verbal.voice_pairs
+    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    raw_answer: "* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی»"
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#2
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T11:34:16.067Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
+      شدی»”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن
+      نزدیک‌تر شدی»”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0029
+    question_id: brand.mascot.personality
+    value: "Same as the brand personality, plus a little mischievous: e.g. one day pops up from the
+      bottom of the app, or brings a friend instead of himself, a small sheep wearing a hat/crown
+      who wants to be like him. Forbidden traits not yet stated."
+    raw_answer: یکم شنطونه مصلا یهو از زیر اپلیکیشن یک روز میاد
+    source_type: agent_suggestion
+    source_reference: intake:int-0008#3
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T11:34:16.152Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “یکم شنطونه مصلا یهو از
+      زیر اپلیکیشن یک روز میاد”. Not a decision."
+    session_id: ses-0001
+    normalized: "Same as the brand personality, plus a little mischievous: e.g. one day pops up from the
+      bottom of the app, or brings a friend instead of himself, a small sheep wearing a hat/crown
+      who wants to be like him. Forbidden traits not yet stated."
+    superseded_by: ans-0030
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “یکم شنطونه مصلا
+      یهو از زیر اپلیکیشن یک روز میاد”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0030
+    question_id: brand.mascot.personality
+    value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
+      pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    raw_answer: انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره هم طفلکی از همه جا بی خبر باید نقش
+      طوطی بازی بکنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0009#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T11:38:54.791Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره
+      هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Brand personality plus a little mischievous. He may pop up from the bottom of the app,
+      or pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه
+      اون بره هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0031
+    question_id: brand.strategy.differentiation
+    value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
+      better UX. No evidence yet."
+    raw_answer: ۴-گیمیفیکیشن
+    source_type: agent_suggestion
+    source_reference: intake:int-0009#1
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-21T11:38:54.879Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more
+      features, better UX. No evidence yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0032
+    question_id: brand.illustration.character
+    value: "Yes. The pilot-parrot mascot, plus a second character named Copi: a small, clueless lamb the
+      parrot sometimes passes off as himself, wearing a hat or headband with a fake yellow parrot
+      crest."
+    raw_answer: Copi خوبه
+    source_type: agent_suggestion
+    source_reference: intake:int-0010#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T11:40:14.095Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Copi خوبه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Yes. The pilot-parrot mascot, plus a second character named Copi: a small, clueless
+      lamb the parrot sometimes passes off as himself, wearing a hat or headband with a fake yellow
+      parrot crest."
+    superseded_by: ans-0033
+    disposition_reason: "Proposed from the owner's words: “Copi خوبه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0033
+    question_id: brand.illustration.character
+    value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
+      Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
+      headband with a fake yellow parrot crest."
+    raw_answer: اره اسمش پیلیتو هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0011#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:42:42.338Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character
+      named Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat
+      or headband with a fake yellow parrot crest."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

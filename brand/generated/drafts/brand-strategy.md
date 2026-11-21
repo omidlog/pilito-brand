@@ -169,17 +169,19 @@ TBD
 
 - Question: `brand.strategy.differentiation`
 - Field: `brand.strategy.differentiation`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it.
+- Updated: 2026-11-21T11:38:54.879Z
+- Answer id: ans-0031
 
 Value:
 
-TBD
+Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features, better UX. No evidence yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.differentiation end -->
 
 <!-- field:brand.strategy.promise start -->

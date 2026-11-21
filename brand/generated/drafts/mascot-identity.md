@@ -73,17 +73,19 @@ TBD
 
 - Question: `brand.mascot.personality`
 - Field: `brand.mascot.personality`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:38:54.791Z
+- Answer id: ans-0030
 
 Value:
 
-TBD
+Brand personality plus a little mischievous. He may pop up from the bottom of the app, or pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed: showing sadness (e.g. when the user is away).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.mascot.personality end -->
 
 <!-- field:brand.mascot.anatomy start -->

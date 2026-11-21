@@ -317,3 +317,73 @@ facts:
     answer_id: ans-0025
     updated: 2026-11-21T11:08:22.733Z
     proposal_state: proposed
+  brand.strategy.differentiation:
+    value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
+      better UX. No evidence yet."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
+    answer_id: ans-0031
+    updated: 2026-11-21T11:38:54.879Z
+    proposal_state: proposed
+  brand.verbal.voice:
+    value: "Casual, warm Persian. Success example: «آفرین کارت درسته!». Error example: «اوو فک کنم
+      اینترنت قطع هست دوبره امتحان کن!»"
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اوو فک کنم اینترنت قطع هست دوبره امتحان کن!”. Draft
+      until a human approves it."
+    answer_id: ans-0027
+    updated: 2026-11-21T11:34:15.968Z
+    proposal_state: proposed
+  brand.verbal.voice_pairs:
+    value: "do: آفرین! یه قدم به کاپیتان شدن نزدیک‌تر شدی | don't: پاسخ صحیح است"
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “* بنویس «آفرین! یه قدم به کاپیتان شدن نزدیک‌تر
+      شدی»”. Draft until a human approves it."
+    answer_id: ans-0028
+    updated: 2026-11-21T11:34:16.067Z
+    proposal_state: proposed
+  brand.mascot.personality:
+    value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
+      pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
+      yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
+      showing sadness (e.g. when the user is away)."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره
+      هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
+    answer_id: ans-0030
+    updated: 2026-11-21T11:38:54.791Z
+    proposal_state: proposed
+  brand.illustration.character:
+    value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
+      Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
+      headband with a fake yellow parrot crest."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
+    answer_id: ans-0033
+    updated: 2026-11-21T11:42:42.338Z
+    proposal_state: proposed

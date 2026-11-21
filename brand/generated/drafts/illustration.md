@@ -69,17 +69,19 @@ TBD
 
 - Question: `brand.illustration.character`
 - Field: `brand.illustration.character`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it.
+- Updated: 2026-11-21T11:42:42.338Z
+- Answer id: ans-0033
 
 Value:
 
-TBD
+Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or headband with a fake yellow parrot crest.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.illustration.character end -->
 
 <!-- field:brand.illustration.unacceptable start -->

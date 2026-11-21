@@ -200,3 +200,67 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0026
+    question_id: brand.strategy.differentiation
+    source_reference: intake:int-0008#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:34:15.887Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0027
+    question_id: brand.verbal.voice
+    source_reference: intake:int-0008#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:34:15.968Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0028
+    question_id: brand.verbal.voice_pairs
+    source_reference: intake:int-0008#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:34:16.067Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0029
+    question_id: brand.mascot.personality
+    source_reference: intake:int-0008#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:34:16.152Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0030
+    question_id: brand.mascot.personality
+    source_reference: intake:int-0009#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:38:54.791Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0031
+    question_id: brand.strategy.differentiation
+    source_reference: intake:int-0009#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:38:54.879Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0032
+    question_id: brand.illustration.character
+    source_reference: intake:int-0010#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:40:14.095Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0033
+    question_id: brand.illustration.character
+    source_reference: intake:int-0011#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T11:42:42.338Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

@@ -27,10 +27,18 @@ history:
   - brand.personality.traits
   - business.marketing.availability_claim
   - business.marketing.objective
+  - brand.strategy.differentiation
+  - brand.verbal.voice
+  - brand.verbal.voice_pairs
+  - brand.mascot.personality
+  - brand.mascot.personality
+  - brand.strategy.differentiation
+  - brand.illustration.character
+  - brand.illustration.character
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T11:08:22.744Z
-last_answer_id: ans-0025
+updated_at: 2026-11-21T11:42:42.351Z
+last_answer_id: ans-0033
