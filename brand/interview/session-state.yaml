@@ -106,10 +106,12 @@ history:
   - business.legal.entity
   - business.legal.trademark
   - brand.social.channels
+  - brand.verbal.tagline
+  - brand.strategy.promise
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:30:59.245Z
-last_answer_id: ans-0104
+updated_at: 2026-11-21T12:33:21.355Z
+last_answer_id: ans-0106

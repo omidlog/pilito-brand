@@ -214,18 +214,16 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Status: approved
 - Visibility: internal
 - Authority: confirmed_by_owner
-- Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human approves it.
-- Updated: 2026-11-21T12:30:58.136Z
-- Answer id: ans-0097
+- Source: owner
+- Uncertainty: none
+- Updated: 2026-11-21T12:33:21.339Z
+- Answer id: ans-0106
 
 Value:
 
-Playful promise: if you turn Pilito into a pilot (reach the final level), your command of the language you are learning will be good enough to take a pilot exam in it and pass.
+Get Pilito to captain, and you'll be ready to take off in your new language.
 
 Approved by: owner
-
-Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.strategy.promise end -->
 
 <!-- field:brand.strategy.decision_rule start -->

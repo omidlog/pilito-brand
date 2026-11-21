@@ -1058,8 +1058,7 @@ facts:
     id: brand.strategy.promise
     brand_id: pilito-brand
     module: brand-strategy
-    value: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command of
-      the language you are learning will be good enough to take a pilot exam in it and pass."
+    value: Get Pilito to captain, and you'll be ready to take off in your new language.
     value_type: long_text
     status: approved
     classification: internal
@@ -1067,18 +1066,18 @@ facts:
     source:
       kind: interview
       answer_ids:
-        - ans-0097
+        - ans-0106
       reference_ids: []
       citation_paths:
         - brand/instance/approved-facts.yaml
-      observed_at: 2026-11-21T12:30:58.136Z
-    confidence: 0.75
+      observed_at: 2026-11-21T12:33:21.339Z
+    confidence: null
     assumptions: []
     owner: null
     reviewer_id: owner
-    approved_at: 2026-11-21T12:30:58.136Z
-    version: 1
-    revision_hash: brand.strategy.promise:1
+    approved_at: 2026-11-21T12:33:21.339Z
+    version: 2
+    revision_hash: brand.strategy.promise:2
     review_due: null
     related_ids: []
     private_ref: null
@@ -1142,7 +1141,7 @@ facts:
     id: brand.verbal.tagline
     brand_id: pilito-brand
     module: verbal-identity
-    value: none
+    value: Fly through languages.
     value_type: long_text
     status: approved
     classification: internal
@@ -1150,18 +1149,18 @@ facts:
     source:
       kind: interview
       answer_ids:
-        - ans-0100
+        - ans-0105
       reference_ids: []
       citation_paths:
         - brand/instance/approved-facts.yaml
-      observed_at: 2026-11-21T12:30:58.596Z
-    confidence: 0.9
+      observed_at: 2026-11-21T12:33:21.178Z
+    confidence: null
     assumptions: []
     owner: null
     reviewer_id: owner
-    approved_at: 2026-11-21T12:30:58.596Z
-    version: 1
-    revision_hash: brand.verbal.tagline:1
+    approved_at: 2026-11-21T12:33:21.178Z
+    version: 2
+    revision_hash: brand.verbal.tagline:2
     review_due: null
     related_ids: []
     private_ref: null

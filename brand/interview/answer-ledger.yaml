@@ -2075,7 +2075,7 @@ records:
     session_id: ses-0001
     normalized: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command
       of the language you are learning will be good enough to take a pilot exam in it and pass."
-    superseded_by: null
+    superseded_by: ans-0106
     disposition_reason: "Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم
       میتونی خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until
       a human approves it."
@@ -2135,7 +2135,7 @@ records:
     uncertainty: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
     session_id: ses-0001
     normalized: none
-    superseded_by: null
+    superseded_by: ans-0105
     disposition_reason: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
     private_ref: null
   - answer_id: ans-0101
@@ -2221,4 +2221,40 @@ records:
     superseded_by: null
     disposition_reason: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”.
       Draft until a human approves it."
+    private_ref: null
+  - answer_id: ans-0105
+    question_id: brand.verbal.tagline
+    value: Fly through languages.
+    raw_answer: Fly through languages.
+    source_type: owner
+    source_reference: null
+    authority: confirmed_by_owner
+    confidence: null
+    status: approved
+    last_updated: 2026-11-21T12:33:21.178Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: null
+    session_id: ses-0001
+    normalized: Fly through languages.
+    superseded_by: null
+    disposition_reason: null
+    private_ref: null
+  - answer_id: ans-0106
+    question_id: brand.strategy.promise
+    value: Get Pilito to captain, and you'll be ready to take off in your new language.
+    raw_answer: Get Pilito to captain, and you'll be ready to take off in your new language.
+    source_type: owner
+    source_reference: null
+    authority: confirmed_by_owner
+    confidence: null
+    status: approved
+    last_updated: 2026-11-21T12:33:21.339Z
+    reviewed_by: owner
+    visibility: internal
+    uncertainty: null
+    session_id: ses-0001
+    normalized: Get Pilito to captain, and you'll be ready to take off in your new language.
+    superseded_by: null
+    disposition_reason: null
     private_ref: null

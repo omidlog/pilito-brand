@@ -84,18 +84,16 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Status: approved
 - Visibility: internal
 - Authority: confirmed_by_owner
-- Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it.
-- Updated: 2026-11-21T12:30:58.596Z
-- Answer id: ans-0100
+- Source: owner
+- Uncertainty: none
+- Updated: 2026-11-21T12:33:21.178Z
+- Answer id: ans-0105
 
 Value:
 
-none
+Fly through languages.
 
 Approved by: owner
-
-Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.tagline end -->
 
 <!-- field:brand.verbal.voice start -->

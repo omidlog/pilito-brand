@@ -554,27 +554,24 @@ facts:
     answer_id: ans-0096
     updated: 2026-11-21T12:30:57.977Z
   brand.strategy.promise:
-    value: "Playful promise: if you turn Pilito into a pilot (reach the final level), your command of
-      the language you are learning will be good enough to take a pilot exam in it and pass."
+    value: Get Pilito to captain, and you'll be ready to take off in your new language.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اگه بتونی پیلیتورو خلبان کنی بهت قول میدیم میتونی
-      خودت بری با همون زبانی که داری یاد میگیری بری امتحان خلبانی بدی قبول بشی”. Draft until a human
-      approves it."
-    answer_id: ans-0097
-    updated: 2026-11-21T12:30:58.136Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0106
+    updated: 2026-11-21T12:33:21.339Z
   brand.verbal.tagline:
-    value: none
+    value: Fly through languages.
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: approved
     visibility: internal
     authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۴- ندارم”. Draft until a human approves it."
-    answer_id: ans-0100
-    updated: 2026-11-21T12:30:58.596Z
+    source_type: owner
+    uncertainty: null
+    answer_id: ans-0105
+    updated: 2026-11-21T12:33:21.178Z
