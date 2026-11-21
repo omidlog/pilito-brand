@@ -213,13 +213,13 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “خیلی خسته کننده و یک نواخت بود و گرون و جدید نیست کار نو نکردن”. Draft until a human approves it.
-- Updated: 2026-11-21T12:18:18.581Z
-- Answer id: ans-0068
+- Uncertainty: Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:20:21.886Z
+- Answer id: ans-0073
 
 Value:
 
-Owner's view of existing apps (observation source not stated): very boring and monotonous, expensive, and nothing new.
+Owner's own experience (not user research): existing apps are very boring and monotonous, expensive, and offer nothing new.
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.problem.pains end -->

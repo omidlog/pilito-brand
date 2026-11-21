@@ -560,3 +560,19 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0072
+    question_id: brand.identity.public_name_override
+    source_reference: intake:int-0016#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:20:21.754Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0073
+    question_id: business.problem.pains
+    source_reference: intake:int-0016#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:20:21.886Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

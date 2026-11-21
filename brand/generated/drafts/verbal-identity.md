@@ -57,17 +57,17 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.identity.public_name_override`
 - Field: `brand.identity.public_name_override`
-- Status: unknown
+- Status: draft
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Unresolved: the owner said this is not decided yet: “باید متنی جلوش باشه چون اپ استور نمیزاره اسم خالیو”. No value was invented.
-- Updated: 2026-11-21T12:18:18.275Z
-- Answer id: ans-0065
+- Uncertainty: Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a human approves it.
+- Updated: 2026-11-21T12:20:21.754Z
+- Answer id: ans-0072
 
 Value:
 
-Unknown — not provided. Nothing was invented.
+Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays Pilito).
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.identity.public_name_override end -->

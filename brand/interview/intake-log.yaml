@@ -505,3 +505,28 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0016
+    received_at: 2026-11-21T12:20:21.959Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-12 (owner chose one of the agent's App Store name suggestions)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.identity.public_name_override
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0072
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.problem.pains
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0073
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

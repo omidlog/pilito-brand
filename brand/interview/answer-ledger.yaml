@@ -1384,7 +1384,7 @@ records:
       نمیزاره اسم خالیو”. No value was invented."
     session_id: ses-0001
     normalized: null
-    superseded_by: null
+    superseded_by: ans-0072
     disposition_reason: "Unresolved: the owner said this is not decided yet: “باید متنی جلوش باشه چون اپ
       استور نمیزاره اسم خالیو”. No value was invented."
     private_ref: null
@@ -1447,7 +1447,7 @@ records:
     session_id: ses-0001
     normalized: "Owner's view of existing apps (observation source not stated): very boring and
       monotonous, expensive, and nothing new."
-    superseded_by: null
+    superseded_by: ans-0073
     disposition_reason: "Proposed from the owner's words: “خیلی خسته کننده و یک نواخت بود و گرون و جدید
       نیست کار نو نکردن”. Draft until a human approves it."
     private_ref: null
@@ -1521,5 +1521,49 @@ records:
     superseded_by: null
     disposition_reason: "Proposed from the owner's words: “Company type: Private limited Company”. Draft
       until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0072
+    question_id: brand.identity.public_name_override
+    value: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
+      Pilito)."
+    raw_answer: "Pilito: Language Flashcards این باشه"
+    source_type: agent_suggestion
+    source_reference: intake:int-0016#0
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:20:21.754Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
+      Pilito)."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft
+      until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0073
+    question_id: business.problem.pains
+    value: "Owner's own experience (not user research): existing apps are very boring and monotonous,
+      expensive, and offer nothing new."
+    raw_answer: ۲- تجربه خودم
+    source_type: agent_suggestion
+    source_reference: intake:int-0016#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:20:21.886Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Owner's own experience (not user research): existing apps are very boring and
+      monotonous, expensive, and offer nothing new."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed

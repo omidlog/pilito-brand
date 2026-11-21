@@ -370,18 +370,19 @@ facts:
     updated: 2026-11-21T12:18:18.165Z
     proposal_state: proposed
   brand.identity.public_name_override:
-    value: null
+    value: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
+      Pilito)."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
-    status: unknown
+    status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Unresolved: the owner said this is not decided yet: “باید متنی جلوش باشه چون اپ استور
-      نمیزاره اسم خالیو”. No value was invented."
-    answer_id: ans-0065
-    updated: 2026-11-21T12:18:18.275Z
-    proposal_state: unresolved
+    uncertainty: "Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a
+      human approves it."
+    answer_id: ans-0072
+    updated: 2026-11-21T12:20:21.754Z
+    proposal_state: proposed
   business.legal.trademark:
     value: none
     stored_in: brand/instance/draft-facts.yaml
@@ -408,18 +409,17 @@ facts:
     updated: 2026-11-21T12:18:18.478Z
     proposal_state: unresolved
   business.problem.pains:
-    value: "Owner's view of existing apps (observation source not stated): very boring and monotonous,
-      expensive, and nothing new."
+    value: "Owner's own experience (not user research): existing apps are very boring and monotonous,
+      expensive, and offer nothing new."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “خیلی خسته کننده و یک نواخت بود و گرون و جدید نیست
-      کار نو نکردن”. Draft until a human approves it."
-    answer_id: ans-0068
-    updated: 2026-11-21T12:18:18.581Z
+    uncertainty: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
+    answer_id: ans-0073
+    updated: 2026-11-21T12:20:21.886Z
     proposal_state: proposed
   business.identity.legal_name:
     value: FIKO AI LABS LTD

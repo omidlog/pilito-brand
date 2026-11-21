@@ -73,10 +73,12 @@ history:
   - business.identity.legal_name
   - business.legal.entity
   - business.legal.entity
+  - brand.identity.public_name_override
+  - business.problem.pains
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:18:26.097Z
-last_answer_id: ans-0071
+updated_at: 2026-11-21T12:20:21.898Z
+last_answer_id: ans-0073
