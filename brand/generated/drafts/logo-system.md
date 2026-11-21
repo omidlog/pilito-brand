@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.logo.variants`
 - Field: `brand.logo.variants`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it.
+- Updated: 2026-11-21T12:38:00.155Z
+- Answer id: ans-0111
 
 Value:
 
-TBD
+For now only the existing wordmark. No Persian logo version. Other variants will be supplied by the owner later.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.logo.variants end -->
 
 <!-- field:brand.logo.clear_space start -->

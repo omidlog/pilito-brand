@@ -121,17 +121,19 @@ Approved by: owner
 
 - Question: `brand.verbal.forbidden`
 - Field: `brand.verbal.forbidden`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it.
+- Updated: 2026-11-21T12:37:59.764Z
+- Answer id: ans-0108
 
 Value:
 
-TBD
+No political or religious jokes. No superlative claims such as "the best app in the world". No guaranteed-outcome claims such as "become fluent in 30 days".
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.forbidden end -->
 
 <!-- field:brand.verbal.localization start -->
@@ -139,17 +141,19 @@ TBD
 
 - Question: `brand.verbal.localization`
 - Field: `brand.verbal.localization`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “۴-هوش مصنوعی”. Not a decision.
+- Updated: 2026-11-21T12:37:59.896Z
+- Answer id: ans-0109
 
 Value:
 
-TBD
+Translations of brand copy are produced and checked by AI. Which languages carry official brand sentences is not yet stated.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.localization end -->
 
 <!-- field:brand.verbal.microcopy start -->
@@ -157,17 +161,19 @@ TBD
 
 - Question: `brand.verbal.microcopy`
 - Field: `brand.verbal.microcopy`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۵-درسته”. Draft until a human approves it.
+- Updated: 2026-11-21T12:38:00.022Z
+- Answer id: ans-0110
 
 Value:
 
-TBD
+Buttons: short, verb-first (e.g. "Start", "Next"). Notifications: at most one per day, in Pilito's voice.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.microcopy end -->
 
 <!-- field:brand.verbal.voice_pairs start -->

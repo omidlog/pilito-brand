@@ -575,3 +575,69 @@ facts:
     uncertainty: null
     answer_id: ans-0105
     updated: 2026-11-21T12:33:21.178Z
+  brand.strategy.experience:
+    value: "Shared across product, support and marketing: never annoying, cheerful, and easy enough that
+      anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده
+      اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it."
+    answer_id: ans-0107
+    updated: 2026-11-21T12:37:59.594Z
+    proposal_state: proposed
+  brand.verbal.forbidden:
+    value: No political or religious jokes. No superlative claims such as "the best app in the world".
+      No guaranteed-outcome claims such as "become fluent in 30 days".
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
+    answer_id: ans-0108
+    updated: 2026-11-21T12:37:59.764Z
+    proposal_state: proposed
+  brand.verbal.localization:
+    value: Translations of brand copy are produced and checked by AI. Which languages carry official
+      brand sentences is not yet stated.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “۴-هوش مصنوعی”. Not a decision."
+    answer_id: ans-0109
+    updated: 2026-11-21T12:37:59.896Z
+    proposal_state: tentative
+  brand.verbal.microcopy:
+    value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
+      in Pilito's voice."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
+    answer_id: ans-0110
+    updated: 2026-11-21T12:38:00.022Z
+    proposal_state: proposed
+  brand.logo.variants:
+    value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
+      by the owner later.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
+    answer_id: ans-0111
+    updated: 2026-11-21T12:38:00.155Z
+    proposal_state: proposed

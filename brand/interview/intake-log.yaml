@@ -699,3 +699,48 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0022
+    received_at: 2026-11-21T12:38:00.232Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-18 (owner confirmed the agent's examples for items 3 and 5)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.strategy.experience
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0107
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.verbal.forbidden
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0108
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.verbal.localization
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0109
+        reason: stored as a tentative draft; not approved
+      - index: 3
+        question_id: brand.verbal.microcopy
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0110
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.logo.variants
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0111
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.verbal.localization
+        text: Which languages will the app UI and marketing ship in at launch?
+    owner_questions: []

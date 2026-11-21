@@ -2258,3 +2258,112 @@ records:
     superseded_by: null
     disposition_reason: null
     private_ref: null
+  - answer_id: ans-0107
+    question_id: brand.strategy.experience
+    value: "Shared across product, support and marketing: never annoying, cheerful, and easy enough that
+      anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    raw_answer: ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده اون راحت باشه از بچه ۱۰ ساله تا
+      پیرزن ۷۰ ساله بفهمش
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#0
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:37:59.594Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده
+      اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Shared across product, support and marketing: never annoying, cheerful, and easy enough
+      that anyone from a 10-year-old child to a 70-year-old grandmother understands it."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی
+      استفاده اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves
+      it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0108
+    question_id: brand.verbal.forbidden
+    value: No political or religious jokes. No superlative claims such as "the best app in the world".
+      No guaranteed-outcome claims such as "become fluent in 30 days".
+    raw_answer: ۳-هر ۳ درسته
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:37:59.764Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: No political or religious jokes. No superlative claims such as "the best app in the
+      world". No guaranteed-outcome claims such as "become fluent in 30 days".
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0109
+    question_id: brand.verbal.localization
+    value: Translations of brand copy are produced and checked by AI. Which languages carry official
+      brand sentences is not yet stated.
+    raw_answer: ۴-هوش مصنوعی
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#2
+    authority: unverified
+    confidence: 0.6
+    status: draft
+    last_updated: 2026-11-21T12:37:59.896Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “۴-هوش مصنوعی”. Not a decision."
+    session_id: ses-0001
+    normalized: Translations of brand copy are produced and checked by AI. Which languages carry
+      official brand sentences is not yet stated.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “۴-هوش مصنوعی”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0110
+    question_id: brand.verbal.microcopy
+    value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
+      in Pilito's voice."
+    raw_answer: ۵-درسته
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:38:00.022Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per
+      day, in Pilito's voice."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0111
+    question_id: brand.logo.variants
+    value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
+      by the owner later.
+    raw_answer: نسخه فارسی نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0022#4
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:38:00.155Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: For now only the existing wordmark. No Persian logo version. Other variants will be
+      supplied by the owner later.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

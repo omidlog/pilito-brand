@@ -808,3 +808,43 @@ items:
     confidentiality: internal
     review_status: approved
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0107
+    question_id: brand.strategy.experience
+    source_reference: intake:int-0022#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:37:59.594Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0108
+    question_id: brand.verbal.forbidden
+    source_reference: intake:int-0022#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:37:59.764Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0109
+    question_id: brand.verbal.localization
+    source_reference: intake:int-0022#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:37:59.896Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0110
+    question_id: brand.verbal.microcopy
+    source_reference: intake:int-0022#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:38:00.022Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0111
+    question_id: brand.logo.variants
+    source_reference: intake:int-0022#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:38:00.155Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

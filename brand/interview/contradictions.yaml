@@ -1,6 +1,6 @@
 schema_version: 1
 derived: true
-scanned_at: 2026-11-21T12:33:21.423Z
+scanned_at: 2026-11-21T12:38:00.224Z
 items:
   - id: con-name-divergence
     rule: name-divergence
