@@ -393,3 +393,22 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0012
+    received_at: 2026-11-21T11:47:28.294Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-10
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.identity.trade_name
+        state: proposed
+        outcome: change_proposed
+        change_id: chg-21c4276b7a1e
+        reason: approved fact kept; a change proposal now waits for human approval
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
