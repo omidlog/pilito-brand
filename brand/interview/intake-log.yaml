@@ -214,3 +214,43 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0006
+    received_at: 2026-11-21T11:01:35.738Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-4
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.stage.current
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0019
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.public_status
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0020
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.market.geography
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0021
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.offer.value_proposition
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0022
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.offer.value_proposition
+        text: "'Cheaper than others' is a comparative claim; it needs a price and a dated competitor
+          comparison before it is used publicly."
+    owner_questions: []

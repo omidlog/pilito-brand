@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.product.public_status`
 - Field: `business.product.public_status`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.456Z
+- Answer id: ans-0020
 
 Value:
 
-TBD
+unshipped
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.public_status end -->
 
 <!-- field:business.sales.pricing start -->

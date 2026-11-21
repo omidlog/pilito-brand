@@ -35,17 +35,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.market.geography`
 - Field: `business.market.geography`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.555Z
+- Answer id: ans-0021
 
 Value:
 
-TBD
+First release on the Apple App Store, in every country the App Store supports.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.market.geography end -->
 
 <!-- field:business.customer.primary_segment start -->
@@ -73,17 +75,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.651Z
+- Answer id: ans-0022
 
 Value:
 
-TBD
+Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->
 
 <!-- field:brand.personality.traits start -->

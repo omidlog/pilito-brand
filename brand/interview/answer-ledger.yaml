@@ -394,3 +394,89 @@ records:
       satchel”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0019
+    question_id: business.stage.current
+    value: pre-revenue
+    raw_answer: هنوز تازه میخام درستش کنم پس درامد نداره
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:01:35.359Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: pre-revenue
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0020
+    question_id: business.product.public_status
+    value: unshipped
+    raw_answer: هنوز تازه میخام درستش کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T11:01:35.456Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human
+      approves it."
+    session_id: ses-0001
+    normalized: unshipped
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a
+      human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0021
+    question_id: business.market.geography
+    value: First release on the Apple App Store, in every country the App Store supports.
+    raw_answer: نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T11:01:35.555Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور
+      هایی که اون ساپورت میکنه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: First release on the Apple App Store, in every country the App Store supports.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای
+      همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0022
+    question_id: business.offer.value_proposition
+    value: Creative learning with gamification and AI; simple and practical; priced lower than
+      competitors.
+    raw_answer: یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه
+    source_type: agent_suggestion
+    source_reference: intake:int-0006#3
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T11:01:35.651Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و
+      کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Creative learning with gamification and AI; simple and practical; priced lower than
+      competitors.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ،
+      ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

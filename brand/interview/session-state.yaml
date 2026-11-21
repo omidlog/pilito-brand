@@ -20,10 +20,14 @@ history:
   - brand.type.rtl
   - brand.mascot.continuity
   - brand.mascot.stage_story
+  - business.stage.current
+  - business.product.public_status
+  - business.market.geography
+  - business.offer.value_proposition
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T10:43:41.209Z
-last_answer_id: ans-0018
+updated_at: 2026-11-21T11:01:35.662Z
+last_answer_id: ans-0022
