@@ -843,15 +843,14 @@ facts:
     updated: 2026-11-21T12:50:30.379Z
     proposal_state: proposed
   business.marketing.attribution:
-    value: undecided
+    value: self-reported
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “روی سیستم یک امار بزارم تو پنل ادمین ببینم گوگل سرچ
-      و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it."
-    answer_id: ans-0130
-    updated: 2026-11-21T12:50:30.523Z
+    uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
+    answer_id: ans-0131
+    updated: 2026-11-21T12:51:37.477Z
     proposal_state: proposed

@@ -1000,3 +1000,11 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0131
+    question_id: business.marketing.attribution
+    source_reference: intake:int-0028#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:51:37.477Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

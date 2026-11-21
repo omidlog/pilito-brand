@@ -147,13 +147,13 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “روی سیستم یک امار بزارم تو پنل ادمین ببینم گوگل سرچ و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it.
-- Updated: 2026-11-21T12:50:30.523Z
-- Answer id: ans-0130
+- Uncertainty: Proposed from the owner's words: “اره موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:51:37.477Z
+- Answer id: ans-0131
 
 Value:
 
-undecided
+self-reported
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.attribution end -->

@@ -930,3 +930,27 @@ batches:
         text: Owner plans an admin-panel stats view, Google Search Console, Google Analytics and Bing
           Webmaster Tools; attribution approach still to choose.
     owner_questions: []
+  - id: int-0028
+    received_at: 2026-11-21T12:51:37.568Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-24 (owner accepted the agent's attribution suggestion)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.marketing.attribution
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0131
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.marketing.attribution
+        text: "Implementation: an onboarding question 'How did you hear about Pilito?' (incl. AI
+          assistants), plus App Store Connect analytics with per-channel campaign links; Google
+          Search Console, Bing Webmaster Tools, Google Analytics for the website; admin-panel stats
+          for in-app activity."
+    owner_questions: []

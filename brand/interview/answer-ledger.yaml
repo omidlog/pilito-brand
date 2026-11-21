@@ -2779,8 +2779,27 @@ records:
       و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it."
     session_id: ses-0001
     normalized: undecided
-    superseded_by: null
+    superseded_by: ans-0131
     disposition_reason: "Proposed from the owner's words: “روی سیستم یک امار بزارم تو پنل ادمین ببینم
       گوگل سرچ و انالاتیکس هم بزارم کافیه ایا؟”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0131
+    question_id: business.marketing.attribution
+    value: self-reported
+    raw_answer: اره موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0028#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:51:37.477Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: self-reported
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
