@@ -145,13 +145,13 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 - Visibility: internal
 - Authority: unverified
 - Source: agent_suggestion
-- Uncertainty: Proposed from the owner's words: “اول انگلیسی هست ولی به زبان های اصلی هم بشه تغییر داد”. Draft until a human approves it.
-- Updated: 2026-11-21T12:40:06.088Z
-- Answer id: ans-0113
+- Uncertainty: Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it.
+- Updated: 2026-11-21T12:40:18.249Z
+- Answer id: ans-0114
 
 Value:
 
-App interface is English first, switchable to major languages: Arabic, Persian, Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani') and Japanese. Translations are produced and checked by AI.
+App interface is English first, switchable to major languages: Arabic, Persian, Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian. Translations are produced and checked by AI.
 
 Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.localization end -->

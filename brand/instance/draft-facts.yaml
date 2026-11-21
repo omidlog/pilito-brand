@@ -604,18 +604,17 @@ facts:
     proposal_state: proposed
   brand.verbal.localization:
     value: "App interface is English first, switchable to major languages: Arabic, Persian, Turkish,
-      Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani') and Japanese. Translations are
-      produced and checked by AI."
+      Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian.
+      Translations are produced and checked by AI."
     stored_in: brand/instance/draft-facts.yaml
     private_ref: null
     status: draft
     visibility: internal
     authority: unverified
     source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اول انگلیسی هست ولی به زبان های اصلی هم بشه تغییر
-      داد”. Draft until a human approves it."
-    answer_id: ans-0113
-    updated: 2026-11-21T12:40:06.088Z
+    uncertainty: "Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it."
+    answer_id: ans-0114
+    updated: 2026-11-21T12:40:18.249Z
     proposal_state: proposed
   brand.verbal.microcopy:
     value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,

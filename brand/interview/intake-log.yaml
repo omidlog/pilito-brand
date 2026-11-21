@@ -771,3 +771,22 @@ batches:
       - question_id: brand.verbal.localization
         text: Confirm 'Pakistani' means Urdu.
     owner_questions: []
+  - id: int-0024
+    received_at: 2026-11-21T12:40:18.339Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-20
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.localization
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0114
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

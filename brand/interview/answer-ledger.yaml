@@ -2408,8 +2408,31 @@ records:
     normalized: "App interface is English first, switchable to major languages: Arabic, Persian,
       Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani') and Japanese.
       Translations are produced and checked by AI."
-    superseded_by: null
+    superseded_by: ans-0114
     disposition_reason: "Proposed from the owner's words: “اول انگلیسی هست ولی به زبان های اصلی هم بشه
       تغییر داد”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0114
+    question_id: brand.verbal.localization
+    value: "App interface is English first, switchable to major languages: Arabic, Persian, Turkish,
+      Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian.
+      Translations are produced and checked by AI."
+    raw_answer: روس رو یادم رفت
+    source_type: agent_suggestion
+    source_reference: intake:int-0024#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:40:18.249Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "App interface is English first, switchable to major languages: Arabic, Persian,
+      Turkish, Spanish, French, Chinese, Hindi, Urdu (owner said 'Pakistani'), Japanese and Russian.
+      Translations are produced and checked by AI."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “روس رو یادم رفت”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
