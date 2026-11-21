@@ -87,17 +87,19 @@ TBD
 
 - Question: `brand.color.roles`
 - Field: `brand.color.roles`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a decision.
+- Updated: 2026-11-21T10:41:49.523Z
+- Answer id: ans-0014
 
 Value:
 
-TBD
+background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.roles end -->
 
 <!-- field:business.product.accessibility start -->

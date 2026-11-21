@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.identity.trade_name`
 - Field: `business.identity.trade_name`
-- Status: unanswered
+- Status: draft
 - Visibility: public
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “اسم پیلیتو ترکیب این هاست Pilot+ Cockatoos”. Draft until a human approves it.
+- Updated: 2026-11-21T10:34:18.110Z
+- Answer id: ans-0002
 
 Value:
 
-TBD
+Pilito (پیلیتو)
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.trade_name end -->
 
 <!-- field:business.market.geography start -->
@@ -33,17 +35,19 @@ TBD
 
 - Question: `business.market.geography`
 - Field: `business.market.geography`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور هایی که اون ساپورت میکنه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.555Z
+- Answer id: ans-0021
 
 Value:
 
-TBD
+First release on the Apple App Store, in every country the App Store supports.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.market.geography end -->
 
 <!-- field:business.customer.primary_segment start -->
@@ -51,17 +55,19 @@ TBD
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
+- Updated: 2026-11-21T10:40:23.577Z
+- Answer id: ans-0013
 
 Value:
 
-TBD
+Everyone who wants to learn a language (no narrower segment chosen).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
 
 <!-- field:business.offer.value_proposition start -->
@@ -69,17 +75,19 @@ TBD
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.651Z
+- Answer id: ans-0022
 
 Value:
 
-TBD
+Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->
 
 <!-- field:brand.personality.traits start -->
@@ -87,17 +95,19 @@ TBD
 
 - Question: `brand.personality.traits`
 - Field: `brand.personality.traits`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.548Z
+- Answer id: ans-0023
 
 Value:
 
-TBD
+In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry, serious.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.personality.traits end -->
 
 <!-- field:brand.strategy.purpose start -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.customer.primary_segment`
 - Field: `business.customer.primary_segment`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۳-همه”. Draft until a human approves it.
+- Updated: 2026-11-21T10:40:23.577Z
+- Answer id: ans-0013
 
 Value:
 
-TBD
+Everyone who wants to learn a language (no narrower segment chosen).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.customer.primary_segment end -->
 
 <!-- field:business.offer.value_proposition start -->
@@ -33,17 +35,19 @@ TBD
 
 - Question: `business.offer.value_proposition`
 - Field: `business.offer.value_proposition`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.651Z
+- Answer id: ans-0022
 
 Value:
 
-TBD
+Creative learning with gamification and AI; simple and practical; priced lower than competitors.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.offer.value_proposition end -->
 
 <!-- field:business.marketing.objective start -->
@@ -51,17 +55,19 @@ TBD
 
 - Question: `business.marketing.objective`
 - Field: `business.marketing.objective`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.733Z
+- Answer id: ans-0025
 
 Value:
 
-TBD
+Increase the number of downloads and purchases.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.objective end -->
 
 <!-- field:business.marketing.channels start -->
@@ -141,17 +147,19 @@ TBD
 
 - Question: `business.marketing.availability_claim`
 - Field: `business.marketing.availability_claim`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it.
+- Updated: 2026-11-21T11:08:22.662Z
+- Answer id: ans-0024
 
 Value:
 
-TBD
+do-not-claim
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.availability_claim end -->
 
 <!-- field:business.marketing.utm start -->
@@ -177,17 +185,19 @@ TBD
 
 - Question: `business.product.public_status`
 - Field: `business.product.public_status`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human approves it.
+- Updated: 2026-11-21T11:01:35.456Z
+- Answer id: ans-0020
 
 Value:
 
-TBD
+unshipped
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.public_status end -->
 
 <!-- field:business.sales.pricing start -->

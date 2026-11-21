@@ -1,2 +1,287 @@
 schema_version: 1
-batches: []
+batches:
+  - id: int-0001
+    received_at: 2026-11-21T10:34:18.806Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-1
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.identity.new_or_existing
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0001
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.identity.trade_name
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0002
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.offer.summary
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0003
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.product.learning_model
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0004
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.product.learning_languages
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0005
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: brand.gamification.enabled
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0006
+        reason: stored as a proposed draft; not approved
+      - index: 6
+        question_id: brand.gamification.model
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0007
+        reason: stored as a tentative draft; not approved
+      - index: 7
+        question_id: brand.gamification.mascot_link
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0008
+        reason: stored as a proposed draft; not approved
+      - index: 8
+        question_id: brand.mascot.enabled
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0009
+        reason: stored as a proposed draft; not approved
+      - index: 9
+        question_id: brand.mascot.stage_count
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0010
+        reason: stored as a proposed draft; not approved
+      - index: 10
+        question_id: brand.mascot.stage_story
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0011
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.identity.trade_name
+        text: Is the Latin spelling exactly "Pilito" (capital P, lowercase rest)?
+      - question_id: business.product.learning_languages
+        text: Which language pairs ship first at launch?
+      - question_id: brand.gamification.model
+        text: Are 1000 points per level and 3 points per daily review final numbers or just examples?
+      - question_id: brand.mascot.stage_story
+        text: What does the parrot look like in stages 2 to 5?
+    owner_questions: []
+  - id: int-0002
+    received_at: 2026-11-21T10:40:23.651Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-2
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.identity.sector
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0012
+        reason: stored as a tentative draft; not approved
+      - index: 1
+        question_id: business.customer.primary_segment
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0013
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.identity.sector
+        text: Confirm sector = education (the owner said 'I think').
+      - question_id: business.customer.primary_segment
+        text: Is there a first group to focus marketing on at launch?
+    owner_questions: []
+  - id: int-0003
+    received_at: 2026-11-21T10:41:49.755Z
+    origin: agent
+    provider: null
+    source:
+      kind: imported_text
+      ref: "file:Pilito design directions.html#style-sheet (owner said: approximate design system)"
+      language: en
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.color.roles
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0014
+        reason: stored as a tentative draft; not approved
+      - index: 1
+        question_id: brand.type.scale
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0015
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: brand.type.rtl
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0016
+        reason: stored as a tentative draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.color.roles
+        text: The design system is approximate. Confirm these nine colours and their roles before approval.
+    owner_questions: []
+  - id: int-0004
+    received_at: 2026-11-21T10:43:34.541Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-3 (agent read the owner-supplied stage lineup image; owner replied 'اره' = yes)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.mascot.stage_story
+        state: proposed
+        outcome: conflict
+        reason: differs from the current draft; ask the owner which is right
+      - index: 1
+        question_id: brand.mascot.continuity
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0017
+        reason: stored as a proposed draft; not approved
+    conflicts:
+      - question_id: brand.mascot.stage_story
+        against_answer_id: ans-0011
+        existing:
+          value: "A pilot parrot. Stage 1: a parrot egg with only the crest poking out, shown when the account
+            is created. Final stage (6): an airline passenger-jet captain. Intermediate stages not
+            yet defined."
+          status: draft
+        proposed:
+          value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
+            (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight
+            jacket. 5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy
+            jacket."
+          state: proposed
+        quotation: "Stage 3: aviator cap and goggles, red scarf, satchel"
+        ask: "Earlier, Stage story was recorded as “A pilot parrot. Stage 1: a parrot egg with only the
+          crest poking out, shown when the account is created. Final stage (6): an airline
+          passenger-jet captain. Intermediate stages not yet defined.”. This answer suggests “1
+          (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
+          (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket.
+          5 (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket.”.
+          Which one is right?"
+    follow_ups: []
+    owner_questions: []
+  - id: int-0005
+    received_at: 2026-11-21T10:43:41.265Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-3 (agent read the owner-supplied stage lineup image; owner replied 'اره' = yes)
+        — fills in stages 2-5 of the earlier draft
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.mascot.stage_story
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0018
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0006
+    received_at: 2026-11-21T11:01:35.738Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-4
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.stage.current
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0019
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.public_status
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0020
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.market.geography
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0021
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.offer.value_proposition
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0022
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: business.offer.value_proposition
+        text: "'Cheaper than others' is a comparative claim; it needs a price and a dated competitor
+          comparison before it is used publicly."
+    owner_questions: []
+  - id: int-0007
+    received_at: 2026-11-21T11:08:22.798Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-5
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.personality.traits
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0023
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.marketing.availability_claim
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0024
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.marketing.objective
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0025
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
