@@ -121,10 +121,16 @@ history:
   - brand.logo.misuse
   - brand.logo.masters
   - brand.color.themes
+  - brand.logo.clear_space
+  - brand.logo.min_size
+  - brand.color.semantics
+  - brand.color.contrast
+  - brand.color.print
+  - brand.type.intent
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:45:12.910Z
-last_answer_id: ans-0119
+updated_at: 2026-11-21T12:47:09.463Z
+last_answer_id: ans-0125

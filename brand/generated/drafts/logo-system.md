@@ -35,17 +35,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.logo.clear_space`
 - Field: `brand.logo.clear_space`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:08.730Z
+- Answer id: ans-0120
 
 Value:
 
-TBD
+Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark (about 0.4x the wordmark height).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.logo.clear_space end -->
 
 <!-- field:brand.logo.min_size start -->
@@ -53,17 +55,19 @@ TBD
 
 - Question: `brand.logo.min_size`
 - Field: `brand.logo.min_size`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:08.882Z
+- Answer id: ans-0121
 
 Value:
 
-TBD
+min-size: 80px; clear-space: 0.4x
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.logo.min_size end -->
 
 <!-- field:brand.logo.misuse start -->

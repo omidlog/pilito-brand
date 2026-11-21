@@ -57,17 +57,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.color.semantics`
 - Field: `brand.color.semantics`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:09.027Z
+- Answer id: ans-0122
 
 Value:
 
-TBD
+Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning: Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.semantics end -->
 
 <!-- field:brand.color.contrast start -->
@@ -75,17 +77,19 @@ TBD
 
 - Question: `brand.color.contrast`
 - Field: `brand.color.contrast`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:09.169Z
+- Answer id: ans-0123
 
 Value:
 
-TBD
+aa
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.contrast end -->
 
 <!-- field:brand.color.print start -->
@@ -93,17 +97,19 @@ TBD
 
 - Question: `brand.color.print`
 - Field: `brand.color.print`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:09.315Z
+- Answer id: ans-0124
 
 Value:
 
-TBD
+Not applicable: no print yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.color.print end -->
 
 <!-- field:brand.mascot.palette start -->

@@ -834,3 +834,53 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0026
+    received_at: 2026-11-21T12:47:09.532Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-22 (owner accepted all agent suggestions for logo clear space, min size, colour
+        semantics, contrast and type intent)
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.logo.clear_space
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0120
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.logo.min_size
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0121
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: brand.color.semantics
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0122
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: brand.color.contrast
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0123
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: brand.color.print
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0124
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: brand.type.intent
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0125
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

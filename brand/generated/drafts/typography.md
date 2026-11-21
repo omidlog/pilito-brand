@@ -15,17 +15,19 @@ generated: true
 
 - Question: `brand.type.intent`
 - Field: `brand.type.intent`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it.
+- Updated: 2026-11-21T12:47:09.449Z
+- Answer id: ans-0125
 
 Value:
 
-TBD
+Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.type.intent end -->
 
 <!-- field:brand.type.license start -->

@@ -2551,3 +2551,121 @@ records:
     disposition_reason: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0120
+    question_id: brand.logo.clear_space
+    value: Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark
+      (about 0.4x the wordmark height).
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:47:08.730Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Keep clear space on every side equal to the height of the lowercase 'i' stem in the
+      wordmark (about 0.4x the wordmark height).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0121
+    question_id: brand.logo.min_size
+    value: "min-size: 80px; clear-space: 0.4x"
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:47:08.882Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "min-size: 80px; clear-space: 0.4x"
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0122
+    question_id: brand.color.semantics
+    value: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning:
+      Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#2
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-21T12:47:09.027Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F.
+      Warning: Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0123
+    question_id: brand.color.contrast
+    value: aa
+    raw_answer: با همه موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:47:09.169Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: aa
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0124
+    question_id: brand.color.print
+    value: "Not applicable: no print yet."
+    raw_answer: ۵- فعلا چاپ ندارم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#4
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-21T12:47:09.315Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Not applicable: no print yet."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0125
+    question_id: brand.type.intent
+    value: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
+    raw_answer: ۶ موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0026#5
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-21T12:47:09.449Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

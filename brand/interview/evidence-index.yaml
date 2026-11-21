@@ -912,3 +912,51 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0120
+    question_id: brand.logo.clear_space
+    source_reference: intake:int-0026#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:08.730Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0121
+    question_id: brand.logo.min_size
+    source_reference: intake:int-0026#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:08.882Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0122
+    question_id: brand.color.semantics
+    source_reference: intake:int-0026#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:09.027Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0123
+    question_id: brand.color.contrast
+    source_reference: intake:int-0026#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:09.169Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0124
+    question_id: brand.color.print
+    source_reference: intake:int-0026#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:09.315Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0125
+    question_id: brand.type.intent
+    source_reference: intake:int-0026#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:47:09.449Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
