@@ -163,17 +163,19 @@ TBD
 
 - Question: `business.sales.consumer_path`
 - Field: `business.sales.consumer_path`
-- Status: unanswered
+- Status: unknown
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Unresolved: the owner said this is not decided yet: “۵-هنوز تصمیم نگرفتم”. No value was invented.
+- Updated: 2026-11-21T12:18:18.478Z
+- Answer id: ans-0067
 
 Value:
 
-TBD
+Unknown — not provided. Nothing was invented.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.consumer_path end -->
 
 <!-- field:business.sales.b2b_packaging start -->

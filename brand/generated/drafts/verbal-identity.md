@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `brand.verbal.name_use`
 - Field: `brand.verbal.name_use`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “Pilito فقط درسته”. Draft until a human approves it.
+- Updated: 2026-11-21T12:18:18.165Z
+- Answer id: ans-0064
 
 Value:
 
-TBD
+Always written exactly 'Pilito' (capital P, rest lowercase). No other spelling.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.verbal.name_use end -->
 
 <!-- field:brand.identity.public_name_override start -->
@@ -55,17 +57,19 @@ TBD
 
 - Question: `brand.identity.public_name_override`
 - Field: `brand.identity.public_name_override`
-- Status: unanswered
+- Status: unknown
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Unresolved: the owner said this is not decided yet: “باید متنی جلوش باشه چون اپ استور نمیزاره اسم خالیو”. No value was invented.
+- Updated: 2026-11-21T12:18:18.275Z
+- Answer id: ans-0065
 
 Value:
 
-TBD
+Unknown — not provided. Nothing was invented.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:brand.identity.public_name_override end -->
 
 <!-- field:brand.verbal.tagline start -->

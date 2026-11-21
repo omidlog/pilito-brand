@@ -65,10 +65,18 @@ history:
   - brand.gamification.model
   - brand.gamification.mascot_link
   - business.identity.trade_name
+  - brand.verbal.name_use
+  - brand.identity.public_name_override
+  - business.legal.trademark
+  - business.sales.consumer_path
+  - business.problem.pains
+  - business.identity.legal_name
+  - business.legal.entity
+  - business.legal.entity
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T11:47:46.164Z
-last_answer_id: ans-0063
+updated_at: 2026-11-21T12:18:26.097Z
+last_answer_id: ans-0071

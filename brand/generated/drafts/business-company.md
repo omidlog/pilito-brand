@@ -189,17 +189,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.identity.legal_name`
 - Field: `business.identity.legal_name`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “Company name: FIKO AI LABS LTD”. Draft until a human approves it.
+- Updated: 2026-11-21T12:18:19.053Z
+- Answer id: ans-0069
 
 Value:
 
-TBD
+FIKO AI LABS LTD
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.identity.legal_name end -->
 
 <!-- field:business.problem.pains start -->
@@ -207,17 +209,19 @@ TBD
 
 - Question: `business.problem.pains`
 - Field: `business.problem.pains`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “خیلی خسته کننده و یک نواخت بود و گرون و جدید نیست کار نو نکردن”. Draft until a human approves it.
+- Updated: 2026-11-21T12:18:18.581Z
+- Answer id: ans-0068
 
 Value:
 
-TBD
+Owner's view of existing apps (observation source not stated): very boring and monotonous, expensive, and nothing new.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.problem.pains end -->
 
 <!-- field:business.model.revenue start -->

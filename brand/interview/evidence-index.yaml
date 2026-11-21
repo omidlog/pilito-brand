@@ -496,3 +496,67 @@ items:
     confidentiality: internal
     review_status: approved
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0064
+    question_id: brand.verbal.name_use
+    source_reference: intake:int-0013#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:18.165Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0065
+    question_id: brand.identity.public_name_override
+    source_reference: intake:int-0013#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:18.275Z
+    confidentiality: internal
+    review_status: unknown
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0066
+    question_id: business.legal.trademark
+    source_reference: intake:int-0013#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:18.376Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0067
+    question_id: business.sales.consumer_path
+    source_reference: intake:int-0013#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:18.478Z
+    confidentiality: internal
+    review_status: unknown
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0068
+    question_id: business.problem.pains
+    source_reference: intake:int-0013#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:18.581Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0069
+    question_id: business.identity.legal_name
+    source_reference: intake:int-0014#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:19.053Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0070
+    question_id: business.legal.entity
+    source_reference: intake:int-0014#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:19.164Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0071
+    question_id: business.legal.entity
+    source_reference: intake:int-0015#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-21T12:18:26.084Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

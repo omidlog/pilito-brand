@@ -412,3 +412,96 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0013
+    received_at: 2026-11-21T12:18:18.650Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: chat-2026-11-21-11
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: brand.verbal.name_use
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0064
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.identity.public_name_override
+        state: unresolved
+        outcome: unresolved
+        answer_id: ans-0065
+        reason: marked unresolved; no value stored
+      - index: 2
+        question_id: business.legal.trademark
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0066
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.sales.consumer_path
+        state: unresolved
+        outcome: unresolved
+        answer_id: ans-0067
+        reason: marked unresolved; no value stored
+      - index: 4
+        question_id: business.problem.pains
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0068
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups:
+      - question_id: brand.identity.public_name_override
+        text: "Pick the App Store name suffix, e.g. 'Pilito: ...'."
+      - question_id: business.problem.pains
+        text: Did users say this, or is it the owner's own experience?
+    owner_questions: []
+  - id: int-0014
+    received_at: 2026-11-21T12:18:19.238Z
+    origin: agent
+    provider: null
+    source:
+      kind: imported_text
+      ref: https://find-and-update.company-information.service.gov.uk/company/16502068 (Companies House,
+        read 2026-11-21; owner said the App Store account uses this company)
+      language: en
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.identity.legal_name
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0069
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.legal.entity
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0070
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0015
+    received_at: 2026-11-21T12:18:26.160Z
+    origin: agent
+    provider: null
+    source:
+      kind: imported_text
+      ref: https://find-and-update.company-information.service.gov.uk/company/16502068 (Companies House,
+        read 2026-11-21; owner said the App Store account uses this company)
+      language: en
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.legal.entity
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0071
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
