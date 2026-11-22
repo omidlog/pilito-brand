@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.pricing`
 - Field: `business.sales.pricing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.453Z
+- Answer id: ans-0166
 
 Value:
 
-TBD
+Unknown. No approved price; competitor pricing research is still to be done.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.pricing end -->
 
 <!-- field:brand.campaign.owner start -->

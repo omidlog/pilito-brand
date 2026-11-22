@@ -3468,3 +3468,109 @@ records:
       دارم که تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0163
+    question_id: business.cx.onboarding
+    value: In the first session the person picks their languages, creates their first flashcards, does
+      one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+    raw_answer: ۱- موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:09:26.810Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: In the first session the person picks their languages, creates their first flashcards,
+      does one short review, and leaves knowing they should come back tomorrow. Exact screens are
+      TBD.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0164
+    question_id: business.cx.channels
+    value: Email support only (tentative). Explicitly no phone support.
+    raw_answer: قطعا تلفن رو ندارم ولی فک کنم ایمیل بهتر باشه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#1
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-22T11:09:27.596Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی
+      فک کنم ایمیل بهتر باشه”. Not a decision."
+    session_id: ses-0001
+    normalized: Email support only (tentative). Explicitly no phone support.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو
+      ندارم ولی فک کنم ایمیل بهتر باشه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0165
+    question_id: business.cx.sla
+    value: Reply to support requests within 48 hours.
+    raw_answer: ۴۸ ساعت خوبه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:09:28.097Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Reply to support requests within 48 hours.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0166
+    question_id: business.sales.pricing
+    value: Unknown. No approved price; competitor pricing research is still to be done.
+    raw_answer: نه هنوز باید تحقیق کنم رقبا رو بررسی کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#3
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:09:28.453Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Unknown. No approved price; competitor pricing research is still to be done.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0167
+    question_id: business.sales.discount
+    value: Frequent periodic promotional discounts (for example Black Friday), especially on the annual
+      plan. Who approves discounts and the maximum discount are not yet defined.
+    raw_answer: بلک فرایدی و تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#4
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-22T11:09:29.008Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های
+      دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    session_id: ses-0001
+    normalized: Frequent periodic promotional discounts (for example Black Friday), especially on the
+      annual plan. Who approves discounts and the maximum discount are not yet defined.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و
+      تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative

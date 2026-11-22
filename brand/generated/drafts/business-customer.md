@@ -57,17 +57,19 @@ Approved by: owner
 
 - Question: `business.cx.onboarding`
 - Field: `business.cx.onboarding`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:26.810Z
+- Answer id: ans-0163
 
 Value:
 
-TBD
+In the first session the person picks their languages, creates their first flashcards, does one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.onboarding end -->
 
 <!-- field:business.cx.channels start -->
@@ -75,17 +77,19 @@ TBD
 
 - Question: `business.cx.channels`
 - Field: `business.cx.channels`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی فک کنم ایمیل بهتر باشه”. Not a decision.
+- Updated: 2026-11-22T11:09:27.596Z
+- Answer id: ans-0164
 
 Value:
 
-TBD
+Email support only (tentative). Explicitly no phone support.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.channels end -->
 
 <!-- field:business.cx.sla start -->
@@ -93,17 +97,19 @@ TBD
 
 - Question: `business.cx.sla`
 - Field: `business.cx.sla`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.097Z
+- Answer id: ans-0165
 
 Value:
 
-TBD
+Reply to support requests within 48 hours.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.sla end -->
 
 <!-- field:business.cx.feedback_metric start -->

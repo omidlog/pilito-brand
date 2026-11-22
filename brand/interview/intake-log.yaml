@@ -1059,3 +1059,46 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0032
+    received_at: 2026-11-22T11:09:29.211Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t109u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.cx.onboarding
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0163
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.cx.channels
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0164
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: business.cx.sla
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0165
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.sales.pricing
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0166
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.sales.discount
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0167
+        reason: stored as a tentative draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

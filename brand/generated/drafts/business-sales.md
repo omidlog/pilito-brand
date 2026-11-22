@@ -99,17 +99,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.pricing`
 - Field: `business.sales.pricing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.453Z
+- Answer id: ans-0166
 
 Value:
 
-TBD
+Unknown. No approved price; competitor pricing research is still to be done.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.pricing end -->
 
 <!-- field:business.sales.discount start -->
@@ -117,17 +119,19 @@ TBD
 
 - Question: `business.sales.discount`
 - Field: `business.sales.discount`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision.
+- Updated: 2026-11-22T11:09:29.008Z
+- Answer id: ans-0167
 
 Value:
 
-TBD
+Frequent periodic promotional discounts (for example Black Friday), especially on the annual plan. Who approves discounts and the maximum discount are not yet defined.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.discount end -->
 
 <!-- field:business.sales.stages start -->

@@ -972,3 +972,68 @@ facts:
     answer_id: ans-0162
     updated: 2026-11-22T11:06:33.928Z
     proposal_state: proposed
+  business.cx.onboarding:
+    value: In the first session the person picks their languages, creates their first flashcards, does
+      one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    answer_id: ans-0163
+    updated: 2026-11-22T11:09:26.810Z
+    proposal_state: proposed
+  business.cx.channels:
+    value: Email support only (tentative). Explicitly no phone support.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی
+      فک کنم ایمیل بهتر باشه”. Not a decision."
+    answer_id: ans-0164
+    updated: 2026-11-22T11:09:27.596Z
+    proposal_state: tentative
+  business.cx.sla:
+    value: Reply to support requests within 48 hours.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    answer_id: ans-0165
+    updated: 2026-11-22T11:09:28.097Z
+    proposal_state: proposed
+  business.sales.pricing:
+    value: Unknown. No approved price; competitor pricing research is still to be done.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft
+      until a human approves it."
+    answer_id: ans-0166
+    updated: 2026-11-22T11:09:28.453Z
+    proposal_state: proposed
+  business.sales.discount:
+    value: Frequent periodic promotional discounts (for example Black Friday), especially on the annual
+      plan. Who approves discounts and the maximum discount are not yet defined.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های
+      دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    answer_id: ans-0167
+    updated: 2026-11-22T11:09:29.008Z
+    proposal_state: tentative

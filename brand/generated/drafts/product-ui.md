@@ -141,17 +141,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.cx.onboarding`
 - Field: `business.cx.onboarding`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:26.810Z
+- Answer id: ans-0163
 
 Value:
 
-TBD
+In the first session the person picks their languages, creates their first flashcards, does one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.onboarding end -->
 
 <!-- field:brand.mascot.situation_map start -->
