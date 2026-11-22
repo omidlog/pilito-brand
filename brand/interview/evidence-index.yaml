@@ -1352,3 +1352,11 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0175
+    question_id: business.cx.feedback_metric
+    source_reference: intake:int-0034#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:11:04.767Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

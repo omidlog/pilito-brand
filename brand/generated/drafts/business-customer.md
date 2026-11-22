@@ -117,17 +117,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.cx.feedback_metric`
 - Field: `business.cx.feedback_metric`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:11:04.767Z
+- Answer id: ans-0175
 
 Value:
 
-TBD
+none
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.feedback_metric end -->
 
 <!-- field:business.cx.churn start -->

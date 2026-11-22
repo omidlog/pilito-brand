@@ -1162,3 +1162,22 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0034
+    received_at: 2026-11-22T11:11:04.887Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t110u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.cx.feedback_metric
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0175
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

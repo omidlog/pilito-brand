@@ -3709,3 +3709,22 @@ records:
     disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0175
+    question_id: business.cx.feedback_metric
+    value: none
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0034#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:11:04.767Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: none
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

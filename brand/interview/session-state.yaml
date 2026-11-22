@@ -176,10 +176,11 @@ history:
   - business.cx.churn
   - business.cx.case_study
   - business.ops.roles
+  - business.cx.feedback_metric
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-22T11:10:50.023Z
-last_answer_id: ans-0174
+updated_at: 2026-11-22T11:11:04.801Z
+last_answer_id: ans-0175

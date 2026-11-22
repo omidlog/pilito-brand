@@ -1122,3 +1122,15 @@ facts:
     answer_id: ans-0174
     updated: 2026-11-22T11:10:50.003Z
     proposal_state: proposed
+  business.cx.feedback_metric:
+    value: none
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0175
+    updated: 2026-11-22T11:11:04.767Z
+    proposal_state: proposed
