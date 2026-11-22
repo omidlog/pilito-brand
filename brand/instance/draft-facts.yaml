@@ -893,3 +893,69 @@ facts:
     answer_id: ans-0156
     updated: 2026-11-22T11:01:46.965Z
     proposal_state: proposed
+  business.product.roadmap:
+    value: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach
+      the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    answer_id: ans-0157
+    updated: 2026-11-22T11:06:18.702Z
+    proposal_state: proposed
+  business.product.accessibility:
+    value: No accessibility target set and no audit done yet; deferred until the app grows and earns
+      revenue.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”.
+      Draft until a human approves it."
+    answer_id: ans-0158
+    updated: 2026-11-22T11:06:19.366Z
+    proposal_state: proposed
+  business.product.activation:
+    value: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو
+      ثبت کنه”. Not a decision."
+    answer_id: ans-0159
+    updated: 2026-11-22T11:06:19.682Z
+    proposal_state: tentative
+  business.product.evidence_policy:
+    value: Cite user-research evidence in the repo only by study id and date; never store personal data,
+      recordings or names in the repository; raw research material stays outside the repo.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    answer_id: ans-0160
+    updated: 2026-11-22T11:06:19.948Z
+    proposal_state: proposed
+  business.sales.buyer:
+    value: "same: the buyer is the learner who uses the app."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    answer_id: ans-0161
+    updated: 2026-11-22T11:06:20.230Z
+    proposal_state: proposed

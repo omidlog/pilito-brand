@@ -3340,3 +3340,110 @@ records:
     disposition_reason: "Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0157
+    question_id: business.product.roadmap
+    value: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach
+      the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    raw_answer: ۱- درسته جوابت
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:18.702Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and
+      reach the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0158
+    question_id: business.product.accessibility
+    value: No accessibility target set and no audit done yet; deferred until the app grows and earns
+      revenue.
+    raw_answer: هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#1
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:06:19.366Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”.
+      Draft until a human approves it."
+    session_id: ses-0001
+    normalized: No accessibility target set and no audit done yet; deferred until the app grows and
+      earns revenue.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره
+      بعدا”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0159
+    question_id: business.product.activation
+    value: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    raw_answer: فک کنم الین فلش کارتو ثبت کنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#2
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-22T11:06:19.682Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو
+      ثبت کنه”. Not a decision."
+    session_id: ses-0001
+    normalized: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش
+      کارتو ثبت کنه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0160
+    question_id: business.product.evidence_policy
+    value: Cite user-research evidence in the repo only by study id and date; never store personal data,
+      recordings or names in the repository; raw research material stays outside the repo.
+    raw_answer: ۶-موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:19.948Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cite user-research evidence in the repo only by study id and date; never store personal
+      data, recordings or names in the repository; raw research material stays outside the repo.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0161
+    question_id: business.sales.buyer
+    value: "same: the buyer is the learner who uses the app."
+    raw_answer: پدر مادر چیه دیگه
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#5
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:20.230Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "same: the buyer is the learner who uses the app."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

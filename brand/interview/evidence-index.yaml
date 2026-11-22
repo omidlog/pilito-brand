@@ -1208,3 +1208,43 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0157
+    question_id: business.product.roadmap
+    source_reference: intake:int-0030#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:18.702Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0158
+    question_id: business.product.accessibility
+    source_reference: intake:int-0030#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.366Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0159
+    question_id: business.product.activation
+    source_reference: intake:int-0030#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.682Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0160
+    question_id: business.product.evidence_policy
+    source_reference: intake:int-0030#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.948Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0161
+    question_id: business.sales.buyer
+    source_reference: intake:int-0030#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:20.230Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

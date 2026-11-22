@@ -991,3 +991,52 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0030
+    received_at: 2026-11-22T11:06:20.351Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t108u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.product.roadmap
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0157
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.accessibility
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0158
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.product.activation
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0159
+        reason: stored as a tentative draft; not approved
+      - index: 3
+        question_id: business.product.evidence_policy
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0160
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.sales.motion
+        state: proposed
+        outcome: rejected
+        reason: "invalid value: Choose one of: undecided, self-serve, product-led, inside, enterprise,
+          retail, channel, not-applicable"
+      - index: 5
+        question_id: business.sales.buyer
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0161
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

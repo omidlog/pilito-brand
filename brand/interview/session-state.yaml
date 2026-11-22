@@ -158,10 +158,15 @@ history:
   - business.product.jobs
   - business.product.mvp
   - business.marketing.utm
+  - business.product.roadmap
+  - business.product.accessibility
+  - business.product.activation
+  - business.product.evidence_policy
+  - business.sales.buyer
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-22T11:01:46.980Z
-last_answer_id: ans-0156
+updated_at: 2026-11-22T11:06:20.256Z
+last_answer_id: ans-0161

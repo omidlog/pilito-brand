@@ -77,17 +77,19 @@ TBD
 
 - Question: `business.sales.buyer`
 - Field: `business.sales.buyer`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:20.230Z
+- Answer id: ans-0161
 
 Value:
 
-TBD
+same: the buyer is the learner who uses the app.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.buyer end -->
 
 <!-- field:business.sales.pricing start -->
