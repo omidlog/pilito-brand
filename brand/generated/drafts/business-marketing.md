@@ -191,17 +191,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.marketing.utm`
 - Field: `business.marketing.utm`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.965Z
+- Answer id: ans-0156
 
 Value:
 
-TBD
+All lowercase, hyphens, no spaces. utm_source = where the link is placed (instagram, telegram, x, ...). utm_medium = social | paid-social | email | referral | bio. utm_campaign = pilito-<yyyy-mm>-<name> (e.g. pilito-2026-12-launch). utm_content = post or ad variant (e.g. reel-a, story-2).
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.marketing.utm end -->
 
 <!-- field:business.product.public_status start -->
@@ -231,17 +233,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.pricing`
 - Field: `business.sales.pricing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.453Z
+- Answer id: ans-0166
 
 Value:
 
-TBD
+Unknown. No approved price; competitor pricing research is still to be done.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.pricing end -->
 
 <!-- field:business.legal.privacy start -->

@@ -3237,3 +3237,675 @@ records:
     disposition_reason: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا
       که انگلیسی فقط”. Not a decision."
     private_ref: null
+  - answer_id: ans-0153
+    question_id: business.product.portfolio
+    value: "Pilito language-learning app for any language pair: flashcards with spaced review, quizzes,
+      a dictionary and language packs. Web app first, then iOS and Android apps on the same server.
+      Offline mode was dropped. Many further ideas exist but are out of scope for the first
+      version."
+    raw_answer: همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا گفتم ببندیم، افلاین بودنشم بیخیال
+      شدیم دیگه وقتی سرور هست
+    source_type: agent_suggestion
+    source_reference: intake:int-0029#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:01:46.394Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا
+      گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Pilito language-learning app for any language pair: flashcards with spaced review,
+      quizzes, a dictionary and language packs. Web app first, then iOS and Android apps on the same
+      server. Offline mode was dropped. Many further ideas exist but are out of scope for the first
+      version."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با
+      اینا گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves
+      it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0154
+    question_id: business.product.jobs
+    value: Learn the words of a new language and truly remember them with only a few minutes a day; and
+      keep going with language learning like a game instead of quitting midway.
+    raw_answer: لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم بمونه، فقط با چند دقیقه در روز
+    source_type: agent_suggestion
+    source_reference: intake:int-0029#1
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:01:46.623Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم
+      بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Learn the words of a new language and truly remember them with only a few minutes a day;
+      and keep going with language learning like a game instead of quitting midway.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً
+      یادم بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0155
+    question_id: business.product.mvp
+    value: "First releasable slice: flashcards with spaced review, quizzes, a dictionary and language
+      packs for any language pair, server-based, released on the Apple App Store in every supported
+      country. Non-goals for v1: offline mode and all other feature ideas beyond this list."
+    raw_answer: نسخه اولیه رو با اینا گفتم ببندیم
+    source_type: agent_suggestion
+    source_reference: intake:int-0029#2
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-22T11:01:46.793Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft until a
+      human approves it."
+    session_id: ses-0001
+    normalized: "First releasable slice: flashcards with spaced review, quizzes, a dictionary and
+      language packs for any language pair, server-based, released on the Apple App Store in every
+      supported country. Non-goals for v1: offline mode and all other feature ideas beyond this
+      list."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft
+      until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0156
+    question_id: business.marketing.utm
+    value: All lowercase, hyphens, no spaces. utm_source = where the link is placed (instagram,
+      telegram, x, ...). utm_medium = social | paid-social | email | referral | bio. utm_campaign =
+      pilito-<yyyy-mm>-<name> (e.g. pilito-2026-12-launch). utm_content = post or ad variant (e.g.
+      reel-a, story-2).
+    raw_answer: UTM اوکیه
+    source_type: agent_suggestion
+    source_reference: intake:int-0029#3
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:01:46.965Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: All lowercase, hyphens, no spaces. utm_source = where the link is placed (instagram,
+      telegram, x, ...). utm_medium = social | paid-social | email | referral | bio. utm_campaign =
+      pilito-<yyyy-mm>-<name> (e.g. pilito-2026-12-launch). utm_content = post or ad variant (e.g.
+      reel-a, story-2).
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0157
+    question_id: business.product.roadmap
+    value: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach
+      the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    raw_answer: ۱- درسته جوابت
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:18.702Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and
+      reach the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0158
+    question_id: business.product.accessibility
+    value: No accessibility target set and no audit done yet; deferred until the app grows and earns
+      revenue.
+    raw_answer: هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#1
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:06:19.366Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”.
+      Draft until a human approves it."
+    session_id: ses-0001
+    normalized: No accessibility target set and no audit done yet; deferred until the app grows and
+      earns revenue.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره
+      بعدا”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0159
+    question_id: business.product.activation
+    value: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    raw_answer: فک کنم الین فلش کارتو ثبت کنه
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#2
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-22T11:06:19.682Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو
+      ثبت کنه”. Not a decision."
+    session_id: ses-0001
+    normalized: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش
+      کارتو ثبت کنه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0160
+    question_id: business.product.evidence_policy
+    value: Cite user-research evidence in the repo only by study id and date; never store personal data,
+      recordings or names in the repository; raw research material stays outside the repo.
+    raw_answer: ۶-موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:19.948Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cite user-research evidence in the repo only by study id and date; never store personal
+      data, recordings or names in the repository; raw research material stays outside the repo.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0161
+    question_id: business.sales.buyer
+    value: "same: the buyer is the learner who uses the app."
+    raw_answer: پدر مادر چیه دیگه
+    source_type: agent_suggestion
+    source_reference: intake:int-0030#5
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:20.230Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "same: the buyer is the learner who uses the app."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0162
+    question_id: business.sales.motion
+    value: self-serve
+    raw_answer: مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که تبلیغات داره و مثلا فقط فلش کاررت داره
+    source_type: agent_suggestion
+    source_reference: intake:int-0031#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:33.928Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که
+      تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: self-serve
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم
+      دارم که تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0163
+    question_id: business.cx.onboarding
+    value: In the first session the person picks their languages, creates their first flashcards, does
+      one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+    raw_answer: ۱- موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:09:26.810Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: In the first session the person picks their languages, creates their first flashcards,
+      does one short review, and leaves knowing they should come back tomorrow. Exact screens are
+      TBD.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0164
+    question_id: business.cx.channels
+    value: Email support only (tentative). Explicitly no phone support.
+    raw_answer: قطعا تلفن رو ندارم ولی فک کنم ایمیل بهتر باشه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#1
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-22T11:09:27.596Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی
+      فک کنم ایمیل بهتر باشه”. Not a decision."
+    session_id: ses-0001
+    normalized: Email support only (tentative). Explicitly no phone support.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو
+      ندارم ولی فک کنم ایمیل بهتر باشه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0165
+    question_id: business.cx.sla
+    value: Reply to support requests within 48 hours.
+    raw_answer: ۴۸ ساعت خوبه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:09:28.097Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Reply to support requests within 48 hours.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0166
+    question_id: business.sales.pricing
+    value: Unknown. No approved price; competitor pricing research is still to be done.
+    raw_answer: نه هنوز باید تحقیق کنم رقبا رو بررسی کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#3
+    authority: unverified
+    confidence: 0.9
+    status: draft
+    last_updated: 2026-11-22T11:09:28.453Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft
+      until a human approves it."
+    session_id: ses-0001
+    normalized: Unknown. No approved price; competitor pricing research is still to be done.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”.
+      Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0167
+    question_id: business.sales.discount
+    value: Frequent periodic promotional discounts (for example Black Friday), especially on the annual
+      plan. Who approves discounts and the maximum discount are not yet defined.
+    raw_answer: بلک فرایدی و تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه
+    source_type: agent_suggestion
+    source_reference: intake:int-0032#4
+    authority: unverified
+    confidence: 0.75
+    status: draft
+    last_updated: 2026-11-22T11:09:29.008Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های
+      دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    session_id: ses-0001
+    normalized: Frequent periodic promotional discounts (for example Black Friday), especially on the
+      annual plan. Who approves discounts and the maximum discount are not yet defined.
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و
+      تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0168
+    question_id: business.finance.economics_note
+    value: Cannot be assessed until a canonical price exists in business.sales.pricing; then check that
+      it covers server and maintenance costs.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.387Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cannot be assessed until a canonical price exists in business.sales.pricing; then check
+      that it covers server and maintenance costs.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0169
+    question_id: brand.campaign.offer_source
+    value: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.722Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0170
+    question_id: business.sales.stages
+    value: Install, first flashcard created (activation), multi-day use, paid subscription.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#2
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.956Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Install, first flashcard created (activation), multi-day use, paid subscription.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0171
+    question_id: business.sales.cycle
+    value: Unknown. No paying users yet.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#3
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.202Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Unknown. No paying users yet.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0172
+    question_id: business.cx.churn
+    value: Cancellation in one step, with no guilt-tripping copy.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#5
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.504Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cancellation in one step, with no guilt-tripping copy.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0173
+    question_id: business.cx.case_study
+    value: Written permission from the user before any customer story is made public.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#6
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.754Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Written permission from the user before any customer story is made public.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0174
+    question_id: business.ops.roles
+    value: One founder (Omid Ataei) covers brand, product and support.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#7
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:50.003Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: One founder (Omid Ataei) covers brand, product and support.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0175
+    question_id: business.cx.feedback_metric
+    value: none
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0034#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:11:04.767Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: none
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0176
+    question_id: business.ops.decisions
+    value: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:39.712Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0177
+    question_id: business.ops.vendors
+    value: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the
+      founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    raw_answer: ورسل و هاستینگر برای بک فک کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#1
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-22T11:13:40.031Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک
+      فک کنم”. Not a decision."
+    session_id: ses-0001
+    normalized: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on
+      the founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر
+      برای بک فک کنم”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0178
+    question_id: business.ops.cadence
+    value: None. Decisions are recorded in the brand interview log.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.282Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: None. Decisions are recorded in the brand interview log.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0179
+    question_id: business.finance.currency
+    value: USD
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.522Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: USD
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0180
+    question_id: business.finance.basis
+    value: undecided
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#4
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.802Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: undecided
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0181
+    question_id: business.finance.system
+    value: none yet; after launch App Store Connect is the reference for revenue figures.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#5
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:41.052Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: none yet; after launch App Store Connect is the reference for revenue figures.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0182
+    question_id: business.finance.scenarios
+    value: Premature. No price, so no base case yet.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#6
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:41.324Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Premature. No price, so no base case yet.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0183
+    question_id: business.ops.sop
+    value: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    raw_answer: موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0036#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:15:37.806Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0184
+    question_id: business.ops.tracker
+    value: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    raw_answer: موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0036#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:15:38.121Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

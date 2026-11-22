@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.portfolio`
 - Field: `business.product.portfolio`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.394Z
+- Answer id: ans-0153
 
 Value:
 
-TBD
+Pilito language-learning app for any language pair: flashcards with spaced review, quizzes, a dictionary and language packs. Web app first, then iOS and Android apps on the same server. Offline mode was dropped. Many further ideas exist but are out of scope for the first version.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.portfolio end -->
 
 <!-- field:business.product.jobs start -->
@@ -55,17 +57,19 @@ TBD
 
 - Question: `business.product.jobs`
 - Field: `business.product.jobs`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.623Z
+- Answer id: ans-0154
 
 Value:
 
-TBD
+Learn the words of a new language and truly remember them with only a few minutes a day; and keep going with language learning like a game instead of quitting midway.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.jobs end -->
 
 <!-- field:business.product.mvp start -->
@@ -73,17 +77,19 @@ TBD
 
 - Question: `business.product.mvp`
 - Field: `business.product.mvp`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.793Z
+- Answer id: ans-0155
 
 Value:
 
-TBD
+First releasable slice: flashcards with spaced review, quizzes, a dictionary and language packs for any language pair, server-based, released on the Apple App Store in every supported country. Non-goals for v1: offline mode and all other feature ideas beyond this list.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.mvp end -->
 
 <!-- field:business.product.public_status start -->
@@ -113,17 +119,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.roadmap`
 - Field: `business.product.roadmap`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:18.702Z
+- Answer id: ans-0157
 
 Value:
 
-TBD
+Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach the first 100 users. Later: Android app and further feature ideas. No committed dates.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.roadmap end -->
 
 <!-- field:business.product.accessibility start -->
@@ -131,17 +139,19 @@ TBD
 
 - Question: `business.product.accessibility`
 - Field: `business.product.accessibility`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:19.366Z
+- Answer id: ans-0158
 
 Value:
 
-TBD
+No accessibility target set and no audit done yet; deferred until the app grows and earns revenue.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.accessibility end -->
 
 <!-- field:business.product.activation start -->
@@ -149,17 +159,19 @@ TBD
 
 - Question: `business.product.activation`
 - Field: `business.product.activation`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو ثبت کنه”. Not a decision.
+- Updated: 2026-11-22T11:06:19.682Z
+- Answer id: ans-0159
 
 Value:
 
-TBD
+A new user counts as activated when they create (save) their first flashcard. Tentative definition; no completion rate measured.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.activation end -->
 
 <!-- field:business.product.evidence_policy start -->
@@ -167,17 +179,19 @@ TBD
 
 - Question: `business.product.evidence_policy`
 - Field: `business.product.evidence_policy`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:19.948Z
+- Answer id: ans-0160
 
 Value:
 
-TBD
+Cite user-research evidence in the repo only by study id and date; never store personal data, recordings or names in the repository; raw research material stays outside the repo.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.evidence_policy end -->
 
 <!-- field:business.product.learning_model start -->

@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.ops.roles`
 - Field: `business.ops.roles`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:50.003Z
+- Answer id: ans-0174
 
 Value:
 
-TBD
+One founder (Omid Ataei) covers brand, product and support.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.roles end -->
 
 <!-- field:business.ops.decisions start -->
@@ -33,17 +35,19 @@ TBD
 
 - Question: `business.ops.decisions`
 - Field: `business.ops.decisions`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:39.712Z
+- Answer id: ans-0176
 
 Value:
 
-TBD
+Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a specialist exists.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.decisions end -->
 
 <!-- field:business.ops.sop start -->
@@ -51,17 +55,19 @@ TBD
 
 - Question: `business.ops.sop`
 - Field: `business.ops.sop`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:15:37.806Z
+- Answer id: ans-0183
 
 Value:
 
-TBD
+The release process for a new app version: a written checklist from testing through App Store submission to announcing the release.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.sop end -->
 
 <!-- field:business.ops.vendors start -->
@@ -69,17 +75,19 @@ TBD
 
 - Question: `business.ops.vendors`
 - Field: `business.ops.vendors`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک فک کنم”. Not a decision.
+- Updated: 2026-11-22T11:13:40.031Z
+- Answer id: ans-0177
 
 Value:
 
-TBD
+Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No design or legal vendors yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.vendors end -->
 
 <!-- field:business.ops.cadence start -->
@@ -87,17 +95,19 @@ TBD
 
 - Question: `business.ops.cadence`
 - Field: `business.ops.cadence`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:40.282Z
+- Answer id: ans-0178
 
 Value:
 
-TBD
+None. Decisions are recorded in the brand interview log.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.cadence end -->
 
 <!-- field:business.ops.tracker start -->
@@ -105,17 +115,19 @@ TBD
 
 - Question: `business.ops.tracker`
 - Field: `business.ops.tracker`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:15:38.121Z
+- Answer id: ans-0184
 
 Value:
 
-TBD
+GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.tracker end -->
 
 <!-- field:brand.gov.approver start -->

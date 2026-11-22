@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.pricing`
 - Field: `business.sales.pricing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.453Z
+- Answer id: ans-0166
 
 Value:
 
-TBD
+Unknown. No approved price; competitor pricing research is still to be done.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.pricing end -->
 
 <!-- field:business.finance.currency start -->
@@ -55,17 +57,19 @@ TBD
 
 - Question: `business.finance.currency`
 - Field: `business.finance.currency`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:40.522Z
+- Answer id: ans-0179
 
 Value:
 
-TBD
+USD
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.currency end -->
 
 <!-- field:business.finance.basis start -->
@@ -73,17 +77,19 @@ TBD
 
 - Question: `business.finance.basis`
 - Field: `business.finance.basis`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:40.802Z
+- Answer id: ans-0180
 
 Value:
 
-TBD
+undecided
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.basis end -->
 
 <!-- field:business.finance.economics_note start -->
@@ -91,17 +97,19 @@ TBD
 
 - Question: `business.finance.economics_note`
 - Field: `business.finance.economics_note`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:48.387Z
+- Answer id: ans-0168
 
 Value:
 
-TBD
+Cannot be assessed until a canonical price exists in business.sales.pricing; then check that it covers server and maintenance costs.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.economics_note end -->
 
 <!-- field:business.finance.system start -->
@@ -109,17 +117,19 @@ TBD
 
 - Question: `business.finance.system`
 - Field: `business.finance.system`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:41.052Z
+- Answer id: ans-0181
 
 Value:
 
-TBD
+none yet; after launch App Store Connect is the reference for revenue figures.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.system end -->
 
 <!-- field:business.finance.scenarios start -->
@@ -127,15 +137,17 @@ TBD
 
 - Question: `business.finance.scenarios`
 - Field: `business.finance.scenarios`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:41.324Z
+- Answer id: ans-0182
 
 Value:
 
-TBD
+Premature. No price, so no base case yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.scenarios end -->

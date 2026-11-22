@@ -833,3 +833,417 @@ facts:
     uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
     answer_id: ans-0151
     updated: 2026-11-21T12:51:58.609Z
+  business.product.portfolio:
+    value: "Pilito language-learning app for any language pair: flashcards with spaced review, quizzes,
+      a dictionary and language packs. Web app first, then iOS and Android apps on the same server.
+      Offline mode was dropped. Many further ideas exist but are out of scope for the first
+      version."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا
+      گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves it."
+    answer_id: ans-0153
+    updated: 2026-11-22T11:01:46.394Z
+    proposal_state: proposed
+  business.product.jobs:
+    value: Learn the words of a new language and truly remember them with only a few minutes a day; and
+      keep going with language learning like a game instead of quitting midway.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم
+      بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it."
+    answer_id: ans-0154
+    updated: 2026-11-22T11:01:46.623Z
+    proposal_state: proposed
+  business.product.mvp:
+    value: "First releasable slice: flashcards with spaced review, quizzes, a dictionary and language
+      packs for any language pair, server-based, released on the Apple App Store in every supported
+      country. Non-goals for v1: offline mode and all other feature ideas beyond this list."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft until a
+      human approves it."
+    answer_id: ans-0155
+    updated: 2026-11-22T11:01:46.793Z
+    proposal_state: proposed
+  business.marketing.utm:
+    value: All lowercase, hyphens, no spaces. utm_source = where the link is placed (instagram,
+      telegram, x, ...). utm_medium = social | paid-social | email | referral | bio. utm_campaign =
+      pilito-<yyyy-mm>-<name> (e.g. pilito-2026-12-launch). utm_content = post or ad variant (e.g.
+      reel-a, story-2).
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it."
+    answer_id: ans-0156
+    updated: 2026-11-22T11:01:46.965Z
+    proposal_state: proposed
+  business.product.roadmap:
+    value: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach
+      the first 100 users. Later: Android app and further feature ideas. No committed dates."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
+    answer_id: ans-0157
+    updated: 2026-11-22T11:06:18.702Z
+    proposal_state: proposed
+  business.product.accessibility:
+    value: No accessibility target set and no audit done yet; deferred until the app grows and earns
+      revenue.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”.
+      Draft until a human approves it."
+    answer_id: ans-0158
+    updated: 2026-11-22T11:06:19.366Z
+    proposal_state: proposed
+  business.product.activation:
+    value: A new user counts as activated when they create (save) their first flashcard. Tentative
+      definition; no completion rate measured.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو
+      ثبت کنه”. Not a decision."
+    answer_id: ans-0159
+    updated: 2026-11-22T11:06:19.682Z
+    proposal_state: tentative
+  business.product.evidence_policy:
+    value: Cite user-research evidence in the repo only by study id and date; never store personal data,
+      recordings or names in the repository; raw research material stays outside the repo.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
+    answer_id: ans-0160
+    updated: 2026-11-22T11:06:19.948Z
+    proposal_state: proposed
+  business.sales.buyer:
+    value: "same: the buyer is the learner who uses the app."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
+    answer_id: ans-0161
+    updated: 2026-11-22T11:06:20.230Z
+    proposal_state: proposed
+  business.sales.motion:
+    value: self-serve
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که
+      تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    answer_id: ans-0162
+    updated: 2026-11-22T11:06:33.928Z
+    proposal_state: proposed
+  business.cx.onboarding:
+    value: In the first session the person picks their languages, creates their first flashcards, does
+      one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
+    answer_id: ans-0163
+    updated: 2026-11-22T11:09:26.810Z
+    proposal_state: proposed
+  business.cx.channels:
+    value: Email support only (tentative). Explicitly no phone support.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی
+      فک کنم ایمیل بهتر باشه”. Not a decision."
+    answer_id: ans-0164
+    updated: 2026-11-22T11:09:27.596Z
+    proposal_state: tentative
+  business.cx.sla:
+    value: Reply to support requests within 48 hours.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
+    answer_id: ans-0165
+    updated: 2026-11-22T11:09:28.097Z
+    proposal_state: proposed
+  business.sales.pricing:
+    value: Unknown. No approved price; competitor pricing research is still to be done.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft
+      until a human approves it."
+    answer_id: ans-0166
+    updated: 2026-11-22T11:09:28.453Z
+    proposal_state: proposed
+  business.sales.discount:
+    value: Frequent periodic promotional discounts (for example Black Friday), especially on the annual
+      plan. Who approves discounts and the maximum discount are not yet defined.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های
+      دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
+    answer_id: ans-0167
+    updated: 2026-11-22T11:09:29.008Z
+    proposal_state: tentative
+  business.finance.economics_note:
+    value: Cannot be assessed until a canonical price exists in business.sales.pricing; then check that
+      it covers server and maintenance costs.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0168
+    updated: 2026-11-22T11:10:48.387Z
+    proposal_state: proposed
+  brand.campaign.offer_source:
+    value: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0169
+    updated: 2026-11-22T11:10:48.722Z
+    proposal_state: proposed
+  business.sales.stages:
+    value: Install, first flashcard created (activation), multi-day use, paid subscription.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0170
+    updated: 2026-11-22T11:10:48.956Z
+    proposal_state: proposed
+  business.sales.cycle:
+    value: Unknown. No paying users yet.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0171
+    updated: 2026-11-22T11:10:49.202Z
+    proposal_state: proposed
+  business.cx.churn:
+    value: Cancellation in one step, with no guilt-tripping copy.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0172
+    updated: 2026-11-22T11:10:49.504Z
+    proposal_state: proposed
+  business.cx.case_study:
+    value: Written permission from the user before any customer story is made public.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0173
+    updated: 2026-11-22T11:10:49.754Z
+    proposal_state: proposed
+  business.ops.roles:
+    value: One founder (Omid Ataei) covers brand, product and support.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0174
+    updated: 2026-11-22T11:10:50.003Z
+    proposal_state: proposed
+  business.cx.feedback_metric:
+    value: none
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0175
+    updated: 2026-11-22T11:11:04.767Z
+    proposal_state: proposed
+  business.ops.decisions:
+    value: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0176
+    updated: 2026-11-22T11:13:39.712Z
+    proposal_state: proposed
+  business.ops.vendors:
+    value: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the
+      founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک
+      فک کنم”. Not a decision."
+    answer_id: ans-0177
+    updated: 2026-11-22T11:13:40.031Z
+    proposal_state: tentative
+  business.ops.cadence:
+    value: None. Decisions are recorded in the brand interview log.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0178
+    updated: 2026-11-22T11:13:40.282Z
+    proposal_state: proposed
+  business.finance.currency:
+    value: USD
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0179
+    updated: 2026-11-22T11:13:40.522Z
+    proposal_state: proposed
+  business.finance.basis:
+    value: undecided
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0180
+    updated: 2026-11-22T11:13:40.802Z
+    proposal_state: proposed
+  business.finance.system:
+    value: none yet; after launch App Store Connect is the reference for revenue figures.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0181
+    updated: 2026-11-22T11:13:41.052Z
+    proposal_state: proposed
+  business.finance.scenarios:
+    value: Premature. No price, so no base case yet.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0182
+    updated: 2026-11-22T11:13:41.324Z
+    proposal_state: proposed
+  business.ops.sop:
+    value: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    answer_id: ans-0183
+    updated: 2026-11-22T11:15:37.806Z
+    proposal_state: proposed
+  business.ops.tracker:
+    value: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    answer_id: ans-0184
+    updated: 2026-11-22T11:15:38.121Z
+    proposal_state: proposed

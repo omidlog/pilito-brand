@@ -1176,3 +1176,259 @@ items:
     confidentiality: internal
     review_status: approved
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0153
+    question_id: business.product.portfolio
+    source_reference: intake:int-0029#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.394Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0154
+    question_id: business.product.jobs
+    source_reference: intake:int-0029#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.623Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0155
+    question_id: business.product.mvp
+    source_reference: intake:int-0029#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.793Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0156
+    question_id: business.marketing.utm
+    source_reference: intake:int-0029#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.965Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0157
+    question_id: business.product.roadmap
+    source_reference: intake:int-0030#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:18.702Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0158
+    question_id: business.product.accessibility
+    source_reference: intake:int-0030#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.366Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0159
+    question_id: business.product.activation
+    source_reference: intake:int-0030#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.682Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0160
+    question_id: business.product.evidence_policy
+    source_reference: intake:int-0030#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:19.948Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0161
+    question_id: business.sales.buyer
+    source_reference: intake:int-0030#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:20.230Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0162
+    question_id: business.sales.motion
+    source_reference: intake:int-0031#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:33.928Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0163
+    question_id: business.cx.onboarding
+    source_reference: intake:int-0032#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:09:26.810Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0164
+    question_id: business.cx.channels
+    source_reference: intake:int-0032#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:09:27.596Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0165
+    question_id: business.cx.sla
+    source_reference: intake:int-0032#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:09:28.097Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0166
+    question_id: business.sales.pricing
+    source_reference: intake:int-0032#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:09:28.453Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0167
+    question_id: business.sales.discount
+    source_reference: intake:int-0032#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:09:29.008Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0168
+    question_id: business.finance.economics_note
+    source_reference: intake:int-0033#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.387Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0169
+    question_id: brand.campaign.offer_source
+    source_reference: intake:int-0033#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.722Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0170
+    question_id: business.sales.stages
+    source_reference: intake:int-0033#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.956Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0171
+    question_id: business.sales.cycle
+    source_reference: intake:int-0033#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.202Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0172
+    question_id: business.cx.churn
+    source_reference: intake:int-0033#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.504Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0173
+    question_id: business.cx.case_study
+    source_reference: intake:int-0033#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.754Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0174
+    question_id: business.ops.roles
+    source_reference: intake:int-0033#7
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:50.003Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0175
+    question_id: business.cx.feedback_metric
+    source_reference: intake:int-0034#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:11:04.767Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0176
+    question_id: business.ops.decisions
+    source_reference: intake:int-0035#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:39.712Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0177
+    question_id: business.ops.vendors
+    source_reference: intake:int-0035#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:40.031Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0178
+    question_id: business.ops.cadence
+    source_reference: intake:int-0035#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:40.282Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0179
+    question_id: business.finance.currency
+    source_reference: intake:int-0035#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:40.522Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0180
+    question_id: business.finance.basis
+    source_reference: intake:int-0035#4
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:40.802Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0181
+    question_id: business.finance.system
+    source_reference: intake:int-0035#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:41.052Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0182
+    question_id: business.finance.scenarios
+    source_reference: intake:int-0035#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:13:41.324Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0183
+    question_id: business.ops.sop
+    source_reference: intake:int-0036#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:15:37.806Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0184
+    question_id: business.ops.tracker
+    source_reference: intake:int-0036#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:15:38.121Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

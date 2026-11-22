@@ -121,17 +121,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.accessibility`
 - Field: `business.product.accessibility`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:19.366Z
+- Answer id: ans-0158
 
 Value:
 
-TBD
+No accessibility target set and no audit done yet; deferred until the app grows and earns revenue.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.accessibility end -->
 
 <!-- field:business.cx.onboarding start -->
@@ -139,17 +141,19 @@ TBD
 
 - Question: `business.cx.onboarding`
 - Field: `business.cx.onboarding`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:26.810Z
+- Answer id: ans-0163
 
 Value:
 
-TBD
+In the first session the person picks their languages, creates their first flashcards, does one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.onboarding end -->
 
 <!-- field:brand.mascot.situation_map start -->

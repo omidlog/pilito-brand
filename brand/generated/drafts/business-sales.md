@@ -59,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.motion`
 - Field: `business.sales.motion`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:33.928Z
+- Answer id: ans-0162
 
 Value:
 
-TBD
+self-serve
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.motion end -->
 
 <!-- field:business.sales.buyer start -->
@@ -77,17 +79,19 @@ TBD
 
 - Question: `business.sales.buyer`
 - Field: `business.sales.buyer`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:20.230Z
+- Answer id: ans-0161
 
 Value:
 
-TBD
+same: the buyer is the learner who uses the app.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.buyer end -->
 
 <!-- field:business.sales.pricing start -->
@@ -95,17 +99,19 @@ TBD
 
 - Question: `business.sales.pricing`
 - Field: `business.sales.pricing`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:09:28.453Z
+- Answer id: ans-0166
 
 Value:
 
-TBD
+Unknown. No approved price; competitor pricing research is still to be done.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.pricing end -->
 
 <!-- field:business.sales.discount start -->
@@ -113,17 +119,19 @@ TBD
 
 - Question: `business.sales.discount`
 - Field: `business.sales.discount`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision.
+- Updated: 2026-11-22T11:09:29.008Z
+- Answer id: ans-0167
 
 Value:
 
-TBD
+Frequent periodic promotional discounts (for example Black Friday), especially on the annual plan. Who approves discounts and the maximum discount are not yet defined.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.discount end -->
 
 <!-- field:business.sales.stages start -->
@@ -131,17 +139,19 @@ TBD
 
 - Question: `business.sales.stages`
 - Field: `business.sales.stages`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:48.956Z
+- Answer id: ans-0170
 
 Value:
 
-TBD
+Install, first flashcard created (activation), multi-day use, paid subscription.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.stages end -->
 
 <!-- field:business.sales.cycle start -->
@@ -149,17 +159,19 @@ TBD
 
 - Question: `business.sales.cycle`
 - Field: `business.sales.cycle`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:49.202Z
+- Answer id: ans-0171
 
 Value:
 
-TBD
+Unknown. No paying users yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.cycle end -->
 
 <!-- field:business.sales.consumer_path start -->

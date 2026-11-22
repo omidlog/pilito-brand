@@ -954,3 +954,310 @@ batches:
           Search Console, Bing Webmaster Tools, Google Analytics for the website; admin-panel stats
           for in-app activity."
     owner_questions: []
+  - id: int-0029
+    received_at: 2026-11-22T11:01:47.041Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-r5a
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.product.portfolio
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0153
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.jobs
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0154
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.product.mvp
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0155
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.marketing.utm
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0156
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0030
+    received_at: 2026-11-22T11:06:20.351Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t108u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.product.roadmap
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0157
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.accessibility
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0158
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.product.activation
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0159
+        reason: stored as a tentative draft; not approved
+      - index: 3
+        question_id: business.product.evidence_policy
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0160
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.sales.motion
+        state: proposed
+        outcome: rejected
+        reason: "invalid value: Choose one of: undecided, self-serve, product-led, inside, enterprise,
+          retail, channel, not-applicable"
+      - index: 5
+        question_id: business.sales.buyer
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0161
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0031
+    received_at: 2026-11-22T11:06:34.041Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t108u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.sales.motion
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0162
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0032
+    received_at: 2026-11-22T11:09:29.211Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t109u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.cx.onboarding
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0163
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.cx.channels
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0164
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: business.cx.sla
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0165
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.sales.pricing
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0166
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.sales.discount
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0167
+        reason: stored as a tentative draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0033
+    received_at: 2026-11-22T11:10:50.102Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t110u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.finance.economics_note
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0168
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.campaign.offer_source
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0169
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.sales.stages
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0170
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.sales.cycle
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0171
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.cx.feedback_metric
+        state: proposed
+        outcome: rejected
+        reason: "invalid value: Choose one of: none, csat, nps, ces, interviews, unknown"
+      - index: 5
+        question_id: business.cx.churn
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0172
+        reason: stored as a proposed draft; not approved
+      - index: 6
+        question_id: business.cx.case_study
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0173
+        reason: stored as a proposed draft; not approved
+      - index: 7
+        question_id: business.ops.roles
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0174
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0034
+    received_at: 2026-11-22T11:11:04.887Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t110u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.cx.feedback_metric
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0175
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0035
+    received_at: 2026-11-22T11:13:41.421Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t111u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.ops.decisions
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0176
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.ops.vendors
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0177
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: business.ops.cadence
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0178
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.finance.currency
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0179
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.finance.basis
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0180
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: business.finance.system
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0181
+        reason: stored as a proposed draft; not approved
+      - index: 6
+        question_id: business.finance.scenarios
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0182
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
+  - id: int-0036
+    received_at: 2026-11-22T11:15:38.224Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t112u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.ops.sop
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0183
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.ops.tracker
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0184
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []
