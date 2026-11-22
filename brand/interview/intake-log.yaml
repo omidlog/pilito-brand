@@ -954,3 +954,40 @@ batches:
           Search Console, Bing Webmaster Tools, Google Analytics for the website; admin-panel stats
           for in-app activity."
     owner_questions: []
+  - id: int-0029
+    received_at: 2026-11-22T11:01:47.041Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-r5a
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.product.portfolio
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0153
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.product.jobs
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0154
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.product.mvp
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0155
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.marketing.utm
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0156
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

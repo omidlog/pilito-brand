@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.portfolio`
 - Field: `business.product.portfolio`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.394Z
+- Answer id: ans-0153
 
 Value:
 
-TBD
+Pilito language-learning app for any language pair: flashcards with spaced review, quizzes, a dictionary and language packs. Web app first, then iOS and Android apps on the same server. Offline mode was dropped. Many further ideas exist but are out of scope for the first version.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.portfolio end -->
 
 <!-- field:business.product.jobs start -->
@@ -55,17 +57,19 @@ TBD
 
 - Question: `business.product.jobs`
 - Field: `business.product.jobs`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.623Z
+- Answer id: ans-0154
 
 Value:
 
-TBD
+Learn the words of a new language and truly remember them with only a few minutes a day; and keep going with language learning like a game instead of quitting midway.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.jobs end -->
 
 <!-- field:business.product.mvp start -->
@@ -73,17 +77,19 @@ TBD
 
 - Question: `business.product.mvp`
 - Field: `business.product.mvp`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.793Z
+- Answer id: ans-0155
 
 Value:
 
-TBD
+First releasable slice: flashcards with spaced review, quizzes, a dictionary and language packs for any language pair, server-based, released on the Apple App Store in every supported country. Non-goals for v1: offline mode and all other feature ideas beyond this list.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.mvp end -->
 
 <!-- field:business.product.public_status start -->

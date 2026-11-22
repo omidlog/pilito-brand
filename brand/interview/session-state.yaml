@@ -154,10 +154,14 @@ history:
   - business.marketing.pillars
   - business.marketing.attribution
   - brand.social.localization
+  - business.product.portfolio
+  - business.product.jobs
+  - business.product.mvp
+  - business.marketing.utm
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-21T12:51:58.818Z
-last_answer_id: ans-0152
+updated_at: 2026-11-22T11:01:46.980Z
+last_answer_id: ans-0156

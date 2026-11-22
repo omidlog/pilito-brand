@@ -1176,3 +1176,35 @@ items:
     confidentiality: internal
     review_status: approved
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0153
+    question_id: business.product.portfolio
+    source_reference: intake:int-0029#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.394Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0154
+    question_id: business.product.jobs
+    source_reference: intake:int-0029#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.623Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0155
+    question_id: business.product.mvp
+    source_reference: intake:int-0029#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.793Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0156
+    question_id: business.marketing.utm
+    source_reference: intake:int-0029#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:01:46.965Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

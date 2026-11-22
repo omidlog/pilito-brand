@@ -275,17 +275,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.product.jobs`
 - Field: `business.product.jobs`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it.
+- Updated: 2026-11-22T11:01:46.623Z
+- Answer id: ans-0154
 
 Value:
 
-TBD
+Learn the words of a new language and truly remember them with only a few minutes a day; and keep going with language learning like a game instead of quitting midway.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.product.jobs end -->
 
 <!-- field:brand.gamification.ethics start -->
