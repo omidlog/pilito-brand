@@ -1222,3 +1222,28 @@ facts:
     answer_id: ans-0182
     updated: 2026-11-22T11:13:41.324Z
     proposal_state: proposed
+  business.ops.sop:
+    value: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    answer_id: ans-0183
+    updated: 2026-11-22T11:15:37.806Z
+    proposal_state: proposed
+  business.ops.tracker:
+    value: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    answer_id: ans-0184
+    updated: 2026-11-22T11:15:38.121Z
+    proposal_state: proposed

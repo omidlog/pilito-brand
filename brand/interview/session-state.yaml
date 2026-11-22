@@ -184,10 +184,12 @@ history:
   - business.finance.basis
   - business.finance.system
   - business.finance.scenarios
+  - business.ops.sop
+  - business.ops.tracker
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-22T11:13:41.344Z
-last_answer_id: ans-0182
+updated_at: 2026-11-22T11:15:38.142Z
+last_answer_id: ans-0184

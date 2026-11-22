@@ -3869,3 +3869,43 @@ records:
     disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0183
+    question_id: business.ops.sop
+    value: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    raw_answer: موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0036#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:15:37.806Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: "The release process for a new app version: a written checklist from testing through App
+      Store submission to announcing the release."
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0184
+    question_id: business.ops.tracker
+    value: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    raw_answer: موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0036#1
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:15:38.121Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
