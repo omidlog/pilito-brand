@@ -3447,3 +3447,24 @@ records:
     disposition_reason: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0162
+    question_id: business.sales.motion
+    value: self-serve
+    raw_answer: مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که تبلیغات داره و مثلا فقط فلش کاررت داره
+    source_type: agent_suggestion
+    source_reference: intake:int-0031#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:06:33.928Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که
+      تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: self-serve
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم
+      دارم که تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

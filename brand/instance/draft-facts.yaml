@@ -959,3 +959,16 @@ facts:
     answer_id: ans-0161
     updated: 2026-11-22T11:06:20.230Z
     proposal_state: proposed
+  business.sales.motion:
+    value: self-serve
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که
+      تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
+    answer_id: ans-0162
+    updated: 2026-11-22T11:06:33.928Z
+    proposal_state: proposed

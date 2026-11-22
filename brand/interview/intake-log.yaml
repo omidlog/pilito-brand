@@ -1040,3 +1040,22 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0031
+    received_at: 2026-11-22T11:06:34.041Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t108u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.sales.motion
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0162
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

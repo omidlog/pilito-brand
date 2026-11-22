@@ -59,17 +59,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.motion`
 - Field: `business.sales.motion`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it.
+- Updated: 2026-11-22T11:06:33.928Z
+- Answer id: ans-0162
 
 Value:
 
-TBD
+self-serve
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.motion end -->
 
 <!-- field:business.sales.buyer start -->

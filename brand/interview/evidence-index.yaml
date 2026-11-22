@@ -1248,3 +1248,11 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0162
+    question_id: business.sales.motion
+    source_reference: intake:int-0031#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:06:33.928Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
