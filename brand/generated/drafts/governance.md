@@ -37,17 +37,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.ops.decisions`
 - Field: `business.ops.decisions`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:39.712Z
+- Answer id: ans-0176
 
 Value:
 
-TBD
+Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a specialist exists.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.decisions end -->
 
 <!-- field:brand.gov.approver start -->

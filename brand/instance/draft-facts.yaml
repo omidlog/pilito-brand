@@ -1134,3 +1134,91 @@ facts:
     answer_id: ans-0175
     updated: 2026-11-22T11:11:04.767Z
     proposal_state: proposed
+  business.ops.decisions:
+    value: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0176
+    updated: 2026-11-22T11:13:39.712Z
+    proposal_state: proposed
+  business.ops.vendors:
+    value: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the
+      founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک
+      فک کنم”. Not a decision."
+    answer_id: ans-0177
+    updated: 2026-11-22T11:13:40.031Z
+    proposal_state: tentative
+  business.ops.cadence:
+    value: None. Decisions are recorded in the brand interview log.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0178
+    updated: 2026-11-22T11:13:40.282Z
+    proposal_state: proposed
+  business.finance.currency:
+    value: USD
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0179
+    updated: 2026-11-22T11:13:40.522Z
+    proposal_state: proposed
+  business.finance.basis:
+    value: undecided
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0180
+    updated: 2026-11-22T11:13:40.802Z
+    proposal_state: proposed
+  business.finance.system:
+    value: none yet; after launch App Store Connect is the reference for revenue figures.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0181
+    updated: 2026-11-22T11:13:41.052Z
+    proposal_state: proposed
+  business.finance.scenarios:
+    value: Premature. No price, so no base case yet.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    answer_id: ans-0182
+    updated: 2026-11-22T11:13:41.324Z
+    proposal_state: proposed

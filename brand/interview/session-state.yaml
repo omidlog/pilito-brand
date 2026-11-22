@@ -177,10 +177,17 @@ history:
   - business.cx.case_study
   - business.ops.roles
   - business.cx.feedback_metric
+  - business.ops.decisions
+  - business.ops.vendors
+  - business.ops.cadence
+  - business.finance.currency
+  - business.finance.basis
+  - business.finance.system
+  - business.finance.scenarios
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-22T11:11:04.801Z
-last_answer_id: ans-0175
+updated_at: 2026-11-22T11:13:41.344Z
+last_answer_id: ans-0182

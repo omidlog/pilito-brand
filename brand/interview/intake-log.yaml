@@ -1181,3 +1181,58 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0035
+    received_at: 2026-11-22T11:13:41.421Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t111u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.ops.decisions
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0176
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: business.ops.vendors
+        state: tentative
+        outcome: drafted
+        answer_id: ans-0177
+        reason: stored as a tentative draft; not approved
+      - index: 2
+        question_id: business.ops.cadence
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0178
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.finance.currency
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0179
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.finance.basis
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0180
+        reason: stored as a proposed draft; not approved
+      - index: 5
+        question_id: business.finance.system
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0181
+        reason: stored as a proposed draft; not approved
+      - index: 6
+        question_id: business.finance.scenarios
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0182
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

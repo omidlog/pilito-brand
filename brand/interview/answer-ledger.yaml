@@ -3728,3 +3728,144 @@ records:
     disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
     private_ref: null
     proposal_state: proposed
+  - answer_id: ans-0176
+    question_id: business.ops.decisions
+    value: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#0
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:39.712Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
+      specialist exists.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0177
+    question_id: business.ops.vendors
+    value: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the
+      founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    raw_answer: ورسل و هاستینگر برای بک فک کنم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#1
+    authority: unverified
+    confidence: 0.7
+    status: draft
+    last_updated: 2026-11-22T11:13:40.031Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک
+      فک کنم”. Not a decision."
+    session_id: ses-0001
+    normalized: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on
+      the founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
+      design or legal vendors yet."
+    superseded_by: null
+    disposition_reason: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر
+      برای بک فک کنم”. Not a decision."
+    private_ref: null
+    proposal_state: tentative
+  - answer_id: ans-0178
+    question_id: business.ops.cadence
+    value: None. Decisions are recorded in the brand interview log.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#2
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.282Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: None. Decisions are recorded in the brand interview log.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0179
+    question_id: business.finance.currency
+    value: USD
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#3
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.522Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: USD
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0180
+    question_id: business.finance.basis
+    value: undecided
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#4
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:40.802Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: undecided
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0181
+    question_id: business.finance.system
+    value: none yet; after launch App Store Connect is the reference for revenue figures.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#5
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:41.052Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: none yet; after launch App Store Connect is the reference for revenue figures.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0182
+    question_id: business.finance.scenarios
+    value: Premature. No price, so no base case yet.
+    raw_answer: باقیش موافقم
+    source_type: agent_suggestion
+    source_reference: intake:int-0035#6
+    authority: unverified
+    confidence: 0.85
+    status: draft
+    last_updated: 2026-11-22T11:13:41.324Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Premature. No price, so no base case yet.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

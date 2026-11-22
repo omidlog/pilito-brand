@@ -57,17 +57,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.finance.currency`
 - Field: `business.finance.currency`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:40.522Z
+- Answer id: ans-0179
 
 Value:
 
-TBD
+USD
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.currency end -->
 
 <!-- field:business.finance.basis start -->
@@ -75,17 +77,19 @@ TBD
 
 - Question: `business.finance.basis`
 - Field: `business.finance.basis`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:40.802Z
+- Answer id: ans-0180
 
 Value:
 
-TBD
+undecided
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.basis end -->
 
 <!-- field:business.finance.economics_note start -->
@@ -113,17 +117,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.finance.system`
 - Field: `business.finance.system`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:41.052Z
+- Answer id: ans-0181
 
 Value:
 
-TBD
+none yet; after launch App Store Connect is the reference for revenue figures.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.system end -->
 
 <!-- field:business.finance.scenarios start -->
@@ -131,15 +137,17 @@ TBD
 
 - Question: `business.finance.scenarios`
 - Field: `business.finance.scenarios`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it.
+- Updated: 2026-11-22T11:13:41.324Z
+- Answer id: ans-0182
 
 Value:
 
-TBD
+Premature. No price, so no base case yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.finance.scenarios end -->
