@@ -151,7 +151,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-1-a1.svg
     present: true
-    checksum_sha256: 73b42acd7714964648a87ecab733e4243e52c101b9d03b71f720920462daadf0
+    checksum_sha256: f5102a1d9341dc630d82946a363183b378d1b1aa4645d5987c996bf507db20ec
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-1-a1.svg
     tags:
@@ -159,6 +159,21 @@ assets:
       - stage-1
       - a1
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-1-a1.svg
+      sha256: 73b42acd7714964648a87ecab733e4243e52c101b9d03b71f720920462daadf0
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1484
+      checked_at: 2026-11-21T19:22:55.714Z
+    approved_sha256: f5102a1d9341dc630d82946a363183b378d1b1aa4645d5987c996bf507db20ec
+    approval_carried_from: 73b42acd7714964648a87ecab733e4243e52c101b9d03b71f720920462daadf0
   - id: asset.mascot.stage-2-a2
     name: Pilito mascot stage 2 (A2), default pose (owner-supplied)
     status: approved
@@ -173,7 +188,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-2-a2.svg
     present: true
-    checksum_sha256: db7e84163469aa466d174c61666d6b001245f997b63dfc28e247ba650f46909b
+    checksum_sha256: c6af27f1365fd947bc761ec79bfb0404ea5e05999cd0adc757236da294a7542d
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-2-a2.svg
     tags:
@@ -181,6 +196,21 @@ assets:
       - stage-2
       - a2
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-2-a2.svg
+      sha256: db7e84163469aa466d174c61666d6b001245f997b63dfc28e247ba650f46909b
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1385
+      checked_at: 2026-11-21T19:22:56.063Z
+    approved_sha256: c6af27f1365fd947bc761ec79bfb0404ea5e05999cd0adc757236da294a7542d
+    approval_carried_from: db7e84163469aa466d174c61666d6b001245f997b63dfc28e247ba650f46909b
   - id: asset.mascot.stage-3-b1
     name: Pilito mascot stage 3 (B1), default pose (owner-supplied)
     status: approved
@@ -195,7 +225,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-3-b1.svg
     present: true
-    checksum_sha256: cb2fc716e58f64dfcfbd7f37866297cd70f4b6de57525833306363a6717b3518
+    checksum_sha256: 74014c70a17fc85b82a68b74a3876f4f408180b236500bf3e74537ce04c8dee1
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-3-b1.svg
     tags:
@@ -203,6 +233,21 @@ assets:
       - stage-3
       - b1
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-3-b1.svg
+      sha256: cb2fc716e58f64dfcfbd7f37866297cd70f4b6de57525833306363a6717b3518
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1593
+      checked_at: 2026-11-21T19:22:56.480Z
+    approved_sha256: 74014c70a17fc85b82a68b74a3876f4f408180b236500bf3e74537ce04c8dee1
+    approval_carried_from: cb2fc716e58f64dfcfbd7f37866297cd70f4b6de57525833306363a6717b3518
   - id: asset.mascot.stage-4-b2
     name: Pilito mascot stage 4 (B2), default pose (owner-supplied)
     status: approved
@@ -217,7 +262,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-4-b2.svg
     present: true
-    checksum_sha256: e881c8a21463d6d9e2de80b980d86406baf539181e3918627cd19100fe415c02
+    checksum_sha256: 93e43d1a2ed4e0ebeffce2004f0eb2895b9d2dbec4498aaf82ee748a37808d6f
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-4-b2.svg
     tags:
@@ -225,6 +270,21 @@ assets:
       - stage-4
       - b2
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-4-b2.svg
+      sha256: e881c8a21463d6d9e2de80b980d86406baf539181e3918627cd19100fe415c02
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1546
+      checked_at: 2026-11-21T19:22:56.864Z
+    approved_sha256: 93e43d1a2ed4e0ebeffce2004f0eb2895b9d2dbec4498aaf82ee748a37808d6f
+    approval_carried_from: e881c8a21463d6d9e2de80b980d86406baf539181e3918627cd19100fe415c02
   - id: asset.mascot.stage-5-c1
     name: Pilito mascot stage 5 (C1), default pose (owner-supplied)
     status: approved
@@ -239,7 +299,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-5-c1.svg
     present: true
-    checksum_sha256: 36d8ea6ead371d63617b05d1e515dd0b50849580cf8a65850a38c622c4c5076e
+    checksum_sha256: 5cc6d0fa9e3eb3c85309202535950007d6550cd884d794c4cadf80ede82a971f
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-5-c1.svg
     tags:
@@ -247,6 +307,21 @@ assets:
       - stage-5
       - c1
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-5-c1.svg
+      sha256: 36d8ea6ead371d63617b05d1e515dd0b50849580cf8a65850a38c622c4c5076e
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1843
+      checked_at: 2026-11-21T19:22:57.220Z
+    approved_sha256: 5cc6d0fa9e3eb3c85309202535950007d6550cd884d794c4cadf80ede82a971f
+    approval_carried_from: 36d8ea6ead371d63617b05d1e515dd0b50849580cf8a65850a38c622c4c5076e
   - id: asset.mascot.stage-6-c2
     name: Pilito mascot stage 6 (C2), default pose (owner-supplied)
     status: approved
@@ -261,7 +336,7 @@ assets:
     restrictions: Do not mark any catalog state approved from this file.
     path: brand/assets/mascot/stages/pilito-stage-6-c2.svg
     present: true
-    checksum_sha256: f79a5b385efd298668277f894ea3fca7f883073fad006a64c5a1ffe50e028ac1
+    checksum_sha256: fca7b3cf7cf35c4e29d81cd52aa8fff5e78d89bf508301ccb075380ae7349411
     mime: image/svg+xml
     preview: brand/assets/mascot/stages/pilito-stage-6-c2.svg
     tags:
@@ -269,3 +344,18 @@ assets:
       - stage-6
       - c2
       - draft
+    derived_from:
+      path: brand/assets-src/mascot/stages/pilito-stage-6-c2.svg
+      sha256: f79a5b385efd298668277f894ea3fca7f883073fad006a64c5a1ffe50e028ac1
+    normalizer:
+      name: brand-os-svg-normalizer
+      version: 1.0.0
+      svgo: 4.1.0
+    render_check:
+      result: identical
+      renderer: resvg-js 2.6.2
+      width: 1024
+      height: 1664
+      checked_at: 2026-11-21T19:22:57.556Z
+    approved_sha256: fca7b3cf7cf35c4e29d81cd52aa8fff5e78d89bf508301ccb075380ae7349411
+    approval_carried_from: f79a5b385efd298668277f894ea3fca7f883073fad006a64c5a1ffe50e028ac1
