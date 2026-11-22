@@ -169,10 +169,17 @@ history:
   - business.cx.sla
   - business.sales.pricing
   - business.sales.discount
+  - business.finance.economics_note
+  - brand.campaign.offer_source
+  - business.sales.stages
+  - business.sales.cycle
+  - business.cx.churn
+  - business.cx.case_study
+  - business.ops.roles
 deferred: []
 pending_suggestions: []
 cursor_question_id: null
 pending_proposals: []
 started_at: 2026-11-21T10:34:18.022Z
-updated_at: 2026-11-22T11:09:29.037Z
-last_answer_id: ans-0167
+updated_at: 2026-11-22T11:10:50.023Z
+last_answer_id: ans-0174

@@ -1102,3 +1102,63 @@ batches:
     conflicts: []
     follow_ups: []
     owner_questions: []
+  - id: int-0033
+    received_at: 2026-11-22T11:10:50.102Z
+    origin: agent
+    provider: null
+    source:
+      kind: interview_turn
+      ref: grokbot-chat-2026-11-22-t110u
+      language: fa
+    redactions: 0
+    results:
+      - index: 0
+        question_id: business.finance.economics_note
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0168
+        reason: stored as a proposed draft; not approved
+      - index: 1
+        question_id: brand.campaign.offer_source
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0169
+        reason: stored as a proposed draft; not approved
+      - index: 2
+        question_id: business.sales.stages
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0170
+        reason: stored as a proposed draft; not approved
+      - index: 3
+        question_id: business.sales.cycle
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0171
+        reason: stored as a proposed draft; not approved
+      - index: 4
+        question_id: business.cx.feedback_metric
+        state: proposed
+        outcome: rejected
+        reason: "invalid value: Choose one of: none, csat, nps, ces, interviews, unknown"
+      - index: 5
+        question_id: business.cx.churn
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0172
+        reason: stored as a proposed draft; not approved
+      - index: 6
+        question_id: business.cx.case_study
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0173
+        reason: stored as a proposed draft; not approved
+      - index: 7
+        question_id: business.ops.roles
+        state: proposed
+        outcome: drafted
+        answer_id: ans-0174
+        reason: stored as a proposed draft; not approved
+    conflicts: []
+    follow_ups: []
+    owner_questions: []

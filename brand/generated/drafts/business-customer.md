@@ -135,17 +135,19 @@ TBD
 
 - Question: `business.cx.churn`
 - Field: `business.cx.churn`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:49.504Z
+- Answer id: ans-0172
 
 Value:
 
-TBD
+Cancellation in one step, with no guilt-tripping copy.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.churn end -->
 
 <!-- field:business.cx.case_study start -->
@@ -153,17 +155,19 @@ TBD
 
 - Question: `business.cx.case_study`
 - Field: `business.cx.case_study`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:49.754Z
+- Answer id: ans-0173
 
 Value:
 
-TBD
+Written permission from the user before any customer story is made public.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.cx.case_study end -->
 
 <!-- field:brand.ui.onboarding start -->

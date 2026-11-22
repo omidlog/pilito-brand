@@ -3574,3 +3574,138 @@ records:
       تخفیف های دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
     private_ref: null
     proposal_state: tentative
+  - answer_id: ans-0168
+    question_id: business.finance.economics_note
+    value: Cannot be assessed until a canonical price exists in business.sales.pricing; then check that
+      it covers server and maintenance costs.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#0
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.387Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cannot be assessed until a canonical price exists in business.sales.pricing; then check
+      that it covers server and maintenance costs.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0169
+    question_id: brand.campaign.offer_source
+    value: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#1
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.722Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0170
+    question_id: business.sales.stages
+    value: Install, first flashcard created (activation), multi-day use, paid subscription.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#2
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:48.956Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Install, first flashcard created (activation), multi-day use, paid subscription.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0171
+    question_id: business.sales.cycle
+    value: Unknown. No paying users yet.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#3
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.202Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Unknown. No paying users yet.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0172
+    question_id: business.cx.churn
+    value: Cancellation in one step, with no guilt-tripping copy.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#5
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.504Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Cancellation in one step, with no guilt-tripping copy.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0173
+    question_id: business.cx.case_study
+    value: Written permission from the user before any customer story is made public.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#6
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:49.754Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: Written permission from the user before any customer story is made public.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed
+  - answer_id: ans-0174
+    question_id: business.ops.roles
+    value: One founder (Omid Ataei) covers brand, product and support.
+    raw_answer: موافقم با همش
+    source_type: agent_suggestion
+    source_reference: intake:int-0033#7
+    authority: unverified
+    confidence: 0.8
+    status: draft
+    last_updated: 2026-11-22T11:10:50.003Z
+    reviewed_by: null
+    visibility: internal
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    session_id: ses-0001
+    normalized: One founder (Omid Ataei) covers brand, product and support.
+    superseded_by: null
+    disposition_reason: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    private_ref: null
+    proposal_state: proposed

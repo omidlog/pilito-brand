@@ -15,17 +15,19 @@ generated: true
 
 - Question: `business.ops.roles`
 - Field: `business.ops.roles`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:50.003Z
+- Answer id: ans-0174
 
 Value:
 
-TBD
+One founder (Omid Ataei) covers brand, product and support.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.ops.roles end -->
 
 <!-- field:business.ops.decisions start -->

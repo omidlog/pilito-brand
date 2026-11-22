@@ -1037,3 +1037,88 @@ facts:
     answer_id: ans-0167
     updated: 2026-11-22T11:09:29.008Z
     proposal_state: tentative
+  business.finance.economics_note:
+    value: Cannot be assessed until a canonical price exists in business.sales.pricing; then check that
+      it covers server and maintenance costs.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0168
+    updated: 2026-11-22T11:10:48.387Z
+    proposal_state: proposed
+  brand.campaign.offer_source:
+    value: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0169
+    updated: 2026-11-22T11:10:48.722Z
+    proposal_state: proposed
+  business.sales.stages:
+    value: Install, first flashcard created (activation), multi-day use, paid subscription.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0170
+    updated: 2026-11-22T11:10:48.956Z
+    proposal_state: proposed
+  business.sales.cycle:
+    value: Unknown. No paying users yet.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0171
+    updated: 2026-11-22T11:10:49.202Z
+    proposal_state: proposed
+  business.cx.churn:
+    value: Cancellation in one step, with no guilt-tripping copy.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0172
+    updated: 2026-11-22T11:10:49.504Z
+    proposal_state: proposed
+  business.cx.case_study:
+    value: Written permission from the user before any customer story is made public.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0173
+    updated: 2026-11-22T11:10:49.754Z
+    proposal_state: proposed
+  business.ops.roles:
+    value: One founder (Omid Ataei) covers brand, product and support.
+    stored_in: brand/instance/draft-facts.yaml
+    private_ref: null
+    status: draft
+    visibility: internal
+    authority: unverified
+    source_type: agent_suggestion
+    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
+    answer_id: ans-0174
+    updated: 2026-11-22T11:10:50.003Z
+    proposal_state: proposed

@@ -1296,3 +1296,59 @@ items:
     confidentiality: internal
     review_status: draft
     note: Reference only. Contents were not fetched.
+  - answer_id: ans-0168
+    question_id: business.finance.economics_note
+    source_reference: intake:int-0033#0
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.387Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0169
+    question_id: brand.campaign.offer_source
+    source_reference: intake:int-0033#1
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.722Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0170
+    question_id: business.sales.stages
+    source_reference: intake:int-0033#2
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:48.956Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0171
+    question_id: business.sales.cycle
+    source_reference: intake:int-0033#3
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.202Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0172
+    question_id: business.cx.churn
+    source_reference: intake:int-0033#5
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.504Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0173
+    question_id: business.cx.case_study
+    source_reference: intake:int-0033#6
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:49.754Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.
+  - answer_id: ans-0174
+    question_id: business.ops.roles
+    source_reference: intake:int-0033#7
+    source_type: agent_suggestion
+    captured_at: 2026-11-22T11:10:50.003Z
+    confidentiality: internal
+    review_status: draft
+    note: Reference only. Contents were not fetched.

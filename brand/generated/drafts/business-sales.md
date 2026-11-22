@@ -139,17 +139,19 @@ Origin: agent suggestion. This is not an owner-authored fact unless the status i
 
 - Question: `business.sales.stages`
 - Field: `business.sales.stages`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:48.956Z
+- Answer id: ans-0170
 
 Value:
 
-TBD
+Install, first flashcard created (activation), multi-day use, paid subscription.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.stages end -->
 
 <!-- field:business.sales.cycle start -->
@@ -157,17 +159,19 @@ TBD
 
 - Question: `business.sales.cycle`
 - Field: `business.sales.cycle`
-- Status: unanswered
+- Status: draft
 - Visibility: internal
 - Authority: unverified
-- Source: none
-- Uncertainty: none
-- Updated: n/a
-- Answer id: n/a
+- Source: agent_suggestion
+- Uncertainty: Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it.
+- Updated: 2026-11-22T11:10:49.202Z
+- Answer id: ans-0171
 
 Value:
 
-TBD
+Unknown. No paying users yet.
+
+Origin: agent suggestion. This is not an owner-authored fact unless the status is approved.
 <!-- field:business.sales.cycle end -->
 
 <!-- field:business.sales.consumer_path start -->
