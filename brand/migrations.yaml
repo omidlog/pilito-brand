@@ -1,0 +1,6 @@
+schema_version: 1
+applied:
+  - id: 0.0.0->0.3.0
+    touched:
+      - brand/engine.lock
+      - brand/migrations.yaml

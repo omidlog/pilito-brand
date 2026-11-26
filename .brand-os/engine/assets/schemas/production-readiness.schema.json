@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "brand-os/production-readiness/v1",
+  "title": "Brand OS production readiness (brand-os/production-readiness/v1)",
+  "description": "A separate projection over a task_context pack (fixes pack PR-E, GAP-05). It never changes the pack's own readiness, which is about context only. production_ready is ready only when no deterministic rule blocks; it is not an approval and carries no score. Visual taste and persuasion are needs_human_review or not_tested. authorizes is always empty. Guide: docs-internal/BRAND_RUNTIME.md § Production readiness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "tool", "status", "brand_id", "locale", "direction", "stage", "production_ready", "meaning", "notice", "task", "context", "asset_delivery", "renderer", "critical_constraints", "review", "checks", "blockers", "digest", "human_review_required", "authorizes", "permissions"],
+  "properties": {
+    "schema": { "const": "brand-os/production-readiness/v1" },
+    "tool": { "const": "production_readiness" },
+    "status": { "const": "ok" },
+    "brand_id": { "type": "string", "minLength": 1 },
+    "locale": { "enum": ["en", "fa", "tr"] },
+    "direction": { "enum": ["ltr", "rtl"] },
+    "stage": { "enum": ["pre_render", "artifact"] },
+    "production_ready": { "enum": ["ready", "not_ready"] },
+    "meaning": { "type": "string" },
+    "notice": { "type": "array", "items": { "type": "string" } },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "channel", "deliverable_count", "output_format", "required_assets"],
+      "properties": {
+        "type": { "enum": ["visual_design", "social_batch", "website_design", "product_ui", "paid_campaign_brief", "brand_identity", "personal_content"] },
+        "channel": { "type": ["string", "null"] },
+        "deliverable_count": { "type": "integer", "minimum": 1 },
+        "output_format": { "type": ["string", "null"] },
+        "required_assets": { "type": "array", "items": { "enum": ["logo"] }, "uniqueItems": true }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["readiness", "staleness", "pack_sha256", "pack_verified", "missing", "blocking_missing"],
+      "properties": {
+        "readiness": { "enum": ["ready", "partial", "blocked"], "description": "The pack's own readiness, copied unchanged: context only." },
+        "staleness": { "enum": ["current", "needs_review", "stale_pin", "unknown"] },
+        "pack_sha256": { "type": ["string", "null"] },
+        "pack_verified": { "type": "boolean" },
+        "missing": { "type": "array", "items": { "type": "string" } },
+        "blocking_missing": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "asset_delivery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "resolver", "transport", "references"],
+      "properties": {
+        "status": { "enum": ["verified", "not_tested"] },
+        "resolver": { "const": "visual_dna" },
+        "transport": { "const": "metadata_only" },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["asset_id", "role", "required", "state", "reason", "pinned_sha256", "current_sha256", "model_use", "delivery"],
+            "properties": {
+              "asset_id": { "type": "string" },
+              "role": { "type": "string" },
+              "required": { "type": "boolean" },
+              "state": { "enum": ["approved", "withheld", "missing", "changed", "not_tested"] },
+              "reason": { "type": ["string", "null"] },
+              "pinned_sha256": { "type": ["string", "null"] },
+              "current_sha256": { "type": ["string", "null"] },
+              "model_use": { "enum": ["not_allowed", "local_only", "external_allowed"] },
+              "delivery": { "enum": ["metadata_only", "none"] }
+            }
+          }
+        }
+      }
+    },
+    "renderer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "name", "version", "formats", "model", "network"],
+      "properties": {
+        "status": { "enum": ["available", "missing"] },
+        "name": { "type": ["string", "null"] },
+        "version": { "type": ["string", "null"] },
+        "formats": { "type": "array", "items": { "type": "string" } },
+        "model": { "type": "null" },
+        "network": { "const": false }
+      }
+    },
+    "critical_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_assets", "banned_claim_rules", "availability_rule"],
+      "properties": {
+        "required_assets": { "type": "array", "items": { "enum": ["logo"] } },
+        "banned_claim_rules": { "type": "integer", "minimum": 0 },
+        "availability_rule": { "type": "boolean" }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visual_taste", "visual_similarity", "semantic", "human_review_required"],
+      "properties": {
+        "visual_taste": { "const": "needs_human_review" },
+        "visual_similarity": { "const": "not_tested" },
+        "semantic": { "const": "not_tested" },
+        "human_review_required": { "const": true }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["check_id", "rule_owner", "input", "verdict", "hard", "blocks", "evidence", "label"],
+        "properties": {
+          "check_id": { "type": "string", "pattern": "^[a-z_]+\\.[a-z_0-9]+$" },
+          "rule_owner": {
+            "enum": ["task-context.pack", "runtime.renderers", "runtime.plan", "runtime.manifest", "content-bridge.claims", "visual-dna.resolver", "owner.task_input", "asset-catalog.svg-check", "asset-catalog.publication", "asset-catalog.normalize", "design-tokens.contrast", "strategic-coach", "human"]
+          },
+          "input": { "type": "string" },
+          "verdict": { "enum": ["pass", "warn", "fail", "not_tested", "needs_human_review"] },
+          "hard": { "type": "boolean" },
+          "blocks": { "type": "boolean" },
+          "evidence": { "type": "array", "maxItems": 20, "items": { "type": "string" } },
+          "label": { "type": "string" }
+        },
+        "allOf": [{ "if": { "properties": { "hard": { "const": false } } }, "then": { "properties": { "blocks": { "const": false } } } }]
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["check_id", "rule_owner", "input", "code"],
+        "properties": {
+          "check_id": { "type": "string" },
+          "rule_owner": { "type": "string" },
+          "input": { "type": "string" },
+          "code": { "type": "string" }
+        }
+      }
+    },
+    "digest": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "human_review_required": { "const": true },
+    "authorizes": { "type": "array", "maxItems": 0 },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publish", "schedule", "spend", "deploy", "approve"],
+      "properties": {
+        "publish": { "const": false },
+        "schedule": { "const": false },
+        "spend": { "const": false },
+        "deploy": { "const": false },
+        "approve": { "const": false }
+      }
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "production_ready": { "const": "ready" } } }, "then": { "properties": { "blockers": { "maxItems": 0 } } } },
+    { "if": { "properties": { "production_ready": { "const": "not_ready" } } }, "then": { "properties": { "blockers": { "minItems": 1 } } } }
+  ]
+}

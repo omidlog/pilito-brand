@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "brand-os/acceptance-report/v1",
+  "title": "Brand OS acceptance report (brand-os/acceptance-report/v1)",
+  "description": "What the pilot and workflow acceptance harness (fixes pack PR-F) actually ran and saw for the four journeys. Every check is PASS, FAIL or NOT_TESTED with evidence made of ids, counts, codes, exit codes and checksums only, never brand text, tokens or paths. A case is PASS only when every check passed; one FAIL makes it FAIL; otherwise NOT_TESTED. An honest `blocked` or `brief_only` production is not a production success. The report authorizes nothing. Guide: docs-internal/ACCEPTANCE.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "origin", "brand_id", "harness_commit", "started_at", "finished_at", "verdict", "totals", "cases", "workspace", "not_covered", "authorizes", "permissions"],
+  "definitions": {
+    "verdict": { "enum": ["PASS", "FAIL", "NOT_TESTED"] },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  },
+  "properties": {
+    "schema": { "const": "brand-os/acceptance-report/v1" },
+    "origin": { "enum": ["synthetic", "owner_brand"] },
+    "brand_id": { "type": "string", "minLength": 1 },
+    "harness_commit": { "type": ["string", "null"] },
+    "started_at": { "type": "string" },
+    "finished_at": { "type": "string" },
+    "verdict": { "$ref": "#/definitions/verdict" },
+    "totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["PASS", "FAIL", "NOT_TESTED"],
+      "properties": { "PASS": { "type": "integer", "minimum": 0 }, "FAIL": { "type": "integer", "minimum": 0 }, "NOT_TESTED": { "type": "integer", "minimum": 0 } }
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["case_id", "journey", "fixes", "profile", "verdict", "production", "pack_sha256", "metrics", "outputs", "checks"],
+        "properties": {
+          "case_id": { "enum": ["single_visual", "ten_instagram_posts", "website_brief", "paid_ad_brief"] },
+          "journey": { "enum": [1, 2, 3, 4] },
+          "fixes": { "type": "array", "items": { "type": "string", "pattern": "^FIX-0[1-8]$" } },
+          "profile": { "type": "string" },
+          "verdict": { "$ref": "#/definitions/verdict" },
+          "production": { "enum": ["produced", "brief_only", "blocked", "not_tested"] },
+          "pack_sha256": { "anyOf": [{ "$ref": "#/definitions/sha256" }, { "type": "null" }] },
+          "metrics": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["tool_calls", "owner_questions", "question_ids", "other_gaps", "artifacts", "seconds"],
+            "properties": {
+              "tool_calls": { "type": "integer", "minimum": 0 },
+              "owner_questions": { "type": "integer", "minimum": 0 },
+              "question_ids": { "type": "array", "items": { "type": "string" } },
+              "other_gaps": { "type": "integer", "minimum": 0 },
+              "artifacts": { "type": "integer", "minimum": 0 },
+              "seconds": { "type": "number", "minimum": 0 }
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["file", "sha256", "bytes"],
+              "properties": { "file": { "type": "string" }, "sha256": { "$ref": "#/definitions/sha256" }, "bytes": { "type": "integer", "minimum": 0 } }
+            }
+          },
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "fixes", "verdict", "evidence"],
+              "properties": {
+                "id": { "type": "string" },
+                "fixes": { "type": "string", "pattern": "^FIX-0[1-8]$" },
+                "verdict": { "$ref": "#/definitions/verdict" },
+                "evidence": { "type": "array", "maxItems": 24, "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "workspace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["snapshot", "root_unchanged"],
+      "properties": { "snapshot": { "const": true }, "root_unchanged": { "type": ["boolean", "null"] } }
+    },
+    "not_covered": { "type": "array", "items": { "type": "string" } },
+    "authorizes": { "type": "array", "maxItems": 0 },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publish", "schedule", "spend", "deploy"],
+      "properties": { "publish": { "const": false }, "schedule": { "const": false }, "spend": { "const": false }, "deploy": { "const": false } }
+    }
+  }
+}

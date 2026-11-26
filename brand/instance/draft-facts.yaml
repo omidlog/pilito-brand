@@ -1,1249 +1,2771 @@
-schema_version: 1
+schema_version: 2
 facts:
   business.identity.new_or_existing:
+    id: business.identity.new_or_existing
+    brand_id: pilito-brand
+    module: business
     value: new
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “پیلیتو کسب و کار جدیده”. Draft until a human approves it."
-    answer_id: ans-0034
-    updated: 2026-11-21T11:43:52.398Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0034
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.398Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:52.398Z
+    version: 1
+    revision_hash: 53c72b8b0555dce2c0a577be8f4408b1e5394d366ee7899422949852ac0984e5
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.identity.trade_name:
+    id: business.identity.trade_name
+    brand_id: pilito-brand
+    module: business
     value: Pilito
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: public
-    authority: confirmed_by_owner
-    source_type: owner
-    uncertainty: null
-    answer_id: ans-0063
-    updated: 2026-11-21T11:47:46.149Z
+    classification: public
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0063
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:47:46.149Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:47:46.149Z
+    version: 1
+    revision_hash: b947b8b326c991a19ebc800b3a37006aaebdf7fdb296ae9ffc1770bfe8f69592
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.offer.summary:
+    id: business.offer.summary
+    brand_id: pilito-brand
+    module: business
     value: A language-learning app built on flashcards, with other language-learning features and
       gamification.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “بیسش با فلش کارت هست و امکانات دیگه برای اموزش و یاد
-      گری زبان همراه با گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0037
-    updated: 2026-11-21T11:43:52.748Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0037
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.748Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:52.748Z
+    version: 1
+    revision_hash: ca308c8716a949bfb0641d639e02464e00bec88809c96bb9d4ac89e63322b54a
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.learning_model:
+    id: business.product.learning_model
+    brand_id: pilito-brand
+    module: business
     value: Flashcard-based learning plus other learning features and games; progression follows the
       CEFR-style levels A1, A2, B1, B2, C1, C2.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2 که بیشتر
-      زبان ها این لول هارو دارن”. Draft until a human approves it."
-    answer_id: ans-0054
-    updated: 2026-11-21T11:43:54.896Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0054
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.896Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.896Z
+    version: 1
+    revision_hash: ccabb9800c295bc530918671d50dbd858ac6c3c4096eb5d600adc19d1bc04fc0
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.learning_languages:
+    id: business.product.learning_languages
+    brand_id: pilito-brand
+    module: business
     value: Any language to any language (e.g. English speaker learning Arabic, Persian speaker learning
       English, Turkish speaker learning Spanish).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “این اپلیکیشن برای همه زبان هاست”. Draft until a
-      human approves it."
-    answer_id: ans-0055
-    updated: 2026-11-21T11:43:55.017Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0055
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.017Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.017Z
+    version: 1
+    revision_hash: e7fe5d22c36e0d26d526a120f8fa40d83169687082fe67f03a537ffb387d957e
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.gamification.enabled:
+    id: brand.gamification.enabled
+    brand_id: pilito-brand
+    module: brand
     value: yes
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “همراه با گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0044
-    updated: 2026-11-21T11:43:53.627Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0044
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.627Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.627Z
+    version: 1
+    revision_hash: 085957a7fce171c6f4452c51996bed84eb4870a5e2f51ac03e1fbe9f7cb62949
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.gamification.model:
+    id: brand.gamification.model
+    brand_id: pilito-brand
+    module: brand
     value: "Multiple games; points awarded by game difficulty; harder tasks earn more points. Example
       figures given: about 1000 points per level, about 3 points for a daily flashcard review."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “هر لول مثلا باید ۱۰۰۰
-      امتیاز بگیره”. Not a decision."
-    answer_id: ans-0061
-    updated: 2026-11-21T11:43:55.774Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0061
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.774Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.774Z
+    version: 1
+    revision_hash: e72d969a6c11e4de49818224da25562909d2771e4e49636f5d5ff3a22fed4573
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.gamification.mascot_link:
+    id: brand.gamification.mascot_link
+    brand_id: pilito-brand
+    module: brand
     value: Yes. The six mascot stages map to the six levels A1–C2.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “تو ۶ استپ میشه یک کاپیتان هواپیمای مسافرتی”. Draft
-      until a human approves it."
-    answer_id: ans-0062
-    updated: 2026-11-21T11:43:55.899Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0062
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.899Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.899Z
+    version: 1
+    revision_hash: 257ad501f6771a2e0e2c53e49d4938e502974d1a139ead95c493e33d24350124
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.mascot.enabled:
+    id: brand.mascot.enabled
+    brand_id: pilito-brand
+    module: brand
     value: yes
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “مسکاتشم یک طوطی خلبانه”. Draft until a human approves it."
-    answer_id: ans-0041
-    updated: 2026-11-21T11:43:53.243Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0041
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.243Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.243Z
+    version: 1
+    revision_hash: 287fdda4c1a1354969295d417a93d31762c4f85a783426d727fa16449f320de5
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.mascot.stage_count:
+    id: brand.mascot.stage_count
+    brand_id: pilito-brand
+    module: brand
     value: 6
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “منظورم از ۶ استپ یعنی A1 A2 B1 B2 C1 C2”. Draft
-      until a human approves it."
-    answer_id: ans-0057
-    updated: 2026-11-21T11:43:55.258Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0057
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.258Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.258Z
+    version: 1
+    revision_hash: 5c3fcff7a6da604ed84ef43b53d70e8f417b08247a0f55cd501b6cef1f8dc691
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.mascot.stage_story:
+    id: brand.mascot.stage_story
+    brand_id: pilito-brand
+    module: brand
     value: "1 (A1): egg with only the yellow crest poking out. 2 (A2): chick hatched out of the egg. 3
       (B1): aviator cap and goggles, red scarf, satchel. 4 (B2): leather aviator flight jacket. 5
       (C1): white pilot shirt with tie. 6 (C2): airline captain with cap and navy jacket."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Stage 3: aviator cap and goggles, red scarf,
-      satchel”. Draft until a human approves it."
-    answer_id: ans-0058
-    updated: 2026-11-21T11:43:55.380Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0058
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.380Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.380Z
+    version: 1
+    revision_hash: 9ae4047d21c19f85a132a2eab3fe346633032b0273c31174009cdce5cfc48433
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.identity.sector:
+    id: business.identity.sector
+    brand_id: pilito-brand
+    module: business
     value: education
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “اموزشی فک کنم دیگه”.
-      Not a decision."
-    answer_id: ans-0036
-    updated: 2026-11-21T11:43:52.635Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0036
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.635Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:52.635Z
+    version: 1
+    revision_hash: 6b5486b246819743149d81408d8215f4b22371cc33b21973ba20748ce2eece48
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.customer.primary_segment:
+    id: business.customer.primary_segment
+    brand_id: pilito-brand
+    module: business
     value: Everyone who wants to learn a language (no narrower segment chosen).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۳-همه”. Draft until a human approves it."
-    answer_id: ans-0040
-    updated: 2026-11-21T11:43:53.113Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0040
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.113Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.113Z
+    version: 1
+    revision_hash: b457b28c16f08cd5c14404604e0bef0fa3f8624c754ceb091eabd05e8106d953
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.color.roles:
+    id: brand.color.roles
+    brand_id: pilito-brand
+    module: brand
     value: "background #F5F2EA; text #17161C; surface #FFFFFF; accent-lavender #BBA8FF; celebrate
       #FFD43B; danger #FF6F4F; success #A8E9C8; accent-sky #AECBFF; accent-apricot #FFB84D"
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “Paper #F5F2EA”. Not a
-      decision."
-    answer_id: ans-0048
-    updated: 2026-11-21T11:43:54.179Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0048
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.179Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.179Z
+    version: 1
+    revision_hash: 2f8bf0713cd797be3f124b8ffb92b7165c5dac15969203eb8c4a43349ae95d86
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.type.scale:
+    id: brand.type.scale
+    brand_id: pilito-brand
+    module: brand
     value: "display: Big Shoulders Display, sans-serif; display-fa: Lalezar, sans-serif; body: Bricolage
       Grotesque, system-ui; body-fa: Vazirmatn, sans-serif; meta: Space Mono, monospace"
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “Display · Big Shoulders
-      900 · 112 / 64 / 30”. Not a decision."
-    answer_id: ans-0049
-    updated: 2026-11-21T11:43:54.295Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0049
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.295Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.295Z
+    version: 1
+    revision_hash: 259b3c43125fdd97e5335b64877227fc9084d8af46baab7ee229b6eff4ce1e73
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.type.rtl:
+    id: brand.type.rtl
+    brand_id: pilito-brand
+    module: brand
     value: Latin and Persian (Arabic script, right to left).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “نمایشی فارسی ·
-      لاله‌زار”. Not a decision."
-    answer_id: ans-0050
-    updated: 2026-11-21T11:43:54.405Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0050
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.405Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.405Z
+    version: 1
+    revision_hash: 3cd45bc5886928ee66fcc0f8b5d5b1ac9a7755b9994291fb99f48902e1e1e841
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.mascot.continuity:
+    id: brand.mascot.continuity
+    brand_id: pilito-brand
+    module: brand
     value: White parrot (cockatoo), yellow crest, dark grey beak, big black eyes, black outline in every
       stage.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Constant across stages: white parrot, yellow crest,
-      dark grey beak, big black eyes, black outline”. Draft until a human approves it."
-    answer_id: ans-0059
-    updated: 2026-11-21T11:43:55.498Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0059
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.498Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.498Z
+    version: 1
+    revision_hash: 6194a5a66c55a00a271033fa0be9fbaf776c38abeda397c88e0e2c0e287e1c1a
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.stage.current:
+    id: business.stage.current
+    brand_id: pilito-brand
+    module: business
     value: pre-revenue
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم پس درامد نداره”. Draft
-      until a human approves it."
-    answer_id: ans-0038
-    updated: 2026-11-21T11:43:52.865Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0038
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.865Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:52.865Z
+    version: 1
+    revision_hash: 0258dd39273aefedf4b9ca72e0a7142b57a9c8d7de98e5e807ab470f9b7f28e6
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.public_status:
+    id: business.product.public_status
+    brand_id: pilito-brand
+    module: business
     value: unshipped
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “هنوز تازه میخام درستش کنم”. Draft until a human
-      approves it."
-    answer_id: ans-0053
-    updated: 2026-11-21T11:43:54.765Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0053
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.765Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.765Z
+    version: 1
+    revision_hash: e783b7262849b5a3ca9d06fb1a89dd2f6a34eef7062cc362d94ea4a8c0072d18
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.market.geography:
+    id: business.market.geography
+    brand_id: pilito-brand
+    module: business
     value: First release on the Apple App Store, in every country the App Store supports.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نسخه اولی رو تو اپل استور میخام بزارم برای همه کشور
-      هایی که اون ساپورت میکنه”. Draft until a human approves it."
-    answer_id: ans-0039
-    updated: 2026-11-21T11:43:52.984Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0039
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:52.984Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:52.984Z
+    version: 1
+    revision_hash: c2314a0236fb11196bcba3d4d4812313191364fcdae4d9c2949d6490058f6e34
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.offer.value_proposition:
+    id: business.offer.value_proposition
+    brand_id: pilito-brand
+    module: business
     value: Creative learning with gamification and AI; simple and practical; priced lower than
       competitors.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “یادگیری خلاق با گیمیفیکیشن و هوش مصنوعی ، ساده و
-      کاربردی و قیمت ارزانتر از بقیه”. Draft until a human approves it."
-    answer_id: ans-0042
-    updated: 2026-11-21T11:43:53.364Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0042
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.364Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.364Z
+    version: 1
+    revision_hash: 5eff816ed0bdba7b6fc7e43432515051d500e4055a1e41026af94f51eded62f1
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.personality.traits:
+    id: brand.personality.traits
+    brand_id: pilito-brand
+    module: brand
     value: "In scope: cheerful, playful, friendly, smart, adventurous. Out of scope: childish, dry,
       serious."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “شاد و شوخ و صمیمی و باهوش و ماجراجو”. Draft until a
-      human approves it."
-    answer_id: ans-0043
-    updated: 2026-11-21T11:43:53.497Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0043
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.497Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.497Z
+    version: 1
+    revision_hash: c92357a10c8ec8ec6796d6a51fe41a650417a630da1590ca79cfa79df59a8d6e
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.availability_claim:
+    id: business.marketing.availability_claim
+    brand_id: pilito-brand
+    module: business
     value: do-not-claim
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نه نمیخاد چیزی بگی”. Draft until a human approves it."
-    answer_id: ans-0052
-    updated: 2026-11-21T11:43:54.642Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0052
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.642Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.642Z
+    version: 1
+    revision_hash: aa8defadc72a2ebfe0d89e9be25b2a08a8f4613be97982c89d0aeb842f03badb
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.objective:
+    id: business.marketing.objective
+    brand_id: pilito-brand
+    module: business
     value: Increase the number of downloads and purchases.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “تعداد خرید و دانلود”. Draft until a human approves it."
-    answer_id: ans-0051
-    updated: 2026-11-21T11:43:54.517Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0051
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:54.517Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:54.517Z
+    version: 1
+    revision_hash: 35fed5ad18a255244d60c69468aa8bc306faceaf7ca5600829e69e67f621b893
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.differentiation:
+    id: brand.strategy.differentiation
+    brand_id: pilito-brand
+    module: brand
     value: "Main differentiator: gamification. Also mentioned as hypotheses: lower price, more features,
       better UX. No evidence yet."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۴-گیمیفیکیشن”. Draft until a human approves it."
-    answer_id: ans-0045
-    updated: 2026-11-21T11:43:53.791Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0045
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:53.791Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:53.791Z
+    version: 1
+    revision_hash: 2ce410e310cdf047b1bbf2c5200467fe0b33bdae28fc8aae949005ea237a03a2
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.voice:
+    id: brand.verbal.voice
+    brand_id: pilito-brand
+    module: brand
     value: "Casual and warm, like a friend. Success example: \"Well done, that's right!\" Error example:
       \"Oops, looks like the internet is down. Try again!\""
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: owner
-    uncertainty: null
-    answer_id: ans-0081
-    updated: 2026-11-21T12:28:43.645Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0081
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:28:43.645Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:28:43.645Z
+    version: 1
+    revision_hash: a3287208480ce42535348f135aa9a7a8e4556ab8236d83a1d9d007b5a3014fbc
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.voice_pairs:
+    id: brand.verbal.voice_pairs
+    brand_id: pilito-brand
+    module: brand
     value: "do: Well done! You're one step closer to becoming a captain! | don't: The answer is correct."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: owner
-    uncertainty: null
-    answer_id: ans-0082
-    updated: 2026-11-21T12:28:43.802Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0082
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:28:43.802Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:28:43.802Z
+    version: 1
+    revision_hash: 9841edf12bae84b2ed28946db83b79e51f51b9795d91db91b6c8b77422acceaa
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.mascot.personality:
+    id: brand.mascot.personality
+    brand_id: pilito-brand
+    module: brand
     value: "Brand personality plus a little mischievous. He may pop up from the bottom of the app, or
       pass a friend off as himself: a small, clueless lamb wearing a hat or headband with a fake
       yellow parrot crest, made to play the parrot's role. Forbidden: mocking the user. Allowed:
       showing sadness (e.g. when the user is away)."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “انگار طوطی دوستشو میخاد جای خودش قالب بکنه اون بره
-      هم طفلکی از همه جا بی خبر باید نقش طوطی بازی بکنه”. Draft until a human approves it."
-    answer_id: ans-0056
-    updated: 2026-11-21T11:43:55.139Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0056
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.139Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.139Z
+    version: 1
+    revision_hash: 60a6680b117b40b2249046d32d39f9ddc02d9054e28a0e4ce70d567ef3a2ba15
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.illustration.character:
+    id: brand.illustration.character
+    brand_id: pilito-brand
+    module: brand
     value: "Yes. The pilot-parrot mascot, named Pilito (same as the app), plus a second character named
       Copi: a small, clueless lamb the parrot sometimes passes off as himself, wearing a hat or
       headband with a fake yellow parrot crest."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اره اسمش پیلیتو هست”. Draft until a human approves it."
-    answer_id: ans-0060
-    updated: 2026-11-21T11:43:55.648Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0060
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T11:43:55.648Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T11:43:55.648Z
+    version: 1
+    revision_hash: 915ddc981c59f17b9c1b62fdb27f340f61272d1fb30ec54a25701b85cec6bd9a
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.name_use:
+    id: brand.verbal.name_use
+    brand_id: pilito-brand
+    module: brand
     value: Always written exactly 'Pilito' (capital P, rest lowercase). No other spelling.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Pilito فقط درسته”. Draft until a human approves it."
-    answer_id: ans-0098
-    updated: 2026-11-21T12:30:58.296Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0098
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.296Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:58.296Z
+    version: 1
+    revision_hash: eacfe11487e12bf154aab0482cc2f8fa78a40b838d12dd9ec5ac2a393148ffaf
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.identity.public_name_override:
+    id: brand.identity.public_name_override
+    brand_id: pilito-brand
+    module: brand
     value: "Pilito: Language Flashcards (Apple App Store listing name; the brand name itself stays
       Pilito)."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Pilito: Language Flashcards این باشه”. Draft until a
-      human approves it."
-    answer_id: ans-0099
-    updated: 2026-11-21T12:30:58.445Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0099
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.445Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:58.445Z
+    version: 1
+    revision_hash: 2aa87d18524cb77476c189a5837e9db1dae30d1875ba38396329db095c1fd0d6
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.legal.trademark:
+    id: business.legal.trademark
+    brand_id: pilito-brand
+    module: business
     value: none
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۳- هیچ کاری نکردم”. Draft until a human approves it."
-    answer_id: ans-0103
-    updated: 2026-11-21T12:30:59.069Z
-  business.sales.consumer_path:
-    value: null
-    stored_in: brand/instance/draft-facts.yaml
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0103
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:59.069Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:59.069Z
+    version: 1
+    revision_hash: d091691f29d6873dd57d1c90dad8c8e785dbfad82477dae2fd3d5ccb9e411d58
+    review_due: null
+    related_ids: []
     private_ref: null
+  business.sales.consumer_path:
+    id: business.sales.consumer_path
+    brand_id: pilito-brand
+    module: business
+    value: null
+    value_type: text
     status: unknown
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Unresolved: the owner said this is not decided yet: “۵-هنوز تصمیم نگرفتم”. No value
-      was invented."
-    answer_id: ans-0067
-    updated: 2026-11-21T12:18:18.478Z
-    proposal_state: unresolved
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0067
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:18:18.478Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 1b0e2f8475f08e88d5aa8d0677e2fbf3dd8133dc6b69679e78358306965ed313
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.problem.pains:
+    id: business.problem.pains
+    brand_id: pilito-brand
+    module: business
     value: "Owner's own experience (not user research): existing apps are very boring and monotonous,
       expensive, and offer nothing new."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۲- تجربه خودم”. Draft until a human approves it."
-    answer_id: ans-0089
-    updated: 2026-11-21T12:30:56.885Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0089
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:56.885Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:56.885Z
+    version: 1
+    revision_hash: e74d8adbf5078280732774b741b9df03256b2c64ed53fa12a000a17001c1e37d
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.identity.legal_name:
+    id: business.identity.legal_name
+    brand_id: pilito-brand
+    module: business
     value: FIKO AI LABS LTD
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Company name: FIKO AI LABS LTD”. Draft until a human
-      approves it."
-    answer_id: ans-0088
-    updated: 2026-11-21T12:30:56.737Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0088
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:56.737Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:56.737Z
+    version: 1
+    revision_hash: 6c46c7ac7f96920ebab4d854378c589841f2be996f7944bfd9627e00c2a1e111
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.legal.entity:
+    id: business.legal.entity
+    brand_id: pilito-brand
+    module: business
     value: Private limited company on the UK Companies House register, company number 16502068, status
       Active, incorporated 6 June 2025. Pilito is a product of this company; the Apple App Store
       developer account is held by it (owner stated).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “Company type: Private limited Company”. Draft until
-      a human approves it."
-    answer_id: ans-0102
-    updated: 2026-11-21T12:30:58.905Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0102
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.905Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:58.905Z
+    version: 1
+    revision_hash: e3c0baae161fed521d7ffd2cd1b7286d856bd082dd043b80c8195aa8a0b32f74
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.model.revenue:
+    id: business.model.revenue
+    brand_id: pilito-brand
+    module: business
     value: Subscription is the main revenue. Plain flashcard use stays free; the free tier carries
       in-app ads, which must not be intrusive.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اشتراک پول اصلی هست”. Draft until a human approves it."
-    answer_id: ans-0090
-    updated: 2026-11-21T12:30:57.043Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0090
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.043Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.043Z
+    version: 1
+    revision_hash: e1bc239c6871e0ffed668f682bab979abced420672c3a691dd19e837fe9f8105
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.model.defensibility:
+    id: business.model.defensibility
+    brand_id: pilito-brand
+    module: business
     value: "Unknown. Hypothesis: the branding and mascot storytelling may be hard to copy; the product
       itself could be copied."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “برندینگ و داستان سرایی
-      که برای این برند با مسکات هاش دارم شاید سخت بتونه”. Not a decision."
-    answer_id: ans-0091
-    updated: 2026-11-21T12:30:57.203Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0091
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.203Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.203Z
+    version: 1
+    revision_hash: f35cb49e2262a47fb40151821df188ba23726004736d42df1cb160fbab20568e
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.plan.milestone:
+    id: business.plan.milestone
+    brand_id: pilito-brand
+    module: business
     value: "In order: finish the MVP, launch on the Apple App Store, reach the first 100 users."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۳-به ترتیسب همونی هست که گفتی”. Draft until a human
-      approves it."
-    answer_id: ans-0092
-    updated: 2026-11-21T12:30:57.345Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0092
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.345Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.345Z
+    version: 1
+    revision_hash: 5d3f461c934aa9072ce31aac02c4a3a6b46afc1e116b681b688269af7eabd84f
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.plan.risks:
+    id: business.plan.risks
+    brand_id: pilito-brand
+    module: business
     value: "Low uptake: there is no paid marketing budget; growth depends on organic discovery, SEO and
       GEO, especially being recommended by AI assistants."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “میترسم استقبال نشه چون باجت مارکتینگ برای تبلیغات
-      ندارم”. Draft until a human approves it."
-    answer_id: ans-0093
-    updated: 2026-11-21T12:30:57.506Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0093
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.506Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.506Z
+    version: 1
+    revision_hash: 6885adaa2959ee96e91714b445bc3d6736dc90b3c1f3e9eabaf7a59fa2ee6f79
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.channels:
+    id: business.marketing.channels
+    brand_id: pilito-brand
+    module: business
     value: "In plan: organic discovery, SEO, GEO (recommendations by AI assistants). Not doing: paid
       advertising."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “بیشتر امیدم به ارکانیک دیدن و seo and geo هست مخصوصا
-      توسیه هوش مصنوعی ها”. Draft until a human approves it."
-    answer_id: ans-0101
-    updated: 2026-11-21T12:30:58.746Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0101
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:58.746Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:58.746Z
+    version: 1
+    revision_hash: 58399d2b66de713c93b6aa9946403b9fac37d27e20962fdd03fcc0cdbbead235
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.purpose:
+    id: brand.strategy.purpose
+    brand_id: pilito-brand
+    module: brand
     value: Language learning for everyone, at a price everyone can afford.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “یادگیری زبان برای همه، با قیمتی که همه بتوانند
-      بپردازند.”. Draft until a human approves it."
-    answer_id: ans-0094
-    updated: 2026-11-21T12:30:57.661Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0094
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.661Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.661Z
+    version: 1
+    revision_hash: 5b9473d2c7ff6c740d4b93c3414739f6ad66e8a7640388e90c4478001cc51352
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.vision:
+    id: brand.strategy.vision
+    brand_id: pilito-brand
+    module: brand
     value: "ASPIRATION: Pilito becomes one of the world's top 5 most popular language-learning apps,
       possibly acquired by a large brand."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “پیلیتو چزو ۵ تا اپلیکیشن محبوب اموزش زبان دنیا هست”.
-      Draft until a human approves it."
-    answer_id: ans-0095
-    updated: 2026-11-21T12:30:57.806Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0095
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.806Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.806Z
+    version: 1
+    revision_hash: da9bfb70b3a44024351153f67b40eeca451a436c8b50979f7e6966486a9d1c55
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.social.channels:
+    id: brand.social.channels
+    brand_id: pilito-brand
+    module: brand
     value: Instagram, LinkedIn, TikTok, X, YouTube.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اینستاگرام ، لینکدین، تیک تاک ، x, youtube”. Draft
-      until a human approves it."
-    answer_id: ans-0104
-    updated: 2026-11-21T12:30:59.231Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0104
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:59.231Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:59.231Z
+    version: 1
+    revision_hash: 6836e64a89f370db0a50a6a0d6eea81336c24efac49166c50656605e2836a457
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.values:
+    id: brand.strategy.values
+    brand_id: pilito-brand
+    module: brand
     value: No intrusive ads.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “تبلیغ آزاردهنده نمی‌گذاریم”. Draft until a human
-      approves it."
-    answer_id: ans-0096
-    updated: 2026-11-21T12:30:57.977Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0096
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:30:57.977Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:30:57.977Z
+    version: 1
+    revision_hash: 0ad11a3343cd14ee959b497a6fbfceaf127aa4202242935693bad76c1dc03676
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.promise:
+    id: brand.strategy.promise
+    brand_id: pilito-brand
+    module: brand
     value: Get Pilito to captain, and you'll be ready to take off in your new language.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: owner
-    uncertainty: null
-    answer_id: ans-0106
-    updated: 2026-11-21T12:33:21.339Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0106
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:33:21.339Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:33:21.339Z
+    version: 1
+    revision_hash: c44e7a438b77e3be3f55ed465ba20ebb30e47883f088dd64a8b409552374d959
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.tagline:
+    id: brand.verbal.tagline
+    brand_id: pilito-brand
+    module: brand
     value: Fly through languages.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: owner
-    uncertainty: null
-    answer_id: ans-0105
-    updated: 2026-11-21T12:33:21.178Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0105
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:33:21.178Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:33:21.178Z
+    version: 1
+    revision_hash: ecc65e7e7e804d980ebc6f004029e31cc050e85ef4851e5a3e89ab1b776446c2
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.experience:
+    id: brand.strategy.experience
+    brand_id: pilito-brand
+    module: brand
     value: "Shared across product, support and marketing: never annoying, cheerful, and easy enough that
       anyone from a 10-year-old child to a 70-year-old grandmother understands it."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “ازاردهنده که اصلا نباید باشه شاد هم باشه ولی استفاده
-      اون راحت باشه از بچه ۱۰ ساله تا پیرزن ۷۰ ساله بفهمش”. Draft until a human approves it."
-    answer_id: ans-0133
-    updated: 2026-11-21T12:51:55.204Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0133
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.204Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.204Z
+    version: 1
+    revision_hash: b1ed5add2256cb48abde6a279528e7e0e8da368b8ad39875bed98ba6447984ba
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.forbidden:
+    id: brand.verbal.forbidden
+    brand_id: pilito-brand
+    module: brand
     value: No political or religious jokes. No superlative claims such as "the best app in the world".
       No guaranteed-outcome claims such as "become fluent in 30 days".
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۳-هر ۳ درسته”. Draft until a human approves it."
-    answer_id: ans-0134
-    updated: 2026-11-21T12:51:55.402Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0134
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.402Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.402Z
+    version: 1
+    revision_hash: c9ce06925f41865e4f8d83d209a55a245d5d11aa3ee94e1a6719a3d8b10a76ac
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.localization:
+    id: brand.verbal.localization
+    brand_id: pilito-brand
+    module: brand
     value: "App interface is English first, switchable to: Arabic, Persian, Turkish, Spanish, French,
       Chinese, Hindi, Urdu, Japanese, Russian, German, Portuguese (Brazil), Korean and Indonesian.
       Languages can be rolled out gradually after launch. Translations are produced and checked by
       AI."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “با حرفات موافقم انجام بده اونم اردو هست”. Draft
-      until a human approves it."
-    answer_id: ans-0135
-    updated: 2026-11-21T12:51:55.581Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0135
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.581Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.581Z
+    version: 1
+    revision_hash: 7f43759e29e36d96a5633e9736ccd7e03970e1892c577783402596be35111b96
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.verbal.microcopy:
+    id: brand.verbal.microcopy
+    brand_id: pilito-brand
+    module: brand
     value: "Buttons: short, verb-first (e.g. \"Start\", \"Next\"). Notifications: at most one per day,
       in Pilito's voice."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۵-درسته”. Draft until a human approves it."
-    answer_id: ans-0136
-    updated: 2026-11-21T12:51:55.759Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0136
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.759Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.759Z
+    version: 1
+    revision_hash: 0e602007a2ae921c42961da89df3052afefa421f04e02acde7c45c241598aed1
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.logo.variants:
+    id: brand.logo.variants
+    brand_id: pilito-brand
+    module: brand
     value: For now only the existing wordmark. No Persian logo version. Other variants will be supplied
       by the owner later.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نسخه فارسی نداره”. Draft until a human approves it."
-    answer_id: ans-0137
-    updated: 2026-11-21T12:51:55.948Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0137
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.948Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.948Z
+    version: 1
+    revision_hash: f0de1a51245b7e95c36115c13598718420e8da41a5d824dd0512696fb180ed22
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.strategy.decision_rule:
+    id: brand.strategy.decision_rule
+    brand_id: pilito-brand
+    module: brand
     value: "Accept a brand idea only if both are true: (1) it makes learning more fun; (2) both a
       10-year-old child and a 70-year-old grandmother would understand it."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “مثالهات درسته”. Draft until a human approves it."
-    answer_id: ans-0132
-    updated: 2026-11-21T12:51:55.011Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0132
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:55.011Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:55.011Z
+    version: 1
+    revision_hash: b8b985944e2fb954e3a465ae50f1d9b8dc3bc7d9876f1006361178b20fe3d676
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.social.localization:
+    id: brand.social.localization
+    brand_id: pilito-brand
+    module: brand
     value: For now social posts are in English only. How other languages will be handled is not decided.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “مطمعن نیستم فعلا که
-      انگلیسی فقط”. Not a decision."
-    answer_id: ans-0152
-    updated: 2026-11-21T12:51:58.802Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0152
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.802Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:58.802Z
+    version: 1
+    revision_hash: dd102ab5e118e6a0298e42101e434fa1e16fba2d7eee85f50d2cdfe090981be4
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.logo.misuse:
+    id: brand.logo.misuse
+    brand_id: pilito-brand
+    module: brand
     value: Do not stretch or distort; do not recolour outside approved colours; do not rotate; do not
       place on busy or low-contrast backgrounds; do not add effects (shadows, outlines, gradients,
       glows); do not alter letterforms or spacing; do not crop; do not rebuild or retype the
       wordmark.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “همینایی که گفتی ممنوعه و موارد استاندارد ممنوعه ها”.
-      Draft until a human approves it."
-    answer_id: ans-0140
-    updated: 2026-11-21T12:51:56.512Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0140
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.512Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:56.512Z
+    version: 1
+    revision_hash: 972cf45cef0abc1ee9fb6b012cee5ae3fb287ec31b66b3d63de5c08225a8dde5
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.logo.masters:
+    id: brand.logo.masters
+    brand_id: pilito-brand
+    module: brand
     value: "This repository: brand/assets/logo/pilito-wordmark.svg (asset.logo.pilito-wordmark). No
       Figma master recorded."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “فایل لوگو رو دادم بهت”. Draft until a human approves it."
-    answer_id: ans-0141
-    updated: 2026-11-21T12:51:56.698Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0141
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.698Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:56.698Z
+    version: 1
+    revision_hash: 774958ab9a16b416973dfe5123f18aa3eba8846872be59f940f366e4621f169c
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.color.themes:
+    id: brand.color.themes
+    brand_id: pilito-brand
+    module: brand
     value: light-only
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نه دارک مود نداره”. Draft until a human approves it."
-    answer_id: ans-0142
-    updated: 2026-11-21T12:51:56.879Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0142
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.879Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:56.879Z
+    version: 1
+    revision_hash: 1c6415f12bb6ea790290ca7926abed9278ffcdec593d81fb06524c9b39a7543f
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.logo.clear_space:
+    id: brand.logo.clear_space
+    brand_id: pilito-brand
+    module: brand
     value: Keep clear space on every side equal to the height of the lowercase 'i' stem in the wordmark
       (about 0.4x the wordmark height).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0138
-    updated: 2026-11-21T12:51:56.134Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0138
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.134Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:56.134Z
+    version: 1
+    revision_hash: 5a27f712ad903dffc184551a7f1c94de738ae9345f83b4aa3cbed7ed15bde159
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.logo.min_size:
+    id: brand.logo.min_size
+    brand_id: pilito-brand
+    module: brand
     value: "min-size: 80px; clear-space: 0.4x"
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0139
-    updated: 2026-11-21T12:51:56.324Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0139
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:56.324Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:56.324Z
+    version: 1
+    revision_hash: 2f5366dd0ef43d242d2d8b98815c30f283100f6b0febdf3ac35da39c4d0262ec
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.color.semantics:
+    id: brand.color.semantics
+    brand_id: pilito-brand
+    module: brand
     value: "Success (correct answer): Mint #A8E9C8. Danger/error (wrong answer): Coral #FF6F4F. Warning:
       Apricot #FFB84D. Info: Sky #AECBFF. Text on these is always Ink #17161C."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0143
-    updated: 2026-11-21T12:51:57.062Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0143
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.062Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:57.062Z
+    version: 1
+    revision_hash: ebb10736171329e08d7cf29c4846941e1108f1c0b6dd8dbba67ebbc67f07aa6f
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.color.contrast:
+    id: brand.color.contrast
+    brand_id: pilito-brand
+    module: brand
     value: aa
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “با همه موافقم”. Draft until a human approves it."
-    answer_id: ans-0144
-    updated: 2026-11-21T12:51:57.256Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0144
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.256Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:57.256Z
+    version: 1
+    revision_hash: d5afb49e0db6c3601744e7f1a5765b388564830c7c22e1b213af1f552abf991c
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.color.print:
+    id: brand.color.print
+    brand_id: pilito-brand
+    module: brand
     value: "Not applicable: no print yet."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۵- فعلا چاپ ندارم”. Draft until a human approves it."
-    answer_id: ans-0145
-    updated: 2026-11-21T12:51:57.444Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0145
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.444Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:57.444Z
+    version: 1
+    revision_hash: bfd1fbf69da46b8c652929a13402e499e304f370f91e48ac0598aae98cbae201
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.type.intent:
+    id: brand.type.intent
+    brand_id: pilito-brand
+    module: brand
     value: "Loud headline, quiet body: headlines bold and energetic, body text calm and highly readable."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۶ موافقم”. Draft until a human approves it."
-    answer_id: ans-0146
-    updated: 2026-11-21T12:51:57.643Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0146
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.643Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:57.643Z
+    version: 1
+    revision_hash: b991d67e9e2c2a8f7314bc95b4438f23991d7ece5e922652d26442c607ade39c
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.type.license:
+    id: brand.type.license
+    brand_id: pilito-brand
+    module: brand
     value: All five families are Google Fonts under the SIL Open Font License 1.1 (Bricolage Grotesque,
       Lalezar, Vazirmatn and Space Mono per the licence notices in the owner's design file; Big
       Shoulders Display also from Google Fonts). Commercial use in the app and marketing is allowed;
       keep the licence text with bundled font files.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۱- اره”. Draft until a human approves it."
-    answer_id: ans-0147
-    updated: 2026-11-21T12:51:57.827Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0147
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:57.827Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:57.827Z
+    version: 1
+    revision_hash: 7e1a027081f5b40c3be29e4283dce2dfbe044bba39a364ec0ff09c313e13ffc4
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.type.fallback:
+    id: brand.type.fallback
+    brand_id: pilito-brand
+    module: brand
     value: "If a brand font fails to load: the system font (San Francisco on iOS) for Latin text;
       Vazirmatn or the system font for Persian and Arabic."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “* موافقم”. Draft until a human approves it."
-    answer_id: ans-0148
-    updated: 2026-11-21T12:51:58.025Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0148
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.025Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:58.025Z
+    version: 1
+    revision_hash: ab204118165f35941facd7f29b2da4cbe84d080d85cbd38f59dc1089d5602f8e
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.journey:
+    id: business.marketing.journey
+    brand_id: pilito-brand
+    module: business
     value: "Hypothesis. Awareness: App Store search, SEO, AI-assistant recommendations, social posts.
       Consideration/trial: free download and free basic flashcards. Conversion: subscription for
       games and full features. Retention: Pilito's growth, points and games. Advocacy/referral: not
       defined yet."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “* ۳-موافقم”. Draft until a human approves it."
-    answer_id: ans-0149
-    updated: 2026-11-21T12:51:58.220Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0149
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.220Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:58.220Z
+    version: 1
+    revision_hash: 7a9075b99e6e2c4b24690882ce2eb87518a82dccbc629c67949c9d1ca459a222
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.pillars:
+    id: business.marketing.pillars
+    brand_id: pilito-brand
+    module: business
     value: Short language tips; stories and mischief of Pilito and Copi; user progress through the
       levels (A1 to C2). No behind-the-scenes content.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “پشت صحنه نیاز نیست  ، برای شروع خوبه”. Draft until a
-      human approves it."
-    answer_id: ans-0150
-    updated: 2026-11-21T12:51:58.411Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0150
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.411Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:58.411Z
+    version: 1
+    revision_hash: b97d70d6d5c876882443398ca0be9595598d5917d436e1f74d0a39d097ed3e81
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.attribution:
+    id: business.marketing.attribution
+    brand_id: pilito-brand
+    module: business
     value: self-reported
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: approved
-    visibility: internal
-    authority: confirmed_by_owner
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “اره موافقم”. Draft until a human approves it."
-    answer_id: ans-0151
-    updated: 2026-11-21T12:51:58.609Z
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0151
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-21T12:51:58.609Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: 2026-11-21T12:51:58.609Z
+    version: 1
+    revision_hash: 71182ade60e97dcf22c2f20fde5ec36cc7b157eb819f96bcb102c2fa60c1c18f
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.portfolio:
+    id: business.product.portfolio
+    brand_id: pilito-brand
+    module: business
     value: "Pilito language-learning app for any language pair: flashcards with spaced review, quizzes,
       a dictionary and language packs. Web app first, then iOS and Android apps on the same server.
       Offline mode was dropped. Many further ideas exist but are out of scope for the first
       version."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “همچنین کلی ایده دیگه هست ولی نسخه اولیه رو با اینا
-      گفتم ببندیم، افلاین بودنشم بیخیال شدیم دیگه وقتی سرور هست”. Draft until a human approves it."
-    answer_id: ans-0153
-    updated: 2026-11-22T11:01:46.394Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0153
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:01:46.394Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: f7979d071ed93a358d7ed91796c5c8d2a95725a59efb7d70b4ac9019c144ee5a
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.jobs:
+    id: business.product.jobs
+    brand_id: pilito-brand
+    module: business
     value: Learn the words of a new language and truly remember them with only a few minutes a day; and
       keep going with language learning like a game instead of quitting midway.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “لغت‌های یه زبان جدید رو یاد بگیرم و واقعاً یادم
-      بمونه، فقط با چند دقیقه در روز”. Draft until a human approves it."
-    answer_id: ans-0154
-    updated: 2026-11-22T11:01:46.623Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0154
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:01:46.623Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: f9a3004cacf60306499b5def9962195bf1e474df10ce6fe3353761d4c1aa44be
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.mvp:
+    id: business.product.mvp
+    brand_id: pilito-brand
+    module: business
     value: "First releasable slice: flashcards with spaced review, quizzes, a dictionary and language
       packs for any language pair, server-based, released on the Apple App Store in every supported
       country. Non-goals for v1: offline mode and all other feature ideas beyond this list."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نسخه اولیه رو با اینا گفتم ببندیم”. Draft until a
-      human approves it."
-    answer_id: ans-0155
-    updated: 2026-11-22T11:01:46.793Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0155
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:01:46.793Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: c8915419dd35a4a489d143027c2c4c8eef3d0d078c348cb41c2e9d156f863300
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.marketing.utm:
+    id: business.marketing.utm
+    brand_id: pilito-brand
+    module: business
     value: All lowercase, hyphens, no spaces. utm_source = where the link is placed (instagram,
       telegram, x, ...). utm_medium = social | paid-social | email | referral | bio. utm_campaign =
       pilito-<yyyy-mm>-<name> (e.g. pilito-2026-12-launch). utm_content = post or ad variant (e.g.
       reel-a, story-2).
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “UTM اوکیه”. Draft until a human approves it."
-    answer_id: ans-0156
-    updated: 2026-11-22T11:01:46.965Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0156
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:01:46.965Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 4d72c07e95e16829535233e9caace01baf78ce936dd0b1e4f00babcdc5e093dd
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.roadmap:
+    id: business.product.roadmap
+    brand_id: pilito-brand
+    module: business
     value: "Now: finish the web app and the MVP. Next: release on the Apple App Store (iOS) and reach
       the first 100 users. Later: Android app and further feature ideas. No committed dates."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۱- درسته جوابت”. Draft until a human approves it."
-    answer_id: ans-0157
-    updated: 2026-11-22T11:06:18.702Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0157
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:18.702Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 854203cef8278b592676801a502260f408a18f8a0840b191811780463a2d96ac
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.accessibility:
+    id: business.product.accessibility
+    brand_id: pilito-brand
+    module: business
     value: No accessibility target set and no audit done yet; deferred until the app grows and earns
       revenue.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “هنوز بررسی نکردم بزا اپ رشد بکنه پول در بیاره بعدا”.
-      Draft until a human approves it."
-    answer_id: ans-0158
-    updated: 2026-11-22T11:06:19.366Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0158
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:19.366Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 53acac00fb239009246885426a9e7d6acd823053d1961392c7791e78b94da378
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.activation:
+    id: business.product.activation
+    brand_id: pilito-brand
+    module: business
     value: A new user counts as activated when they create (save) their first flashcard. Tentative
       definition; no completion rate measured.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “فک کنم الین فلش کارتو
-      ثبت کنه”. Not a decision."
-    answer_id: ans-0159
-    updated: 2026-11-22T11:06:19.682Z
-    proposal_state: tentative
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0159
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:19.682Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 5285713f817542783443cefe8bc9ffc9ef2da184dae5e9101510b7ca8b9648ed
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.product.evidence_policy:
+    id: business.product.evidence_policy
+    brand_id: pilito-brand
+    module: business
     value: Cite user-research evidence in the repo only by study id and date; never store personal data,
       recordings or names in the repository; raw research material stays outside the repo.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۶-موافقم”. Draft until a human approves it."
-    answer_id: ans-0160
-    updated: 2026-11-22T11:06:19.948Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0160
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:19.948Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 4d545b7743c408a11e89ad166e4a1c1a7759e454749f7135144fa473019fca3c
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.buyer:
+    id: business.sales.buyer
+    brand_id: pilito-brand
+    module: business
     value: "same: the buyer is the learner who uses the app."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “پدر مادر چیه دیگه”. Draft until a human approves it."
-    answer_id: ans-0161
-    updated: 2026-11-22T11:06:20.230Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0161
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:20.230Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 94e448ecb01b75b1a04dce114953557ec0092246980ec140ca2ec9c455a84655
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.motion:
+    id: business.sales.motion
+    brand_id: pilito-brand
+    module: business
     value: self-serve
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “مدل فروش اشتراکی دیگه البته نسخه محدود هم دارم که
-      تبلیغات داره و مثلا فقط فلش کاررت داره”. Draft until a human approves it."
-    answer_id: ans-0162
-    updated: 2026-11-22T11:06:33.928Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0162
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:06:33.928Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 3884132d0b64ab579edae9d070fcf3b1ff5ac27a633ee1951e69b00ed47669a6
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.onboarding:
+    id: business.cx.onboarding
+    brand_id: pilito-brand
+    module: business
     value: In the first session the person picks their languages, creates their first flashcards, does
       one short review, and leaves knowing they should come back tomorrow. Exact screens are TBD.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۱- موافقم”. Draft until a human approves it."
-    answer_id: ans-0163
-    updated: 2026-11-22T11:09:26.810Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0163
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:09:26.810Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: c713e1e4b4f926a632ffb5efb2fa409e8761062e194ed002c96bd6b31f91504f
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.channels:
+    id: business.cx.channels
+    brand_id: pilito-brand
+    module: business
     value: Email support only (tentative). Explicitly no phone support.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “قطعا تلفن رو ندارم ولی
-      فک کنم ایمیل بهتر باشه”. Not a decision."
-    answer_id: ans-0164
-    updated: 2026-11-22T11:09:27.596Z
-    proposal_state: tentative
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0164
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:09:27.596Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 8a54885a7f8c1bfa75853ac94c00591ddf99d04c5d1fdf56a90f9ebfdbba436f
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.sla:
+    id: business.cx.sla
+    brand_id: pilito-brand
+    module: business
     value: Reply to support requests within 48 hours.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “۴۸ ساعت خوبه”. Draft until a human approves it."
-    answer_id: ans-0165
-    updated: 2026-11-22T11:09:28.097Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0165
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:09:28.097Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 8e24102d2e11fe7dd9e263525cc39ec434ba028f87e17758a1de7d2a05195729
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.pricing:
+    id: business.sales.pricing
+    brand_id: pilito-brand
+    module: business
     value: Unknown. No approved price; competitor pricing research is still to be done.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “نه هنوز باید تحقیق کنم رقبا رو بررسی کنم”. Draft
-      until a human approves it."
-    answer_id: ans-0166
-    updated: 2026-11-22T11:09:28.453Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0166
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:09:28.453Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 87c4382228b741d51c0667a9068bab49fced7a509f8c8454d928f57345fc01eb
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.discount:
+    id: business.sales.discount
+    brand_id: pilito-brand
+    module: business
     value: Frequent periodic promotional discounts (for example Black Friday), especially on the annual
       plan. Who approves discounts and the maximum discount are not yet defined.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “بلک فرایدی و تخفیف های
-      دوره ای زیاد هست مخصوصا برای پلن سالیانه”. Not a decision."
-    answer_id: ans-0167
-    updated: 2026-11-22T11:09:29.008Z
-    proposal_state: tentative
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0167
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:09:29.008Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 68b5a9331f090fe88c656de2ff127455356f151128d85f0ea2e6c3645b1f115d
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.finance.economics_note:
+    id: business.finance.economics_note
+    brand_id: pilito-brand
+    module: business
     value: Cannot be assessed until a canonical price exists in business.sales.pricing; then check that
       it covers server and maintenance costs.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0168
-    updated: 2026-11-22T11:10:48.387Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0168
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:48.387Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: dad99befd918430e9c8cc186f5213713733bef78ad3685829dc7baab8e7921f9
+    review_due: null
+    related_ids: []
+    private_ref: null
   brand.campaign.offer_source:
+    id: brand.campaign.offer_source
+    brand_id: pilito-brand
+    module: brand
     value: business.sales.pricing and business.product.public_status. Never a slide or any other copy.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0169
-    updated: 2026-11-22T11:10:48.722Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0169
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:48.722Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 98c2744ae61d8d7c10303d01b3a42639ac87e4e9f829ddf52fa53aa8e502dc96
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.stages:
+    id: business.sales.stages
+    brand_id: pilito-brand
+    module: business
     value: Install, first flashcard created (activation), multi-day use, paid subscription.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0170
-    updated: 2026-11-22T11:10:48.956Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0170
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:48.956Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: e8c8df115e9e1323715c64f45d695077320f617b82572620668bf46786d16056
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.sales.cycle:
+    id: business.sales.cycle
+    brand_id: pilito-brand
+    module: business
     value: Unknown. No paying users yet.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0171
-    updated: 2026-11-22T11:10:49.202Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0171
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:49.202Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 95ccad633905312a83763e784e4f0b46f19fab41ded51445ec2b6aa29bbfb879
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.churn:
+    id: business.cx.churn
+    brand_id: pilito-brand
+    module: business
     value: Cancellation in one step, with no guilt-tripping copy.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0172
-    updated: 2026-11-22T11:10:49.504Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0172
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:49.504Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 589ea064ca98224d792188b8083fff090f0a808d29331da1d66b9df015642ebb
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.case_study:
+    id: business.cx.case_study
+    brand_id: pilito-brand
+    module: business
     value: Written permission from the user before any customer story is made public.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0173
-    updated: 2026-11-22T11:10:49.754Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0173
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:49.754Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 9d491782a7fba2b2295b6874c9c91dcbea372f6faac862d4a6dddbb4091aa45f
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.roles:
+    id: business.ops.roles
+    brand_id: pilito-brand
+    module: business
     value: One founder (Omid Ataei) covers brand, product and support.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0174
-    updated: 2026-11-22T11:10:50.003Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0174
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:10:50.003Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: df9e8f5bfc0879b7a6414a265b440c105a4d40c4dbd6c41b92aa42d593de3cf1
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.cx.feedback_metric:
+    id: business.cx.feedback_metric
+    brand_id: pilito-brand
+    module: business
     value: none
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم با همش”. Draft until a human approves it."
-    answer_id: ans-0175
-    updated: 2026-11-22T11:11:04.767Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0175
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:11:04.767Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 92cb4898b9f13b4b8c40ef569a0f0f252605fbbabf624dde7a192561b0840230
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.decisions:
+    id: business.ops.decisions
+    brand_id: pilito-brand
+    module: business
     value: Omid Ataei (founder) alone approves brand rules, public copy, prices and costs until a
       specialist exists.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0176
-    updated: 2026-11-22T11:13:39.712Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0176
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:39.712Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: d69e9eeb3f11f0142759dc241070eafab6d4ebe39494c5ec26be41d64cad4583
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.vendors:
+    id: business.ops.vendors
+    brand_id: pilito-brand
+    module: business
     value: "Hosting: Vercel for the web app; the API server (Docker Compose with Postgres) runs on the
       founder's own server, believed to be a Hostinger VPS; Apple App Store for distribution. No
       design or legal vendors yet."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Tentative: the owner described this as possible, not decided: “ورسل و هاستینگر برای بک
-      فک کنم”. Not a decision."
-    answer_id: ans-0177
-    updated: 2026-11-22T11:13:40.031Z
-    proposal_state: tentative
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0177
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:40.031Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: c55504cb19925a1c9670a03c7df152b0975ba391a463046903117d649df09b09
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.cadence:
+    id: business.ops.cadence
+    brand_id: pilito-brand
+    module: business
     value: None. Decisions are recorded in the brand interview log.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0178
-    updated: 2026-11-22T11:13:40.282Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0178
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:40.282Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 75ba6ebda3880cc855236fbde4963d24f73464022a831527b9991cee314308a9
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.finance.currency:
+    id: business.finance.currency
+    brand_id: pilito-brand
+    module: business
     value: USD
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0179
-    updated: 2026-11-22T11:13:40.522Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0179
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:40.522Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 525d6d2261a904c802210b9db32a64de7998ecba21fddb3a680f5c9be727f723
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.finance.basis:
+    id: business.finance.basis
+    brand_id: pilito-brand
+    module: business
     value: undecided
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0180
-    updated: 2026-11-22T11:13:40.802Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0180
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:40.802Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 36763fbb78ec00c4708f75729e8b9a36b30dcc0f6f327392d09858b030f32f9b
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.finance.system:
+    id: business.finance.system
+    brand_id: pilito-brand
+    module: business
     value: none yet; after launch App Store Connect is the reference for revenue figures.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0181
-    updated: 2026-11-22T11:13:41.052Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0181
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:41.052Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: fabac97f4236f98652e0057d1f7a84f4cccea505183f3c89c18daec04fe38c67
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.finance.scenarios:
+    id: business.finance.scenarios
+    brand_id: pilito-brand
+    module: business
     value: Premature. No price, so no base case yet.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “باقیش موافقم”. Draft until a human approves it."
-    answer_id: ans-0182
-    updated: 2026-11-22T11:13:41.324Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0182
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:13:41.324Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 3aff39fbf650434fc824062d4872a9573a02533fdf26415bcb9da1611b811860
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.sop:
+    id: business.ops.sop
+    brand_id: pilito-brand
+    module: business
     value: "The release process for a new app version: a written checklist from testing through App
       Store submission to announcing the release."
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
-    answer_id: ans-0183
-    updated: 2026-11-22T11:15:37.806Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0183
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:15:37.806Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: 61b7625fd75d78e98328917f52f1ea2e2f9f0fc08286b9131fd7b4e680efadfe
+    review_due: null
+    related_ids: []
+    private_ref: null
   business.ops.tracker:
+    id: business.ops.tracker
+    brand_id: pilito-brand
+    module: business
     value: GitHub Issues and GitHub Projects on the omidlog/pilitoapp repository.
-    stored_in: brand/instance/draft-facts.yaml
-    private_ref: null
+    value_type: text
     status: draft
-    visibility: internal
-    authority: unverified
-    source_type: agent_suggestion
-    uncertainty: "Proposed from the owner's words: “موافقم”. Draft until a human approves it."
-    answer_id: ans-0184
-    updated: 2026-11-22T11:15:38.121Z
-    proposal_state: proposed
+    classification: internal
+    publication: unpublished
+    source:
+      kind: interview
+      answer_ids:
+        - ans-0184
+      reference_ids: []
+      citation_paths:
+        - brand/instance/approved-facts.yaml
+      observed_at: 2026-11-22T11:15:38.121Z
+    confidence: null
+    assumptions: []
+    owner: null
+    reviewer_id: null
+    approved_at: null
+    version: 1
+    revision_hash: e64f1960bd34e96532e05766e05da1c1bfce651069d60292456d71a91b09537d
+    review_due: null
+    related_ids: []
+    private_ref: null

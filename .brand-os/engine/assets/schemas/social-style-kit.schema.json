@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "brand-os/social-style-kit/v1",
+  "title": "Social style kit v1",
+  "description": "brand/social/style-kit.yaml: per social surface, sibling styles that share one brand family and differ in layout. Each style is an explicit layer stack in z-order (first is the back) with zones in % of the canvas and design-token ids for colour and type, never raw values. Committed design guidance: never a restricted value. Approval is the owner's (brand:social kit approve); the sealed approval records are private. The parser in packages/brand-core/src/social-kit/model.ts adds the cross-field rules (id prefix matches surface, unique ids, approved needs an approval). $id is an identifier, not a deployed endpoint.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "kind", "brand_slug", "family", "styles"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "kind": { "const": "social_style_kit" },
+    "brand_slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" },
+    "family": { "$ref": "#/definitions/family" },
+    "styles": { "type": "array", "maxItems": 96, "items": { "$ref": "#/definitions/style" } }
+  },
+  "definitions": {
+    "colorToken": { "type": "string", "pattern": "^color\\.[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+){0,4}$" },
+    "typeToken": { "type": "string", "pattern": "^type\\.[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+){0,4}$" },
+    "radiusToken": { "type": "string", "pattern": "^radius\\.[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+){0,4}$" },
+    "factRef": { "type": "string", "pattern": "^[a-z][a-z0-9_]*(\\.[a-z0-9_]+){1,4}$" },
+    "shortText": { "type": "string", "minLength": 1, "maxLength": 280 },
+    "localized": {
+      "oneOf": [
+        { "$ref": "#/definitions/shortText" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["en"],
+          "properties": { "en": { "$ref": "#/definitions/shortText" }, "fa": { "$ref": "#/definitions/shortText" }, "tr": { "$ref": "#/definitions/shortText" } }
+        }
+      ]
+    },
+    "rules": { "type": "array", "maxItems": 12, "items": { "type": "string", "minLength": 1, "maxLength": 160 } },
+    "percent": { "type": "number", "minimum": 0, "maximum": 100 },
+    "zone": {
+      "oneOf": [
+        { "enum": ["full", "safe", "top_band", "bottom_band", "upper_half", "lower_half", "left_half", "right_half", "center"] },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "w", "h"],
+          "properties": { "x": { "$ref": "#/definitions/percent" }, "y": { "$ref": "#/definitions/percent" }, "w": { "$ref": "#/definitions/percent" }, "h": { "$ref": "#/definitions/percent" } }
+        }
+      ]
+    },
+    "family": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "palette", "logo", "photo_direction", "corner_radius", "grid"],
+      "properties": {
+        "type": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["headline", "body"],
+          "properties": { "headline": { "$ref": "#/definitions/typeToken" }, "body": { "$ref": "#/definitions/typeToken" }, "accent": { "oneOf": [{ "$ref": "#/definitions/typeToken" }, { "type": "null" }] } }
+        },
+        "palette": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 16,
+          "propertyNames": { "pattern": "^[a-z][a-z0-9_]{0,31}$" },
+          "additionalProperties": { "$ref": "#/definitions/colorToken" }
+        },
+        "logo": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["placement", "size_pct", "asset"],
+          "properties": {
+            "placement": { "enum": ["top_left", "top_right", "bottom_left", "bottom_right", "top_center", "bottom_center", "none"] },
+            "size_pct": { "type": "number", "minimum": 0, "maximum": 40 },
+            "asset": { "type": "string", "pattern": "^(missing|[a-z0-9][a-z0-9._-]{0,119})$", "description": "An asset-manifest id, or the word missing." },
+            "rule_refs": { "type": "array", "maxItems": 12, "items": { "$ref": "#/definitions/factRef" } }
+          }
+        },
+        "photo_direction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fact_refs"],
+          "properties": { "fact_refs": { "type": "array", "maxItems": 12, "items": { "$ref": "#/definitions/factRef" } } }
+        },
+        "corner_radius": { "$ref": "#/definitions/radiusToken" },
+        "grid": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["margin_pct", "columns", "gutter_pct"],
+          "properties": { "margin_pct": { "type": "number", "minimum": 0, "maximum": 25 }, "columns": { "type": "integer", "minimum": 1, "maximum": 24 }, "gutter_pct": { "type": "number", "minimum": 0, "maximum": 10 } }
+        },
+        "notes": { "$ref": "#/definitions/rules" }
+      }
+    },
+    "layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "zone"],
+      "properties": {
+        "role": { "enum": ["background", "media", "overlay", "shape", "headline", "subhead", "body", "data", "quote", "mascot", "brand_mark", "cta", "caption_bar", "progress", "handle"] },
+        "zone": { "$ref": "#/definitions/zone" },
+        "color": { "oneOf": [{ "$ref": "#/definitions/colorToken" }, { "type": "null" }] },
+        "font": { "oneOf": [{ "$ref": "#/definitions/typeToken" }, { "type": "null" }] },
+        "max_words": { "type": ["integer", "null"], "minimum": 1, "maximum": 200 },
+        "max_lines": { "type": ["integer", "null"], "minimum": 1, "maximum": 30 },
+        "rules": { "$ref": "#/definitions/rules" },
+        "optional": { "type": "boolean" }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "surface", "archetype", "name", "intent", "layers", "variation", "status"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(post|carousel|story|reel|reel_cover|thumbnail|linkedin_post|linkedin_document)\\.[a-z0-9][a-z0-9-]{1,39}$" },
+        "surface": { "enum": ["post", "carousel", "story", "reel", "reel_cover", "thumbnail", "linkedin_post", "linkedin_document"] },
+        "archetype": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,39}$" },
+        "name": { "$ref": "#/definitions/localized" },
+        "intent": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["use_when", "content_types"],
+          "properties": {
+            "use_when": { "$ref": "#/definitions/localized" },
+            "content_types": { "type": "array", "minItems": 1, "items": { "enum": ["educate", "inspire", "entertain", "promote", "proof", "community", "announce", "behind_the_scenes", "personal"] } },
+            "pillar": { "oneOf": [{ "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,39}$" }, { "type": "null" }] }
+          }
+        },
+        "layers": { "type": "array", "minItems": 2, "maxItems": 16, "items": { "$ref": "#/definitions/layer" } },
+        "variation": { "$ref": "#/definitions/localized" },
+        "do": { "$ref": "#/definitions/rules" },
+        "dont": { "$ref": "#/definitions/rules" },
+        "reference_assets": {
+          "oneOf": [
+            { "const": "missing" },
+            { "type": "array", "minItems": 1, "maxItems": 12, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,119}$" } }
+          ]
+        },
+        "caption_style": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["font", "color", "max_words_per_line", "position"],
+              "properties": {
+                "font": { "$ref": "#/definitions/typeToken" },
+                "color": { "$ref": "#/definitions/colorToken" },
+                "background": { "oneOf": [{ "$ref": "#/definitions/colorToken" }, { "type": "null" }] },
+                "max_words_per_line": { "type": "integer", "minimum": 1, "maximum": 12 },
+                "position": { "enum": ["lower_third", "center", "upper_third"] }
+              }
+            }
+          ]
+        },
+        "status": { "enum": ["draft", "approved", "rejected"] },
+        "approval": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["event_id", "approved_at", "digest"],
+              "properties": {
+                "event_id": { "type": "string", "pattern": "^apv_[0-9a-f-]{36}$" },
+                "approved_at": { "type": "string", "minLength": 10 },
+                "digest": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://brand-os.local/schemas/coach-result.schema.json",
+  "title": "Coach result",
+  "description": "One Strategic Coach analysis. Derived and advisory only: `authority` is always derived_advice and `authorizes` is always empty, so reading this record authorizes no write, approval, publication or spend. It carries ids, closed-vocabulary codes and localized explanation text only; it never carries an answer value, a quoted phrase of the owner's, a restricted value or a numeric score. The authoritative validator is the Zod schema in packages/brand-core/src/coach/model.ts; tests/coach-core.test.ts checks real results against both so the two cannot drift.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "kind",
+    "brand_id",
+    "mode",
+    "locale",
+    "question_id",
+    "answer_ref",
+    "analysis_scope",
+    "status",
+    "findings",
+    "generated_at",
+    "engine_version",
+    "rule_version",
+    "authority",
+    "authorizes",
+    "source_refs",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "kind": { "const": "coach_result" },
+    "brand_id": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "mode": { "enum": ["follow_up", "quality_review", "consistency_review"] },
+    "locale": { "enum": ["en", "fa", "tr"] },
+    "question_id": {
+      "description": "The assessed canonical question id, or null for a brand-wide consistency review.",
+      "oneOf": [{ "$ref": "#/definitions/questionId" }, { "type": "null" }]
+    },
+    "answer_ref": {
+      "description": "The exact ledger revision analysed. `digest` is a short sha256 over the record identity so a cache can recognise stale advice without storing the answer. Restricted questions are refused before this is computed.",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["answer_id", "status", "digest"],
+          "properties": {
+            "answer_id": { "type": "string", "minLength": 1, "maxLength": 40 },
+            "status": { "type": "string", "minLength": 1, "maxLength": 40 },
+            "digest": { "type": "string", "pattern": "^[0-9a-f]{16}$" }
+          }
+        },
+        { "type": "null" }
+      ]
+    },
+    "analysis_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile", "questions", "context_digest"],
+      "properties": {
+        "profile": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "questions": { "type": "array", "maxItems": 1000, "items": { "$ref": "#/definitions/questionId" } },
+        "context_digest": {
+          "description": "Digest over every input the rules read, including the rule version. Equal digests mean equal results.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{16}$"
+        }
+      }
+    },
+    "status": { "$ref": "#/definitions/status" },
+    "findings": { "type": "array", "maxItems": 23, "items": { "$ref": "#/definitions/finding" } },
+    "generated_at": { "type": "string", "minLength": 20, "maxLength": 30 },
+    "engine_version": { "type": "string", "minLength": 1, "maxLength": 40 },
+    "rule_version": { "type": "string", "minLength": 1, "maxLength": 40 },
+    "authority": { "const": "derived_advice" },
+    "authorizes": { "type": "array", "maxItems": 0 },
+    "source_refs": { "type": "array", "maxItems": 200, "items": { "$ref": "#/definitions/sourceRef" } },
+    "notes": { "type": "array", "maxItems": 20, "items": { "type": "string", "minLength": 1, "maxLength": 600 } },
+    "rule_checks": {
+      "description": "consistency_review only. One entry per rule: confirmed_conflict (only from findContradictions), potential_tension or needs_verification (only from the registry in coach/rules.ts), no_finding, or not_tested when an input is open. `basis: guard_matched` means a recognised legitimate explanation (for example an entry tier next to a premium position) kept the rule silent. Ids only, never values, never a percentage.",
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rule_id", "kind", "outcome", "basis", "question_ids"],
+        "properties": {
+          "rule_id": { "type": "string", "maxLength": 80, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "kind": { "enum": ["contradiction", "tension", "verification"] },
+          "outcome": { "enum": ["confirmed_conflict", "potential_tension", "needs_verification", "no_finding", "not_tested"] },
+          "basis": { "enum": ["rule_fired", "rule_silent", "guard_matched", "inputs_open"] },
+          "question_ids": { "type": "array", "maxItems": 100, "items": { "$ref": "#/definitions/questionId" } }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "questionId": { "type": "string", "pattern": "^[a-z0-9_]+(?:\\.[a-z0-9_]+)+$" },
+    "status": {
+      "description": "Explainable status, never a score. `not_applicable` and `insufficient_context` are first-class: an explicit unknown/skip/not-relevant and an unanswered question are not failures.",
+      "enum": ["ready", "needs_clarification", "evidence_missing", "needs_review", "not_applicable", "insufficient_context"]
+    },
+    "criterion": {
+      "enum": ["relevance", "specificity", "completeness_for_output", "measurability", "evidence_support", "clarity_coherence"]
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id"],
+      "properties": {
+        "kind": { "enum": ["question", "answer", "contradiction", "evidence", "profile", "config"] },
+        "id": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "revision": { "type": "string", "minLength": 1, "maxLength": 40 }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "code",
+        "status",
+        "severity",
+        "criterion",
+        "verdict",
+        "question_id",
+        "related_question_ids",
+        "canonical_question_id",
+        "suggested_question",
+        "missing_dimension",
+        "improves_outputs",
+        "reason",
+        "improvement",
+        "requires_change_request",
+        "source_refs",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "description": "Stable for the same (mode, question, answer revision, code), so re-running the analysis returns the same ids.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "type": { "enum": ["follow_up", "quality", "consistency"] },
+        "code": {
+          "description": "Closed vocabulary. Each code has en/fa/tr text in packages/brand-core/src/coach/i18n.ts.",
+          "enum": [
+            "question_not_applicable",
+            "answer_missing",
+            "answer_disposition",
+            "placeholder_value",
+            "vague_terms",
+            "too_brief_for_output",
+            "linked_question_open",
+            "missing_measure",
+            "evidence_not_verified",
+            "evidence_owner_stated_only",
+            "field_in_open_conflict",
+            "meets_criteria",
+            "facet_ownership_separate",
+            "facet_companion_open",
+            "facet_claim_undated",
+            "follow_up_canonical",
+            "follow_up_clarify",
+            "follow_up_none",
+            "consistency_rule",
+            "consistency_tension",
+            "consistency_verification",
+            "consistency_none"
+          ]
+        },
+        "status": { "$ref": "#/definitions/status" },
+        "severity": {
+          "description": "Not a number and not a calibrated confidence.",
+          "enum": ["info", "advice", "attention"]
+        },
+        "criterion": { "oneOf": [{ "$ref": "#/definitions/criterion" }, { "type": "null" }] },
+        "verdict": {
+          "description": "Consistency findings only. This version emits confirmed_conflict; potential_tension and needs_verification arrive with the narrow rule registry.",
+          "oneOf": [{ "enum": ["confirmed_conflict", "potential_tension", "needs_verification"] }, { "type": "null" }]
+        },
+        "question_id": { "oneOf": [{ "$ref": "#/definitions/questionId" }, { "type": "null" }] },
+        "related_question_ids": { "type": "array", "maxItems": 50, "items": { "$ref": "#/definitions/questionId" } },
+        "canonical_question_id": {
+          "description": "An existing interview question that already covers the gap. When set, the coach links to it instead of writing a second question.",
+          "oneOf": [{ "$ref": "#/definitions/questionId" }, { "type": "null" }]
+        },
+        "suggested_question": {
+          "description": "The one clarifying question, localized, when no canonical question covers the gap.",
+          "oneOf": [{ "type": "string", "minLength": 1, "maxLength": 600 }, { "type": "null" }]
+        },
+        "missing_dimension": { "oneOf": [{ "$ref": "#/definitions/criterion" }, { "type": "null" }] },
+        "improves_outputs": { "type": "array", "maxItems": 20, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+        "reason": { "type": "string", "minLength": 1, "maxLength": 600 },
+        "improvement": { "oneOf": [{ "type": "string", "minLength": 1, "maxLength": 600 }, { "type": "null" }] },
+        "requires_change_request": {
+          "description": "True when acting on this finding means changing an approved fact, which needs the human change flow (brand:interview change, brand:review, brand:approve).",
+          "type": "boolean"
+        },
+        "source_refs": { "type": "array", "maxItems": 50, "items": { "$ref": "#/definitions/sourceRef" } },
+        "origin": { "enum": ["deterministic", "model_suggestion"] }
+      }
+    }
+  }
+}

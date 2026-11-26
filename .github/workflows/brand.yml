@@ -1,0 +1,29 @@
+# Brand check: validates this brand's own data with the engine committed in .brand-os/engine.
+# Engine tests run once, in the template, before an engine release; a brand never runs them.
+# Written by the Brand OS engine; an engine update rewrites it.
+name: brand-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: brand-check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  brand-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: brand check
+        run: node .brand-os/engine/brand-os.mjs check
