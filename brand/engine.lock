@@ -1,0 +1,4 @@
+{
+  "version": "0.3.0",
+  "note": "Migration rewrites fact files to canonical schema 2 and legacy mascot statuses to the lifecycle enum. It does not change fact values, module prose, or assets."
+}

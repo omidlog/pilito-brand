@@ -1,0 +1,411 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "brand-os/runtime-batch/v1",
+  "title": "Runtime social batch summary v1",
+  "description": "Summary of one social_batch run: the pack it was built from (by digest), the drafted posts and their manifests, set-level checks, and what the Strategic Coach and Assurance layers reported. No model reviewed anything; nothing was published, scheduled, spent, deployed or approved. $id is an identifier, not a deployed endpoint.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "job_id",
+    "brand_id",
+    "demo",
+    "demo_banner",
+    "task",
+    "status",
+    "blockers",
+    "warnings",
+    "context",
+    "posts",
+    "set_checks",
+    "layers",
+    "advisory",
+    "batch_sha256",
+    "human_review_required",
+    "authorizes",
+    "permissions"
+  ],
+  "properties": {
+    "schema": {
+      "const": "brand-os/runtime-batch/v1"
+    },
+    "job_id": {
+      "type": "string",
+      "pattern": "^social-batch-[0-9a-f]{12}$"
+    },
+    "brand_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "demo": {
+      "type": "boolean"
+    },
+    "demo_banner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "channel",
+        "locale",
+        "requested_count"
+      ],
+      "properties": {
+        "type": {
+          "const": "social_batch"
+        },
+        "channel": {
+          "const": "instagram"
+        },
+        "locale": {
+          "enum": [
+            "en",
+            "fa",
+            "tr"
+          ]
+        },
+        "requested_count": {
+          "const": 10
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "drafted",
+        "blocked"
+      ]
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "detail"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "description": "Advice that never blocks a draft: Strategic Coach results that are not ready (status and finding codes, never answer text).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "layer",
+          "question_id",
+          "status",
+          "codes",
+          "blocks"
+        ],
+        "properties": {
+          "layer": {
+            "const": "coach"
+          },
+          "question_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blocks": {
+            "const": false
+          }
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "origin",
+        "pack_schema",
+        "pack_sha256",
+        "pack_readiness",
+        "pack_staleness",
+        "pack_verified",
+        "missing"
+      ],
+      "properties": {
+        "origin": {
+          "enum": [
+            "demo",
+            "pack_file"
+          ]
+        },
+        "pack_schema": {
+          "const": "brand-os/task-context/v1"
+        },
+        "pack_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "pack_readiness": {
+          "enum": [
+            "ready",
+            "partial",
+            "blocked"
+          ]
+        },
+        "pack_staleness": {
+          "enum": [
+            "current",
+            "needs_review",
+            "stale_pin",
+            "unknown"
+          ]
+        },
+        "pack_verified": {
+          "const": true
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "posts": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "post_id",
+          "file",
+          "manifest",
+          "sha256",
+          "angle",
+          "layout",
+          "checks"
+        ],
+        "properties": {
+          "post_id": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "manifest": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "angle": {
+            "type": "string"
+          },
+          "layout": {
+            "type": "string"
+          },
+          "checks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "pass",
+              "warn",
+              "fail",
+              "not_tested"
+            ],
+            "properties": {
+              "pass": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "warn": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "fail": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "not_tested": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "set_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "check_id",
+          "layer",
+          "method",
+          "result",
+          "evidence"
+        ],
+        "properties": {
+          "check_id": {
+            "type": "string",
+            "pattern": "^[a-z_]+\\.[a-z_]+$"
+          },
+          "layer": {
+            "enum": [
+              "asset-catalog.svg-check",
+              "asset-catalog.publication",
+              "asset-catalog.normalize",
+              "content-bridge.claims",
+              "design-tokens.contrast",
+              "task-context.pack",
+              "runtime.manifest"
+            ]
+          },
+          "method": {
+            "const": "deterministic"
+          },
+          "result": {
+            "enum": [
+              "pass",
+              "warn",
+              "fail",
+              "not_tested"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "maxItems": 20,
+            "items": {
+              "type": "string",
+              "maxLength": 200
+            }
+          }
+        }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "layer",
+          "called",
+          "skipped_reason",
+          "results",
+          "notes"
+        ],
+        "properties": {
+          "layer": {
+            "enum": [
+              "coach",
+              "assurance"
+            ]
+          },
+          "called": {
+            "type": "boolean"
+          },
+          "skipped_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "advisory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visual_review",
+        "semantic_review",
+        "note"
+      ],
+      "properties": {
+        "visual_review": {
+          "const": "not_tested"
+        },
+        "semantic_review": {
+          "const": "not_tested"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "batch_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "authorizes": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "publish",
+        "schedule",
+        "spend",
+        "deploy",
+        "approve"
+      ],
+      "properties": {
+        "publish": {
+          "const": false
+        },
+        "schedule": {
+          "const": false
+        },
+        "spend": {
+          "const": false
+        },
+        "deploy": {
+          "const": false
+        },
+        "approve": {
+          "const": false
+        }
+      }
+    }
+  }
+}

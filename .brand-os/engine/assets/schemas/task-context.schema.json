@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "brand-os/task-context/v1",
+  "title": "Task Context Pack v1",
+  "description": "Read-only, authorized, source-cited context for one task. Built fresh from the canonical readers on every call; it stores nothing and authorizes nothing. $id is an identifier, not a deployed endpoint: there is no hosted API.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "brand_id", "task", "readiness", "staleness", "sections", "guardrails", "missing", "redacted", "sources", "digests", "authorizes", "permissions"],
+  "properties": {
+    "schema": { "const": "brand-os/task-context/v1" },
+    "brand_id": { "type": "string", "minLength": 1 },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "request_mode", "channel", "locale", "deliverable_count", "output_format", "scope_id"],
+      "properties": {
+        "type": { "enum": ["visual_design", "social_batch", "website_design", "product_ui", "paid_campaign_brief", "brand_identity", "personal_content"] },
+        "request_mode": { "enum": ["draft", "inspect", "plan"] },
+        "channel": { "type": ["string", "null"] },
+        "locale": { "enum": ["en", "fa", "tr"] },
+        "deliverable_count": { "type": "integer", "minimum": 1, "maximum": 50 },
+        "output_format": { "type": ["string", "null"] },
+        "scope_id": { "type": ["string", "null"] }
+      }
+    },
+    "readiness": { "enum": ["ready", "partial", "blocked"] },
+    "staleness": { "enum": ["current", "needs_review", "stale_pin", "unknown"] },
+    "sections": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identity", "strategy", "creative", "production"],
+      "properties": {
+        "identity": { "$ref": "#/definitions/items" },
+        "strategy": { "$ref": "#/definitions/items" },
+        "creative": { "$ref": "#/definitions/items" },
+        "production": { "$ref": "#/definitions/items" }
+      }
+    },
+    "guardrails": { "type": "array", "items": { "type": "string", "maxLength": 600 } },
+    "missing": { "type": "array", "items": { "$ref": "#/definitions/missing" } },
+    "redacted": { "type": "array", "items": { "type": "string", "maxLength": 200 } },
+    "sources": { "type": "array", "items": { "$ref": "#/definitions/source" } },
+    "digests": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["context_sha256"],
+      "properties": { "context_sha256": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" } }
+    },
+    "authorizes": { "type": "array", "maxItems": 0 },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publish", "schedule", "spend", "deploy"],
+      "properties": { "publish": { "const": false }, "schedule": { "const": false }, "spend": { "const": false }, "deploy": { "const": false } }
+    }
+  },
+  "definitions": {
+    "items": { "type": "array", "items": { "$ref": "#/definitions/item" } },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "value", "state", "source_id", "source_revision"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "value": { "type": ["string", "number", "boolean", "object", "array", "null"] },
+        "state": { "enum": ["approved", "owner_stated", "recommendation", "missing", "withheld", "stale", "not_applicable"] },
+        "source_id": { "type": ["string", "null"] },
+        "source_revision": { "type": ["string", "null"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "revision", "classification", "status"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "revision": { "type": ["string", "null"] },
+        "classification": { "enum": ["public", "internal", "restricted"] },
+        "status": { "enum": ["approved", "current", "stale", "missing", "withheld", "not_applicable"] }
+      }
+    },
+    "missing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "reason", "blocking", "suggested_question_id"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "reason": { "enum": ["not_answered", "not_approved", "not_authorized", "asset_missing", "stale_source", "owner_decision", "not_applicable"] },
+        "blocking": { "type": "boolean" },
+        "suggested_question_id": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

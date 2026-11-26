@@ -1,0 +1,134 @@
+# Regression evals for the SEO strategist (spec §6 quality gates a–l). Run by tests/seo-evals.test.ts.
+# base: app_only | website (tests/helpers/seo.ts). answers: overrides; null removes an answer.
+# research: none | official | official_aged_100_days | official_plus_contradiction
+# Every case also requires the independent critic to pass.
+rubric: seo-strategist-evals/1
+cases:
+  - id: a-research-unavailable
+    gate: (a) research unavailable
+    base: website
+    research: none
+    expect:
+      research_status: research_unavailable
+      label: provisional
+      decision_status: { site.eligibility: provisional, guard.no-guarantees: provisional }
+      gaps_include: [research_unavailable, "missing_source:google.essentials.technical_minimum"]
+      geo_included: false
+      markdown_excludes: ['^> “', 'Last updated']
+  - id: b-stale-official-source
+    gate: (b) stale official source
+    base: website
+    research: official_aged_100_days
+    expect:
+      research_status: researched
+      label: provisional
+      # 100 days: AI-search (60 d) and crawler (90 d) sources are stale, general guidance (180 d) is not.
+      geo_included: false
+      decision_status: { site.eligibility: provisional, guard.no-guarantees: cited }
+      gaps_include: ["stale_source:https://developers.google.com/search/docs/crawling-indexing/robots/intro"]
+      markdown_includes: ['Left out: no current source about AI search features']
+  - id: c-conflicting-evidence
+    gate: (c) conflicting evidence
+    base: website
+    research: official_plus_contradiction
+    expect:
+      conflicts: [google.ai_features.no_special_files]
+      decision_status: { geo.same-fundamentals: provisional }
+      gaps_include: ["conflicting_sources:google.ai_features.no_special_files"]
+      owner_decisions_match: ['Sources disagree on google.ai_features.no_special_files']
+  - id: d-no-analytics
+    gate: (d) no analytics
+    base: website
+    research: official
+    answers: { seo.data.analytics: none, seo.data.search_console: not_set_up }
+    expect:
+      measurement_baseline: not_measured
+      markdown_includes: ['No analytics records the conversion yet', 'Verify the site in a search engine console']
+      gaps_include: [no_baseline]
+  - id: e-undeployed-product
+    gate: (e) undeployed product
+    base: app_only
+    research: official
+    answers: { seo.app.store_status: prelaunch }
+    expect:
+      decision_action: { app.prelaunch-claims: do_not_do }
+  - id: f-restricted-finance
+    gate: (f) restricted finance
+    base: website
+    research: official
+    expect:
+      markdown_excludes: ['(?i)budget', '(?i)revenue', '(?i)\bCAC\b', '(?i)ROAS']
+  - id: g-locale-differences
+    gate: (g) locale differences
+    base: website
+    research: official
+    answers: { seo.market.locales: [en, fa, tr], seo.web.locale_structure: undecided }
+    expect:
+      decision_action: { site.locales: defer }
+      decision_status: { site.locales: cited }
+      owner_decisions_match: ['Choose the URL structure']
+      markdown_includes: ['Declare the en, fa, tr versions consistently']
+  - id: h-competitor-claims
+    gate: (h) competitor claims
+    base: website
+    research: official
+    answers: { seo.competitors.named: [LedgerLoop, InvoiceNest] }
+    expect:
+      gaps_include: ["unverified_competitors:LedgerLoop, InvoiceNest"]
+      markdown_includes: ['Competitor assumptions \(owner-named, unverified, positions not checked\)']
+  - id: i-unreasonable-goal
+    gate: (i) unreasonable goal
+    base: website
+    research: official
+    answers: { seo.goal.timeframe: under_3_months, seo.web.maturity: new }
+    expect:
+      decision_action: { guard.timeframe: defer }
+      decision_status: { guard.timeframe: cited }
+      gaps_include: [unrealistic_goal]
+  - id: j-no-automatic-launch
+    gate: (j) no automatic launch
+    base: app_only
+    research: official
+    expect:
+      markdown_includes: ['It authorizes no website change, publication or spend']
+  - id: k-no-guessed-numbers
+    gate: (k) no guessed numbers
+    base: app_only
+    research: none
+    expect:
+      gaps_include: [no_keyword_data, no_baseline]
+      markdown_excludes: ['\d[\d,.]*\s*(monthly )?(searches|installs|downloads|visits)', '#\s?\d']
+  - id: l-platform-specific-ios
+    gate: (l) platform-specific strategies that actually differ
+    base: app_only
+    research: official
+    answers: { seo.presence.app: ios }
+    expect:
+      decisions_include: [app.store-first, app.promo-text]
+      decision_status: { app.store-first: cited }
+  - id: l-platform-specific-android
+    gate: (l) platform-specific strategies that actually differ
+    base: app_only
+    research: official
+    answers: { seo.presence.app: android }
+    expect:
+      decisions_exclude: [app.promo-text]
+      decision_status: { app.store-first: provisional }
+      gaps_include: ["missing_source:google_play.store_listing.metadata"]
+  - id: undetermined-presence
+    gate: blocked when presence is unknown
+    base: website
+    research: official
+    answers: { seo.presence.web: unknown }
+    expect:
+      archetype: undetermined
+      confidence: blocked
+      decisions_count: 0
+  - id: migration-needs-source
+    gate: missing evidence in a researched plan
+    base: website
+    research: official
+    answers: { seo.web.maturity: migrating }
+    expect:
+      decision_status: { site.migration: provisional }
+      gaps_include: ["missing_source:google.site_move.redirects"]
